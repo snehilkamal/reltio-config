@@ -1,4 +1,11 @@
 {
+  "hierarchyTypes": [
+{
+      "uri": "configuration/hierarchyTypes/HierarchyType1",
+      "label": "HierarchyType1",
+      "allowedEntityTypes": []
+    }
+  ],
   "uri": "configuration",
   "description": "B2C Velocity Pack",
   "schemaVersion": "vp_b2c.3.1.0",
@@ -8412,6 +8419,11 @@
           ]
         }
       ]
+    },
+    {
+      "uri": "configuration/entityTypes/EntityType1",
+      "label": "EntityType1",
+      "attributes": []
     }
   ],
   "changeRequestTypes": [
@@ -9067,6 +9079,18 @@
               ]
             }
           }
+        }
+      ]
+    },
+    {
+      "uri": "configuration/groupingTypes/GroupingType1",
+      "label": "GroupingType1",
+      "entityType": "",
+      "members": [
+        {
+          "entityType": "",
+          "relationType": "",
+          "groupingRule": ""
         }
       ]
     }
