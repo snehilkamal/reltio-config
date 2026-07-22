@@ -1,0 +1,242 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PriorDUNSNumberTransferReasonTexts",
+    "code": "Duplicate Record Transferred",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Duplicate Record Transferred",
+            "value": "Duplicate Record Transferred",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DnB",
+        "values": [
+          {
+            "code": "Duplicate Record Transferred",
+            "value": "Duplicate Record Transferred",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Duplicate Record Transferred",
+            "value": "Duplicate Record Transferred",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Duplicate Record Transferred",
+            "value": "Duplicate Record Transferred",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PriorDUNSNumberTransferReasonTexts",
+    "code": "Internal Structure Change",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Internal Structure Change",
+            "value": "Internal Structure Change",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DnB",
+        "values": [
+          {
+            "code": "Internal Structure Change",
+            "value": "Internal Structure Change",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Internal Structure Change",
+            "value": "Internal Structure Change",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Internal Structure Change",
+            "value": "Internal Structure Change",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PriorDUNSNumberTransferReasonTexts",
+    "code": "Reinstated",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Reinstated",
+            "value": "Reinstated",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DnB",
+        "values": [
+          {
+            "code": "Reinstated",
+            "value": "Reinstated",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Reinstated",
+            "value": "Reinstated",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Reinstated",
+            "value": "Reinstated",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PriorDUNSNumberTransferReasonTexts",
+    "code": "Straight Deletion",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Straight Deletion",
+            "value": "Straight Deletion",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DnB",
+        "values": [
+          {
+            "code": "Straight Deletion",
+            "value": "Straight Deletion",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Straight Deletion",
+            "value": "Straight Deletion",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Straight Deletion",
+            "value": "Straight Deletion",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

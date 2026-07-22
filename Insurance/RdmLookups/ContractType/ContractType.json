@@ -1,0 +1,74 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ContractType",
+    "code": "POLICY",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "POLICY",
+            "value": "Policy",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "POLICY",
+            "value": "Policy",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ContractType",
+    "code": "QUOTE",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "QUOTE",
+            "value": "Quote",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "QUOTE",
+            "value": "Quote",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "PREPARED",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PREPARED",
+            "value": "Prepared",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "PREPARED",
+            "value": "Prepared",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "DOWNLOADED",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DOWNLOADED",
+            "value": "Downloaded",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DOWNLOADED",
+            "value": "Downloaded",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "SUBMITTED",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SUBMITTED",
+            "value": "Submitted",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "SUBMITTED",
+            "value": "Submitted",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "RECEIVED",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "RECEIVED",
+            "value": "Received",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "RECEIVED",
+            "value": "Received",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "PENDING",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PENDING",
+            "value": "Pending",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "PENDING",
+            "value": "Pending",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "MIR",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MIR",
+            "value": "More Info Required",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MIR",
+            "value": "More Info Required",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "ACCEPTED",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ACCEPTED",
+            "value": "Accepted",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "ACCEPTED",
+            "value": "Accepted",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "REJECTED",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "REJECTED",
+            "value": "Rejected",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "REJECTED",
+            "value": "Rejected",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "DENIED",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DENIED",
+            "value": "Denied",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DENIED",
+            "value": "Denied",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "DECUCTIBLE",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DEDUCTIBLE",
+            "value": "Deductible",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DEDUCTIBLE",
+            "value": "Deductible",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "PP",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PP",
+            "value": "Paid Pending",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "PP",
+            "value": "Paid Pending",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ClaimStatus",
+    "code": "PAID",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PAID",
+            "value": "Paid",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "PAID",
+            "value": "Paid",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  }
+]

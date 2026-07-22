@@ -1,0 +1,2906 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "P",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "P",
+            "value": "P",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "G",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "G",
+            "value": "G",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "F",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "F",
+            "value": "F",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "U",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "U",
+            "value": "U",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "T",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "T",
+            "value": "T",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "L",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "L",
+            "value": "L",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "D",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "D",
+            "value": "D",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "Z",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Z",
+            "value": "Z",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "J",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "J",
+            "value": "J",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "E",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "E",
+            "value": "E",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "C",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "C",
+            "value": "C",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "B",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "B",
+            "value": "B",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "S",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "S",
+            "value": "S",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "A",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "A",
+            "value": "A",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "H",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "H",
+            "value": "H",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "W",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "W",
+            "value": "W",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "Y",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Y",
+            "value": "Y",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "X",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "X",
+            "value": "X",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "K",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "K",
+            "value": "K",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "N",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "N",
+            "value": "N",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "M",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "M",
+            "value": "M",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/BusinessActivityCodes",
+    "code": "R",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "R",
+            "value": "R",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "Advertising",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Advertising",
+            "value": "Advertising",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Advertising",
+            "value": "Advertising",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "Customer Recommendations",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Customer Recommendations",
+            "value": "Customer Recommendations",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Customer Recommendations",
+            "value": "Customer Recommendations",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "Newsletter",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Newsletter",
+            "value": "Newsletter",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "Direct Marketing",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Direct Marketing",
+            "value": "Direct Marketing",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Direct Marketing",
+            "value": "Direct Marketing",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "New Product Launch",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "New Product Launch",
+            "value": "New Product Launch",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "Service Request",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Service Request",
+            "value": "Service Request",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Service Request",
+            "value": "Service Request",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "Social Media",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Social Media",
+            "value": "Social Media",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Social Media",
+            "value": "Social Media",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/CommunicationTypes",
+    "code": "Special Offers",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Special Offers",
+            "value": "Special Offers",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

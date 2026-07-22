@@ -1,0 +1,4958 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "LABELING",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "LABELING",
+            "value": "Labeling",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "LABELING",
+            "value": "Labeling",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "LABELING",
+            "value": "Labeling",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "LABELING",
+            "value": "Labeling",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "LABELING",
+            "value": "Labeling",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "LABELING",
+            "value": "Labeling",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HDM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HDM",
+            "value": "Healthcare Delivery Management",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HDM",
+            "value": "Healthcare Delivery Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HDM",
+            "value": "Healthcare Delivery Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HDM",
+            "value": "Healthcare Delivery Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HDM",
+            "value": "Healthcare Delivery Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HDM",
+            "value": "Healthcare Delivery Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "TRANSRCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "TRANSRCH",
+            "value": "Translational Healthcare Research",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "TRANSRCH",
+            "value": "Translational Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "TRANSRCH",
+            "value": "Translational Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "TRANSRCH",
+            "value": "Translational Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "TRANSRCH",
+            "value": "Translational Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "TRANSRCH",
+            "value": "Translational Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "PATRQT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PATRQT",
+            "value": "Patient Requested",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PATRQT",
+            "value": "Patient Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "PATRQT",
+            "value": "Patient Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PATRQT",
+            "value": "Patient Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "PATRQT",
+            "value": "Patient Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "PATRQT",
+            "value": "Patient Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "PERFMSR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PERFMSR",
+            "value": "Performance Measure",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PERFMSR",
+            "value": "Performance Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "PERFMSR",
+            "value": "Performance Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PERFMSR",
+            "value": "Performance Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "PERFMSR",
+            "value": "Performance Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "PERFMSR",
+            "value": "Performance Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HDIRECT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HDIRECT",
+            "value": "Directory",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HDIRECT",
+            "value": "Directory",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HDIRECT",
+            "value": "Directory",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HDIRECT",
+            "value": "Directory",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HDIRECT",
+            "value": "Directory",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HDIRECT",
+            "value": "Directory",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "PATSFTY",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PATSFTY",
+            "value": "Patient Safety",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PATSFTY",
+            "value": "Patient Safety",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "PATSFTY",
+            "value": "Patient Safety",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PATSFTY",
+            "value": "Patient Safety",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "PATSFTY",
+            "value": "Patient Safety",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "PATSFTY",
+            "value": "Patient Safety",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "CAREMGT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CAREMGT",
+            "value": "Care Management",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "CAREMGT",
+            "value": "Care Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "CAREMGT",
+            "value": "Care Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "CAREMGT",
+            "value": "Care Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "CAREMGT",
+            "value": "Care Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "CAREMGT",
+            "value": "Care Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HCOMPL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HCOMPL",
+            "value": "Health Compliance",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HCOMPL",
+            "value": "Health Compliance",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HCOMPL",
+            "value": "Health Compliance",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HCOMPL",
+            "value": "Health Compliance",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HCOMPL",
+            "value": "Health Compliance",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HCOMPL",
+            "value": "Health Compliance",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "RECORDMGT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "RECORDMGT",
+            "value": "Records Management",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "RECORDMGT",
+            "value": "Records Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "RECORDMGT",
+            "value": "Records Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "RECORDMGT",
+            "value": "Records Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "RECORDMGT",
+            "value": "Records Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "RECORDMGT",
+            "value": "Records Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HPRGRP",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HPRGRP",
+            "value": "Health Program Reporting",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HPRGRP",
+            "value": "Health Program Reporting",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HPRGRP",
+            "value": "Health Program Reporting",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HPRGRP",
+            "value": "Health Program Reporting",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HPRGRP",
+            "value": "Health Program Reporting",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HPRGRP",
+            "value": "Health Program Reporting",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "CLINTRCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CLINTRCH",
+            "value": "Clinical Trial Research",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "CLINTRCH",
+            "value": "Clinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "CLINTRCH",
+            "value": "Clinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "CLINTRCH",
+            "value": "Clinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "CLINTRCH",
+            "value": "Clinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "CLINTRCH",
+            "value": "Clinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HDECD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HDECD",
+            "value": "Decedent",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HDECD",
+            "value": "Decedent",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HDECD",
+            "value": "Decedent",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HDECD",
+            "value": "Decedent",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HDECD",
+            "value": "Decedent",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HDECD",
+            "value": "Decedent",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "PUBHLTH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PUBHLTH",
+            "value": "Public Health",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PUBHLTH",
+            "value": "Public Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "PUBHLTH",
+            "value": "Public Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PUBHLTH",
+            "value": "Public Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "PUBHLTH",
+            "value": "Public Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "PUBHLTH",
+            "value": "Public Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "PRECLINTRCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PRECLINTRCH",
+            "value": "Preclinical Trial Research",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PRECLINTRCH",
+            "value": "Preclinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "PRECLINTRCH",
+            "value": "Preclinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PRECLINTRCH",
+            "value": "Preclinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "PRECLINTRCH",
+            "value": "Preclinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "PRECLINTRCH",
+            "value": "Preclinical Trial Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "CLINTRL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CLINTRL",
+            "value": "Clinical Trial",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "CLINTRL",
+            "value": "Clinical Trial",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "CLINTRL",
+            "value": "Clinical Trial",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "CLINTRL",
+            "value": "Clinical Trial",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "CLINTRL",
+            "value": "Clinical Trial",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "CLINTRL",
+            "value": "Clinical Trial",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "REMITADV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "REMITADV",
+            "value": "Remittance Advice",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "REMITADV",
+            "value": "Remittance Advice",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "REMITADV",
+            "value": "Remittance Advice",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "REMITADV",
+            "value": "Remittance Advice",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "REMITADV",
+            "value": "Remittance Advice",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "REMITADV",
+            "value": "Remittance Advice",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "DISASTER",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DISASTER",
+            "value": "Disaster",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "DISASTER",
+            "value": "Disaster",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "DISASTER",
+            "value": "Disaster",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "DISASTER",
+            "value": "Disaster",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "DISASTER",
+            "value": "Disaster",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "DISASTER",
+            "value": "Disaster",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "MILCDM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MILCDM",
+            "value": "Military Command",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "MILCDM",
+            "value": "Military Command",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "MILCDM",
+            "value": "Military Command",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "MILCDM",
+            "value": "Military Command",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "MILCDM",
+            "value": "Military Command",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "MILCDM",
+            "value": "Military Command",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "COVAUTH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "COVAUTH",
+            "value": "Coverage Authorization",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "COVAUTH",
+            "value": "Coverage Authorization",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "COVAUTH",
+            "value": "Coverage Authorization",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "COVAUTH",
+            "value": "Coverage Authorization",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "COVAUTH",
+            "value": "Coverage Authorization",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "COVAUTH",
+            "value": "Coverage Authorization",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "MEMADMIN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MEMADMIN",
+            "value": "Member Administration",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "MEMADMIN",
+            "value": "Member Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "MEMADMIN",
+            "value": "Member Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "MEMADMIN",
+            "value": "Member Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "MEMADMIN",
+            "value": "Member Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "MEMADMIN",
+            "value": "Member Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "ETREAT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ETREAT",
+            "value": "Emergency Treatment",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "ETREAT",
+            "value": "Emergency Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "ETREAT",
+            "value": "Emergency Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "ETREAT",
+            "value": "Emergency Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "ETREAT",
+            "value": "Emergency Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "ETREAT",
+            "value": "Emergency Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "ELIGVER",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ELIGVER",
+            "value": "Eligibility Verification",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "ELIGVER",
+            "value": "Eligibility Verification",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "ELIGVER",
+            "value": "Eligibility Verification",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "ELIGVER",
+            "value": "Eligibility Verification",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "ELIGVER",
+            "value": "Eligibility Verification",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "ELIGVER",
+            "value": "Eligibility Verification",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "POARCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "POARCH",
+            "value": "Population Origins Or Ancestry Healthcare Research",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "POARCH",
+            "value": "Population Origins Or Ancestry Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "POARCH",
+            "value": "Population Origins Or Ancestry Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "POARCH",
+            "value": "Population Origins Or Ancestry Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "POARCH",
+            "value": "Population Origins Or Ancestry Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "POARCH",
+            "value": "Population Origins Or Ancestry Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "CLINTRCHNPC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CLINTRCHNPC",
+            "value": "Clinical Trial Research Without Patient Care",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "CLINTRCHNPC",
+            "value": "Clinical Trial Research Without Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "CLINTRCHNPC",
+            "value": "Clinical Trial Research Without Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "CLINTRCHNPC",
+            "value": "Clinical Trial Research Without Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "CLINTRCHNPC",
+            "value": "Clinical Trial Research Without Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "CLINTRCHNPC",
+            "value": "Clinical Trial Research Without Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "BIORCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "BIORCH",
+            "value": "Biomedical Research",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "BIORCH",
+            "value": "Biomedical Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "BIORCH",
+            "value": "Biomedical Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "BIORCH",
+            "value": "Biomedical Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "BIORCH",
+            "value": "Biomedical Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "BIORCH",
+            "value": "Biomedical Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "MILDCRG",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MILDCRG",
+            "value": "Military Discharge",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "MILDCRG",
+            "value": "Military Discharge",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "MILDCRG",
+            "value": "Military Discharge",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "MILDCRG",
+            "value": "Military Discharge",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "MILDCRG",
+            "value": "Military Discharge",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "MILDCRG",
+            "value": "Military Discharge",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "BTG",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "BTG",
+            "value": "Break The Glass",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "BTG",
+            "value": "Break The Glass",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "BTG",
+            "value": "Break The Glass",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "BTG",
+            "value": "Break The Glass",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "BTG",
+            "value": "Break The Glass",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "BTG",
+            "value": "Break The Glass",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "COC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "COC",
+            "value": "Coordination Of Care",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "COC",
+            "value": "Coordination Of Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "COC",
+            "value": "Coordination Of Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "COC",
+            "value": "Coordination Of Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "COC",
+            "value": "Coordination Of Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "COC",
+            "value": "Coordination Of Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "ERTREAT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ERTREAT",
+            "value": "Emergency Room Treatment",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "ERTREAT",
+            "value": "Emergency Room Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "ERTREAT",
+            "value": "Emergency Room Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "ERTREAT",
+            "value": "Emergency Room Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "ERTREAT",
+            "value": "Emergency Room Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "ERTREAT",
+            "value": "Emergency Room Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "GOV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GOV",
+            "value": "Government",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "GOV",
+            "value": "Government",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "GOV",
+            "value": "Government",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "GOV",
+            "value": "Government",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "GOV",
+            "value": "Government",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "GOV",
+            "value": "Government",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HMARKT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HMARKT",
+            "value": "Healthcare Marketing",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HMARKT",
+            "value": "Healthcare Marketing",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HMARKT",
+            "value": "Healthcare Marketing",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HMARKT",
+            "value": "Healthcare Marketing",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HMARKT",
+            "value": "Healthcare Marketing",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HMARKT",
+            "value": "Healthcare Marketing",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "FAMRQT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FAMRQT",
+            "value": "Family Requested",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "FAMRQT",
+            "value": "Family Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "FAMRQT",
+            "value": "Family Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "FAMRQT",
+            "value": "Family Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "FAMRQT",
+            "value": "Family Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "FAMRQT",
+            "value": "Family Requested",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "DONAT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DONAT",
+            "value": "Donation",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "DONAT",
+            "value": "Donation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "DONAT",
+            "value": "Donation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "DONAT",
+            "value": "Donation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "DONAT",
+            "value": "Donation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "DONAT",
+            "value": "Donation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HRESCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HRESCH",
+            "value": "Healthcare Research",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HRESCH",
+            "value": "Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HRESCH",
+            "value": "Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HRESCH",
+            "value": "Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HRESCH",
+            "value": "Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HRESCH",
+            "value": "Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HOPERAT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HOPERAT",
+            "value": "Healthcare Operations",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HOPERAT",
+            "value": "Healthcare Operations",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HOPERAT",
+            "value": "Healthcare Operations",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HOPERAT",
+            "value": "Healthcare Operations",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HOPERAT",
+            "value": "Healthcare Operations",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HOPERAT",
+            "value": "Healthcare Operations",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HQUALIMP",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HQUALIMP",
+            "value": "Health Quality Improvement",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HQUALIMP",
+            "value": "Health Quality Improvement",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HQUALIMP",
+            "value": "Health Quality Improvement",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HQUALIMP",
+            "value": "Health Quality Improvement",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HQUALIMP",
+            "value": "Health Quality Improvement",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HQUALIMP",
+            "value": "Health Quality Improvement",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "DSRCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DSRCH",
+            "value": "Disease Specific Healthcare Research",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "DSRCH",
+            "value": "Disease Specific Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "DSRCH",
+            "value": "Disease Specific Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "DSRCH",
+            "value": "Disease Specific Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "DSRCH",
+            "value": "Disease Specific Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "DSRCH",
+            "value": "Disease Specific Healthcare Research",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "TRAIN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "TRAIN",
+            "value": "Training",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "TRAIN",
+            "value": "Training",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "TRAIN",
+            "value": "Training",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "TRAIN",
+            "value": "Training",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "TRAIN",
+            "value": "Training",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "TRAIN",
+            "value": "Training",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "ELIGDTRM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ELIGDTRM",
+            "value": "Eligibility Determination",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "ELIGDTRM",
+            "value": "Eligibility Determination",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "ELIGDTRM",
+            "value": "Eligibility Determination",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "ELIGDTRM",
+            "value": "Eligibility Determination",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "ELIGDTRM",
+            "value": "Eligibility Determination",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "ELIGDTRM",
+            "value": "Eligibility Determination",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "SYSDEV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SYSDEV",
+            "value": "System Development",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "SYSDEV",
+            "value": "System Development",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "SYSDEV",
+            "value": "System Development",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "SYSDEV",
+            "value": "System Development",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "SYSDEV",
+            "value": "System Development",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "SYSDEV",
+            "value": "System Development",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HPAYMT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HPAYMT",
+            "value": "Healthcare Payment",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HPAYMT",
+            "value": "Healthcare Payment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HPAYMT",
+            "value": "Healthcare Payment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HPAYMT",
+            "value": "Healthcare Payment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HPAYMT",
+            "value": "Healthcare Payment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HPAYMT",
+            "value": "Healthcare Payment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "ENROLLM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ENROLLM",
+            "value": "Enrollment",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "ENROLLM",
+            "value": "Enrollment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "ENROLLM",
+            "value": "Enrollment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "ENROLLM",
+            "value": "Enrollment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "ENROLLM",
+            "value": "Enrollment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "ENROLLM",
+            "value": "Enrollment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "METAMGT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "METAMGT",
+            "value": "Metadata Management",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "METAMGT",
+            "value": "Metadata Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "METAMGT",
+            "value": "Metadata Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "METAMGT",
+            "value": "Metadata Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "METAMGT",
+            "value": "Metadata Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "METAMGT",
+            "value": "Metadata Management",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "THREAT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "THREAT",
+            "value": "Threat",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "THREAT",
+            "value": "Threat",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "THREAT",
+            "value": "Threat",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "THREAT",
+            "value": "Threat",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "THREAT",
+            "value": "Threat",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "THREAT",
+            "value": "Threat",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HOUTCOMS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HOUTCOMS",
+            "value": "Health Outcome Measure",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HOUTCOMS",
+            "value": "Health Outcome Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HOUTCOMS",
+            "value": "Health Outcome Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HOUTCOMS",
+            "value": "Health Outcome Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HOUTCOMS",
+            "value": "Health Outcome Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HOUTCOMS",
+            "value": "Health Outcome Measure",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "CLINTRCHPC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CLINTRCHPC",
+            "value": "Clinical Trial Research With Patient Care",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "CLINTRCHPC",
+            "value": "Clinical Trial Research With Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "CLINTRCHPC",
+            "value": "Clinical Trial Research With Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "CLINTRCHPC",
+            "value": "Clinical Trial Research With Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "CLINTRCHPC",
+            "value": "Clinical Trial Research With Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "CLINTRCHPC",
+            "value": "Clinical Trial Research With Patient Care",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "PATADMIN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PATADMIN",
+            "value": "Patient Administration",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PATADMIN",
+            "value": "Patient Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "PATADMIN",
+            "value": "Patient Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PATADMIN",
+            "value": "Patient Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "PATADMIN",
+            "value": "Patient Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "PATADMIN",
+            "value": "Patient Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "PWATRNY",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PWATRNY",
+            "value": "Power Of Attorney",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PWATRNY",
+            "value": "Power Of Attorney",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "PWATRNY",
+            "value": "Power Of Attorney",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PWATRNY",
+            "value": "Power Of Attorney",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "PWATRNY",
+            "value": "Power Of Attorney",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "PWATRNY",
+            "value": "Power Of Attorney",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "POPHLTH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "POPHLTH",
+            "value": "Population Health",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "POPHLTH",
+            "value": "Population Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "POPHLTH",
+            "value": "Population Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "POPHLTH",
+            "value": "Population Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "POPHLTH",
+            "value": "Population Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "POPHLTH",
+            "value": "Population Health",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HTEST",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HTEST",
+            "value": "Test Health Data",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HTEST",
+            "value": "Test Health Data",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HTEST",
+            "value": "Test Health Data",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HTEST",
+            "value": "Test Health Data",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HTEST",
+            "value": "Test Health Data",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HTEST",
+            "value": "Test Health Data",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "COVERAGE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "COVERAGE",
+            "value": "Coverage Under Policy Or Program",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "COVERAGE",
+            "value": "Coverage Under Policy Or Program",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "COVERAGE",
+            "value": "Coverage Under Policy Or Program",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "COVERAGE",
+            "value": "Coverage Under Policy Or Program",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "COVERAGE",
+            "value": "Coverage Under Policy Or Program",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "COVERAGE",
+            "value": "Coverage Under Policy Or Program",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "CLMATTCH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CLMATTCH",
+            "value": "Claim Attachment",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "CLMATTCH",
+            "value": "Claim Attachment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "CLMATTCH",
+            "value": "Claim Attachment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "CLMATTCH",
+            "value": "Claim Attachment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "CLMATTCH",
+            "value": "Claim Attachment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "CLMATTCH",
+            "value": "Claim Attachment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HACCRED",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HACCRED",
+            "value": "Health Accreditation",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HACCRED",
+            "value": "Health Accreditation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HACCRED",
+            "value": "Health Accreditation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HACCRED",
+            "value": "Health Accreditation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HACCRED",
+            "value": "Health Accreditation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HACCRED",
+            "value": "Health Accreditation",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HSYSADMIN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HSYSADMIN",
+            "value": "Health System Administration",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HSYSADMIN",
+            "value": "Health System Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HSYSADMIN",
+            "value": "Health System Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HSYSADMIN",
+            "value": "Health System Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HSYSADMIN",
+            "value": "Health System Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HSYSADMIN",
+            "value": "Health System Administration",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "HLEGAL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HLEGAL",
+            "value": "Legal",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "HLEGAL",
+            "value": "Legal",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "HLEGAL",
+            "value": "Legal",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "HLEGAL",
+            "value": "Legal",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "HLEGAL",
+            "value": "Legal",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "HLEGAL",
+            "value": "Legal",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "FRAUD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAUD",
+            "value": "Fraud",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "FRAUD",
+            "value": "Fraud",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "FRAUD",
+            "value": "Fraud",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "FRAUD",
+            "value": "Fraud",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "FRAUD",
+            "value": "Fraud",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "FRAUD",
+            "value": "Fraud",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "SUPNWK",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SUPNWK",
+            "value": "Support Network",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "SUPNWK",
+            "value": "Support Network",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "SUPNWK",
+            "value": "Support Network",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "SUPNWK",
+            "value": "Support Network",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "SUPNWK",
+            "value": "Support Network",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "SUPNWK",
+            "value": "Support Network",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProvisionPurposes",
+    "code": "TREAT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "TREAT",
+            "value": "Treatment",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "TREAT",
+            "value": "Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "TREAT",
+            "value": "Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "TREAT",
+            "value": "Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "TREAT",
+            "value": "Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "TREAT",
+            "value": "Treatment",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

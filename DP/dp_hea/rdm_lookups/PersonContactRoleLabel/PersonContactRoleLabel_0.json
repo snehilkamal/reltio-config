@@ -1,0 +1,107 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PersonContactRoleLabel",
+    "code": "Guarantee",
+    "enabled": true,
+    "parents": [
+      "rdm/lookupTypes/PersonContactRoles/GUAR"
+    ],
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Guarantee",
+            "value": "Guarantee",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PersonContactRoleLabel",
+    "code": "Caregiver of",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Caregiver of",
+            "value": "Caregiver of",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PersonContactRoleLabel",
+    "code": "Guarantor",
+    "enabled": true,
+    "parents": [
+      "rdm/lookupTypes/PersonContactRoles/GUAR"
+    ],
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Guarantor",
+            "value": "Guarantor",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PersonContactRoleLabel",
+    "code": "Caregiver for",
+    "enabled": true,
+    "parents": [
+      "rdm/lookupTypes/PersonContactRoles/CAREGIVER"
+    ],
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Caregiver for",
+            "value": "Caregiver for",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

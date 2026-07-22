@@ -1,0 +1,24 @@
+[
+  {
+    "cleanseFunction": "Loqate",
+    "options": {
+      "process": "v+g",
+      "loqateKey": "2ebdcf4ae28ff15c3dc7ba6dc3d465125b1c38e3",
+      "ovOnly": "true",
+      "returnUnverifiedStatus": "true",
+      "loqateDefaultCountry": "{{loqateDefaultCountry}}",
+      "opts": {
+        "PreferPrimaryValidAlias": "Yes"
+      }
+    }
+  },
+  {
+    "cleanseFunction": "PhoneCleanserFn"
+  },
+  {
+    "cleanseFunction": "EmailCleanserFn",
+    "options": {
+      "casing": "lower"
+    }
+  }
+]

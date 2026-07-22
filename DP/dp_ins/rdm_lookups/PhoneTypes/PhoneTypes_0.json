@@ -1,0 +1,1322 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Home",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Home",
+            "value": "Home",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Business",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Business",
+            "value": "Business",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Work",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Work",
+            "value": "Work",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Home Fax",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Home Fax",
+            "value": "Home Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Other",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Mobile",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Business Fax",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Business Fax",
+            "value": "Business Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Pager",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Pager",
+            "value": "Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Main",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Main",
+            "value": "Main",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Emergency",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Emergency",
+            "value": "Emergency",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

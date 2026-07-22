@@ -1,0 +1,146 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/DegreeCodes",
+    "code": "RRT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "RRT",
+            "value": "Registered Respiratory Therapist",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "RRT",
+            "value": "Registered Respiratory Therapist",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "RRT",
+            "value": "Registered Respiratory Therapist",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "RRT",
+            "value": "Registered Respiratory Therapist",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "RRT",
+            "value": "Registered Respiratory Therapist",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/DegreeCodes",
+    "code": "DDS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DDS",
+            "value": "Doctor of Dental Surgery",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "DDS",
+            "value": "Doctor of Dental Surgery",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "DDS",
+            "value": "Doctor of Dental Surgery",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "DDS",
+            "value": "Doctor of Dental Surgery",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "DDS",
+            "value": "Doctor of Dental Surgery",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

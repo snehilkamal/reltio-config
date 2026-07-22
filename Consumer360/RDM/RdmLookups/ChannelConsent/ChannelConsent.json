@@ -1,0 +1,64 @@
+[
+  {
+    "type": "rdm/lookupTypes/ChannelConsent",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Yes",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Yes",
+            "value": "Yes",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Yes",
+            "value": "Yes",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/ChannelConsent",
+    "tenantId": "{{rdmTenant}}",
+    "code": "No",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "No",
+            "value": "No",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "No",
+            "value": "No",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  }
+]

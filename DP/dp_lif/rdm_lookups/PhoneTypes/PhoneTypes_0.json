@@ -1,0 +1,1043 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Other",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Personal Mobile",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Personal Mobile",
+            "value": "Personal Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Mobile",
+            "value": "Mobile",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Work Phone",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Work Phone",
+            "value": "Work Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Personal Pager",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Personal Pager",
+            "value": "Personal Pager",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Home Phone",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Home Phone",
+            "value": "Home Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Business Phone",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Business Phone",
+            "value": "Business Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "SLN Phone Number",
+            "value": "SLN Phone Number",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_AMA",
+        "values": [
+          {
+            "code": "AMA Phone Number",
+            "value": "AMA Phone Number",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "NPI",
+        "values": [
+          {
+            "code": "NPI Phone Number",
+            "value": "NPI Phone Number",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "NPI First Phone",
+            "value": "NPI First Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          },
+          {
+            "code": "NPI Second Phone",
+            "value": "NPI Second Phone",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "BestInfo",
+        "values": [
+          {
+            "code": "Best Visit Phone Number",
+            "value": "Best Visit Phone Number",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_CDS",
+        "values": [
+          {
+            "code": "CDS Phone Number",
+            "value": "CDS Phone Number",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PhoneTypes",
+    "code": "Fax",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_NPI",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "DT_DEA",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Fax",
+            "value": "Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_AMA",
+        "values": [
+          {
+            "code": "AMA Fax Number",
+            "value": "AMA Fax Number",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "NPI",
+        "values": [
+          {
+            "code": "NPI First Fax",
+            "value": "NPI First Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "NPI Second Fax",
+            "value": "NPI Second Fax",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "BestInfo",
+        "values": [
+          {
+            "code": "Best Visit Fax Number",
+            "value": "Best Visit Fax Number",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

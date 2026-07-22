@@ -1,0 +1,326 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PackageTypes",
+    "code": "Shipping-TransportContainer",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "Shipping-TransportContainer",
+            "value": "Shipping or transport container",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PackageTypes",
+    "code": "RawMaterialPackage",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "RawMaterialPackage",
+            "value": "Raw material package",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PackageTypes",
+    "code": "MedicinalProductPack",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "MedicinalProductPack",
+            "value": "Medicinal product pack",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

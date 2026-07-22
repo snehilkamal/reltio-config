@@ -1,0 +1,326 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/NameSuffixes",
+    "code": "II",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "II",
+            "value": "II",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "II",
+            "value": "II",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "II",
+            "value": "II",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/NameSuffixes",
+    "code": "Sr.",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Sr.",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Senior",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          },
+          {
+            "code": "Sr",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Sr.",
+            "value": "Sr.",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Senior",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          },
+          {
+            "code": "Sr",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Sr.",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Senior",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          },
+          {
+            "code": "Sr",
+            "value": "Sr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/NameSuffixes",
+    "code": "III",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "III",
+            "value": "III",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "III",
+            "value": "III",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "III",
+            "value": "III",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/NameSuffixes",
+    "code": "Jr.",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Jr.",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Junior",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          },
+          {
+            "code": "Jr",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Jr.",
+            "value": "Jr.",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Junior",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          },
+          {
+            "code": "Jr",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Jr.",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Junior",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          },
+          {
+            "code": "Jr",
+            "value": "Jr.",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/NameSuffixes",
+    "code": "IV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "IV",
+            "value": "IV",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "IV",
+            "value": "IV",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "IV",
+            "value": "IV",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

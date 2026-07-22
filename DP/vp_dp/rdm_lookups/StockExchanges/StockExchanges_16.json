@@ -1,0 +1,2402 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGEX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGEX",
+            "value": "SHANGHAI GOLD EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMA",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMA",
+            "value": "GOLDMAN SACH MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMT",
+            "value": "SIGMA X2",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMU",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMU",
+            "value": "SIGMA X EUROPE NON-DISPLAYED BOOK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMV",
+            "value": "SIGMA X EUROPE AUCTION BOOK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMW",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMW",
+            "value": "SIGMA X EUROPE NEGOTIATED TRADE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMX",
+            "value": "SIGMA X MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMY",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMY",
+            "value": "SIGMA X MTF - AUCTION BOOK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGMZ",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGMZ",
+            "value": "SIGMA X MTF - NEGOTIATED TRADE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SGOE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SGOE",
+            "value": "SG OPTION EUROPE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SHAD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SHAD",
+            "value": "D.E. SHAW DARK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SHAR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SHAR",
+            "value": "ASSET MATCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SHAW",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SHAW",
+            "value": "D.E. SHAW",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SHSC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SHSC",
+            "value": "STOCK EXCHANGE OF HONG KONG LIMITED - SHANGHAI - HONG KONG STOCK CONNECT",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIAB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIAB",
+            "value": "ALIOR BANK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIBC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIBC",
+            "value": "SIB CYPRUS LTD",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SICS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SICS",
+            "value": "CREDIT SUISSE SECURITIES (EUROPE) LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIDX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIDX",
+            "value": "SCOTIABANK (IRELAND) DESIGNATED ACTIVITY COMPANY",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIFX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIFX",
+            "value": "SIEGE FX LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIGA",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIGA",
+            "value": "SIGMA X AUSTRALIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIGH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIGH",
+            "value": "SIGMA X HONG KONG",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIGJ",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIGJ",
+            "value": "SIGMA X JAPAN",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIGX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIGX",
+            "value": "SIGMA X CANADA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIMD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIMD",
+            "value": "CREDIT SUISSE BANK (EUROPE), S.A. - SYSTEMATIC INTERNALISER",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SIMV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SIMV",
+            "value": "SIM VENTURE SECURITIES EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SISI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SISI",
+            "value": "SUSQUEHANNA INTERNATIONAL SECURITIES LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SISU",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SISU",
+            "value": "SUSQUEHANNA INTERNATIONAL SECURITIES LIMITED - LONDON BRANCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SKBB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SKBB",
+            "value": "SKB BANKA D.D. LJUBLJANA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SKSI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SKSI",
+            "value": "SPAREKASSEN KRONJYLLAND",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SKYX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SKYX",
+            "value": "SKYTRA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SLHB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SLHB",
+            "value": "SALZBURGER LANDES-HYPOTHEKENBANK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SLKK",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SLKK",
+            "value": "MTS SLOVAKIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SLXT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SLXT",
+            "value": "SL-X - SECURITIES LENDING MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMBB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMBB",
+            "value": "SUMITOMO MITSUI BANKING CORPORATION - BRUSSELS BRANCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMBC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMBC",
+            "value": "SMBC NIKKO SNET DARKPOOL",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMBD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMBD",
+            "value": "SUMITOMO MITSUI BANKING CORPORATION - DUESSELDORF BRANCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMBE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMBE",
+            "value": "SUMITOMO MITSUI BANKING CORPORATION EUROPE LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMBG",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMBG",
+            "value": "SUMITOMO MITSUI BANKING CORPORATION - LONDON BRANCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMBP",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMBP",
+            "value": "SUMITOMO MITSUI BANKING CORPORATION EUROPE LIMITED - PARIS BRANCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMEX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMEX",
+            "value": "SINGAPORE MERCANTILE EXCHANGE PTE LTD",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMFE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMFE",
+            "value": "SMALL EXCHANGE, INC - DESIGNATED CONTRACT MARKET",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMFF",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMFF",
+            "value": "SMBC BANK EU AG",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SMTS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SMTS",
+            "value": "MTS SPAIN",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SNSI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SNSI",
+            "value": "SPAR NORD BANK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SNUK",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SNUK",
+            "value": "SANTANDER UK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SOHO",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SOHO",
+            "value": "TWO SIGMA SECURITIES, LLC",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPAD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPAD",
+            "value": "SPAD TRADING",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPAX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPAX",
+            "value": "SPECTRAXE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPBE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPBE",
+            "value": "SPB EXCHANGE - ALL MARKETS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPDX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPDX",
+            "value": "SPREADEX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPEC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPEC",
+            "value": "MAREX SPECTRON INTERNATIONAL LIMITED OTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPEX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPEX",
+            "value": "SPECTRUM MARKETS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPHR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPHR",
+            "value": "MIAX SAPPHIRE, LLC",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPIM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPIM",
+            "value": "ST. PETERSBURG INTERNATIONAL MERCANTILE EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPRZ",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPRZ",
+            "value": "SPREADZERO",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPTR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPTR",
+            "value": "SPAREBANK 1 SMN",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPTX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPTX",
+            "value": "SPOT FX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SPXE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SPXE",
+            "value": "SPX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SQUA",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SQUA",
+            "value": "SQUARE GLOBAL - OTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSBI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSBI",
+            "value": "STATE STREET BANK INTERNATIONAL GMBH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSBM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSBM",
+            "value": "STATE STREET BANK INTERNATIONAL FX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSBT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSBT",
+            "value": "STATE STREET BANK AND TRUST COMPANY",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSEX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSEX",
+            "value": "SOCIAL STOCK EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSFX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSFX",
+            "value": "STATE STREET BANK AND TRUST FX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSIL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSIL",
+            "value": "STATE STREET BANK INTERNATIONAL FX - LONDON BRANCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSME",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSME",
+            "value": "FIRST NORTH SWEDEN - SME GROWTH MARKET",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSOB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSOB",
+            "value": "BONDVISION EUROPE MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSTX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSTX",
+            "value": "E-EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SSWM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSWM",
+            "value": "SSW MARKET MAKING",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STAL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STAL",
+            "value": "SCHNEIDER OTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STAN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STAN",
+            "value": "STANDARD CHARTERED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STEE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STEE",
+            "value": "NASDAQ COMMODITIES - STEEL COMMODITY",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STFL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STFL",
+            "value": "STIFEL NICOLAUS EUROPE LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STFU",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STFU",
+            "value": "STIFEL, NICOLAUS AND COMPANY, INCORPORATED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STFX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STFX",
+            "value": "STIFEL, NICOLAUS AND COMPANY, INCORPORATED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STOX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STOX",
+            "value": "STOXX LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STRM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STRM",
+            "value": "PURESTREAM",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STRT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STRT",
+            "value": "PRAGUE STOCK EXCHANGE - START (MTF)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STSI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STSI",
+            "value": "SUN TRADING INTERNATIONAL",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STUA",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STUA",
+            "value": "BOERSE STUTTGART - REGULIERTER MARKT",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STUB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STUB",
+            "value": "BOERSE STUTTGART - FREIVERKEHR",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STUC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STUC",
+            "value": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 2",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STUD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STUD",
+            "value": "BOERSE STUTTGART - FREIVERKEHR - TECHNICAL PLATFORM 2",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STUE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STUE",
+            "value": "BOERSE STUTTGART - REGULIERTER MARKT - TECHNICAL PLATFORM 3",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STUF",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STUF",
+            "value": "BOERSE STUTTGART - FREIVERKEHR - TECHNICAL PLATFORM 3",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "STXS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "STXS",
+            "value": "STX FIXED INCOME",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SUNB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SUNB",
+            "value": "SUNRISE BROKERS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SUNM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SUNM",
+            "value": "SUNRISE - MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SUNO",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SUNO",
+            "value": "SUNRISE - OTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SUNT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SUNT",
+            "value": "SUN TRADING LLC",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SVES",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SVES",
+            "value": "SVENSKA HANDELSBANKEN AB",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SVEX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SVEX",
+            "value": "SVENSKA HANDELSBANKEN AB - SVEX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SVXI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SVXI",
+            "value": "SAINT VINCENT AND THE GRENADINES SECURITIES EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SWAP",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SWAP",
+            "value": "SWAPSTREAM",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SWBI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SWBI",
+            "value": "SWEDBANK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SWEE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SWEE",
+            "value": "SWEDBANK ESTONIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SWLT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SWLT",
+            "value": "SWEDBANK LITHUANIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SWLV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SWLV",
+            "value": "SWEDBANK LATVIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SXSI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SXSI",
+            "value": "SAXO BANK A/S",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "SYFX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SYFX",
+            "value": "SYNOPTION",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

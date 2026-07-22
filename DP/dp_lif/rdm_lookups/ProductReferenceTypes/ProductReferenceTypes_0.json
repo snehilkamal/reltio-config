@@ -1,0 +1,650 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProductReferenceTypes",
+    "code": "VirtualProduct",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "VirtualProduct",
+            "value": "Link Actual to Virtual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProductReferenceTypes",
+    "code": "InvestigationalProduct",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "InvestigationalProduct",
+            "value": "Link to Investigational Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProductReferenceTypes",
+    "code": "GenericProduct",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "GenericProduct",
+            "value": "Link Branded to Generic Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProductReferenceTypes",
+    "code": "ActualProduct",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "ActualProduct",
+            "value": "Link Virtual to Actual Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProductReferenceTypes",
+    "code": "BrandedProduct",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "BrandedProduct",
+            "value": "Link Generic to Branded Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ProductReferenceTypes",
+    "code": "Parallel",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "Parallel",
+            "value": "Link to Parallel Import Product",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

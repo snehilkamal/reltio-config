@@ -1,0 +1,434 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "MS",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MS",
+            "value": "Match",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MS",
+            "value": "Match",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "MN",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MN",
+            "value": "No Match",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MN",
+            "value": "No Match",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "ME",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ME",
+            "value": "Match Error",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "ME",
+            "value": "Match Error",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "MD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MD",
+            "value": "D-U-N-S # Mismatch",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MD",
+            "value": "D-U-N-S # Mismatch",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "MU",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MU",
+            "value": "Uri mismatch",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MU",
+            "value": "Uri mismatch",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "MC",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MC",
+            "value": "Low Confidence Score",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MC",
+            "value": "Low Confidence Score",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "ES",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ES",
+            "value": "Enriched",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "ES",
+            "value": "Enriched",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "ER",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "ER",
+            "value": "Recertified",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "ER",
+            "value": "Recertified",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "EE",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EE",
+            "value": "Enrichment Error",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "EE",
+            "value": "Enrichment Error",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "EO",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EO",
+            "value": "Out of business",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "EO",
+            "value": "Out of business",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "DT",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DT",
+            "value": "Duns transferred",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DT",
+            "value": "Duns transferred",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360VendorVerificationStatus",
+    "code": "DD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DD",
+            "value": "Duns deleted",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DD",
+            "value": "Duns deleted",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  }
+]

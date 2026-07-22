@@ -1,0 +1,326 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/AssetTypes",
+    "code": "Vehicle",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Vehicle",
+            "value": "Vehicle",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/AssetTypes",
+    "code": "Party",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Party",
+            "value": "Party",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/AssetTypes",
+    "code": "Property",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Property",
+            "value": "Property",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

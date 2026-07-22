@@ -1,0 +1,2402 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXPM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXPM",
+            "value": "EXPERT MARKET",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSB",
+            "value": "EXANE DERIVATIVES  CORPORATE BONDS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSD",
+            "value": "EXANE DERIVATIVES  OTC DERIVATIVES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSE",
+            "value": "EXANE BNP PARIBAS - SYSTEMATIC INTERNALISER",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSF",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSF",
+            "value": "EXANE DERIVATIVES  OTHER BONDS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSH",
+            "value": "EXANE DERIVATIVES  SHARES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSI",
+            "value": "EXANE BNP PARIBAS - GB",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSP",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSP",
+            "value": "EXANE DERIVATIVES  STRUCTURED PRODUCTS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXSY",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXSY",
+            "value": "EXANE DERIVATIVES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXTR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXTR",
+            "value": "ENERGY EXCHANGE ISTANBUL",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXVP",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXVP",
+            "value": "EXANE BNP PARIBAS - VOLUME PROFILE CROSSING",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "EXYY",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "EXYY",
+            "value": "EXANE DERIVATIVES  CONVERTIBLES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FAIR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FAIR",
+            "value": "CANTOR SPREADFAIR",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FAST",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FAST",
+            "value": "EURONEXT FX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FBSI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FBSI",
+            "value": "FINECO BANK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FCBT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FCBT",
+            "value": "CHICAGO BOARD OF TRADE (FLOOR)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FCME",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FCME",
+            "value": "CHICAGO MERCANTILE EXCHANGE (FLOOR)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FGEX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FGEX",
+            "value": "KAASUPORSSI - FINNISH GAS EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FICO",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FICO",
+            "value": "FINANCIALCONTENT",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FICX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FICX",
+            "value": "FINANCIAL INFORMATION CONTRIBUTORS EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FIED",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FIED",
+            "value": "NASDAQ STOCKHOLM AB - FINNISH EQ DERIVATIVES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FINC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FINC",
+            "value": "FINRA/NASDAQ TRF CHICAGO (TRADE REPORTING FACILITY)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FINN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FINN",
+            "value": "FINRA/NASDAQ TRF CARTERET (TRADE REPORTING FACILITY)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FINO",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FINO",
+            "value": "FINRA ORF (TRADE REPORTING FACILITY)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FINR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FINR",
+            "value": "FINRA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FINY",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FINY",
+            "value": "FINRA/NYSE TRF (TRADE REPORTING FACILITY)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FISH",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FISH",
+            "value": "FISH POOL ASA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FISU",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FISU",
+            "value": "FREIGHT INVESTOR SERVICES LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FLTB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FLTB",
+            "value": "FLOW TRADERS B.V.  BONDS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FLTR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FLTR",
+            "value": "FLOW TRADERS - SYSTEMATIC INTERNALISER",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FLWX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FLWX",
+            "value": "FLOW TRADERS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FMTS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FMTS",
+            "value": "MTS FRANCE SAS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNCS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNCS",
+            "value": "FENICS - US TREASURIES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNDK",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNDK",
+            "value": "FIRST NORTH DENMARK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNDS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNDS",
+            "value": "INFRONT FUNDS MARKET",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNEE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNEE",
+            "value": "FIRST NORTH ESTONIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNFI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNFI",
+            "value": "FIRST NORTH FINLAND",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNFT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNFT",
+            "value": "FENICS FUTURES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNFX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNFX",
+            "value": "FENICS FX ECN",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNIS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNIS",
+            "value": "FIRST NORTH ICELAND",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNIX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNIX",
+            "value": "GFI SECURITIES LLC - FENICS DELTA X",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNLT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNLT",
+            "value": "FIRST NORTH LITHUANIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNLV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNLV",
+            "value": "FIRST NORTH LATVIA",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNSE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNSE",
+            "value": "FIRST NORTH SWEDEN",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNUK",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNUK",
+            "value": "FINANTIA UK LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FNXB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FNXB",
+            "value": "FENICS INVITATIONS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FPWB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FPWB",
+            "value": "FIRSTPLACE WIENER BOERSE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRAA",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAA",
+            "value": "BOERSE FRANKFURT - REGULIERTER MARKT",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRAB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAB",
+            "value": "BOERSE FRANKFURT - FREIVERKEHR",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRAD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAD",
+            "value": "DEUTSCHE BOERSE MID-POINT CROSS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRAS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAS",
+            "value": "BOERSE FRANKFURT - SCALE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRAU",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAU",
+            "value": "BOERSE FRANKFURT - REGULIERTERMARKT - OFF-BOOK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRAV",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAV",
+            "value": "BOERSE FRANKFURT - FREIVERKEHR - OFF-BOOK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRAW",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRAW",
+            "value": "BOERSE FRANKFURT - SCALE - OFF-BOOK",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FREI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FREI",
+            "value": "NASDAQ COMMODITIES - FREIGHT COMMODITY",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FREX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FREX",
+            "value": "COINBASE DERIVATIVES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRRF",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRRF",
+            "value": "FONDS DES RENTES / RENTENFONDS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FRTE",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FRTE",
+            "value": "FORTE  - OTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FSEF",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FSEF",
+            "value": "FTSEF LLC",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FSHX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FSHX",
+            "value": "FISHEX",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FSME",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FSME",
+            "value": "FIRST NORTH FINLAND - SME GROWTH MARKET",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FTFM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FTFM",
+            "value": "42 FINANCIAL SERVICES - MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FTFS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FTFS",
+            "value": "42 FINANCIAL SERVICES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FTUS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FTUS",
+            "value": "FLOW TRADERS U.S LLC",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FUSD",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FUSD",
+            "value": "FTX US DERIVATIVES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXAL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXAL",
+            "value": "FXALL",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXCL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXCL",
+            "value": "CLEARCORP DEALING SYSTEMS INDIA LIMITED - FX-CLEAR",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXCM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXCM",
+            "value": "FXCM",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXFM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXFM",
+            "value": "FINANCIAL AND RISK TRANSACTIONS SERVICES IRELAND LIMITED - FORWARDS MATCHING",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXGB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXGB",
+            "value": "FXCM - MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXMT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXMT",
+            "value": "FXMARKETSPACE LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXNM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXNM",
+            "value": "REFINITIV MATCHING NDFS SEF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXOP",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXOP",
+            "value": "TRADITION-NEX OTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXPS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXPS",
+            "value": "REFINITIV SEF REQUEST FOR STREAM",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXRQ",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXRQ",
+            "value": "FINANCIAL AND RISK TRANSACTIONS SERVICES IRELAND LIMITED - FXALL RFQ MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXRS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXRS",
+            "value": "FINANCIAL AND RISK TRANSACTIONS SERVICES IRELAND LIMITED - FXALL RFS MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXSM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXSM",
+            "value": "REFINITIV MATCHING NDFS SINGAPORE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "FXSW",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "FXSW",
+            "value": "CLEARCORP DEALING SYSTEMS INDIA LIMITED - FX-SWAP",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "G1XX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "G1XX",
+            "value": "G1 EXECUTION SERVICES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "G360",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "G360",
+            "value": "G360",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GBOB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GBOB",
+            "value": "NASDAQ STOCKHOLM AB - OTC GBP WB EQ DERIVATIVES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GBOT",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GBOT",
+            "value": "BOURSE AFRICA LIMITED",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GBSI",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GBSI",
+            "value": "GOODBODY STOCKBROKERS UC",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GBUL",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GBUL",
+            "value": "BULGARIAN STOCK EXCHANGE - SME GROWTH MARKET BEAM",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GBWB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GBWB",
+            "value": "NASDAQ STOCKHOLM AB - GBP WB EQ DERIVATIVES",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GEMX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GEMX",
+            "value": "GEMMA (GILT EDGED MARKET MAKERSâASSOCIATION)",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GETB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GETB",
+            "value": "LITHUANIAN NATURAL GAS EXCHANGE",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFAM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFAM",
+            "value": "GFI SECURITIES LLC - ALL MARKETS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFAU",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFAU",
+            "value": "GFI AUSTRALIA PTY LTD",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFBM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFBM",
+            "value": "GFI BROKERS - MTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFBO",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFBO",
+            "value": "GFI BROKERS - OTF",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFIA",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFIA",
+            "value": "GFI AUCTIONMATCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFIB",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFIB",
+            "value": "GFI BROKERS",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFIC",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFIC",
+            "value": "GFI SECURITIES LTD",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFIF",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFIF",
+            "value": "GFI FOREXMATCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFIM",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFIM",
+            "value": "GFI MARKETMATCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFIN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFIN",
+            "value": "GFI ENERGYMATCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFIR",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFIR",
+            "value": "GFI RATESMATCH",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFKS",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFKS",
+            "value": "GARANTUM FONDKOMMISSION AB",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/StockExchanges",
+    "code": "GFOX",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GFOX",
+            "value": "GLOBAL FUTURES AND OPTIONS LTD",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

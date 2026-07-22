@@ -1,0 +1,326 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PsychEvalQuestionnaires",
+    "code": "PHQ-9",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "PHQ-9",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PsychEvalQuestionnaires",
+    "code": "PHQ-4",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "PHQ-4",
+            "value": "Depression",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PsychEvalQuestionnaires",
+    "code": "GAD-7",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "IQVIA",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "ERP",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MedPro",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Veeva",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "SAP",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "MPS_SLN",
+        "values": [
+          {
+            "code": "GAD-7",
+            "value": "Generalised Anxiety Disorder Questionnaire",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

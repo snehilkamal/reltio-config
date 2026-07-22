@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Configuration",
+    "items": [
+      {
+        "image": "/app-icons/datamodeler.svg ",
+        "bannerImage": "https://cdn.reltio.com/images/datamodeller.svg",
+        "background": "#BFCBD712",
+        "name": "Data Modeler",
+        "icon": "https://cdn.reltio.com/images/datamodeller-sm.svg",
+        "description": "View your tenant's data model",
+        "id": "data-modeler",
+        "url": "{{consoleURI}}/datamodeler?env=${environment}&tenant=${tenant}",
+        "group": "configuration"
+      },
+      {
+        "bannerImage": "https://cdn.reltio.com/images/uimodeller.svg",
+        "image": "/app-icons/uimodeler.svg",
+        "background": "#89CBEC12",
+        "icon": "https://cdn.reltio.com/images/ui-config.svg",
+        "name": "UI Modeler",
+        "description": "Configure your tenant's layout based on your data model",
+        "id": "ui-modeler",
+        "url": "{{consoleURI}}/uimodeler?env=${environment}&tenant=${tenant}",
+        "group": "configuration"
+      },
+      {
+        "image": "/app-icons/bpmnmodeler.svg",
+        "bannerImage": "https://cdn.reltio.com/images/workflowmodeller.svg",
+        "background": "#D9CAA912",
+        "name": "Workflow Modeler",
+        "icon": "https://cdn.reltio.com/images/workflow.svg",
+        "description": "View, create and edit your BPMN diagrams",
+        "id": "workflow-modeler",
+        "url": "{{consoleURI}}/bpmnmodeler?env=${environment}&tenant=${tenant}",
+        "group": "configuration"
+      },
+      {
+        "bannerImage": "https://cdn.reltio.com/images/MatchIQ-card.svg",
+        "image": "/app-icons/matchIQ.svg",
+        "background": "#88ECE312",
+        "name": "Match IQ",
+        "icon": "https://cdn.reltio.com/images/MatchIQ-icon.svg",
+        "description": "Create, Train, and Publish machine learning models for matching",
+        "id": "match-iq",
+        "url": "{{consoleURI}}/matchIQ/?env=${environment}&tenant=${tenant}",
+        "group": "configuration"
+      },
+      {
+        "bannerImage": "https://cdn.reltio.com/images/Notification-management.svg",
+        "icon": "https://cdn.reltio.com/images/notification-management-icon.svg",
+        "name": "Notification management",
+        "description": "View and manage notification for services",
+        "url": "{{consoleURI}}/notificationMgmt?env=${environment}&tenant=${tenant}"
+      }
+    ]
+  },
+  {
+    "name": "Tenant Management",
+    "items": [
+      {
+        "bannerImage": "https://cdn.reltio.com/images/env-banner.svg",
+        "image": "/app-icons/env.svg",
+        "background": "#567E7E12",
+        "icon": "https://cdn.reltio.com/images/env-icon.svg",
+        "name": "Tenant Management",
+        "description": "View Tenant statistics and execute tenant management jobs",
+        "id": "tenant-management",
+        "url": "{{consoleURI}}/env/statistics?env=${environment}&tenant=${tenant}",
+        "group": "tenant-management"
+      },
+      {
+        "image": "/app-icons/monitoring.svg",
+        "bannerImage": "https://cdn.reltio.com/images/performance-monitoring.svg",
+        "background": "#9FC0D512",
+        "icon": "https://cdn.reltio.com/images/performance-monitoring-icon.svg",
+        "name": "Performance Monitoring",
+        "description": "View performance and statistics of your tenant",
+        "id": "performance-monitoring",
+        "url": "{{consoleURI}}/monitoring?env=${environment}&tenant=${tenant}",
+        "group": "tenant-management"
+      },
+      {
+        "bannerImage": "https://cdn.reltio.com/images/UsageReporting.svg",
+        "name": "Usage Reporting",
+        "icon": "https://cdn.reltio.com/images/UsageReportingLogo.svg",
+        "description": "Analyze your consumption of platform resources",
+        "url": "{{consoleURI}}/usageReporting?env=${environment}&tenant=${tenant}"
+      },
+      {
+        "bannerImage": "https://cdn.reltio.com/images/DataLoader.svg",
+        "image": "/app-icons/dataloader.svg",
+        "background": "#87D5ED12",
+        "name": "Data Loader",
+        "icon": "https://cdn.reltio.com/images/DataLoader-icon.svg",
+        "description": "Load data into the Reltio Platform",
+        "id": "data-loader",
+        "url": "{{consoleURI}}/dataloader/projects?env=${environment}&tenant=${tenant}",
+        "group": "tenant-management"
+      },
+      {
+        "image": "/app-icons/export.svg",
+        "bannerImage": "https://cdn.reltio.com/images/export-ui.svg",
+        "background": "#ADE84012",
+        "name": "Export",
+        "icon": "https://cdn.reltio.com/images/export-ui-icon.svg",
+        "description": "UI for Exporting entities and relationships",
+        "id": "export",
+        "url": "{{consoleURI}}/export?env=${environment}&tenant=${tenant}",
+        "group": "tenant-management"
+      },
+      {
+        "image": "/app-icons/externalMatch.svg",
+        "bannerImage": "https://cdn.reltio.com/images/ExternalMatch.svg",
+        "background": "#D8AAF012",
+        "name": "External Match",
+        "icon": "https://cdn.reltio.com/images/externalMatchLogo.svg",
+        "description": "Match external data with Reltio entities",
+        "id": "external-match",
+        "url": "{{consoleURI}}/externalMatch/?env=${environment}&tenant=${tenant}",
+        "group": "tenant-management"
+      },
+      {
+        "image": "/app-icons/hub.svg",
+        "bannerImage": "https://cdn.reltio.com/images/Integration.svg",
+        "background": "#39A7D812",
+        "icon": "https://cdn.reltio.com/images/Integration-hub-product-icon.svg",
+        "name": "Integration Hub",
+        "description": "Integration Hub",
+        "id": "integration-hub",
+        "url": "{{consoleURI}}/integration?env=${environment}&tenant=${tenant}",
+        "group": "configuration"
+      },
+      {
+        "image": "/app-icons/dataPipeline.svg",
+        "bannerImage": "https://cdn.reltio.com/images/dataPipeline.svg",
+        "background": "#39A7D812",
+        "name": "Cloud Data Warehouse Pipelines",
+        "icon": "https://cdn.reltio.com/images/dataPipelineMenu.svg",
+        "description": "Export data from Reltio to Cloud Data Warehouses using Reltio Data Pipelines",
+        "id": "data-pipelines",
+        "url": "{{consoleURI}}/data-pipelines?env=${environment}&tenant=${tenant}",
+        "group": "configuration"
+      }
+    ]
+  },
+  {
+    "name": "Security",
+    "items": [
+      {
+        "image": "/app-icons/client-credentials.svg",
+        "background": "#88ECE312",
+        "name": "Client Credentials",
+        "icon": "https://cdn.reltio.com/images/client-credentials.svg",
+        "description": "Manage credentials for API authentication",
+        "id": "client-credentials",
+        "url": "{{consoleURI}}/client-credentials?env=${environment}&tenant=${tenant}",
+        "group": "security"
+      },
+      {
+        "bannerImage": "https://cdn.reltio.com/images/user-management.svg",
+        "image": "/app-icons/sso.svg",
+        "background": "#F9E35912",
+        "icon": "https://cdn.reltio.com/images/user-management-icon.svg",
+        "name": "SSO Configuration",
+        "description": "UI for SAML and OIDC based SSO Configuration",
+        "id": "sso-configuration",
+        "url": "{{consoleURI}}/sso?env=${environment}&tenant=${tenant}",
+        "group": "security"
+      },
+      {
+        "image": "/app-icons/userManagement.svg",
+        "bannerImage": "https://cdn.reltio.com/images/um.svg",
+        "background": "#5AC2EF12",
+        "icon": "https://cdn.reltio.com/images/um-icon.svg",
+        "name": "User Management",
+        "description": "User Management application",
+        "id": "user-management",
+        "url": "{{consoleURI}}/userManagement/?env=${environment}&tenant=${tenant}",
+        "group": "security"
+      }
+    ]
+  }
+]

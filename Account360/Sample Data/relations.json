@@ -1,0 +1,52 @@
+[
+  {
+    "type": "configuration/relationTypes/affiliatedwith",
+    "crosswalks": [
+      {
+        "type": "configuration/sources/Salesforce",
+        "value": "affiliatedwith_Salesforce_1811961238_6210009"
+      }
+    ],
+    "startObject": {
+      "crosswalks": [
+        {
+          "type": "configuration/sources/Salesforce",
+          "value": "1811961238"
+        }
+      ]
+    },
+    "endObject": {
+      "crosswalks": [
+        {
+          "type": "configuration/sources/DnB",
+          "value": "6210009"
+        }
+      ]
+    }
+  },
+  {
+    "type": "configuration/relationTypes/affiliatedwith",
+    "crosswalks": [
+      {
+        "type": "configuration/sources/Salesforce",
+        "value": "affiliatedwith_Salesforce_1811961261_22547439"
+      }
+    ],
+    "startObject": {
+      "crosswalks": [
+        {
+          "type": "configuration/sources/Salesforce",
+          "value": "1811961261"
+        }
+      ]
+    },
+    "endObject": {
+      "crosswalks": [
+        {
+          "type": "configuration/sources/DnB",
+          "value": "22547439"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IdentifierTypesB2C",
+    "code": "BIC Number",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "BIC Number",
+            "value": "BIC Number",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IdentifierTypesB2C",
+    "code": "Driver License",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Driver License",
+            "value": "Driver License",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Driver License",
+            "value": "Driver License",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Driver License",
+            "value": "Driver License",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IdentifierTypesB2C",
+    "code": "Loyalty Identifier",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Loyalty Identifier",
+            "value": "Loyalty Identifier",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Loyalty Identifier",
+            "value": "Loyalty Identifier",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IdentifierTypesB2C",
+    "code": "Other",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Other",
+            "value": "Other",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IdentifierTypesB2C",
+    "code": "SSN",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "SSN",
+            "value": "SSN",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "SSN",
+            "value": "SSN",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "SSN",
+            "value": "SSN",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IdentifierTypesB2C",
+    "code": "Salesforce Identifier",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Salesforce Identifier",
+            "value": "Salesforce Identifier",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Salesforce Identifier",
+            "value": "Salesforce Identifier",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IdentifierTypesB2C",
+    "code": "Website Identifier",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "Website Identifier",
+            "value": "Website Identifier",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "Website Identifier",
+            "value": "Website Identifier",
+            "canonicalValue": "false",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,395 @@
+{
+  "class_fqid": "com-snaplogic-pipeline_8",
+  "snode_id": "5a04327dbc9ffa7bddb27305",
+  "instance_id": "e61fdfcb-f219-4a4c-ac0d-b30580d6b0ea",
+  "instance_version": 5,
+  "link_map": {
+    "link108": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "c46fbb6c-bb5e-4387-a9ee-d1c8d7928a06",
+      "dst_id": "87736631-87f4-4578-a326-2dec6fbce8a2",
+      "isGoto": false
+    },
+    "link109": {
+      "src_view_id": "output101",
+      "dst_view_id": "input0",
+      "src_id": "f576e20a-294e-4b14-8a53-f912e92d3d97",
+      "dst_id": "c46fbb6c-bb5e-4387-a9ee-d1c8d7928a06",
+      "isGoto": false
+    }
+  },
+  "link_serial": 110,
+  "property_map": {
+    "info": {
+      "notes": {
+        "value": null
+      },
+      "author": {
+        "value": "dmitry.gorkovets@reltio.com"
+      },
+      "purpose": {
+        "value": "This pipeline exports organizations from Reltio tenant using async mode.\n\nSteps:\n1) Reltio API call for export entities.\n\nExpected result:\nAfter some time Reltio user will receive notification mail from Export service that data has been exported and can be downloaded. Next step will use this link."
+      },
+      "pipeline_doc_uri": {
+        "value": null
+      },
+      "label": {
+        "value": "step01.reltio.export"
+      }
+    },
+    "input": {},
+    "settings": {
+      "param_table": {
+        "value": [
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "environmentUrl"
+            },
+            "value": {
+              "value": "https://dev.reltio.com"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "customerTenantId"
+            },
+            "value": {
+              "value": "o0wQnMResB8q1hs"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "dnbVerificationAgeGreaterThan"
+            },
+            "value": {
+              "value": "3"
+            }
+          }
+        ]
+      },
+      "imports": {
+        "value": []
+      }
+    },
+    "error": {
+      "error_behavior": {
+        "value": "none"
+      },
+      "f576e20a-294e-4b14-8a53-f912e92d3d97_error0": {
+        "label": {
+          "value": "Export org to S3 - error0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      }
+    },
+    "output": {}
+  },
+  "render_map": {
+    "pan_x_num": 0,
+    "default_snaplex": "54edf99dba6d56447136f330",
+    "scale_ratio": 1,
+    "detail_map": {
+      "f576e20a-294e-4b14-8a53-f912e92d3d97": {
+        "grid_x_int": 1,
+        "rot_int": 0,
+        "grid_y_int": 2,
+        "rot_tail_int": 0,
+        "error": {
+          "error0": {
+            "dx_int": 0,
+            "rot_int": 0,
+            "dy_int": -1
+          }
+        }
+      },
+      "87736631-87f4-4578-a326-2dec6fbce8a2": {
+        "grid_x_int": 3,
+        "error": {},
+        "grid_y_int": 2,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "c46fbb6c-bb5e-4387-a9ee-d1c8d7928a06": {
+        "grid_x_int": 2,
+        "error": {},
+        "grid_y_int": 2,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      }
+    },
+    "pan_y_num": 0
+  },
+  "snap_map": {
+    "f576e20a-294e-4b14-8a53-f912e92d3d97": {
+      "class_fqid": "com-snaplogic-snaps-reltiosnapconnector-reltioexecute_1-b0026",
+      "class_id": "com-snaplogic-snaps-reltiosnapconnector-reltioexecute",
+      "class_version": 1,
+      "instance_fqid": "f576e20a-294e-4b14-8a53-f912e92d3d97_3",
+      "instance_id": "f576e20a-294e-4b14-8a53-f912e92d3d97",
+      "instance_version": 3,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Export org to S3"
+          }
+        },
+        "view_serial": 101,
+        "account": {
+          "account_ref": {
+            "expression": false,
+            "value": {}
+          }
+        },
+        "settings": {
+          "retryInterval": {
+            "value": 3
+          },
+          "retry": {
+            "value": 5
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "queryParams": {
+            "value": [
+              {
+                "queryParamValue": {
+                  "expression": true,
+                  "value": "\"(equals(type, 'configuration/entityTypes/Organization') and (missing(attributes.DUNSNumber)  or equals(attributes.ManualVerificationFlag,'true') or lt(attributes.VendorVerificationDate, \" + Math.ceil(Date.now().minusDays(_dnbVerificationAgeGreaterThan).getTime()) + \")))   and (missing(attributes.DoNotEnrich) or equals(attributes.DoNotEnrich, 'false'))\""
+                },
+                "queryParam": {
+                  "value": "filter"
+                }
+              },
+              {
+                "queryParamValue": {
+                  "expression": false,
+                  "value": "json"
+                },
+                "queryParam": {
+                  "value": "fileFormat"
+                }
+              },
+              {
+                "queryParamValue": {
+                  "expression": false,
+                  "value": "false"
+                },
+                "queryParam": {
+                  "value": "ovOnly"
+                }
+              },
+              {
+                "queryParamValue": {
+                  "expression": false,
+                  "value": "true"
+                },
+                "queryParam": {
+                  "value": "async"
+                }
+              }
+            ]
+          },
+          "httpEntity": {
+            "expression": false,
+            "value": null
+          },
+          "rawData": {
+            "value": false
+          },
+          "serviceUrl": {
+            "expression": true,
+            "value": "_environmentUrl + \"/jobs/export/\" + _customerTenantId + \"/entities/_scan\""
+          },
+          "httpMethodType": {
+            "value": "POST"
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "continue"
+          }
+        },
+        "output": {
+          "output101": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "b0026"
+    },
+    "87736631-87f4-4578-a326-2dec6fbce8a2": {
+      "class_fqid": "com-snaplogic-snaps-binary-write_3-snapsmrc382",
+      "class_id": "com-snaplogic-snaps-binary-write",
+      "class_version": 3,
+      "instance_fqid": "87736631-87f4-4578-a326-2dec6fbce8a2_1",
+      "instance_id": "87736631-87f4-4578-a326-2dec6fbce8a2",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "File Writer"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "value": {}
+          }
+        },
+        "settings": {
+          "createDir": {
+            "value": false
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "filename": {
+            "expression": false,
+            "value": "test.txt"
+          },
+          "writeEmptyFile": {
+            "value": false
+          },
+          "UserPermissionsKey": {
+            "value": []
+          },
+          "validate": {
+            "value": false
+          },
+          "fileAction": {
+            "value": "OVERWRITE"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc382"
+    },
+    "c46fbb6c-bb5e-4387-a9ee-d1c8d7928a06": {
+      "class_fqid": "com-snaplogic-snaps-transform-jsonformatter_2-snapsmrc382",
+      "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+      "class_version": 2,
+      "instance_fqid": "c46fbb6c-bb5e-4387-a9ee-d1c8d7928a06_1",
+      "instance_id": "c46fbb6c-bb5e-4387-a9ee-d1c8d7928a06",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "JSON Formatter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "jsonLines": {
+            "value": false
+          },
+          "ignoreEmptyStream": {
+            "value": false
+          },
+          "formatSingleDocument": {
+            "value": false
+          },
+          "prettyPrint": {
+            "value": false
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc382"
+    }
+  },
+  "path_id": "/ReltioDev/Reltio DDA/DnB_DI_Batch",
+  "path_snode": "5a04313766ef27587c5e3bf5"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Active",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Active",
+            "value": "Active",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Deceased",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Deceased",
+            "value": "Deceased",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Inactive",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Inactive",
+            "value": "Inactive",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Moved",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Moved",
+            "value": "Moved",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Pending",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Pending",
+            "value": "Pending",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Presumed Dead",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Presumed Dead",
+            "value": "Presumed Dead",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Retired",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Retired",
+            "value": "Retired",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/IndividualStatuses",
+    "code": "Semi-Retired",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "proactive_monitoring_service",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Semi-Retired",
+            "value": "Semi-Retired",
+            "canonicalValue": "true",
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

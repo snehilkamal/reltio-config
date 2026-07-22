@@ -1,0 +1,50 @@
+[
+    {
+        "tenantId": "{{rdmTenant}}",
+        "type": "rdm/lookupTypes/App-Account360PaymentType",
+        "code": "ST",
+        "enabled": true,
+        "sourceMappings": [
+            {
+                "source": "Reltio",
+                "values": [
+                    {
+                        "code": "ST",
+                        "value": "Payment Sent",
+                        "enabled": true,
+                        "canonicalValue": false,
+                        "downStreamDefaultValue": true
+                    }
+                ]
+            }
+        ],
+        "localizations": [],
+        "parents": [],
+        "startDate": 0,
+        "endDate": 0
+    },
+    {
+        "tenantId": "{{rdmTenant}}",
+        "type": "rdm/lookupTypes/App-Account360PaymentType",
+        "code": "RC",
+        "enabled": true,
+        "sourceMappings": [
+            {
+                "source": "Reltio",
+                "values": [
+                    {
+                        "code": "RC",
+                        "value": "Payment Received",
+                        "enabled": true,
+                        "canonicalValue": false,
+                        "downStreamDefaultValue": true
+                    }
+                ]
+            }
+        ],
+        "localizations": [],
+        "parents": [],
+        "startDate": 0,
+        "endDate": 0
+    }
+]

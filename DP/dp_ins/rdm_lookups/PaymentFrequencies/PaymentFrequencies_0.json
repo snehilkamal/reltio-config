@@ -1,0 +1,650 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PaymentFrequencies",
+    "code": "Monthly",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Monthly",
+            "value": "Monthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PaymentFrequencies",
+    "code": "Semimonthly",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Semimonthly",
+            "value": "Semimonthly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PaymentFrequencies",
+    "code": "Annually",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Annually",
+            "value": "Annually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PaymentFrequencies",
+    "code": "Weekly",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Weekly",
+            "value": "Weekly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PaymentFrequencies",
+    "code": "Semiannually",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Semiannually",
+            "value": "Semiannually",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/PaymentFrequencies",
+    "code": "Quarterly",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Quarterly",
+            "value": "Quarterly",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

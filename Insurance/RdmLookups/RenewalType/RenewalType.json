@@ -1,0 +1,146 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/RenewalType",
+    "code": "YEARLY",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "YEARLY",
+            "value": "Yearly",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "YEARLY",
+            "value": "Yearly",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/RenewalType",
+    "code": "HY",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "HY",
+            "value": "Half-yearly",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "HY",
+            "value": "Half-yearly",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/RenewalType",
+    "code": "QUATERLY",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "QUATERLY",
+            "value": "Quarterly",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "QUATERLY",
+            "value": "Quarterly",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/RenewalType",
+    "code": "MONTHLY",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MONTHLY",
+            "value": "Monthly",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MONTHLY",
+            "value": "Monthly",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  }
+]

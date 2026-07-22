@@ -1,0 +1,289 @@
+{
+  "class_fqid": "com-snaplogic-pipeline_8",
+  "snode_id": "5a04332d17f60c74d65a9458",
+  "instance_id": "898259e1-e355-4d3c-b12f-c189d095b4c0",
+  "instance_version": 5,
+  "link_map": {
+    "link108": {
+      "src_view_id": "out",
+      "dst_view_id": "input0",
+      "src_id": "9d744226-d576-419f-a164-57a18b9c4a95",
+      "dst_id": "6cc3dd64-21e0-4787-9717-0b61bf639a09",
+      "isGoto": false
+    }
+  },
+  "link_serial": 109,
+  "property_map": {
+    "info": {
+      "notes": {
+        "value": null
+      },
+      "label": {
+        "value": "step03.ftp.download.to.s3"
+      },
+      "purpose": {
+        "value": "This pipeline copies file with results from DnB FTP to S3 bucket as intermediate storage"
+      },
+      "pipeline_doc_uri": {
+        "value": null
+      },
+      "author": {
+        "value": "dmitry.gorkovets@reltio.com"
+      }
+    },
+    "input": {},
+    "settings": {
+      "param_table": {
+        "value": [
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "marriott"
+            },
+            "key": {
+              "value": "customer"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "reltio-dda-dnb-ftp-results"
+            },
+            "key": {
+              "value": "s3_bucket"
+            }
+          }
+        ]
+      },
+      "imports": {
+        "value": []
+      }
+    },
+    "error": {
+      "error_behavior": {
+        "value": "none"
+      }
+    },
+    "output": {
+      "6cc3dd64-21e0-4787-9717-0b61bf639a09_output0": {
+        "label": {
+          "value": "Copy from FTP to S3 - output0"
+        },
+        "view_type": {
+          "value": "document"
+        }
+      }
+    }
+  },
+  "render_map": {
+    "pan_x_num": 0,
+    "default_snaplex": "577c936cfc6c8e7ddb07e3f3",
+    "scale_ratio": 1,
+    "detail_map": {
+      "6cc3dd64-21e0-4787-9717-0b61bf639a09": {
+        "grid_x_int": 2,
+        "rot_int": 0,
+        "grid_y_int": 1,
+        "rot_tail_int": 0
+      },
+      "9d744226-d576-419f-a164-57a18b9c4a95": {
+        "grid_x_int": 1,
+        "error": {},
+        "grid_y_int": 1,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      }
+    },
+    "pan_y_num": 0
+  },
+  "snap_map": {
+    "6cc3dd64-21e0-4787-9717-0b61bf639a09": {
+      "class_fqid": "com-snaplogic-snaps-flow-pipeexec_1-snapsmrc414",
+      "class_id": "com-snaplogic-snaps-flow-pipeexec",
+      "class_version": 1,
+      "instance_fqid": "6cc3dd64-21e0-4787-9717-0b61bf639a09_3",
+      "instance_id": "6cc3dd64-21e0-4787-9717-0b61bf639a09",
+      "instance_version": 3,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Copy from FTP to S3"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "pipeline": {
+            "expression": false,
+            "value": "__internal01.ftp.download.to.s3"
+          },
+          "reuse": {
+            "value": false
+          },
+          "loopDocument": {
+            "expression": true
+          },
+          "executable_during_suggest": {
+            "value": true
+          },
+          "poolSize": {
+            "expression": false,
+            "value": 1
+          },
+          "execLabel": {
+            "expression": false,
+            "value": null
+          },
+          "params": {
+            "value": [
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "$Name"
+                },
+                "paramName": {
+                  "value": "fileName"
+                }
+              },
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "$Path"
+                },
+                "paramName": {
+                  "value": "filePath"
+                }
+              },
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "_customer"
+                },
+                "paramName": {
+                  "value": "customer"
+                }
+              },
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "_s3_bucket"
+                },
+                "paramName": {
+                  "value": "s3_bucket"
+                }
+              }
+            ]
+          },
+          "snaplex": {
+            "expression": false,
+            "value": null
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc414"
+    },
+    "9d744226-d576-419f-a164-57a18b9c4a95": {
+      "class_fqid": "com-snaplogic-snaps-binary-directorybrowser_1-snapsmrc414",
+      "class_id": "com-snaplogic-snaps-binary-directorybrowser",
+      "class_version": 1,
+      "instance_fqid": "9d744226-d576-419f-a164-57a18b9c4a95_1",
+      "instance_id": "9d744226-d576-419f-a164-57a18b9c4a95",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "FTP Dir Browser"
+          }
+        },
+        "view_serial": 100,
+        "account": {},
+        "settings": {
+          "Directory": {
+            "expression": false,
+            "value": "sftp://files.reltio.com/incoming/gets"
+          },
+          "Filter": {
+            "expression": false,
+            "value": "*.glb"
+          },
+          "ignoreEmptyResult": {
+            "value": true
+          },
+          "s3SubfolderMetadataProp": {
+            "value": true
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "out": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "Output view"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc414"
+    }
+  },
+  "path_id": "/ReltioDev/Reltio DDA/DnB_DI_Batch",
+  "path_snode": "5a04313766ef27587c5e3bf5"
+}

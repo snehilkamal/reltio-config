@@ -1,0 +1,1291 @@
+{
+  "class_fqid": "com-snaplogic-pipeline_8",
+  "snode_id": "5a04339166ef2732ef1cb740",
+  "instance_id": "0210b4cf-c5aa-4d4e-a000-fcbcb75da72c",
+  "instance_version": 12,
+  "link_map": {
+    "link326": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "030eda3e-05ee-40c5-8960-3f4ac69d42db",
+      "dst_id": "4e7c2245-dc03-408e-92f6-c5881307d699",
+      "isGoto": false
+    },
+    "link327": {
+      "src_view_id": "error0",
+      "dst_view_id": "input0",
+      "src_id": "4e7c2245-dc03-408e-92f6-c5881307d699",
+      "dst_id": "88c448e7-0307-4116-a9e1-ba260689cb04",
+      "isGoto": true
+    },
+    "link324": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "ef1ffea4-6709-4ada-92c0-25ef17decee0",
+      "dst_id": "0c9f58b1-d1d4-4242-ba3e-664b4af92d5a",
+      "isGoto": false
+    },
+    "link325": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "9323d68c-9560-4ee5-a18e-fd463115dc0d",
+      "dst_id": "49fca54b-ab63-47c4-8cdc-2164d2bbc44a",
+      "isGoto": false
+    },
+    "link322": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "20a12e68-e4ea-4b23-8c59-dc8a9a975643",
+      "dst_id": "9323d68c-9560-4ee5-a18e-fd463115dc0d",
+      "isGoto": false
+    },
+    "link323": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "49fca54b-ab63-47c4-8cdc-2164d2bbc44a",
+      "dst_id": "ef1ffea4-6709-4ada-92c0-25ef17decee0",
+      "isGoto": false
+    },
+    "link320": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "77bd9a70-611e-4a22-8a32-b4421cef8c2a",
+      "dst_id": "20a12e68-e4ea-4b23-8c59-dc8a9a975643",
+      "isGoto": false
+    },
+    "link321": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "4e7c2245-dc03-408e-92f6-c5881307d699",
+      "dst_id": "77bd9a70-611e-4a22-8a32-b4421cef8c2a",
+      "isGoto": false
+    },
+    "link328": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "88c448e7-0307-4116-a9e1-ba260689cb04",
+      "dst_id": "3a067dad-2065-4605-8ec2-01a59823c07b",
+      "isGoto": false
+    },
+    "link319": {
+      "src_view_id": "error0",
+      "dst_view_id": "input0",
+      "src_id": "77bd9a70-611e-4a22-8a32-b4421cef8c2a",
+      "dst_id": "527a2d3f-bdc5-420d-9694-ef5b910467a0",
+      "isGoto": false
+    },
+    "link317": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "527a2d3f-bdc5-420d-9694-ef5b910467a0",
+      "dst_id": "eb844403-4bbd-4f92-9007-c80c04042e6b",
+      "isGoto": false
+    }
+  },
+  "link_serial": 329,
+  "property_map": {
+    "info": {
+      "notes": {
+        "value": null
+      },
+      "author": {
+        "value": "dmitry.gorkovets@reltio.com"
+      },
+      "purpose": {
+        "value": "This pipeline reads file with DnB results from intermediate storage (S3 bucket) and processes linkage (creates organizations, locations, hierarchies)"
+      },
+      "pipeline_doc_uri": {
+        "value": null
+      },
+      "label": {
+        "value": "manual.linkage.using.s3.file"
+      }
+    },
+    "input": {},
+    "settings": {
+      "imports": {
+        "value": []
+      },
+      "param_table": {
+        "value": [
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "o0wQnMResB8q1hs"
+            },
+            "key": {
+              "value": "tenantId"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "https://dev.reltio.com/reltio/api/"
+            },
+            "key": {
+              "value": "environment"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "andrey.pavlov"
+            },
+            "key": {
+              "value": "reltio_user"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "pwd123"
+            },
+            "key": {
+              "value": "reltio_password"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "https://b2bintegration-dev.reltio.com/b2bIntegration/dnb/processLinkage"
+            },
+            "key": {
+              "value": "service"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "reltio-dda-dnb-ftp-results"
+            },
+            "key": {
+              "value": "s3_bucket"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "marriott/glb.out3700.glb.zip"
+            },
+            "key": {
+              "value": "s3_file"
+            }
+          }
+        ]
+      },
+      "error_param_table": {
+        "value": []
+      },
+      "error_pipeline": {
+        "expression": false,
+        "value": null
+      }
+    },
+    "error": {
+      "error_behavior": {
+        "value": "none"
+      }
+    },
+    "output": {}
+  },
+  "render_map": {
+    "pan_x_num": 0,
+    "default_snaplex": "54edf99dba6d56447136f330",
+    "scale_ratio": 1,
+    "detail_map": {
+      "0c9f58b1-d1d4-4242-ba3e-664b4af92d5a": {
+        "grid_x_int": 8,
+        "rot_int": 0,
+        "grid_y_int": 3,
+        "rot_tail_int": 0
+      },
+      "49fca54b-ab63-47c4-8cdc-2164d2bbc44a": {
+        "grid_x_int": 6,
+        "error": {},
+        "grid_y_int": 3,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "88c448e7-0307-4116-a9e1-ba260689cb04": {
+        "grid_x_int": 4,
+        "grid_y_int": 1,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {},
+        "rot_int": 0
+      },
+      "ef1ffea4-6709-4ada-92c0-25ef17decee0": {
+        "grid_x_int": 7,
+        "error": {},
+        "grid_y_int": 3,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "77bd9a70-611e-4a22-8a32-b4421cef8c2a": {
+        "grid_x_int": 3,
+        "output": {},
+        "grid_y_int": 3,
+        "rot_tail_int": 0,
+        "error": {
+          "error0": {
+            "dx_int": 0,
+            "rot_int": 0,
+            "dy_int": -1
+          }
+        },
+        "input": {},
+        "rot_int": 0
+      },
+      "20a12e68-e4ea-4b23-8c59-dc8a9a975643": {
+        "grid_x_int": 4,
+        "error": {},
+        "grid_y_int": 3,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "030eda3e-05ee-40c5-8960-3f4ac69d42db": {
+        "grid_x_int": 1,
+        "rot_int": 0,
+        "grid_y_int": 3,
+        "rot_tail_int": 0
+      },
+      "eb844403-4bbd-4f92-9007-c80c04042e6b": {
+        "grid_x_int": 5,
+        "rot_int": 0,
+        "grid_y_int": 2,
+        "rot_tail_int": 0
+      },
+      "527a2d3f-bdc5-420d-9694-ef5b910467a0": {
+        "grid_x_int": 4,
+        "error": {},
+        "grid_y_int": 2,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "3a067dad-2065-4605-8ec2-01a59823c07b": {
+        "grid_x_int": 5,
+        "rot_int": 270,
+        "grid_y_int": 1,
+        "rot_tail_int": 0
+      },
+      "4e7c2245-dc03-408e-92f6-c5881307d699": {
+        "grid_x_int": 2,
+        "rot_int": 0,
+        "grid_y_int": 3,
+        "rot_tail_int": 0,
+        "error": {
+          "error0": {
+            "dx_int": 0,
+            "rot_int": 0,
+            "dy_int": -1
+          }
+        }
+      },
+      "9323d68c-9560-4ee5-a18e-fd463115dc0d": {
+        "grid_x_int": 5,
+        "error": {},
+        "grid_y_int": 3,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      }
+    },
+    "pan_y_num": 0
+  },
+  "snap_map": {
+    "0c9f58b1-d1d4-4242-ba3e-664b4af92d5a": {
+      "class_fqid": "com-snaplogic-snaps-binary-write_3-binary2009",
+      "class_id": "com-snaplogic-snaps-binary-write",
+      "class_version": 3,
+      "instance_fqid": "0c9f58b1-d1d4-4242-ba3e-664b4af92d5a_4",
+      "instance_id": "0c9f58b1-d1d4-4242-ba3e-664b4af92d5a",
+      "instance_version": 4,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Connector errors"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "expression": false,
+            "value": {}
+          }
+        },
+        "settings": {
+          "createDir": {
+            "value": false
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "filename": {
+            "expression": true,
+            "value": "\"s3:///\" + _s3_bucket + \"/\" + _s3_file + \".connector_errors.log\""
+          },
+          "writeEmptyFile": {
+            "value": false
+          },
+          "UserPermissionsKey": {
+            "value": []
+          },
+          "validate": {
+            "value": false
+          },
+          "fileAction": {
+            "value": "OVERWRITE"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "binary2009"
+    },
+    "49fca54b-ab63-47c4-8cdc-2164d2bbc44a": {
+      "class_fqid": "com-snaplogic-snaps-transform-jsonsplitter_1-transform4058",
+      "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+      "class_version": 1,
+      "instance_fqid": "49fca54b-ab63-47c4-8cdc-2164d2bbc44a_1",
+      "instance_id": "49fca54b-ab63-47c4-8cdc-2164d2bbc44a",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "JSON Splitter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": false
+          },
+          "includeParents": {
+            "value": false
+          },
+          "includePaths": {
+            "value": []
+          },
+          "path": {
+            "value": "$responses"
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform4058"
+    },
+    "88c448e7-0307-4116-a9e1-ba260689cb04": {
+      "class_fqid": "com-snaplogic-snaps-transform-jsonformatter_2-transform1901",
+      "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+      "class_version": 2,
+      "instance_fqid": "88c448e7-0307-4116-a9e1-ba260689cb04_1",
+      "instance_id": "88c448e7-0307-4116-a9e1-ba260689cb04",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "JSON Formatter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "ignoreEmptyStream": {
+            "value": false
+          },
+          "prettyPrint": {
+            "value": true
+          },
+          "formatSingleDocument": {
+            "value": false
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "binary"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "binary"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform1901"
+    },
+    "ef1ffea4-6709-4ada-92c0-25ef17decee0": {
+      "class_fqid": "com-snaplogic-snaps-transform-csvformatter_3-transform4058",
+      "class_id": "com-snaplogic-snaps-transform-csvformatter",
+      "class_version": 3,
+      "instance_fqid": "ef1ffea4-6709-4ada-92c0-25ef17decee0_1",
+      "instance_id": "ef1ffea4-6709-4ada-92c0-25ef17decee0",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "CSV Formatter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "quoteMode": {
+            "value": "ALL"
+          },
+          "quoteCharacter": {
+            "expression": false,
+            "value": "\""
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "userDefinedHeader": {
+            "value": []
+          },
+          "charset": {
+            "value": "UTF-8"
+          },
+          "ignoreEmptyStream": {
+            "value": false
+          },
+          "writeBOM": {
+            "value": false
+          },
+          "delimiter": {
+            "expression": false,
+            "value": ","
+          },
+          "newlineCharacter": {
+            "value": "LF"
+          },
+          "useDefinedHeader": {
+            "value": false
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform4058"
+    },
+    "77bd9a70-611e-4a22-8a32-b4421cef8c2a": {
+      "class_fqid": "com-snaplogic-snaps-rest-post_1-snapsmrc382",
+      "class_id": "com-snaplogic-snaps-rest-post",
+      "class_version": 1,
+      "instance_fqid": "77bd9a70-611e-4a22-8a32-b4421cef8c2a_1",
+      "instance_id": "77bd9a70-611e-4a22-8a32-b4421cef8c2a",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Make Linkage"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "expression": false,
+            "value": {}
+          }
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "retryInterval": {
+            "value": 3
+          },
+          "trustAllCerts": {
+            "value": false
+          },
+          "retry": {
+            "value": 5
+          },
+          "timeout": {
+            "value": 900
+          },
+          "uploadFile": {
+            "expression": false,
+            "value": null
+          },
+          "showAllHeaders": {
+            "value": false
+          },
+          "batchSize": {
+            "value": 400
+          },
+          "executable_during_suggest": {
+            "value": true
+          },
+          "entity": {
+            "expression": true,
+            "value": "$"
+          },
+          "header": {
+            "value": [
+              {
+                "headerKey": {
+                  "expression": false,
+                  "value": "Reltio-User"
+                },
+                "headerValue": {
+                  "expression": true,
+                  "value": "_reltio_user"
+                }
+              },
+              {
+                "headerKey": {
+                  "expression": false,
+                  "value": "Reltio-Password"
+                },
+                "headerValue": {
+                  "expression": true,
+                  "value": "_reltio_password"
+                }
+              },
+              {
+                "headerKey": {
+                  "expression": false,
+                  "value": "Content-Type"
+                },
+                "headerValue": {
+                  "expression": false,
+                  "value": "application/json"
+                }
+              },
+              {
+                "headerKey": {
+                  "expression": false,
+                  "value": "TenantId"
+                },
+                "headerValue": {
+                  "expression": true,
+                  "value": "_tenantId"
+                }
+              },
+              {
+                "headerKey": {
+                  "expression": false,
+                  "value": "EnvironmentUrl"
+                },
+                "headerValue": {
+                  "expression": true,
+                  "value": "_environment"
+                }
+              }
+            ]
+          },
+          "responseEntityType": {
+            "value": "DEFAULT"
+          },
+          "uploadTransferRequestType": {
+            "value": "Chunked transfer encoding"
+          },
+          "rawData": {
+            "value": false
+          },
+          "serviceUrl": {
+            "expression": true,
+            "value": "_service"
+          },
+          "uploadFileKey": {
+            "expression": false,
+            "value": "file"
+          },
+          "connTimeout": {
+            "value": 30
+          },
+          "queryParams": {
+            "value": []
+          },
+          "followRedirects": {
+            "value": true
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "continue"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc382"
+    },
+    "20a12e68-e4ea-4b23-8c59-dc8a9a975643": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-transform1901",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "20a12e68-e4ea-4b23-8c59-dc8a9a975643_1",
+      "instance_id": "20a12e68-e4ea-4b23-8c59-dc8a9a975643",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Mapper"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": true
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "$response.entity"
+                    },
+                    "targetPath": {
+                      "value": "$responses"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform1901"
+    },
+    "030eda3e-05ee-40c5-8960-3f4ac69d42db": {
+      "class_fqid": "com-snaplogic-snaps-binary-unzip_1-snapsmrc414",
+      "class_id": "com-snaplogic-snaps-binary-unzip",
+      "class_version": 1,
+      "instance_fqid": "030eda3e-05ee-40c5-8960-3f4ac69d42db_2",
+      "instance_id": "030eda3e-05ee-40c5-8960-3f4ac69d42db",
+      "instance_version": 2,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Read from S3"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "expression": false,
+            "value": {}
+          }
+        },
+        "settings": {
+          "executeDuringPreview": {
+            "value": true
+          },
+          "preventURLEncoding": {
+            "value": false
+          },
+          "filePath": {
+            "expression": true,
+            "value": "\"s3:///\" + _s3_bucket + \"/\" + _s3_file"
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "binary"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc414"
+    },
+    "eb844403-4bbd-4f92-9007-c80c04042e6b": {
+      "class_fqid": "com-snaplogic-snaps-binary-write_3-binary2009",
+      "class_id": "com-snaplogic-snaps-binary-write",
+      "class_version": 3,
+      "instance_fqid": "eb844403-4bbd-4f92-9007-c80c04042e6b_3",
+      "instance_id": "eb844403-4bbd-4f92-9007-c80c04042e6b",
+      "instance_version": 3,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Linkage errors"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "expression": false,
+            "value": {}
+          }
+        },
+        "settings": {
+          "createDir": {
+            "value": false
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "filename": {
+            "expression": true,
+            "value": "\"s3:///\" + _s3_bucket + \"/\" + _s3_file + \".linkage_errors.log\""
+          },
+          "writeEmptyFile": {
+            "value": false
+          },
+          "UserPermissionsKey": {
+            "value": []
+          },
+          "validate": {
+            "value": false
+          },
+          "fileAction": {
+            "value": "OVERWRITE"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "binary2009"
+    },
+    "527a2d3f-bdc5-420d-9694-ef5b910467a0": {
+      "class_fqid": "com-snaplogic-snaps-transform-jsonformatter_2-transform1901",
+      "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+      "class_version": 2,
+      "instance_fqid": "527a2d3f-bdc5-420d-9694-ef5b910467a0_1",
+      "instance_id": "527a2d3f-bdc5-420d-9694-ef5b910467a0",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "JSON Formatter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "ignoreEmptyStream": {
+            "value": false
+          },
+          "formatSingleDocument": {
+            "value": false
+          },
+          "prettyPrint": {
+            "value": true
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform1901"
+    },
+    "3a067dad-2065-4605-8ec2-01a59823c07b": {
+      "class_fqid": "com-snaplogic-snaps-binary-write_3-binary2009",
+      "class_id": "com-snaplogic-snaps-binary-write",
+      "class_version": 3,
+      "instance_fqid": "3a067dad-2065-4605-8ec2-01a59823c07b_2",
+      "instance_id": "3a067dad-2065-4605-8ec2-01a59823c07b",
+      "instance_version": 2,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "CSV errors"
+          }
+        },
+        "view_serial": 100,
+        "account": {
+          "account_ref": {
+            "expression": false,
+            "value": {}
+          }
+        },
+        "settings": {
+          "createDir": {
+            "value": false
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "filename": {
+            "expression": true,
+            "value": "\"s3:///\" + _s3_bucket + \"/\" + _s3_file + \".csv_errors.log\""
+          },
+          "writeEmptyFile": {
+            "value": false
+          },
+          "UserPermissionsKey": {
+            "value": []
+          },
+          "validate": {
+            "value": false
+          },
+          "fileAction": {
+            "value": "OVERWRITE"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "binary2009"
+    },
+    "4e7c2245-dc03-408e-92f6-c5881307d699": {
+      "class_fqid": "com-snaplogic-snaps-transform-csvparser_3-transform4058",
+      "class_id": "com-snaplogic-snaps-transform-csvparser",
+      "class_version": 3,
+      "instance_fqid": "4e7c2245-dc03-408e-92f6-c5881307d699_2",
+      "instance_id": "4e7c2245-dc03-408e-92f6-c5881307d699",
+      "instance_version": 2,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "CSV Parser"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "escapeChar": {
+            "expression": false,
+            "value": "\\"
+          },
+          "quoteCharacter": {
+            "expression": false,
+            "value": "\""
+          },
+          "containsHeader": {
+            "value": false
+          },
+          "charset": {
+            "value": "UTF-8"
+          },
+          "skipLines": {
+            "value": 0
+          },
+          "delimiter": {
+            "expression": false,
+            "value": ","
+          },
+          "errorPolicy": {
+            "value": "Both"
+          },
+          "columnList": {
+            "value": []
+          },
+          "validateHeaders": {
+            "value": false
+          },
+          "ignoreEmptyData": {
+            "value": true
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "continue"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform4058"
+    },
+    "9323d68c-9560-4ee5-a18e-fd463115dc0d": {
+      "class_fqid": "com-snaplogic-snaps-flow-filter_2-snapsmrc414",
+      "class_id": "com-snaplogic-snaps-flow-filter",
+      "class_version": 2,
+      "instance_fqid": "9323d68c-9560-4ee5-a18e-fd463115dc0d_1",
+      "instance_id": "9323d68c-9560-4ee5-a18e-fd463115dc0d",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Filter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "filterExpression": {
+            "expression": true,
+            "value": "$responses.length!=0"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc414"
+    }
+  },
+  "path_id": "/ReltioDev/Reltio DDA/DnB_DI_Batch",
+  "path_snode": "5a04313766ef27587c5e3bf5"
+}

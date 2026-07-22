@@ -1,0 +1,240 @@
+[
+  {
+    "type": "rdm/lookupTypes/App-Consumer360StatusReasonCode",
+    "tenantId": "{{rdmTenant}}",
+    "code": "INVLD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "INVLD",
+            "value": "Invalid",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "INVLD",
+            "value": "Invalid",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "parents": ["rdm/lookupTypes/App-Consumer360Status/I"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "type": "rdm/lookupTypes/App-Consumer360StatusReasonCode",
+    "tenantId": "{{rdmTenant}}",
+    "code": "TMP_INACTV",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "TMP_INACTV",
+            "value": "Temporary Inactive",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "TMP_INACTV",
+            "value": "Temporary Inactive",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "parents": ["rdm/lookupTypes/App-Consumer360Status/I"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "type": "rdm/lookupTypes/App-Consumer360StatusReasonCode",
+    "tenantId": "{{rdmTenant}}",
+    "code": "DCSSD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DCSSD",
+            "value": "Deceased",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DCSSD",
+            "value": "Deceased",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "parents": ["rdm/lookupTypes/App-Consumer360Status/I"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "type": "rdm/lookupTypes/App-Consumer360StatusReasonCode",
+    "tenantId": "{{rdmTenant}}",
+    "code": "DPLCT",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DPLCT",
+            "value": "Duplicated",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DPLCT",
+            "value": "Duplicated",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "parents": ["rdm/lookupTypes/App-Consumer360Status/I"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "type": "rdm/lookupTypes/App-Consumer360StatusReasonCode",
+    "tenantId": "{{rdmTenant}}",
+    "code": "PRVCY_LW",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PRVCY_LW",
+            "value": "Data Privacy Law",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "PRVCY_LW",
+            "value": "Data Privacy Law",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "parents": ["rdm/lookupTypes/App-Consumer360Status/I"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "type": "rdm/lookupTypes/App-Consumer360StatusReasonCode",
+    "tenantId": "{{rdmTenant}}",
+    "code": "UNKNWN_ADDRS",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "UNKNWN_ADDRS",
+            "value": "Unknown Address(Postal Return)",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "UNKNWN_ADDRS",
+            "value": "Unknown Address(Postal Return)",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "parents": ["rdm/lookupTypes/App-Consumer360Status/I"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "type": "rdm/lookupTypes/App-Consumer360StatusReasonCode",
+    "tenantId": "{{rdmTenant}}",
+    "code": "CLSD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CLSD",
+            "value": "Closed",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "CLSD",
+            "value": "Closed",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "parents": ["rdm/lookupTypes/App-Consumer360Status/I"],
+    "startDate": 0,
+    "endDate": 0
+  }
+]

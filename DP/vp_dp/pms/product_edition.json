@@ -1,0 +1,25 @@
+{
+  "name": "vp_dp",
+  "businessConfigPath": "DP/vp_dp/BusinessConfig.json",
+  "rdmLookUpsPath": "DP/vp_dp/rdm_lookups",
+  "uiConfigFolderPath": "DP/vp_dp/UI Config",
+  "uiConfig": {
+    "uiConfigFolderPath": "DP/vp_dp/UI Config",
+    "consoleAppsPath": "DP/vp_dp/UI Config/console_apps.json",
+    "chocolateBarPath": "DP/vp_dp/UI Config/chocolate_bar.json"
+  },
+  "dvfConfigPath": "DP/vp_dp/dvfs.json",
+  "sampleData": {},
+  "permissionsPath": "DP/vp_dp/Permissions.json",
+  "cleansersPath": "DP/vp_dp/tenant_cleanse_config.json",
+  "dtssConfigPath": {},
+  "dnb": {
+    "mappings": {}
+  },
+  "rih": {
+    "manifests": [],
+    "connections": []
+  },
+  "repositoryBranch": "RP-132403-Dp-Vp",
+  "reltioPackageType": "DATA_PRODUCTS"
+}

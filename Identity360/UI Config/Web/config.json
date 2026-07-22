@@ -1,0 +1,1687 @@
+{
+   "layout": [
+      {
+         "items": [
+            {
+               "label": "Profile stats",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Dashboard.svg",
+               "class": "Dashboard",
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "height": 10,
+                     "y": 0,
+                     "x": 0,
+                     "width": 3
+                  },
+                  {
+                     "y": 10,
+                     "x": 0,
+                     "height": 10,
+                     "width": 1,
+                     "id": "com.reltio.plugins.dashboard.DataQualityIssues"
+                  },
+                  {
+                     "y": 10,
+                     "x": 1,
+                     "height": 10,
+                     "width": 2,
+                     "id": "com.reltio.plugins.dashboard.IndividualsByMaritalStatus"
+                  },
+                  {
+                     "y": 20,
+                     "x": 0,
+                     "height": 10,
+                     "width": 1,
+                     "id": "com.reltio.plugins.dashboard.CustomersbyStateView"
+                  },
+                  {
+                     "y": 20,
+                     "x": 1,
+                     "height": 10,
+                     "width": 2,
+                     "id": "com.reltio.plugins.dashboard.IndividualsByGender"
+                  },
+                  {
+                     "y": 30,
+                     "x": 0,
+                     "height": 10,
+                     "width": 1,
+                     "id": "com.reltio.plugins.dashboard.AddressVerificationView"
+                  },
+                  {
+                     "y": 30,
+                     "x": 1,
+                     "height": 10,
+                     "width": 2,
+                     "id": "com.reltio.plugins.dashboard.IndividualSourceView"
+                  },
+                  {
+                     "id": "com.reltio.plugins.notifications.Inbox",
+                     "height": 10,
+                     "y": 0,
+                     "x": 3,
+                     "width": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "height": 10,
+                     "y": 10,
+                     "x": 3,
+                     "width": 1
+                  }
+               ],
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "component": "ProfileStatsFacet",
+                     "title": "Profile Stats"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.DataQualityIssues",
+                     "attributeUri": "configuration/entityTypes/Individual/analyticsAttributes/AttributeValidations/analyticsAttributes/Message",
+                     "chartType": "bubble",
+                     "component": "DashboardFacet",
+                     "title": "Data Quality Issues"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.IndividualsByMaritalStatus",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/MaritalStatus",
+                     "chartType": "bubble",
+                     "component": "DashboardFacet",
+                     "title": "Individuals By Marital Status"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.CustomersbyStateView",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                     "chartType": "map",
+                     "component": "DashboardFacet",
+                     "title": "Individuals by Address-State",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "projection": "geoMercator"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.IndividualsByGender",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Gender",
+                     "chartType": "bubble",
+                     "component": "DashboardFacet",
+                     "title": "Individuals by Gender"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.AddressVerificationView",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                     "chartType": "bubble",
+                     "component": "DashboardFacet",
+                     "title": "Individuals by Address Status"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.IndividualSourceView",
+                     "attributeUri": "sourceSystems",
+                     "filters": [
+                        {
+                           "filter": "equals",
+                           "fieldName": "type",
+                           "values": [
+                              "configuration/entityTypes/Individual"
+                           ]
+                        }
+                     ],
+                     "chartType": "bar",
+                     "component": "DashboardFacet",
+                     "title": "Individuals by Source Type"
+                  },
+                  {
+                     "id": "com.reltio.plugins.notifications.Inbox",
+                     "component": "NotificationInboxFacet",
+                     "title": "Task Inbox"
+                  },
+                  {
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "component": "ActivitiesViewFacet",
+                     "title": "Activity log"
+                  }
+               ]
+            },
+            {
+               "label": "Data quality",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/DqDashboard.svg",
+               "class": "DQDashboard"
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Search",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Search.svg",
+               "class": "Search",
+               "canExport": true,
+               "bulkUpdate": true,
+               "potentialMatchesReview": {
+                  "processType": "potentialMatchReview"
+               },
+               "options": {
+                  "showSearchByOv": false,
+                  "scoreEnabled": true
+               },
+               "tabs": {
+                  "configuration/entityTypes/Individual": [
+                     "attributes.Phone.FormattedNumber",
+                     "attributes.Email.Email",
+                     "attributes.Addresses.City",
+                     "attributes.Addresses.StateProvince",
+                     "attributes.Addresses.Country"
+                  ],
+                  "*": [
+                     "attributes.Phone.FormattedNumber",
+                     "attributes.Email.Email",
+                     "attributes.Addresses.City",
+                     "attributes.Addresses.StateProvince",
+                     "attributes.Addresses.Country"
+                  ]
+               }
+            }
+         ]
+      }
+   ],
+   "pivoting": [
+      {
+         "attributeTypes": [
+            {
+               "uri": "configuration/entityTypes/Individual/attributes/Phone",
+               "children": [
+                  "configuration/entityTypes/Individual/attributes/Phone/attributes/Number"
+               ],
+               "popup": {
+                  "label": "Phone Number",
+                  "entityType": "configuration/entityTypes/Individual"
+               }
+            }
+         ],
+         "views": [
+            {
+               "id": "com.reltio.plugins.pivoting.EmploymentBubbleChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+               "chartType": "bubble",
+               "component": "DashboardFacet",
+               "title": "Employment"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.RoleTypeBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/roleType",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Role"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.GenderBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/Gender",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Gender"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.AgeBandBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/AgeBand",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Age"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Individual"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Individuals"
+            }
+         ],
+         "layout": [
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "height": 10,
+               "y": 0,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.RoleTypeBarChartView",
+               "height": 10,
+               "y": 10,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.GenderBarChartView",
+               "height": 10,
+               "y": 20,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.AgeBandBarChartView",
+               "height": 10,
+               "y": 0,
+               "x": 2,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.EmploymentBubbleChartView",
+               "height": 10,
+               "y": 10,
+               "x": 2,
+               "width": 2
+            }
+         ]
+      },
+      {
+         "attributeTypes": [
+            {
+               "uri": "configuration/entityTypes/Individual/attributes/Email",
+               "children": [
+                  "configuration/entityTypes/Individual/attributes/Email/attributes/Email"
+               ],
+               "popup": {
+                  "label": "Email",
+                  "entityType": "configuration/entityTypes/Individual"
+               }
+            }
+         ],
+         "views": [
+            {
+               "id": "com.reltio.plugins.pivoting.EmploymentBubbleChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+               "chartType": "bubble",
+               "component": "DashboardFacet",
+               "title": "Employment"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.RoleTypeBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/roleType",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Role"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.GenderBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/Gender",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Gender"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.AgeBandBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/AgeBand",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Age"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.IncomeBandBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/IncomeBand",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Income Group"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Individual"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Individuals"
+            }
+         ],
+         "layout": [
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "height": 10,
+               "y": 0,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.RoleTypeBarChartView",
+               "height": 10,
+               "y": 10,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.GenderBarChartView",
+               "height": 10,
+               "y": 20,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.AgeBandBarChartView",
+               "height": 10,
+               "y": 0,
+               "x": 2,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.IncomeBandBarChartView",
+               "height": 10,
+               "y": 10,
+               "x": 2,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.EmploymentBubbleChartView",
+               "height": 10,
+               "y": 20,
+               "x": 2,
+               "width": 2
+            }
+         ]
+      },
+      {
+         "attributeTypes": [
+            {
+               "uri": "configuration/entityTypes/Individual/attributes/Addresses",
+               "children": [
+                  "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                  "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                  "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                  "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country"
+               ],
+               "popup": {
+                  "label": "Address",
+                  "entityType": "configuration/entityTypes/Individual"
+               }
+            }
+         ],
+         "views": [
+            {
+               "id": "com.reltio.plugins.pivoting.EducationBubbleChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear",
+               "chartType": "bubble",
+               "component": "DashboardFacet",
+               "title": "Education"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.RoleTypeBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/roleType",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Role"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.GenderBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/Gender",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Gender"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.AgeBandBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/AgeBand",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals by Age"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.hasChildrenBarChartView",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/hasChildren",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "Individuals that Has Children"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Individual"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Individuals"
+            },
+            {
+               "id": "com.reltio.plugins.dashboard.ContactProspectMap",
+               "attributeUri": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+               "chartType": "map",
+               "component": "DashboardFacet",
+               "title": "State/Province",
+               "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+               "projection": "geoMercator"
+            }
+         ],
+         "layout": [
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "height": 10,
+               "y": 10,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.RoleTypeBarChartView",
+               "height": 10,
+               "y": 20,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.GenderBarChartView",
+               "height": 10,
+               "y": 30,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.AgeBandBarChartView",
+               "height": 10,
+               "y": 0,
+               "x": 2,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.hasChildrenBarChartView",
+               "height": 10,
+               "y": 10,
+               "x": 2,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.EducationBubbleChartView",
+               "height": 10,
+               "y": 20,
+               "x": 2,
+               "width": 2
+            }
+         ]
+      }
+   ],
+   "properties": {
+      "i18n": {
+         "en_US": "https://reltio-ui-localization.s3.amazonaws.com/361/en-us.json",
+         "en_GB": "https://reltio-ui-localization.s3.amazonaws.com/361/en-gb.json",
+         "cs_CZ": "https://reltio-ui-localization.s3.amazonaws.com/361/cs-cz.json",
+         "de_DE": "https://reltio-ui-localization.s3.amazonaws.com/361/de-de.json",
+         "el_GR": "https://reltio-ui-localization.s3.amazonaws.com/361/el-gr.json",
+         "es_ES": "https://reltio-ui-localization.s3.amazonaws.com/361/es-es.json",
+         "fr_FR": "https://reltio-ui-localization.s3.amazonaws.com/361/fr-fr.json",
+         "hu_HU": "https://reltio-ui-localization.s3.amazonaws.com/361/hu-hu.json",
+         "it_IT": "https://reltio-ui-localization.s3.amazonaws.com/361/it-it.json",
+         "ja_JP": "https://reltio-ui-localization.s3.amazonaws.com/361/ja-jp.json",
+         "ko_KR": "https://reltio-ui-localization.s3.amazonaws.com/361/ko-kr.json",
+         "pl_PL": "https://reltio-ui-localization.s3.amazonaws.com/361/pl-pl.json",
+         "pt_PT": "https://reltio-ui-localization.s3.amazonaws.com/361/pt-pt.json",
+         "ru_RU": "https://reltio-ui-localization.s3.amazonaws.com/361/ru-ru.json",
+         "tr_TR": "https://reltio-ui-localization.s3.amazonaws.com/361/tr-tr.json",
+         "zh_CN": "https://reltio-ui-localization.s3.amazonaws.com/361/zh-cn.json",
+         "zh_TW": "https://reltio-ui-localization.s3.amazonaws.com/361/zh-tw.json"
+      },
+      "entity": {},
+      "image": {
+         "attributeFieldsOrder": {}
+      },
+      "lookups": {
+         "autocomplete": {},
+         "showCode": true
+      },
+      "validation": {},
+      "attributes": {
+         "presentation": {}
+      },
+      "requestProvider": {},
+      "workflow": {
+         "enabled": true
+      },
+      "defaultRoute": "dashboard",
+      "customScripts": [],
+      "showSearchByOv": false,
+      "logo": null,
+      "profileCheckUpdate": {},
+      "aiAssistant": {},
+      "newTreeEnabled": true,
+      "queryEstimator": {},
+      "sharedPreferences": {},
+      "cleanse": {
+         "configuration/entityTypes/Location": {
+            "actions": {
+               "blur": {
+                  "attributes": [
+                     "configuration/entityTypes/Location/attributes/AddressInput"
+                  ],
+                  "type": "configuration/entityTypes/Location/cleanse/infos/default"
+               }
+            },
+            "defaultType": "configuration/entityTypes/Location/cleanse/infos/other",
+            "hideForExist": [
+               "configuration/entityTypes/Location/attributes/AddressInput"
+            ],
+            "hideForNew": []
+         }
+      },
+      "tables": {},
+      "showMasking": true,
+      "internal": {}
+   },
+   "profile": [
+      {
+         "label": "Profile",
+         "class": "Profile",
+         "entityTypes": {
+            "configuration/entityTypes/Individual": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.Individual.attributes.AttributeView",
+                     "component": "Attributes",
+                     "excludeUris": [
+                        "configuration/entityTypes/Individual/attributes/Identifiers",
+                        "configuration/entityTypes/Individual/attributes/Phone",
+                        "configuration/entityTypes/Individual/attributes/Email",
+                        "configuration/entityTypes/Individual/attributes/Addresses",
+                        "configuration/entityTypes/Individual/attributes/ImageLinks",
+                        "configuration/entityTypes/Individual/attributes/VideoLinks",
+                        "configuration/entityTypes/Individual/attributes/DocumentLinks",
+                        "configuration/entityTypes/Individual/attributes/MaritalStatus",
+                        "configuration/entityTypes/Individual/attributes/AgeBand",
+                        "configuration/entityTypes/Individual/attributes/IncomeBand",
+                        "configuration/entityTypes/Individual/attributes/hasChildren",
+                        "roles",
+                        "configuration/entityTypes/Individual/attributes/Gender",
+                        "configuration/entityTypes/Individual/analyticsAttributes/DQ",
+                        "configuration/entityTypes/Individual/analyticsAttributes/AttributeValidations"
+                     ]
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.e1ef-f3fd-7e30d504",
+                     "component": "Attributes",
+                     "caption": "Contact Attributes",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/Phone",
+                        "configuration/entityTypes/Individual/attributes/Email",
+                        "configuration/entityTypes/Individual/attributes/Addresses"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.bd5b-57a2-b9d9892a",
+                     "component": "Relations",
+                     "caption": "Relations View",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/Friend",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Relative",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Assistant",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Influencer",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Family",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/DomesticPartner",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Sibling",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Spouse",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Parent",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Manager",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/ReferredBy",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/Friend",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Relative",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Assistant",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Manager",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/ReferredBy",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Influencer",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Family",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/DomesticPartner",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Sibling",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Spouse",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Parent",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.e63f-da2c-1c01c304",
+                     "component": "Attributes",
+                     "caption": "Data Validations Warnings",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/analyticsAttributes/AttributeValidations"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MarketDemographicView",
+                     "component": "Attributes",
+                     "caption": "Market Demographic",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/MaritalStatus",
+                        "configuration/entityTypes/Individual/attributes/AgeBand",
+                        "configuration/entityTypes/Individual/attributes/IncomeBand",
+                        "configuration/entityTypes/Individual/attributes/hasChildren",
+                        "configuration/entityTypes/Individual/attributes/Gender"
+                     ]
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.IdentifiersAttributeView",
+                     "caption": "Identifiers",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Identifiers",
+                     "component": "SingleAttribute"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.Individual.attributes.AttributeView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.e1ef-f3fd-7e30d504",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.bd5b-57a2-b9d9892a",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.e63f-da2c-1c01c304",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MarketDemographicView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.IdentifiersAttributeView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "*": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.default.AttributeView",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.default.AttributeView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "configuration/entityTypes/Location": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.loc.LocationView",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.PeopleView",
+                     "component": "Relations",
+                     "caption": "People",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/HasAddress"
+                        ],
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.AssociatesView",
+                     "component": "Relations",
+                     "caption": "Customers",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/HasAddress"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.EntityMapView",
+                     "component": "Map"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.EntityMapView",
+                     "height": 5,
+                     "minHeight": 5,
+                     "x": 0,
+                     "y": 0,
+                     "width": 3
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.LocationView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 5,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.PeopleView",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 6,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.AssociatesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 5,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 6,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "configuration/entityTypes/Organization": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.AttributeView",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AffiliationsView",
+                     "component": "Relations",
+                     "caption": "Affiliations",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Contact",
+                           "configuration/relationTypes/NULL",
+                           "configuration/relationTypes/Other",
+                           "configuration/relationTypes/AffiliatedOrganization",
+                           "configuration/relationTypes/CharityAffiliation",
+                           "configuration/relationTypes/Affiliation",
+                           "configuration/relationTypes/BusinesstoBusiness"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/NULL",
+                           "configuration/relationTypes/Other",
+                           "configuration/relationTypes/OrganizationAffiliationMember",
+                           "configuration/relationTypes/CharityAffiliatedMember",
+                           "configuration/relationTypes/Affiliation",
+                           "configuration/relationTypes/BusinesstoBusiness"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.OwnershipView",
+                     "component": "Relations",
+                     "caption": "Ownership",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Ownership",
+                           "configuration/relationTypes/SoleOwner/Proprieter",
+                           "configuration/relationTypes/SoleOwnerProprietor",
+                           "configuration/relationTypes/Owner",
+                           "configuration/relationTypes/Co-Owner",
+                           "configuration/relationTypes/Ownership"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/Ownership",
+                           "configuration/relationTypes/SolelyOwnedBusiness",
+                           "configuration/relationTypes/Ownership"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.EmployeesView",
+                     "component": "Relations",
+                     "caption": "Employees",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Employment",
+                           "configuration/relationTypes/Employee",
+                           "configuration/relationTypes/InstitutionKeyEmployee",
+                           "configuration/relationTypes/VicePresident",
+                           "configuration/relationTypes/President",
+                           "configuration/relationTypes/Secretary",
+                           "configuration/relationTypes/Co-Chairman",
+                           "configuration/relationTypes/Financial--HumanResourcesCoordinator",
+                           "configuration/relationTypes/AdministrativeAssistant",
+                           "configuration/relationTypes/CEO",
+                           "configuration/relationTypes/BoardMember",
+                           "configuration/relationTypes/Sales",
+                           "configuration/relationTypes/Principal",
+                           "configuration/relationTypes/Assistant",
+                           "configuration/relationTypes/ChairofHonoraryBoard",
+                           "configuration/relationTypes/ChairmanTrustee",
+                           "configuration/relationTypes/ChiefExecutiveOfficer",
+                           "configuration/relationTypes/ChiefFinancialOfficer",
+                           "configuration/relationTypes/CorporateExecutive",
+                           "configuration/relationTypes/CorporateManager",
+                           "configuration/relationTypes/Dentist",
+                           "configuration/relationTypes/Director",
+                           "configuration/relationTypes/FinanceManager",
+                           "configuration/relationTypes/HumanResources",
+                           "configuration/relationTypes/Nurse",
+                           "configuration/relationTypes/Surgery",
+                           "configuration/relationTypes/Technician",
+                           "configuration/relationTypes/V.Pofadministration"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.LegalTreeView",
+                     "component": "HierarchyTree",
+                     "graph": {
+                        "type": "configuration/graphTypes/CompanyHierarchy"
+                     },
+                     "caption": "Legal Entities"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.ClientServiceRelView",
+                     "component": "Relations",
+                     "caption": "Client Service Relationships",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/ClientService",
+                           "configuration/relationTypes/Advisor",
+                           "configuration/relationTypes/ClientofAdvisor",
+                           "configuration/relationTypes/FinancialAdvisor",
+                           "configuration/relationTypes/CoverageOfficer",
+                           "configuration/relationTypes/PrimaryProducer"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/ClientService",
+                           "configuration/relationTypes/Advisor",
+                           "configuration/relationTypes/ClientofAdvisor",
+                           "configuration/relationTypes/FinancialAdvisor"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AccountRelView",
+                     "component": "Relations",
+                     "caption": "Account Relationships",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/PowerofAttorney",
+                           "configuration/relationTypes/Trust",
+                           "configuration/relationTypes/Trustee",
+                           "configuration/relationTypes/Benefactor",
+                           "configuration/relationTypes/Beneficiary",
+                           "configuration/relationTypes/Grantor",
+                           "configuration/relationTypes/Executor",
+                           "configuration/relationTypes/JointOwner"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/PowerofAttorney",
+                           "configuration/relationTypes/Trust",
+                           "configuration/relationTypes/Trustee",
+                           "configuration/relationTypes/Benefactor",
+                           "configuration/relationTypes/Beneficiary",
+                           "configuration/relationTypes/Grantor"
+                        ]
+                     },
+                     "isComplex": false
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.AttributeView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AffiliationsView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.OwnershipView",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.EmployeesView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 3,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.LegalTreeView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.ClientServiceRelView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AccountRelView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "configuration/entityTypes/Trust": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.org.TrustView0",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AffiliationsView",
+                     "component": "Relations",
+                     "caption": "Affiliations",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Contact",
+                           "configuration/relationTypes/NULL",
+                           "configuration/relationTypes/Other",
+                           "configuration/relationTypes/AffiliatedOrganization",
+                           "configuration/relationTypes/CharityAffiliation",
+                           "configuration/relationTypes/Affiliation",
+                           "configuration/relationTypes/BusinesstoBusiness"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/NULL",
+                           "configuration/relationTypes/Other",
+                           "configuration/relationTypes/OrganizationAffiliationMember",
+                           "configuration/relationTypes/CharityAffiliatedMember",
+                           "configuration/relationTypes/Affiliation",
+                           "configuration/relationTypes/BusinesstoBusiness"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.OwnershipView",
+                     "component": "Relations",
+                     "caption": "Ownership",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Ownership",
+                           "configuration/relationTypes/SoleOwner/Proprieter",
+                           "configuration/relationTypes/SoleOwnerProprietor",
+                           "configuration/relationTypes/Owner",
+                           "configuration/relationTypes/Co-Owner",
+                           "configuration/relationTypes/Ownership"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/Ownership",
+                           "configuration/relationTypes/SolelyOwnedBusiness",
+                           "configuration/relationTypes/Ownership"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.EmployeesView",
+                     "component": "Relations",
+                     "caption": "Employees",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Employment",
+                           "configuration/relationTypes/Employee",
+                           "configuration/relationTypes/InstitutionKeyEmployee",
+                           "configuration/relationTypes/VicePresident",
+                           "configuration/relationTypes/President",
+                           "configuration/relationTypes/Secretary",
+                           "configuration/relationTypes/Co-Chairman",
+                           "configuration/relationTypes/Financial--HumanResourcesCoordinator",
+                           "configuration/relationTypes/AdministrativeAssistant",
+                           "configuration/relationTypes/CEO",
+                           "configuration/relationTypes/BoardMember",
+                           "configuration/relationTypes/Sales",
+                           "configuration/relationTypes/Principal",
+                           "configuration/relationTypes/Assistant",
+                           "configuration/relationTypes/ChairofHonoraryBoard",
+                           "configuration/relationTypes/ChairmanTrustee",
+                           "configuration/relationTypes/ChiefExecutiveOfficer",
+                           "configuration/relationTypes/ChiefFinancialOfficer",
+                           "configuration/relationTypes/CorporateExecutive",
+                           "configuration/relationTypes/CorporateManager",
+                           "configuration/relationTypes/Dentist",
+                           "configuration/relationTypes/Director",
+                           "configuration/relationTypes/FinanceManager",
+                           "configuration/relationTypes/HumanResources",
+                           "configuration/relationTypes/Nurse",
+                           "configuration/relationTypes/Surgery",
+                           "configuration/relationTypes/Technician",
+                           "configuration/relationTypes/V.Pofadministration"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.LegalTreeView",
+                     "component": "HierarchyTree",
+                     "graph": {
+                        "type": "configuration/graphTypes/CompanyHierarchy"
+                     },
+                     "caption": "Legal Entities"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.ClientServiceRelView",
+                     "component": "Relations",
+                     "caption": "Client Service Relationships",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/ClientService",
+                           "configuration/relationTypes/Advisor",
+                           "configuration/relationTypes/ClientofAdvisor",
+                           "configuration/relationTypes/FinancialAdvisor",
+                           "configuration/relationTypes/CoverageOfficer",
+                           "configuration/relationTypes/PrimaryProducer"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/ClientService",
+                           "configuration/relationTypes/Advisor",
+                           "configuration/relationTypes/ClientofAdvisor",
+                           "configuration/relationTypes/FinancialAdvisor"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AccountRelView",
+                     "component": "Relations",
+                     "caption": "Account Relationships",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/PowerofAttorney",
+                           "configuration/relationTypes/Trust",
+                           "configuration/relationTypes/Trustee",
+                           "configuration/relationTypes/Benefactor",
+                           "configuration/relationTypes/Beneficiary",
+                           "configuration/relationTypes/Grantor",
+                           "configuration/relationTypes/Executor",
+                           "configuration/relationTypes/JointOwner"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/PowerofAttorney",
+                           "configuration/relationTypes/Trust",
+                           "configuration/relationTypes/Trustee",
+                           "configuration/relationTypes/Benefactor",
+                           "configuration/relationTypes/Beneficiary",
+                           "configuration/relationTypes/Grantor"
+                        ]
+                     },
+                     "isComplex": false
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.org.TrustView0",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AffiliationsView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.OwnershipView",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.EmployeesView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 3,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.LegalTreeView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.ClientServiceRelView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AccountRelView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "configuration/entityTypes/Estate": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.org.EstateView0",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AffiliationsView",
+                     "component": "Relations",
+                     "caption": "Affiliations",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Contact",
+                           "configuration/relationTypes/NULL",
+                           "configuration/relationTypes/Other",
+                           "configuration/relationTypes/AffiliatedOrganization",
+                           "configuration/relationTypes/CharityAffiliation",
+                           "configuration/relationTypes/Affiliation",
+                           "configuration/relationTypes/BusinesstoBusiness"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/NULL",
+                           "configuration/relationTypes/Other",
+                           "configuration/relationTypes/OrganizationAffiliationMember",
+                           "configuration/relationTypes/CharityAffiliatedMember",
+                           "configuration/relationTypes/Affiliation",
+                           "configuration/relationTypes/BusinesstoBusiness"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.OwnershipView",
+                     "component": "Relations",
+                     "caption": "Ownership",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Ownership",
+                           "configuration/relationTypes/SoleOwner/Proprieter",
+                           "configuration/relationTypes/SoleOwnerProprietor",
+                           "configuration/relationTypes/Owner",
+                           "configuration/relationTypes/Co-Owner",
+                           "configuration/relationTypes/Ownership"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/Ownership",
+                           "configuration/relationTypes/SolelyOwnedBusiness",
+                           "configuration/relationTypes/Ownership"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.EmployeesView",
+                     "component": "Relations",
+                     "caption": "Employees",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/Employment",
+                           "configuration/relationTypes/Employee",
+                           "configuration/relationTypes/InstitutionKeyEmployee",
+                           "configuration/relationTypes/VicePresident",
+                           "configuration/relationTypes/President",
+                           "configuration/relationTypes/Secretary",
+                           "configuration/relationTypes/Co-Chairman",
+                           "configuration/relationTypes/Financial--HumanResourcesCoordinator",
+                           "configuration/relationTypes/AdministrativeAssistant",
+                           "configuration/relationTypes/CEO",
+                           "configuration/relationTypes/BoardMember",
+                           "configuration/relationTypes/Sales",
+                           "configuration/relationTypes/Principal",
+                           "configuration/relationTypes/Assistant",
+                           "configuration/relationTypes/ChairofHonoraryBoard",
+                           "configuration/relationTypes/ChairmanTrustee",
+                           "configuration/relationTypes/ChiefExecutiveOfficer",
+                           "configuration/relationTypes/ChiefFinancialOfficer",
+                           "configuration/relationTypes/CorporateExecutive",
+                           "configuration/relationTypes/CorporateManager",
+                           "configuration/relationTypes/Dentist",
+                           "configuration/relationTypes/Director",
+                           "configuration/relationTypes/FinanceManager",
+                           "configuration/relationTypes/HumanResources",
+                           "configuration/relationTypes/Nurse",
+                           "configuration/relationTypes/Surgery",
+                           "configuration/relationTypes/Technician",
+                           "configuration/relationTypes/V.Pofadministration"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.LegalTreeView",
+                     "component": "HierarchyTree",
+                     "graph": {
+                        "type": "configuration/graphTypes/CompanyHierarchy"
+                     },
+                     "caption": "Legal Entities"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.ClientServiceRelView",
+                     "component": "Relations",
+                     "caption": "Client Service Relationships",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/ClientService",
+                           "configuration/relationTypes/Advisor",
+                           "configuration/relationTypes/ClientofAdvisor",
+                           "configuration/relationTypes/FinancialAdvisor",
+                           "configuration/relationTypes/CoverageOfficer",
+                           "configuration/relationTypes/PrimaryProducer"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/ClientService",
+                           "configuration/relationTypes/Advisor",
+                           "configuration/relationTypes/ClientofAdvisor",
+                           "configuration/relationTypes/FinancialAdvisor"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AccountRelView",
+                     "component": "Relations",
+                     "caption": "Account Relationships",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/PowerofAttorney",
+                           "configuration/relationTypes/Trust",
+                           "configuration/relationTypes/Trustee",
+                           "configuration/relationTypes/Benefactor",
+                           "configuration/relationTypes/Beneficiary",
+                           "configuration/relationTypes/Grantor",
+                           "configuration/relationTypes/Executor",
+                           "configuration/relationTypes/JointOwner"
+                        ],
+                        "outRelations": [
+                           "configuration/relationTypes/PowerofAttorney",
+                           "configuration/relationTypes/Trust",
+                           "configuration/relationTypes/Trustee",
+                           "configuration/relationTypes/Benefactor",
+                           "configuration/relationTypes/Beneficiary",
+                           "configuration/relationTypes/Grantor"
+                        ]
+                     },
+                     "isComplex": false
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.org.EstateView0",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AffiliationsView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.OwnershipView",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.EmployeesView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 3,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.LegalTreeView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.ClientServiceRelView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.org.AccountRelView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            }
+         }
+      },
+      {
+         "label": "Relationships",
+         "class": "Relationships"
+      },
+      {
+         "label": "Graph",
+         "class": "Graph"
+      },
+      {
+         "label": "Potential Matches",
+         "class": "PotentialMatches"
+      },
+      {
+         "label": "Interactions",
+         "class": "Interactions",
+         "caption": "Interactions"
+      },
+      {
+         "label": "Sources",
+         "class": "Sources"
+      },
+      {
+         "label": "Activity Log",
+         "class": "Activity",
+         "caption": "Activity log"
+      }
+   ]
+}

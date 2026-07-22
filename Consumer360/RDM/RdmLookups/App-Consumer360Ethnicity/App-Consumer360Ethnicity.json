@@ -1,0 +1,219 @@
+[
+  {
+    "type": "rdm/lookupTypes/App-Consumer360Ethnicity",
+    "tenantId": "{{rdmTenant}}",
+    "code": "1",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "1",
+            "value": "White",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "1",
+            "value": "White",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/App-Consumer360Ethnicity",
+    "tenantId": "{{rdmTenant}}",
+    "code": "2",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "2",
+            "value": "Black or African American",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "2",
+            "value": "Black or African American",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "type": "rdm/lookupTypes/App-Consumer360Ethnicity",
+    "tenantId": "{{rdmTenant}}",
+    "code": "3",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "3",
+            "value": "Asian",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "3",
+            "value": "Asian",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "type": "rdm/lookupTypes/App-Consumer360Ethnicity",
+    "tenantId": "{{rdmTenant}}",
+    "code": "4",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "4",
+            "value": "American Indian or Alaska Native",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "4",
+            "value": "American Indian or Alaska Native",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "type": "rdm/lookupTypes/App-Consumer360Ethnicity",
+    "tenantId": "{{rdmTenant}}",
+    "code": "5",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "5",
+            "value": "Native Hawaiian or Other Pacific Islander",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "5",
+            "value": "Native Hawaiian or Other Pacific Islander",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "type": "rdm/lookupTypes/App-Consumer360Ethnicity",
+    "tenantId": "{{rdmTenant}}",
+    "code": "6",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "6",
+            "value": "Multiple Categories Reported",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "6",
+            "value": "Multiple Categories Reported",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "type": "rdm/lookupTypes/App-Consumer360Ethnicity",
+    "tenantId": "{{rdmTenant}}",
+    "code": "9",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "9",
+            "value": "Race Unknown",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "9",
+            "value": "Race Unknown",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,582 @@
+[
+  {
+    "type": "configuration/entityTypes/Contact",
+    "attributes": {
+      "Addresses": [
+        {
+          "value": {
+            "AddressType": [
+              {
+                "value": "Mailing"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "value": "PO BOX 12345"
+              }
+            ],
+            "StateProvince": [
+              {
+                "value": "VA"
+              }
+            ],
+            "Country": [
+              {
+                "value": "US"
+              }
+            ],
+            "PostalCode": [
+              {
+                "value": "232911734"
+              }
+            ],
+            "City": [
+              {
+                "value": "RICHMOND"
+              }
+            ]
+          }
+        }
+      ],
+      "Phone": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Phone"
+              }
+            ],
+            "Number": [
+              {
+                "value": "804-555-1212"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Fax"
+              }
+            ],
+            "Number": [
+              {
+                "value": "804-555-1213"
+              }
+            ]
+          }
+        }
+      ],
+      "FirstName": [
+        {
+          "value": "JOHN"
+        }
+      ],
+      "Gender": [
+        {
+          "value": "M"
+        }
+      ],
+      "LastName": [
+        {
+          "value": "DOE"
+        }
+      ],
+      "Identifiers": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Salesforce"
+              }
+            ],
+            "ID": [
+              {
+                "value": "1811961238"
+              }
+            ]
+          }
+        }
+      ],
+      "MiddleName": [
+        {
+          "value": "A"
+        }
+      ]
+    },
+    "crosswalks": [
+      {
+        "type": "configuration/sources/Salesforce",
+        "value": "1811961238"
+      }
+    ]
+  },
+  {
+    "type": "configuration/entityTypes/Contact",
+    "attributes": {
+      "Addresses": [
+        {
+          "value": {
+            "AddressType": [
+              {
+                "value": "Mailing"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "value": "666 E 75TH ST"
+              }
+            ],
+            "StateProvince": [
+              {
+                "value": "IN"
+              }
+            ],
+            "Country": [
+              {
+                "value": "US"
+              }
+            ],
+            "PostalCode": [
+              {
+                "value": "462502805"
+              }
+            ],
+            "City": [
+              {
+                "value": "INDIANAPOLIS"
+              }
+            ]
+          }
+        }
+      ],
+      "Phone": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Phone"
+              }
+            ],
+            "Number": [
+              {
+                "value": "317-555-1212"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Fax"
+              }
+            ],
+            "Number": [
+              {
+                "value": "317-555-1213"
+              }
+            ]
+          }
+        }
+      ],
+      "FirstName": [
+        {
+          "value": "JANE"
+        }
+      ],
+      "Gender": [
+        {
+          "value": "F"
+        }
+      ],
+      "LastName": [
+        {
+          "value": "DOE"
+        }
+      ],
+      "Identifiers": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Salesforce"
+              }
+            ],
+            "ID": [
+              {
+                "value": "1811961261"
+              }
+            ]
+          }
+        }
+      ],
+      "MiddleName": [
+        {
+          "value": "L."
+        }
+      ]
+    },
+    "crosswalks": [
+      {
+        "type": "configuration/sources/Salesforce",
+        "value": "1811961261"
+      }
+    ]
+  },
+  {
+    "type": "configuration/entityTypes/Organization",
+    "attributes": {
+      "Name": [
+        {
+          "value": "Butterfly"
+        }
+      ],
+      "Addresses": [
+        {
+          "value": {
+            "AddressLine1": [
+              {
+                "value": "P.O. Box 1955"
+              }
+            ],
+            "AddressType": [
+              {
+                "value": "Billing"
+              }
+            ],
+            "StateProvince": [
+              {
+                "value": "MN"
+              }
+            ],
+            "Zip4": [
+              {
+                "value": "1362"
+              }
+            ],
+            "Country": [
+              {
+                "value": "United States"
+              }
+            ],
+            "City": [
+              {
+                "value": "Minneapolis"
+              }
+            ],
+            "Zip5": [
+              {
+                "value": "55440"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "AddressLine1": [
+              {
+                "value": "9400 85th Ave N"
+              }
+            ],
+            "AddressType": [
+              {
+                "value": "Shipping"
+              }
+            ],
+            "StateProvince": [
+              {
+                "value": "MN"
+              }
+            ],
+            "Zip4": [
+              {
+                "value": "2154"
+              }
+            ],
+            "Country": [
+              {
+                "value": "United States"
+              }
+            ],
+            "City": [
+              {
+                "value": "Minneapolis"
+              }
+            ],
+            "Zip5": [
+              {
+                "value": "55445"
+              }
+            ]
+          }
+        }
+      ],
+      "IndustryCode": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "SIC1"
+              }
+            ],
+            "IndustryCode": [
+              {
+                "value": "625"
+              }
+            ],
+            "DnBCodeDescription": [
+              {
+                "value": "Primary"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "SIC2"
+              }
+            ],
+            "IndustryCode": [
+              {
+                "value": "600"
+              }
+            ],
+            "DnBCodeDescription": [
+              {
+                "value": "SIC"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "NAICS 1_1"
+              }
+            ],
+            "IndustryCode": [
+              {
+                "value": "Construction, Mining & Other Heavy Equipment Manufacturing"
+              }
+            ],
+            "DnBCodeDescription": [
+              {
+                "value": "NAIC"
+              }
+            ]
+          }
+        }
+      ],
+      "FacilitySizeInSqFeet": [
+        {
+          "value": "333120"
+        }
+      ],
+      "DUNSNumber": [
+        {
+          "value": "123456789"
+        }
+      ],
+      "Phone": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Phone"
+              }
+            ],
+            "Number": [
+              {
+                "value": "763-555-1212"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Fax"
+              }
+            ],
+            "Number": [
+              {
+                "value": "763-555-1234"
+              }
+            ],
+            "CountryCode": [
+              {
+                "value": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "LocationType": [
+        {
+          "value": "HEADQUARTERS"
+        }
+      ],
+      "IsSubsidiary": [
+        {
+          "value": "TRUE"
+        }
+      ]
+    },
+    "crosswalks": [
+      {
+        "type": "configuration/sources/DnB",
+        "value": "6210009"
+      }
+    ]
+  },
+  {
+    "type": "configuration/entityTypes/Organization",
+    "attributes": {
+      "Name": [
+        {
+          "value": "Butterfly"
+        }
+      ],
+      "Addresses": [
+        {
+          "value": {
+            "AddressLine1": [
+              {
+                "value": "9700 109th Ave N"
+              }
+            ],
+            "AddressType": [
+              {
+                "value": "Shipping"
+              }
+            ],
+            "StateProvince": [
+              {
+                "value": "MN"
+              }
+            ],
+            "Zip4": [
+              {
+                "value": "3865"
+              }
+            ],
+            "Country": [
+              {
+                "value": "United States"
+              }
+            ],
+            "City": [
+              {
+                "value": "Champlin"
+              }
+            ],
+            "Zip5": [
+              {
+                "value": "55316"
+              }
+            ]
+          }
+        }
+      ],
+      "IndustryCode": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "NAICS 1_1"
+              }
+            ],
+            "IndustryCode": [
+              {
+                "value": "Commercial & Heavy Construction"
+              }
+            ],
+            "DnBCodeDescription": [
+              {
+                "value": "NAIC"
+              }
+            ]
+          }
+        }
+      ],
+      "DUNSNumber": [
+        {
+          "value": "987654321"
+        }
+      ],
+      "Phone": [
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Phone"
+              }
+            ],
+            "Number": [
+              {
+                "value": "763-555-1212"
+              }
+            ],
+            "CountryCode": [
+              {
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "Type": [
+              {
+                "value": "Fax"
+              }
+            ],
+            "Number": [
+              {
+                "value": "763-555-1234"
+              }
+            ],
+            "CountryCode": [
+              {
+                "value": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "ActivitiesAndOperations": [
+        {
+          "value": {
+            "LineOfBusiness": [
+              {
+                "value": "Highway and street construction"
+              }
+            ]
+          }
+        }
+      ],
+      "LocationType": [
+        {
+          "value": "BRANCH"
+        }
+      ],
+      "IsSubsidiary": [
+        {
+          "value": "FALSE"
+        }
+      ]
+    },
+    "crosswalks": [
+      {
+        "type": "configuration/sources/DnB",
+        "value": "22547439"
+      }
+    ]
+  }
+]

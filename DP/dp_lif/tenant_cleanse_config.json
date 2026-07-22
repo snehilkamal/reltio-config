@@ -1,0 +1,24 @@
+[
+  {
+    "cleanseFunction": "PhoneCleanserFn"
+  },
+  {
+    "cleanseFunction": "EmailCleanserFn",
+    "options": {
+      "casing": "lower"
+    }
+  },
+  {
+    "cleanseFunction": "Loqate",
+    "options": {
+      "process": "pre+e+v+g",
+      "opts": {
+        "PreferPrimaryValidAlias": "Yes"
+      },
+      "returnUnverifiedStatus": "true",
+      "loqateLicensedCountry": "United States;united states;UNITED STATES;US;us;USA;usa",
+      "loqateDefaultCountry": "USA",
+      "ovOnly": "true"
+    }
+  }
+]

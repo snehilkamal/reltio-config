@@ -1,0 +1,27 @@
+{
+  "name": "dp_b2b",
+  "businessConfigPath": "DP/dp_b2b/BusinessConfig.json",
+  "rdmLookUpsPath": "DP/dp_b2b/rdm_lookups",
+  "uiConfigFolderPath": "DP/dp_b2b/UI Config",
+  "uiConfig": {
+    "uiConfigFolderPath": "DP/dp_b2b/UI Config",
+    "consoleAppsPath": "DP/dp_b2b/UI Config/console_apps.json",
+    "chocolateBarPath": "DP/dp_b2b/UI Config/chocolate_bar.json"
+  },
+  "dvfConfigPath": "DP/dp_b2b/dvfs.json",
+  "sampleData": {},
+  "permissionsPath": "DP/dp_b2b/Permissions.json",
+  "cleansersPath": "DP/dp_b2b/tenant_cleanse_config.json",
+  "dtssConfigPath": {
+    "DEFAULT": "DP/dp_b2b/DTSS/DEFAULT_DTSS.json"
+  },
+  "dnb": {
+    "mappings": {}
+  },
+  "rih": {
+    "manifests": [],
+    "connections": []
+  },
+  "repositoryBranch": "{current-branch}",
+  "reltioPackageType": "DATA_PRODUCTS"
+}

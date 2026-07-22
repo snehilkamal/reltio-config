@@ -1,0 +1,140 @@
+{
+  "entityTypes": [
+    {
+      "type": "configuration/entityTypes/Person",
+      "functions": [
+        {
+          "name": "Validate First Name",
+          "label": "",
+          "description": "Validate First Name",
+          "expression": "not regexp(attributes.FirstName.value, '^[ A-Za-z \u2019-]+$') or missing(attributes.FirstName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid First Name",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938886832",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938886832",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/FirstName"
+        },
+        {
+          "name": "Validate Last Name",
+          "label": "",
+          "description": "Validate Last Name",
+          "expression": "not regexp(attributes.LastName.value, '^[ A-Za-z \u2019-]+$') or missing(attributes.LastName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid Last Name",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938886832",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938886832",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/LastName"
+        },
+        {
+          "name": "Validate SSN",
+          "label": "",
+          "description": "Validate SSN",
+          "expression": "not regexp(attributes.SSN.value, '^(?!666|000|9\\\\d{2})\\\\d{3}-(?!00)\\\\d{2}-(?!0{4})\\\\d{4}$')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid SSN",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728679359021",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728679359021",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/SSN"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/HCP",
+      "functions": [
+        {
+          "name": "LicenseStateMissing",
+          "label": "",
+          "description": "License State Missing",
+          "expression": "exists(attributes.License.value.Number.value) and missing(attributes.License.value.State.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "License State Missing",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728679359042",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728679359042",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/License"
+        },
+        {
+          "name": "InvalidEmail",
+          "label": "",
+          "description": "Invalid Email",
+          "expression": "equals(attributes.Email.value.ValidationStatus.value, 'INVALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Email",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938886979",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938886979",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/Email"
+        },
+        {
+          "name": "InvalidPhone",
+          "label": "",
+          "description": "Invalid Phone Number",
+          "expression": "equals(attributes.Phone.value.ValidationStatus.value, 'INVALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728679359042",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728679359042",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/Phone"
+        },
+        {
+          "name": "NameIsMissing",
+          "label": "",
+          "description": "",
+          "expression": "missing(attributes.FirstName.value) or missing(attributes.LastName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "First and Last names are mandatory",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938886979",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938886979",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/FirstName"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/HCO",
+      "functions": [
+        {
+          "name": "NameIsMissing",
+          "label": "",
+          "description": "",
+          "expression": "missing(attributes.Name.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Name is mandatory",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938886750",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938886750",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCO/attributes/Name"
+        }
+      ]
+    }
+  ],
+  "relationTypes": []
+}

@@ -1,0 +1,1 @@
+This directory contains configuration files without support of D&B Connector

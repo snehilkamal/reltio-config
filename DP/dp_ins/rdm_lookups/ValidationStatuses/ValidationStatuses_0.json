@@ -1,0 +1,650 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ValidationStatuses",
+    "code": "Risky",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Risky",
+            "value": "Risky",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ValidationStatuses",
+    "code": "Valid",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Valid",
+            "value": "Valid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ValidationStatuses",
+    "code": "Corrected",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Corrected",
+            "value": "Corrected",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ValidationStatuses",
+    "code": "Unknown",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Unknown",
+            "value": "Unknown",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ValidationStatuses",
+    "code": "Invalid",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Invalid",
+            "value": "Invalid",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ValidationStatuses",
+    "code": "Unverifiable",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "CallCenter",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Claims",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Corelogic",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Guidewire",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Mobile",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "PolicyAdmin",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Website",
+        "values": [
+          {
+            "code": "Unverifiable",
+            "value": "Unverifiable",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

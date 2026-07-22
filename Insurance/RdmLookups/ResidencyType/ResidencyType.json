@@ -1,0 +1,74 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ResidencyType",
+    "code": "NO",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "NO",
+            "value": "Non-Owner",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "NO",
+            "value": "Non-Owner",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/ResidencyType",
+    "code": "PRIMARY",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PRIMARY",
+            "value": "Primary",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+      {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "PRIMARY",
+            "value": "Primary",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  }
+]

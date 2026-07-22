@@ -1,0 +1,98 @@
+[
+  {
+    "dataTenantId": {
+      "id": "{{dataTenantId}}"
+    },
+    "customerTenantId": {
+      "id": "{{tenantId}}"
+    },
+    "bringGoldenRecord": true,
+    "bringInternalSources": [],
+    "mappings": [],
+    "eventsInDT": {
+      "entityDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "entityModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "entityUnmerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityMerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityCreated": {
+        "actionInCT": "IGNORE",
+        "entityTypes": []
+      },
+      "entityMatch": {
+        "action": "ACTIVATE"
+      },
+      "entityCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE",
+        "source": {}
+      },
+      "relationCreated": {
+        "actionInCT": "IGNORE"
+      },
+      "relationModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "relationDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "relationCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE",
+        "source": {}
+      }
+    },
+    "security": {
+      "metadataAndDataSecurity": {
+        "enabled": true,
+        "permissionConfig": [
+          {
+            "uri": "configuration/entityTypes/Organization",
+            "permissions": [
+              {
+                "role": "ROLE_DNB_CONNECTOR",
+                "filter": "equals(attributes.DtssCustomerTenantId, '{{tenantId}}')",
+                "access":  [
+                  "READ",
+                  "UPDATE"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "synchronizationConfig": {
+      "dtSyncType": "REALTIME",
+      "ctSyncType": "REALTIME",
+      "entities": [
+        {
+          "action": "AUTOSUBSCRIBE",
+          "types": [
+            "configuration/entityTypes/Organization"
+          ],
+          "matchRules": [
+            "configuration/entityTypes/Organization/matchGroups/ExactMatchByEntityURIConf9or10"
+          ]
+        }
+      ],
+      "relations": []
+    },
+    "importRelationsConfig": {
+      "defaultStrategy": "IMPORT_IF_ENTITIES_SUBSCRIBED",
+      "strategyPerRelationType": []
+    },
+    "groupContributors": true,
+    "validation": {
+      "strictValidation": false,
+      "strictDataTenantValidation": true,
+      "strictCustomerTenantValidation": true,
+      "strictMappingCheck": false
+    }
+  }
+]

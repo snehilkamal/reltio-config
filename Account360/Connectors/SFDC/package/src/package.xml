@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reltio Account360 Custom Attributes</fullName>
+    <types>
+        <members>Account.URI__c</members>
+        <members>Account.Account_Status__c</members>
+        <members>Account.CompanyType__c</members>
+        <members>Account.CUSIP__c</members>
+        <members>Account.Sector__c</members>
+        <members>Account.TaxID__c</members>
+        <members>Account.Industry__c</members>
+        <members>Account.FoundedYear__c</members>
+        <members>Account.EndYear__c</members>
+        <members>Account.IPOYear__c</members>
+        <members>Account.Ticker_Symbol__c</members>
+        <members>Account.Ticker_StockExchange__c</members>
+
+        <!-- DnB fields -->
+        <members>Account.GlobalUltimateDUNS_RDNB__c</members>
+        <members>Account.GlobalUltimateOrganization_RDNB__c</members>
+        <members>Account.DomesticUltimateDUNS_RDNB__c</members>
+        <members>Account.DomesticUltimateOrganization_RDNB__c</members>
+        <members>Account.ParentDUNS_RDNB__c</members>
+        <members>Account.ParentOrganization_RDNB__c</members>
+        <members>Account.HeadquartersDUNS_RDNB__c</members>
+        <members>Account.HeadquartersOrganization_RDNB__c</members>
+        <members>Account.FinancialStatementToDate_RDNB__c</members>
+        <members>Account.FinancialPeriodDuration_RDNB__c</members>
+        <members>Account.SalesRevenueCurrency_RDNB__c</members>
+        <members>Account.SalesRevenueCurrencyCode_RDNB__c</members>
+        <members>Account.SalesRevenueReliabilityCode_RDNB__c</members>
+        <members>Account.SalesRevenueUnitOfSize_RDNB__c</members>
+        <members>Account.SalesRevenueAmount_RDNB__c</members>
+        <members>Account.ProfitOrLossCurrency_RDNB__c</members>
+        <members>Account.ProfitOrLossReliabilityText_RDNB__c</members>
+        <members>Account.ProfitOrLossUnitOfSize_RDNB__c</members>
+        <members>Account.ProfitOrLossAmount_RDNB__c</members>
+        <members>Account.SalesTurnoverGrowthRate_RDNB__c</members>
+        <members>Account.Sales3YryGrowthRate_RDNB__c</members>
+        <members>Account.Sales5YryGrowthRate_RDNB__c</members>
+        <members>Account.Employee3YryGrowthRate_RDNB__c</members>
+        <members>Account.Employee5YryGrowthRate_RDNB__c</members>
+        <members>Account.IdentifiersType_RDNB__c</members>
+        <members>Account.IdentifiersID_RDNB__c</members>
+        <members>Account.IdentifiersStatus_RDNB__c</members>
+        <members>Account.IdentifiersActivationDate_RDNB__c</members>
+        <members>Account.IdentifiersDeactivationDate_RDNB__c</members>
+        <members>Account.IdentifiersDeactivationReasonCode_RDNB__c</members>
+        <members>Account.IdentifiersReactivationDate_RDNB__c</members>
+        <members>Account.OrgDetailMemberRole_RDNB__c</members>
+        <members>Account.OrgDetailStandalone_RDNB__c</members>
+        <members>Account.OrgDetailControlOwnershipDate_RDNB__c</members>
+        <members>Account.OrgDetailOperatingStatus_RDNB__c</members>
+        <members>Account.OrgDetailStartYear_RDNB__c</members>
+        <members>Account.OrgDetailFranchiseOperationType_RDNB__c</members>
+        <members>Account.OrgDetailBoneyardOrganization_RDNB__c</members>
+        <members>Account.OrgDetailOperatingStatusComment_RDNB__c</members>
+        <members>Account.IndustryCodeDNBCode_RDNB__c</members>
+        <members>Account.IndustryCode_RDNB__c</members>
+        <members>Account.IndustryCodeDescription_RDNB__c</members>
+        <members>Account.IndustryCodeLanguageCode_RDNB__c</members>
+        <members>Account.IndustryCodeWritingScript_RDNB__c</members>
+        <members>Account.IndustryCodeDisplaySequence_RDNB__c</members>
+        <members>Account.IndustryCodeSalesPercentage_RDNB__c</members>
+        <members>Account.IndustryCodeType_RDNB__c</members>
+        <members>Account.IndustryTypeCode_RDNB__c</members>
+        <members>Account.IndustryCodeImportExportAgent_RDNB__c</members>
+        <members>Account.ActAndOpLineOfBusinessDescription_RDNB__c</members>
+        <members>Account.ActAndOpLanguageCode_RDNB__c</members>
+        <members>Account.ActAndOpWritingScriptCode_RDNB__c</members>
+        <members>Account.ActAndOpImportIndicator_RDNB__c</members>
+        <members>Account.ActAndOpExportIndicator_RDNB__c</members>
+        <members>Account.ActAndOpAgentIndicator_RDNB__c</members>
+        <members>Account.IndividualEmployeeFiguresDate_RDNB__c</members>
+        <members>Account.IndividualTotalEmployeeQuantity_RDNB__c</members>
+        <members>Account.IndividualReliabilityText_RDNB__c</members>
+        <members>Account.TotalEmployeeQuantity_RDNB__c</members>
+        <members>Account.TotalEmployeeReliability_RDNB__c</members>
+        <members>Account.PrincipalsIncluded_RDNB__c</members>
+
+        <members>Contact.URI__c</members>
+        <members>Contact.Gender__c</members>
+
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Contact-Contact Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>36.0</version>
+</Package>

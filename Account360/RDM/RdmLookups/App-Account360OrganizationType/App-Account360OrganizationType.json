@@ -1,0 +1,254 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360OrganizationType",
+    "code": "CUST",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "CUST",
+                    "value": "Customer",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "CUST",
+                    "value": "Customer",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360OrganizationType",
+    "code": "DIST",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "DIST",
+                    "value": "Distributor",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "DIST",
+                    "value": "Distributor",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360OrganizationType",
+    "code": "SUPP",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "SUPP",
+                    "value": "Supplier",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "SUPP",
+                    "value": "Supplier",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360OrganizationType",
+    "code": "PTNR",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "PTNR",
+                    "value": "Partner",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "PTNR",
+                    "value": "Partner",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360OrganizationType",
+    "code": "PSPT",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "PSPT",
+                    "value": "Prospect",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "PSPT",
+                    "value": "Prospect",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360OrganizationType",
+    "code": "SHEL",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "SHEL",
+                    "value": "Shell Organization",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "SHEL",
+                    "value": "Shell Organization",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/App-Account360OrganizationType",
+    "code": "VEND",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "VEND",
+                    "value": "Vendor",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "VEND",
+                    "value": "Vendor",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": [],
+    "startDate": 0,
+    "endDate": 0
+  }
+]

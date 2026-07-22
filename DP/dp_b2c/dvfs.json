@@ -1,0 +1,25 @@
+{
+  "entityTypes": [
+    {
+      "type": "configuration/entityTypes/Individual",
+      "functions": [
+        {
+          "name": "Invalid SSN",
+          "label": "",
+          "description": "Not a valid Social Security Number",
+          "expression": "not regexp(attributes.SSN.value, '^(?!666|000|9\\\\d{2})\\\\d{3}-(?!00)\\\\d{2}-(?!0{4})\\\\d{4}$')",
+          "action": "ERROR",
+          "validationEvent": "ALL",
+          "message": "Not a valid Social Security Number",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938354833",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938354833",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/SSN"
+        }
+      ]
+    }
+  ],
+  "relationTypes": []
+}

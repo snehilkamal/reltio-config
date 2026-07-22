@@ -1,0 +1,2368 @@
+{
+   "layout": [
+      {
+         "items": [
+            {
+               "label": "Profile stats",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Dashboard.svg",
+               "class": "Dashboard",
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "component": "ProfileStatsFacet",
+                     "title": "Profile Stats"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsWorldMapView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Addresses/attributes/Country",
+                     "component": "DashboardFacet",
+                     "title": "Global Organization View",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/world.countries.json",
+                     "chartType": "map",
+                     "projection": "geoMercator",
+                     "geoIdName": "iso_a2"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsUSAMapView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Addresses/attributes/StateProvince",
+                     "chartType": "map",
+                     "component": "DashboardFacet",
+                     "title": "USA Organization View",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/usa_prefix_latlng.topo.json",
+                     "projection": "geoMercator"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingPhoneView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Addresses/attributes/StateProvince",
+                     "filters": [
+                        {
+                           "filter": "missing",
+                           "fieldName": "attributes.Phone.Number"
+                        }
+                     ],
+                     "chartType": "map",
+                     "component": "DashboardFacet",
+                     "title": "Organizations with Missing Phone Number",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "projection": "geoMercator"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsByIndustryView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/IndustryCode/attributes/Type",
+                     "chartType": "bubble",
+                     "component": "DashboardFacet",
+                     "title": "Organizations by Industry"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsAddressDataQualityView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Addresses/attributes/VerificationStatus",
+                     "chartType": "bubble",
+                     "component": "DashboardFacet",
+                     "title": "Organization Address Data Quality"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingDUNSView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Addresses/attributes/StateProvince",
+                     "filters": [
+                        {
+                           "filter": "missing",
+                           "fieldName": "attributes.DUNSNumber"
+                        }
+                     ],
+                     "chartType": "map",
+                     "component": "DashboardFacet",
+                     "title": "Organizations with Missing DUNS numbers",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "projection": "geoMercator"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingEmailView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Addresses/attributes/StateProvince",
+                     "filters": [
+                        {
+                           "filter": "missing",
+                           "fieldName": "attributes.Email.Email"
+                        }
+                     ],
+                     "chartType": "map",
+                     "component": "DashboardFacet",
+                     "title": "Organizations with Missing Email Address",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "projection": "geoMercator"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsSalesRevenueView",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/KeyFinancialFiguresOverview/attributes/SalesRevenueAmount",
+                     "filters": [
+                        {
+                           "filter": "not equals",
+                           "fieldName": "attributes.KeyFinancialFiguresOverview.SalesRevenueAmount"
+                        }
+                     ],
+                     "chartType": "bar",
+                     "component": "DashboardFacet",
+                     "title": "Organizations Sales Revenue Amount (M)"
+                  },
+                  {
+                     "id": "com.reltio.plugins.notifications.Inbox",
+                     "component": "NotificationInboxFacet",
+                     "title": "Notifications"
+                  },
+                  {
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "component": "ActivitiesViewFacet",
+                     "title": "Activity log"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsWorldMapView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsUSAMapView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingPhoneView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 40,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsByIndustryView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 50,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsAddressDataQualityView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingDUNSView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingEmailView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 40,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsSalesRevenueView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.notifications.Inbox",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "isStatic": false
+                  }
+               ]
+            },
+            {
+               "label": "Data quality",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/DqDashboard.svg",
+               "class": "DQDashboard"
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Search",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Search.svg",
+               "class": "Search",
+               "canExport": true,
+               "bulkUpdate": true,
+               "potentialMatchesReview": {
+                  "processType": "potentialMatchReview"
+               },
+               "options": {
+                  "showSearchByOv": false,
+                  "scoreEnabled": true
+               }
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Export Relationships",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Default.svg",
+               "class": "ConsoleAppAction",
+               "consoleApp": {
+                  "name": "Export",
+                  "path": "relations"
+               }
+            }
+         ]
+      }
+   ],
+   "pivoting": [
+      {
+         "attributeTypes": [
+            {
+               "uri": "configuration/entityTypes/Organization/attributes/IndustryCode",
+               "children": [
+                  "configuration/entityTypes/Organization/attributes/IndustryCode/attributes/IndustryCode",
+                  "configuration/entityTypes/Organization/attributes/IndustryCode/attributes/Type",
+                  "configuration/entityTypes/Organization/attributes/IndustryCode/attributes/IndustryTypeCode"
+               ],
+               "popup": {
+                  "label": "Organization",
+                  "entityType": "configuration/entityTypes/Organization"
+               }
+            }
+         ],
+         "views": [
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Organization"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Organizations"
+            }
+         ],
+         "layout": [
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "height": 10,
+               "y": 0,
+               "x": 0,
+               "width": 2
+            }
+         ]
+      },
+      {
+         "attributeTypes": [
+            {
+               "uri": "configuration/entityTypes/Organization/attributes/Addresses",
+               "children": [
+                  "configuration/entityTypes/Organization/attributes/Addresses/attributes/AddressLine1",
+                  "configuration/entityTypes/Organization/attributes/Addresses/attributes/City",
+                  "configuration/entityTypes/Organization/attributes/Addresses/attributes/Country"
+               ],
+               "popup": {
+                  "label": "Organization",
+                  "entityType": "configuration/entityTypes/Organization"
+               }
+            },
+            {
+               "uri": "configuration/entityTypes/Contact/attributes/Addresses",
+               "children": [
+                  "configuration/entityTypes/Contact/attributes/Addresses/attributes/AddressLine1",
+                  "configuration/entityTypes/Contact/attributes/Addresses/attributes/City",
+                  "configuration/entityTypes/Contact/attributes/Addresses/attributes/Country"
+               ],
+               "popup": {
+                  "label": "Contacts",
+                  "entityType": "configuration/entityTypes/Contact"
+               }
+            }
+         ],
+         "views": [
+            {
+               "id": "com.reltio.plugins.pivoting.PhoneBarChartView",
+               "attributeUri": "configuration/entityTypes/Organization/attributes/Phone/attributes/Type",
+               "chartType": "bar",
+               "component": "DashboardFacet",
+               "title": "BarChartView"
+            },
+            {
+               "id": "com.reltio.plugins.dashboard.ContactProspectMap",
+               "attributeUri": "configuration/entityTypes/Organization/attributes/Addresses/attributes/StateProvince",
+               "chartType": "map",
+               "component": "DashboardFacet",
+               "title": "State/Province",
+               "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+               "projection": "geoMercator"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Organization"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Organizations"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesViewContact",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Contact"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Contact"
+            }
+         ],
+         "layout": [
+            {
+               "id": "com.reltio.plugins.pivoting.PhoneBarChartView",
+               "height": 10,
+               "y": 10,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "height": 10,
+               "y": 0,
+               "x": 2,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesViewContact",
+               "height": 10,
+               "y": 10,
+               "x": 2,
+               "width": 2
+            }
+         ]
+      },
+      {
+         "attributeTypes": [
+            {
+               "uri": "configuration/entityTypes/Organization/attributes/Phone",
+               "children": [
+                  "configuration/entityTypes/Organization/attributes/Phone/attributes/Number",
+                  "configuration/entityTypes/Organization/attributes/Phone/attributes/Type"
+               ],
+               "popup": {
+                  "label": "Contact",
+                  "entityType": "configuration/entityTypes/Contact"
+               }
+            },
+            {
+               "uri": "configuration/entityTypes/Organization/attributes/Email",
+               "children": [
+                  "configuration/entityTypes/Organization/attributes/Email/attributes/Email"
+               ],
+               "popup": {
+                  "label": "Contact",
+                  "entityType": "configuration/entityTypes/Contact"
+               }
+            },
+            {
+               "uri": "configuration/entityTypes/Contact/attributes/Phone",
+               "children": [
+                  "configuration/entityTypes/Contact/attributes/Phone/attributes/Number",
+                  "configuration/entityTypes/Contact/attributes/Phone/attributes/Type"
+               ],
+               "popup": {
+                  "label": "Organizations",
+                  "entityType": "configuration/entityTypes/Organization"
+               }
+            },
+            {
+               "uri": "configuration/entityTypes/Contact/attributes/Email",
+               "children": [
+                  "configuration/entityTypes/Contact/attributes/Email/attributes/Email"
+               ],
+               "popup": {
+                  "label": "Organizations",
+                  "entityType": "configuration/entityTypes/Organization"
+               }
+            }
+         ],
+         "views": [
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Organization"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Organizations"
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesViewContact",
+               "filters": [
+                  {
+                     "filter": "equals",
+                     "fieldName": "type",
+                     "values": [
+                        "configuration/entityTypes/Contact"
+                     ]
+                  }
+               ],
+               "component": "FilteredEntitiesViewFacet",
+               "title": "Contact"
+            }
+         ],
+         "layout": [
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesViewContact",
+               "height": 10,
+               "y": 0,
+               "x": 0,
+               "width": 2
+            },
+            {
+               "id": "com.reltio.plugins.pivoting.FilteredEntitiesView",
+               "height": 10,
+               "y": 0,
+               "x": 2,
+               "width": 2
+            }
+         ]
+      }
+   ],
+   "properties": {
+      "i18n": {
+         "en_US": "https://reltio-ui-localization.s3.amazonaws.com/361/en-us.json",
+         "en_GB": "https://reltio-ui-localization.s3.amazonaws.com/361/en-gb.json",
+         "cs_CZ": "https://reltio-ui-localization.s3.amazonaws.com/361/cs-cz.json",
+         "de_DE": "https://reltio-ui-localization.s3.amazonaws.com/361/de-de.json",
+         "el_GR": "https://reltio-ui-localization.s3.amazonaws.com/361/el-gr.json",
+         "es_ES": "https://reltio-ui-localization.s3.amazonaws.com/361/es-es.json",
+         "fr_FR": "https://reltio-ui-localization.s3.amazonaws.com/361/fr-fr.json",
+         "hu_HU": "https://reltio-ui-localization.s3.amazonaws.com/361/hu-hu.json",
+         "it_IT": "https://reltio-ui-localization.s3.amazonaws.com/361/it-it.json",
+         "ja_JP": "https://reltio-ui-localization.s3.amazonaws.com/361/ja-jp.json",
+         "ko_KR": "https://reltio-ui-localization.s3.amazonaws.com/361/ko-kr.json",
+         "pl_PL": "https://reltio-ui-localization.s3.amazonaws.com/361/pl-pl.json",
+         "pt_PT": "https://reltio-ui-localization.s3.amazonaws.com/361/pt-pt.json",
+         "ru_RU": "https://reltio-ui-localization.s3.amazonaws.com/361/ru-ru.json",
+         "tr_TR": "https://reltio-ui-localization.s3.amazonaws.com/361/tr-tr.json",
+         "zh_CN": "https://reltio-ui-localization.s3.amazonaws.com/361/zh-cn.json",
+         "zh_TW": "https://reltio-ui-localization.s3.amazonaws.com/361/zh-tw.json"
+      },
+      "entity": {},
+      "image": {
+         "attributeFieldsOrder": {}
+      },
+      "lookups": {
+         "autocomplete": {},
+         "showCode": true
+      },
+      "validation": {},
+      "attributes": {
+         "presentation": {
+            "configuration/entityTypes/Contact/attributes/Education/attributes/YearOfGraduation": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Contact/attributes/Education/attributes/YearsInProgram": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Contact/attributes/Education/attributes/StartYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Contact/attributes/Education/attributes/EndYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Contact/attributes/YoB": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Contact/attributes/YoD": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/OrganizationDetail/attributes/StartYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FinancialStatement/attributes/StatementYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FoundedYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/EndYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/IPOYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/StartYear": {
+               "thousandSeparator": ""
+            }
+         }
+      },
+      "requestProvider": {},
+      "workflow": {
+         "enabled": true
+      },
+      "defaultRoute": "search",
+      "customScripts": [],
+      "showSearchByOv": false,
+      "showEntityId": true,
+      "logo": null,
+      "profileCheckUpdate": {},
+      "aiAssistant": {},
+      "newTreeEnabled": true,
+      "queryEstimator": {},
+      "sharedPreferences": {},
+      "cleanse": {
+         "configuration/entityTypes/Location": {
+            "actions": {
+               "blur": {
+                  "attributes": [
+                     "configuration/entityTypes/Location/attributes/AddressInput"
+                  ],
+                  "type": "configuration/entityTypes/Location/cleanse/infos/default"
+               }
+            },
+            "defaultType": "configuration/entityTypes/Location/cleanse/infos/other",
+            "hideForExist": [
+               "configuration/entityTypes/Location/attributes/AddressInput"
+            ],
+            "hideForNew": []
+         }
+      },
+      "tables": {},
+      "showMasking": true,
+      "internal": {}
+   },
+   "profile": [
+      {
+         "label": "Profile",
+         "class": "Profile",
+         "entityTypes": {
+            "configuration/entityTypes/Contact": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.contact.AttributeView",
+                     "component": "Attributes",
+                     "attributesCount": 10
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.contact.OrganizationsView",
+                     "component": "Relations",
+                     "caption": "Organizations",
+                     "content": {
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/affiliatedwith",
+                              "label": ""
+                           }
+                        ],
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ]
+                     },
+                     "isComplex": true
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "canRead": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canUpdate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canDelete": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canCreate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "caption": "Potential Matches"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.contact.AttributeView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.contact.OrganizationsView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/Claim": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewClaim",
+                     "component": "Attributes",
+                     "caption": "Attributes View"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.ee21-cfc1-09fb21a8",
+                     "component": "Relations",
+                     "caption": "Contract(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Contract"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ClaimToContract",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.3751-bb7f-11dc2cd4",
+                     "component": "Relations",
+                     "caption": "Insured Asset(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/InsuredAsset"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ClaimToAsset",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewClaim",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.19ee-63d9-c43729ef",
+                     "component": "Relations",
+                     "caption": "Parties",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Party"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToClaim",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewClaim",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.ee21-cfc1-09fb21a8",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.3751-bb7f-11dc2cd4",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewClaim",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.19ee-63d9-c43729ef",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/Contract": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewContract",
+                     "component": "Attributes",
+                     "caption": "Attributes View",
+                     "excludeUris": [
+                        "configuration/entityTypes/Contract/attributes/ContractComponent",
+                        "configuration/entityTypes/Contract/attributes/NamedInsured"
+                     ]
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.4dae-4076-d6ed8023",
+                     "component": "Relations",
+                     "caption": "Insured Asset(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/InsuredAsset"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ContractToAsset",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.0a1c-1434-60a4af23",
+                     "component": "Relations",
+                     "caption": "Contract Participant(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual",
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToContract",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/NamedInsured",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewContract",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.aa52-96e8-54b294c3",
+                     "component": "Attributes",
+                     "caption": "Contract Component(s)",
+                     "includeUris": [
+                        "configuration/entityTypes/Contract/attributes/ContractComponent"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.16b3-9514-a137202c",
+                     "component": "Relations",
+                     "caption": "Claim(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Claim"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ClaimToContract",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewContract",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.4dae-4076-d6ed8023",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.0a1c-1434-60a4af23",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewContract",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.aa52-96e8-54b294c3",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.16b3-9514-a137202c",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "*": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.AttributeView",
+                     "component": "Attributes",
+                     "attributesCount": 10
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.AttributeView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/Individual": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewIndividual",
+                     "component": "Attributes",
+                     "caption": "Attributes View",
+                     "excludeUris": [
+                        "configuration/entityTypes/Individual/attributes/Addresses",
+                        "configuration/entityTypes/Individual/attributes/Phone",
+                        "configuration/entityTypes/Individual/attributes/Email",
+                        "configuration/entityTypes/Individual/attributes/PrivacyPreferences",
+                        "configuration/entityTypes/Individual/attributes/Roles"
+                     ]
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.322b-41a1-74617fdf",
+                     "component": "Attributes",
+                     "caption": "Contact Information",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/Phone",
+                        "configuration/entityTypes/Individual/attributes/Email",
+                        "configuration/entityTypes/Individual/attributes/Addresses"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.204c-b0b3-294eb17d",
+                     "component": "Relations",
+                     "caption": "Contracts",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Contract"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToContract",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/NamedInsured",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.3fe2-6d4f-4805b970",
+                     "component": "Relations",
+                     "caption": "Insured Assets",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/InsuredAsset"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToAsset",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.0524-1dc3-14aaf8b7",
+                     "component": "Relations",
+                     "caption": "Claims",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Claim"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToClaim",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.231a-c881-ae16d463",
+                     "component": "Relations",
+                     "caption": "Party Groups",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/PartyGroup"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToGroup",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.03c2-68bb-6fcbd6e5",
+                     "component": "Relations",
+                     "caption": "Related Organization(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PersonToOrganization",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.33d1-0763-80cd8495",
+                     "component": "Relations",
+                     "caption": "Related Person(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PersonToPerson",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PersonToPerson",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewIndividual",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.a94c-0f1c-48e8ad3c",
+                     "component": "Attributes",
+                     "caption": "Privacy Preferences",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/PrivacyPreferences"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.022d-1b8b-667761c7",
+                     "component": "Attributes",
+                     "caption": "Roles",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/Roles"
+                     ],
+                     "attributesCount": 16
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewIndividual",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.322b-41a1-74617fdf",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.204c-b0b3-294eb17d",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.3fe2-6d4f-4805b970",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.0524-1dc3-14aaf8b7",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.231a-c881-ae16d463",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.03c2-68bb-6fcbd6e5",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.33d1-0763-80cd8495",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewIndividual",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.a94c-0f1c-48e8ad3c",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.022d-1b8b-667761c7",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/InsuredAsset": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewInsuredAsset",
+                     "component": "Attributes",
+                     "caption": "Attributes View",
+                     "excludeUris": [
+                        "configuration/entityTypes/InsuredAsset/attributes/VehicleDetails",
+                        "configuration/entityTypes/InsuredAsset/attributes/PropertyDetails",
+                        "configuration/entityTypes/InsuredAsset/attributes/Addresses"
+                     ]
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.29a9-1320-5bb635a7",
+                     "component": "Attributes",
+                     "caption": "Vehicle Details",
+                     "includeUris": [
+                        "configuration/entityTypes/InsuredAsset/attributes/VehicleDetails"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.171d-5309-0c1b7e62",
+                     "component": "Attributes",
+                     "caption": "Property Details",
+                     "includeUris": [
+                        "configuration/entityTypes/InsuredAsset/attributes/PropertyDetails"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b908-d769-305c9b7f",
+                     "component": "Relations",
+                     "caption": "Contracts",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Contract"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ContractToAsset",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b03e-923d-0b38d82b",
+                     "component": "Relations",
+                     "caption": "Claims",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Claim"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ClaimToAsset",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewInsuredAsset",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.3c14-602b-46d63be1",
+                     "component": "Attributes",
+                     "caption": "Addresses",
+                     "includeUris": [
+                        "configuration/entityTypes/InsuredAsset/attributes/Addresses"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.34fa-d9f7-d9b89061",
+                     "component": "Relations",
+                     "caption": "Parties",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Party"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToAsset",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewInsuredAsset",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.29a9-1320-5bb635a7",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.171d-5309-0c1b7e62",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b908-d769-305c9b7f",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b03e-923d-0b38d82b",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewInsuredAsset",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.3c14-602b-46d63be1",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.34fa-d9f7-d9b89061",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/PartyGroup": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewPartyGroup",
+                     "component": "Attributes",
+                     "caption": "Attributes View"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.d3da-80c0-3334518a",
+                     "component": "Relations",
+                     "caption": "People",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToGroup",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.4883-872e-d8bf79c7",
+                     "component": "Relations",
+                     "caption": "Organizations",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToGroup",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewPartyGroup",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewPartyGroup",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.d3da-80c0-3334518a",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.4883-872e-d8bf79c7",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewPartyGroup",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/Location": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.loc.LocationView",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.PeopleView",
+                     "component": "Relations",
+                     "caption": "Individual Affiliations",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/HasAddress"
+                        ],
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.OrganizationsView",
+                     "component": "Relations",
+                     "caption": "Organization Affiliations",
+                     "content": {
+                        "inRelations": [
+                           "configuration/relationTypes/HasAddress"
+                        ],
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "canRead": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canUpdate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canDelete": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canCreate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.EntityMapView",
+                     "component": "Map"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.EntityMapView",
+                     "height": 5,
+                     "minHeight": 5,
+                     "x": 0,
+                     "y": 0,
+                     "width": 3
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.LocationView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 6,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.PeopleView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 7,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.loc.OrganizationsView",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 7,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 5,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/Organization": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.org.AttributeView",
+                     "component": "Attributes",
+                     "excludeUris": [
+                        "configuration/entityTypes/Organization/attributes/Addresses",
+                        "configuration/entityTypes/Organization/attributes/Phone",
+                        "configuration/entityTypes/Organization/attributes/Email"
+                     ],
+                     "attributesCount": 10
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.7e17-369d-1c02014b",
+                     "component": "Attributes",
+                     "caption": "Contact Information",
+                     "includeUris": [
+                        "configuration/entityTypes/Organization/attributes/Addresses",
+                        "configuration/entityTypes/Organization/attributes/Address",
+                        "configuration/entityTypes/Organization/attributes/Phone",
+                        "configuration/entityTypes/Organization/attributes/Email"
+                     ],
+                     "attributesCount": 16
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.9cd8-d6eb-828d4b50",
+                     "component": "Relations",
+                     "caption": "Contract(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Contract"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToContract",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/NamedInsured",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.9d84-f20d-e305a0e0",
+                     "component": "Relations",
+                     "caption": "Insured Asset(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/InsuredAsset"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToAsset",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.ec5e-e941-3c637a15",
+                     "component": "Relations",
+                     "caption": "Claim(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Claim"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToClaim",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "canRead": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canUpdate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canDelete": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canCreate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "caption": "Potential Matches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.65fe-2813-929cf9d0",
+                     "component": "Relations",
+                     "caption": "Group(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/PartyGroup"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PartyToGroup",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.4122-3e52-e7af41bc",
+                     "component": "Relations",
+                     "caption": "Organization Affiliation(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationToOrganization",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/Partner",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b721-0267-ecd627d2",
+                     "component": "Relations",
+                     "caption": "Individual(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PersonToOrganization",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.org.AttributeView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.7e17-369d-1c02014b",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 2,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.9cd8-d6eb-828d4b50",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.9d84-f20d-e305a0e0",
+                     "autosizing": true,
+                     "x": 1,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.ec5e-e941-3c637a15",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 4,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.65fe-2813-929cf9d0",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 1,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.4122-3e52-e7af41bc",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 2,
+                     "width": 1,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b721-0267-ecd627d2",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 3,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            },
+            "configuration/entityTypes/Product": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.PersonView",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "canRead": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canUpdate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canDelete": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "canCreate": [
+                        "ROLE_DNB_CONNECTOR"
+                     ],
+                     "caption": "Potential Matches"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.PersonView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 1,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "/dnb/getOrgMatch?entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "/dnb/getDetailedProfile?entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 ""
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "workflow": {}
+            }
+         }
+      },
+      {
+         "visible": [
+            "configuration/entityTypes/HCP",
+            "configuration/entityTypes/HCO",
+            "configuration/entityTypes/ACO",
+            "configuration/entityTypes/Individual",
+            "configuration/entityTypes/Contract"
+         ],
+         "label": "Relationships",
+         "class": "Relationships"
+      },
+      {
+         "label": "Graph",
+         "class": "Graph"
+      },
+      {
+         "label": "Potential Matches",
+         "class": "PotentialMatches"
+      },
+      {
+         "label": "Interactions",
+         "class": "Interactions",
+         "caption": "Interactions"
+      },
+      {
+         "label": "Sources",
+         "class": "Sources"
+      },
+      {
+         "label": "Activity Log",
+         "class": "Activity",
+         "exportTypes": [
+            "json",
+            "csv"
+         ],
+         "caption": "Activity log"
+      }
+   ]
+}

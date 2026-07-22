@@ -1,0 +1,281 @@
+{
+   "id": "com.reltio.plugins.organization",
+   "name": "Organization Perspective",
+   "version": "1.0.0",
+   "provider-name": "Reltio.com",
+   "requirements": [
+      "com.reltio.plugins.entity"
+   ],
+   "extensions": [
+      {
+         "point": "com.reltio.plugins.ui.view",
+         "id": "com.reltio.plugins.entity.org.OrganizationView",
+         "class": "com.reltio.plugins.entity.attributes.AttributesView",
+         "attributesCount": 9
+      },
+      {
+         "point": "com.reltio.plugins.ui.view",
+         "id": "com.reltio.plugins.entity.org.CompanyView",
+         "class": "com.reltio.plugins.entity.TreeView",
+         "caption": "Company Hierarchy",
+         "graph": {
+            "type": "configuration/graphTypes/InternalHierarchy",
+            "layout": 25,
+            "deep": 2,
+            "limit": 300
+         }
+      },
+      {
+         "point": "com.reltio.plugins.ui.view",
+         "id": "com.reltio.plugins.entity.org.AttributeView",
+         "class": "com.reltio.plugins.entity.attributes.AttributesView",
+         "attributes-to-show": 10,
+         "excludeUris": [
+            "configuration/entityTypes/Organization/attributes/TradeStyleName",
+            "configuration/entityTypes/Organization/attributes/DoingBusinessAsName",
+            "configuration/entityTypes/Organization/attributes/PriorDUNSNUmber",
+            "configuration/entityTypes/Organization/attributes/IsSubsidiary",
+            "configuration/entityTypes/Organization/attributes/DUNSNumber",
+            "configuration/entityTypes/Organization/attributes/DnBGlobalUltimateIndicator",
+            "configuration/entityTypes/Organization/attributes/DnBNumberOfFamilyMembers",
+            "configuration/entityTypes/Organization/attributes/DnBDIASCode",
+            "configuration/entityTypes/Organization/attributes/DnBDIASCode",
+            "configuration/entityTypes/Organization/attributes/DnBHierarchyCode",
+            "configuration/entityTypes/Organization/attributes/DUNSHierarchy",
+            "configuration/entityTypes/Organization/attributes/IsManufacturing",
+            "configuration/entityTypes/Organization/attributes/IsMinorityOwned",
+            "configuration/entityTypes/Organization/attributes/IsPublicPrivate",
+            "configuration/entityTypes/Organization/attributes/FinancialStatement",
+            "configuration/entityTypes/Organization/attributes/FacilitySizeInSqFeet",
+            "configuration/entityTypes/Organization/attributes/LegalStatusCode",
+            "configuration/entityTypes/Organization/attributes/LegalStatusDescription",
+            "configuration/entityTypes/Organization/attributes/MarketabilityIndicator",
+            "configuration/entityTypes/Organization/attributes/DnBFullReportDate",
+            "configuration/entityTypes/Organization/attributes/DnBLastUpdateDate",
+            "configuration/entityTypes/Organization/attributes/OrganizationSummaryText",
+            "configuration/entityTypes/Organization/attributes/OrganizationDetail",
+            "configuration/entityTypes/Organization/attributes/IndustryCode",
+            "configuration/entityTypes/Organization/attributes/ActivitiesAndOperations",
+            "configuration/entityTypes/Organization/attributes/EmployeeDetails",
+            "configuration/entityTypes/Organization/attributes/MatchQuality",
+            "configuration/entityTypes/Organization/attributes/KeyFinancialFiguresOverview"
+         ]
+      },
+      {
+         "point": "com.reltio.plugins.ui.view",
+         "id": "com.reltio.plugins.entity.org.DnBAttributeView",
+         "class": "com.reltio.plugins.entity.attributes.AttributesView",
+         "caption": "D&B",
+         "attributes-to-show": 10,
+         "includeUris": [
+            "configuration/entityTypes/Organization/attributes/TradeStyleName",
+            "configuration/entityTypes/Organization/attributes/DoingBusinessAsName",
+            "configuration/entityTypes/Organization/attributes/PriorDUNSNUmber",
+            "configuration/entityTypes/Organization/attributes/IsSubsidiary",
+            "configuration/entityTypes/Organization/attributes/DUNSNumber",
+            "configuration/entityTypes/Organization/attributes/DnBGlobalUltimateIndicator",
+            "configuration/entityTypes/Organization/attributes/DnBNumberOfFamilyMembers",
+            "configuration/entityTypes/Organization/attributes/DnBDIASCode",
+            "configuration/entityTypes/Organization/attributes/DnBDIASCode",
+            "configuration/entityTypes/Organization/attributes/DnBHierarchyCode",
+            "configuration/entityTypes/Organization/attributes/DUNSHierarchy",
+            "configuration/entityTypes/Organization/attributes/IsManufacturing",
+            "configuration/entityTypes/Organization/attributes/IsMinorityOwned",
+            "configuration/entityTypes/Organization/attributes/IsPublicPrivate",
+            "configuration/entityTypes/Organization/attributes/FinancialStatement",
+            "configuration/entityTypes/Organization/attributes/FacilitySizeInSqFeet",
+            "configuration/entityTypes/Organization/attributes/LegalStatusCode",
+            "configuration/entityTypes/Organization/attributes/LegalStatusDescription",
+            "configuration/entityTypes/Organization/attributes/MarketabilityIndicator",
+            "configuration/entityTypes/Organization/attributes/DnBFullReportDate",
+            "configuration/entityTypes/Organization/attributes/DnBLastUpdateDate",
+            "configuration/entityTypes/Organization/attributes/OrganizationSummaryText",
+            "configuration/entityTypes/Organization/attributes/OrganizationDetail",
+            "configuration/entityTypes/Organization/attributes/IndustryCode",
+            "configuration/entityTypes/Organization/attributes/ActivitiesAndOperations",
+            "configuration/entityTypes/Organization/attributes/EmployeeDetails",
+            "configuration/entityTypes/Organization/attributes/MatchQuality",
+            "configuration/entityTypes/Organization/attributes/KeyFinancialFiguresOverview"
+         ]
+      },
+      {
+         "point": "com.reltio.plugins.ui.view",
+         "id": "com.reltio.plugins.entity.org.DnBView",
+         "class": "com.reltio.plugins.entity.TreeView",
+         "caption": "D&B Hierarchy",
+         "graph": {
+            "type": "configuration/graphTypes/DnBHierarchy",
+            "layout": 25,
+            "deep": 2,
+            "limit": 300
+         }
+      },
+      {
+         "point": "com.reltio.plugins.ui.view",
+         "id": "com.reltio.plugins.entity.organization.EmployeesView",
+         "class": "com.reltio.plugins.entity.relations.RelationsView",
+         "expandedView": true,
+         "caption": "Contacts",
+         "content": {
+            "inRelations": [
+               {
+                  "uri": "configuration/relationTypes/affiliatedwith",
+                  "label": ""
+               }
+            ],
+            "entityTypes": [
+               "configuration/entityTypes/Individual"
+            ]
+         }
+      },
+      {
+         "point": "com.reltio.plugins.ui.view",
+         "id": "com.reltio.plugins.entity.organization.ProductView",
+         "class": "com.reltio.plugins.entity.relations.RelationsView",
+         "expandedView": true,
+         "caption": "Products",
+         "content": {
+            "inRelations": [
+               {
+                  "uri": "configuration/relationTypes/HasProducts",
+                  "label": ""
+               }
+            ],
+            "entityTypes": [
+               "configuration/entityTypes/Product"
+            ]
+         }
+      },
+      {
+        "point": "com.reltio.plugins.ui.view",
+        "id": "com.reltio.plugins.interactions.InteractionsView",
+        "class": "com.reltio.plugins.interactions.InteractionsView",
+        "caption": "Interactions"
+      },
+      {
+         "point": "com.reltio.plugins.ui.perspective",
+         "id": "com.reltio.plugins.entity.org.OrgPerspective",
+         "class": "com.reltio.plugins.ui.Perspective",
+         "entity-type": "configuration/entityTypes/Organization",
+         "maxWidth": 1260,
+         "header": "com.reltio.plugins.entity.EntityHeader",
+         "side": "com.reltio.plugins.entity.EntitySidePanel",
+         "layout": {
+            "layout": "scroll",
+            "items": [
+               {
+                  "layout": "hbox",
+                  "padding": [0, 10, 0, 0],
+                  "items": [
+                     {
+                        "width": "66.6%",
+                        "layout": "vbox",
+                        "items": [
+                           {
+                              "view": "com.reltio.plugins.workflow.tasks.ReviewEntityWorkflowTasksContainer",
+                              "margin": [2, 7, 14, 0]
+                           },
+                           {
+                              "view": "com.reltio.plugins.entity.bbChartView",
+                              "margin": [2, 0, 12, 7]
+                           },
+                           {
+                              "view": "com.reltio.plugins.entity.org.AttributeView",
+                              "margin": [2, 7, 14, 0]
+                           },
+                           {
+                              "view": "com.reltio.plugins.entity.org.DnBAttributeView",
+                              "margin": [2, 7, 14, 0]
+                           },
+                           {
+                              "view": "com.reltio.plugins.entity.organization.EmployeesView",
+                              "margin": [2, 7, 14, 0]
+                           },
+                           {
+                              "view": "com.reltio.plugins.interactions.InteractionsView",
+                              "margin": [2, 7, 14, 0]
+                           }
+                        ]
+                     },
+                     {
+                        "width": "33.3%",
+                        "layout": "vbox",
+                        "items": [
+                           {
+                              "view": "com.reltio.plugins.entity.PotentialMatchesView",
+                              "margin": [2, 0, 12, 7]
+                           },
+                           {
+                              "view": "com.reltio.plugins.entity.org.DnBView",
+                              "margin": [2, 0, 14, 7]
+                           },
+                           {
+                              "view": "com.reltio.plugins.entity.org.CompanyView",
+                              "margin": [2, 0, 14, 7]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "point": "com.reltio.plugins.ui.preview.perspective",
+         "id": "com.reltio.plugins.entity.org.preview.OrgPerspective",
+         "class": "com.reltio.plugins.ui.Perspective",
+         "entity-type": "configuration/entityTypes/Organization",
+         "maxWidth": 1260,
+         "header": "com.reltio.plugins.entity.EntityHeader",
+         "layout": {
+            "layout": "scroll",
+            "items": [
+               {
+                  "view": "com.reltio.plugins.entity.org.OrganizationView",
+                  "margin": [0, 4, 4, 4],
+                  "width": "100%"
+               }
+            ]
+         }
+      },
+      {
+        "point": "com.reltio.plugins.ui.configuration",
+        "id": "com.reltio.plugins.pivoting.PivotingSettings",
+        "pivotingAttributes": [
+            {
+                "uri": "configuration/entityTypes/Organization/attributes/IndustryCode",
+                "children": [
+                    "configuration/entityTypes/Organization/attributes/IndustryCode/attributes/IndustryCode",
+                    "configuration/entityTypes/Organization/attributes/IndustryCode/attributes/Type",
+                    "configuration/entityTypes/Organization/attributes/IndustryCode/attributes/IndustryTypeCode"
+                ],
+                "popup": {
+                    "label": "Organization",
+                    "entityType": "configuration/entityTypes/Organization"
+                }
+            },
+            {
+                "uri": "configuration/entityTypes/Organization/attributes/Phone",
+                "children": [
+                    "configuration/entityTypes/Organization/attributes/Phone/attributes/Number",
+                    "configuration/entityTypes/Organization/attributes/Phone/attributes/Type"
+                ],
+                "popup": {
+                    "label": "Contact",
+                    "entityType": "configuration/entityTypes/Contact"
+                }
+            },
+            {
+                "uri": "configuration/entityTypes/Organization/attributes/Email",
+                "children": [
+                    "configuration/entityTypes/Organization/attributes/Email/attributes/Email"
+                ],
+                "popup": {
+                    "label": "Contact",
+                    "entityType": "configuration/entityTypes/Contact"
+                }
+            }
+        ]
+      }
+   ]
+}

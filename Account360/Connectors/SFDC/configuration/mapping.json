@@ -1,0 +1,723 @@
+{
+  "sfcache": [
+    {
+      "table": "recordtype",
+      "cachename": "idtoname",
+      "select": "Id,DeveloperName",
+      "key": "Id",
+      "value": "DeveloperName"
+    }
+  ],
+  "dictionaries": {},
+  "to_salesforce": {
+    "preserveInMapping": [
+      "id",
+      "Id",
+      "URI__c",
+      "__entity",
+      "__entityso",
+      "__sobjentity",
+      "__sobjentityso",
+      "__parententity",
+      "__reltiouri",
+      "__parenturi",
+      "__skipxwalkcreationonsfop",
+      "Name"
+    ],
+    "mergeunmerge": {},
+    "deleteaction": "enddate",
+    "interactions": "true",
+    "entityTypes": ["configuration/entityTypes/Organization", "configuration/entityTypes/Contact"],
+    "relationTypes": ["configuration/relationTypes/HasHealthCareRole", "configuration/relationTypes/Subsidiary"],
+    "updateCreatedWithCrosswalk": true,
+    "ignoreSyncUserEventTypes": "ENTITIES_MERGED",
+    "entityMapping": [
+      {
+        "type": "configuration/entityTypes/Organization",
+        "destType": "Account",
+        "salesforceCrosswalk": "//*[@type='configuration/entityTypes/Organization']/./crosswalks/*[@type='configuration/sources/Salesforce' and @sourceTable='Account' and not(@deleteDate)]/@value",
+        "salesforceCrosswalkAll": "//*[@type='configuration/entityTypes/Organization']/./crosswalks/*[@type='configuration/sources/Salesforce' and @sourceTable='Account']",
+        "salesforceCrosswalkType": "configuration/sources/Salesforce",
+        "salesforceCrosswalkSourceTable": "Account",
+        "attributes": [
+          {
+            "URI__c": "substring-after(@uri,'/')",
+            "Name": "*/attributes/Name/@@@ov@@@/@value",
+            "Website": "*/attributes/WebsiteURL/@@@ov@@@/@value",
+            "Account_Status__c": "*/attributes/Status/@@@ov@@@/@value",
+            "Phone": "*/attributes/Phone/*/value/Type/*[(concat('',@ov)='true') and @value='Phone']/../../../*[PrimaryPhoneFlag/*[@value = 'true']]/Number/@@@ov@@@/@value",
+            "Fax": "*/attributes/Phone/*/value/Type/*[(concat('',@ov)='true') and @value='Fax']/../../../*[PrimaryPhoneFlag/*[@value = 'true']]/Number/@@@ov@@@/@value",
+            "CompanyType__c": "*/attributes/CompanyType/@@@ov@@@/@value",
+            "CUSIP__c": "*/attributes/CUSIP/@@@ov@@@/@value",
+            "Sector__c": "*/attributes/Sector/@@@ov@@@/@value",
+            "TaxID__c": "*/attributes/TaxID/@@@ov@@@/@value",
+            "Industry__c": "*/attributes/Industry/@@@ov@@@/@value",
+            "FoundedYear__c": "*/attributes/FoundedYear/@@@ov@@@/@value",
+            "EndYear__c": "*/attributes/EndYear/@@@ov@@@/@value",
+            "IPOYear__c": "*/attributes/IPOYear/@@@ov@@@/@value",
+            "Ticker_Symbol__c": "*/attributes/Ticker/*/value/Symbol/@@@ov@@@/@value",
+            "Ticker_StockExchange__c": "*/attributes/Ticker/*/value/StockExchange/@@@ov@@@/@value",
+            "BillingStreet": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Billing']/../../*[../Primary/*[@value = 'true']]/../AddressLine1/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "BillingCity": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Billing']/../../*[../Primary/*[@value = 'true']]/../City/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "BillingStateCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Billing']/../../*[../Primary/*[@value = 'true']]/../StateProvince/*[@ov=true() or @ov='true' or not(@ov)]/@lookupCode",
+            "BillingPostalCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Billing']/../../*[../Primary/*[@value = 'true']]/../Zip/*/*/PostalCode/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "BillingCountryCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Billing']/../../*[../Primary/*[@value = 'true']]/../ISO3166-2/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "ShippingStreet": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Shipping']/../../*[../Primary/*[@value = 'true']]/../AddressLine1/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "ShippingCity": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Shipping']/../../*[../Primary/*[@value = 'true']]/../City/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "ShippingStateCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Shipping']/../../*[../Primary/*[@value = 'true']]/../StateProvince/*[@ov=true() or @ov='true' or not(@ov)]/@lookupCode",
+            "ShippingPostalCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Shipping']/../../*[../Primary/*[@value = 'true']]/../Zip/*/*/PostalCode/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "ShippingCountryCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Shipping']/../../*[../Primary/*[@value = 'true']]/../ISO3166-2/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+
+
+            "GlobalUltimateDUNS_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/GlobalUltimateDUNS/@@@ov@@@/@value",
+            "GlobalUltimateOrganization_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/GlobalUltimateOrganization/@@@ov@@@/@value",
+            "DomesticUltimateDUNS_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/DomesticUltimateDUNS/@@@ov@@@/@value",
+            "DomesticUltimateOrganization_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/DomesticUltimateOrganization/@@@ov@@@/@value",
+            "ParentDUNS_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/ParentDUNS/@@@ov@@@/@value",
+            "ParentOrganization_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/ParentOrganization/@@@ov@@@/@value",
+            "HeadquartersDUNS_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/HeadquartersDUNS/@@@ov@@@/@value",
+            "HeadquartersOrganization_RDNB__c": "*/attributes/DUNSHierarchy/*[1]/value/HeadquartersOrganization/@@@ov@@@/@value",
+
+            "FinancialStatementToDate_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/FinancialStatementToDate/@@@ov@@@/@value",
+            "FinancialPeriodDuration_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/FinancialPeriodDuration/@@@ov@@@/@value",
+            "SalesRevenueCurrency_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/SalesRevenueCurrency/@@@ov@@@/@value",
+            "SalesRevenueCurrencyCode_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/SalesRevenueCurrencyCode/@@@ov@@@/@value",
+            "SalesRevenueReliabilityCode_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/SalesRevenueReliabilityCode/@@@ov@@@/@value",
+            "SalesRevenueUnitOfSize_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/SalesRevenueUnitOfSize/@@@ov@@@/@value",
+            "SalesRevenueAmount_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/SalesRevenueAmount/@@@ov@@@/@value",
+            "ProfitOrLossCurrency_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/ProfitOrLossCurrency/@@@ov@@@/@value",
+            "ProfitOrLossReliabilityText_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/ProfitOrLossReliabilityText/@@@ov@@@/@value",
+            "ProfitOrLossUnitOfSize_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/ProfitOrLossUnitOfSize/@@@ov@@@/@value",
+            "ProfitOrLossAmount_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/ProfitOrLossAmount/@@@ov@@@/@value",
+            "SalesTurnoverGrowthRate_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/SalesTurnoverGrowthRate/@@@ov@@@/@value",
+            "Sales3YryGrowthRate_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/Sales3YryGrowthRate/@@@ov@@@/@value",
+            "Sales5YryGrowthRate_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/Sales5YryGrowthRate/@@@ov@@@/@value",
+            "Employee3YryGrowthRate_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/Employee3YryGrowthRate/@@@ov@@@/@value",
+            "Employee5YryGrowthRate_RDNB__c": "*/attributes/KeyFinancialFiguresOverview/*[1]/value/Employee5YryGrowthRate/@@@ov@@@/@value",
+
+            "IdentifiersType_RDNB__c": "*/attributes/Identifiers/*[1]/value/Type/@@@ov@@@/@value",
+            "IdentifiersID_RDNB__c": "*/attributes/Identifiers/*[1]/value/ID/@@@ov@@@/@value",
+            "IdentifiersStatus_RDNB__c": "*/attributes/Identifiers/*[1]/value/Status/@@@ov@@@/@value",
+            "IdentifiersActivationDate_RDNB__c": "*/attributes/Identifiers/*[1]/value/ActivationDate/@@@ov@@@/@value",
+            "IdentifiersDeactivationDate_RDNB__c": "*/attributes/Identifiers/*[1]/value/DeactivationDate/@@@ov@@@/@value",
+            "IdentifiersDeactivationReasonCode_RDNB__c": "*/attributes/Identifiers/*[1]/value/DeactivationReasonCode/@@@ov@@@/@value",
+            "IdentifiersReactivationDate_RDNB__c": "*/attributes/Identifiers/*[1]/value/ReactivationDate/@@@ov@@@/@value",
+
+            "OrgDetailMemberRole_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/MemberRole/@@@ov@@@/@value",
+            "OrgDetailStandalone_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/Standalone/@@@ov@@@/@value",
+            "OrgDetailControlOwnershipDate_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/ControlOwnershipDate/@@@ov@@@/@value",
+            "OrgDetailOperatingStatus_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/OperatingStatus/@@@ov@@@/@value",
+            "OrgDetailStartYear_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/StartYear/@@@ov@@@/@value",
+            "OrgDetailFranchiseOperationType_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/FranchiseOperationType/@@@ov@@@/@value",
+            "OrgDetailBoneyardOrganization_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/BoneyardOrganization/@@@ov@@@/@value",
+            "OrgDetailOperatingStatusComment_RDNB__c": "*/attributes/OrganizationDetail/*[1]/value/OperatingStatusComment/@@@ov@@@/@value",
+
+            "IndustryCodeDNBCode_RDNB__c": "*/attributes/IndustryCode/*[1]/value/DNBCode/@@@ov@@@/@value",
+            "IndustryCode_RDNB__c": "*/attributes/IndustryCode/*[1]/value/IndustryCode/@@@ov@@@/@value",
+            "IndustryCodeDescription_RDNB__c": "*/attributes/IndustryCode/*[1]/value/IndustryCodeDescription/@@@ov@@@/@value",
+            "IndustryCodeLanguageCode_RDNB__c": "*/attributes/IndustryCode/*[1]/value/IndustryCodeLanguageCode/@@@ov@@@/@value",
+            "IndustryCodeWritingScript_RDNB__c": "*/attributes/IndustryCode/*[1]/value/IndustryCodeWritingScript/@@@ov@@@/@value",
+            "IndustryCodeDisplaySequence_RDNB__c": "*/attributes/IndustryCode/*[1]/value/DisplaySequence/@@@ov@@@/@value",
+            "IndustryCodeSalesPercentage_RDNB__c": "*/attributes/IndustryCode/*[1]/value/SalesPercentage/@@@ov@@@/@value",
+            "IndustryCodeType_RDNB__c": "*/attributes/IndustryCode/*[1]/value/Type/@@@ov@@@/@value",
+            "IndustryTypeCode_RDNB__c": "*/attributes/IndustryCode/*[1]/value/IndustryTypeCode/@@@ov@@@/@value",
+            "IndustryCodeImportExportAgent_RDNB__c": "*/attributes/IndustryCode/*[1]/value/ImportExportAgent/@@@ov@@@/@value",
+
+            "ActAndOpLineOfBusinessDescription_RDNB__c": "*/attributes/ActivitiesAndOperations/*[1]/value/LineOfBusinessDescription/@@@ov@@@/@value",
+            "ActAndOpLanguageCode_RDNB__c": "*/attributes/ActivitiesAndOperations/*[1]/value/LanguageCode/@@@ov@@@/@value",
+            "ActAndOpWritingScriptCode_RDNB__c": "*/attributes/ActivitiesAndOperations/*[1]/value/WritingScriptCode/@@@ov@@@/@value",
+            "ActAndOpImportIndicator_RDNB__c": "*/attributes/ActivitiesAndOperations/*[1]/value/ImportIndicator/@@@ov@@@/@value",
+            "ActAndOpExportIndicator_RDNB__c": "*/attributes/ActivitiesAndOperations/*[1]/value/ExportIndicator/@@@ov@@@/@value",
+            "ActAndOpAgentIndicator_RDNB__c": "*/attributes/ActivitiesAndOperations/*[1]/value/AgentIndicator/@@@ov@@@/@value",
+
+            "IndividualEmployeeFiguresDate_RDNB__c": "*/attributes//EmployeeDetails/*[1]/value/IndividualEmployeeFiguresDate/@@@ov@@@/@value",
+            "IndividualTotalEmployeeQuantity_RDNB__c": "*/attributes/EmployeeDetails/*[1]/value/IndividualTotalEmployeeQuantity/@@@ov@@@/@value",
+            "IndividualReliabilityText_RDNB__c": "*/attributes/EmployeeDetails/*[1]/value/IndividualReliabilityText/@@@ov@@@/@value",
+            "TotalEmployeeQuantity_RDNB__c": "*/attributes/EmployeeDetails/*[1]/value/TotalEmployeeQuantity/@@@ov@@@/@value",
+            "TotalEmployeeReliability_RDNB__c": "*/attributes/EmployeeDetails/*[1]/value/TotalEmployeeReliability/@@@ov@@@/@value",
+            "PrincipalsIncluded_RDNB__c": "*/attributes/EmployeeDetails/*[1]/value/PrincipalsIncluded/@@@ov@@@/@value"
+          }
+        ],
+        "nestedattributesparents": {},
+        "nestedsobjects": [],
+        "relations": []
+      },
+      {
+        "type": "configuration/entityTypes/Contact",
+        "destType": "Contact",
+        "salesforceCrosswalk": "//*[@type='configuration/entityTypes/Contact']/./crosswalks/*[@type='configuration/sources/Salesforce' and @sourceTable='Contact' and not(@deleteDate)]/@value",
+        "salesforceCrosswalkAll": "//*[@type='configuration/entityTypes/Contact']/./crosswalks/*[@type='configuration/sources/Salesforce' and @sourceTable='Contact']",
+        "salesforceCrosswalkType": "configuration/sources/Salesforce",
+        "salesforceCrosswalkSourceTable": "Contact",
+        "attributes": [
+          {
+            "URI__c": "substring-after(@uri,'/')",
+            "Salutation": "*/attributes/Prefix/@@@ov@@@/@value",
+            "FirstName": "*/attributes/FirstName/@@@ov@@@/@value",
+            "LastName": "*/attributes/LastName/@@@ov@@@/@value",
+            "Phone": "*/attributes/Phone/*/value/Type/*[(concat('',@ov)='true') and @value='Phone']/../../../*[PrimaryPhoneFlag/*[@value = 'true']]/Number/@@@ov@@@/@value",
+            "MobilePhone": "*/attributes/Phone/*/value/Type/*[(concat('',@ov)='true') and @value='Mobile']/../../../*[PrimaryPhoneFlag/*[@value = 'true']]/Number/@@@ov@@@/@value",
+            "Fax": "*/attributes/Phone/*/value/Type/*[(concat('',@ov)='true') and @value='Fax']/../../../*[PrimaryPhoneFlag/*[@value = 'true']]/Number/@@@ov@@@/@value",
+            "HomePhone": "*/attributes/Phone/*/value/Type/*[(concat('',@ov)='true') and @value='Home']/../../../*[PrimaryPhoneFlag/*[@value = 'true']]/Number/@@@ov@@@/@value",
+            "OtherPhone": "*/attributes/Phone/*/value/Type/*[(concat('',@ov)='true') and @value='Other']/../../../*[PrimaryPhoneFlag/*[@value = 'true']]/Number/@@@ov@@@/@value",
+            "Email": "*/attributes/Email/*/value/Type/*[(concat('',@ov)='true') and @value='Work']/../../Email/@@@ov@@@/@value",
+            "Description": "*/attributes/Description/@@@ov@@@/@value",
+            "Title": "*/attributes/Title/@@@ov@@@/@value",
+            "Gender__c": "*/attributes/Gender/@@@ov@@@/@value",
+            "Birthdate": "*/attributes/DoB/@@@ov@@@/@value",
+            "HasOptedOutOfEmail": "*/attributes/PrivacyPreferences/*/value/EmailOptOut/@@@ov@@@/@value",
+            "HasOptedOutOfFax": "*/attributes/PrivacyPreferences/*/value/FaxOptOut/@@@ov@@@/@value",
+            "MailingStreet": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Mailing']/../../*[../Primary/*[@value = 'true']]/../AddressLine1/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "MailingCity": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Mailing']/../../*[../Primary/*[@value = 'true']]/../City/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "MailingStateCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Mailing']/../../*[../Primary/*[@value = 'true']]/../StateProvince/*[@ov=true() or @ov='true' or not(@ov)]/@lookupCode",
+            "MailingPostalCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Mailing']/../../*[../Primary/*[@value = 'true']]/../Zip/*/*/PostalCode/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "MailingCountryCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Mailing']/../../*[../Primary/*[@value = 'true']]/../Country/*[@ov=true() or @ov='true' or not(@ov)]/@lookupCode",
+            "OtherStreet": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Other']/../../*[../Primary/*[@value = 'true']]/../AddressLine1/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "OtherCity": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Other']/../../*[../Primary/*[@value = 'true']]/../City/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "OtherStateCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Other']/../../*[../Primary/*[@value = 'true']]/../StateProvince/*[@ov=true() or @ov='true' or not(@ov)]/@lookupCode",
+            "OtherPostalCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Other']/../../*[../Primary/*[@value = 'true']]/../Zip/*/*/PostalCode/*[@ov=true() or @ov='true' or not(@ov)]/@value",
+            "OtherCountryCode": "*/attributes/Address/*/value/AddressType/*[(@ov=true() or @ov='true' or not(@ov)) and @lookupCode='Other']/../../*[../Primary/*[@value = 'true']]/../Country/*[@ov=true() or @ov='true' or not(@ov)]/@lookupCode"
+          }
+        ],
+        "nestedattributesparents": {},
+        "nestedsobjects": [],
+        "relations": []
+      }
+    ]
+  },
+  "to_reltio": {
+    "affiliations": [
+    ],
+    "soMappings": [
+      {
+        "type": "Account",
+        "nested": false,
+        "table": "Account",
+        "firstLevel": [
+          "attributes"
+        ],
+        "source": "configuration/sources/Salesforce",
+        "parentTable": "Account",
+        "entityType": "configuration/entityTypes/Organization",
+        "delete": true,
+        "deleteExpression": "//*[@type='configuration/entityTypes/Organization']/./crosswalks/*[@type='configuration/sources/Salesforce' and @sourceTable='Account' and not(@deleteDate)]/@uri",
+        "attributes": {
+          "additionalField": [
+            "BillingAddress",
+            "ShippingAddress"
+          ],
+          "URI__c": "entityURI",
+          "Name": "Name",
+          "Phone": {
+            "name": "Phone",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Number"
+            ],
+            "attributes": {
+              "additionalField": [
+                "Type",
+                "PrimaryPhoneFlag"
+              ],
+              "Type": "Phone",
+              "Number": "@@@Phone@@@",
+              "PrimaryPhoneFlag": "true"
+            }
+          },
+          "Fax": {
+            "name": "Phone",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Number"
+            ],
+            "attributes": {
+              "additionalField": [
+                "Type",
+                "PrimaryPhoneFlag"
+              ],
+              "Type": "Fax",
+              "Number": "@@@Fax@@@",
+              "PrimaryPhoneFlag": "true"
+            }
+          },
+          "BillingAddress": {
+            "name": "Address",
+            "template": "reference",
+            "ignoreIfEmpty": [
+              "BillingState",
+              "BillingCity",
+              "BillingStreet",
+              "BillingPostalCode"
+            ],
+            "attributes": {
+              "additionalField": [
+                "AddressType",
+                "Primary"
+              ],
+              "AddressType": "Billing",
+              "Primary": "true",
+              "BillingCountryCode": "Country",
+              "BillingCity": "City",
+              "BillingStreet": "AddressLine1",
+              "BillingState": "StateProvince",
+              "BillingPostalCode": {
+                "name": "Zip",
+                "template": "nestedobject",
+                "attributes": {
+                  "PostalCode": "@@@BillingPostalCode@@@"
+                }
+              }
+            },
+            "refEntity": {
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Account",
+                "value": "Surrogate"
+              }
+            },
+            "refRelation": {
+              "type": "configuration/relationTypes/HasAddress",
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Address_Billing",
+                "value": "@@@Id@@@"
+              }
+            }
+          },
+          "ShippingAddress": {
+            "name": "Address",
+            "template": "reference",
+            "ignoreIfEmpty": [
+              "ShippingState",
+              "ShippingStreet",
+              "ShippingStreet",
+              "ShippingPostalCode"
+            ],
+            "attributes": {
+              "additionalField": [
+                "AddressType",
+                "Primary"
+              ],
+              "AddressType": "Shipping",
+              "Primary": "true",
+              "ShippingCity": "City",
+              "ShippingCountryCode": "Country",
+              "ShippingStreet": "AddressLine1",
+              "ShippingState": "StateProvince",
+              "ShippingPostalCode": {
+                "name": "Zip",
+                "template": "nestedobject",
+                "attributes": {
+                  "PostalCode": "@@@ShippingPostalCode@@@"
+                }
+              }
+            },
+            "refEntity": {
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Location",
+                "value": "Surrogate"
+              }
+            },
+            "refRelation": {
+              "type": "configuration/relationTypes/HasAddress",
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Address_Shipping",
+                "value": "@@@Id@@@"
+              }
+            }
+          },
+          "Website": "WebsiteURL",
+          "CompanyType__c": "CompanyType",
+          "CUSIP__c": "CUSIP",
+          "Sector__c": "Sector",
+          "Industry__c": "Industry",
+          "FoundedYear__c": "FoundedYear",
+          "EndYear__c": "EndYear",
+          "IPOYear__c": "IPOYear",
+          "Ticker_Symbol__c": {
+            "name": "Ticker",
+            "template": "nestedobject",
+            "attributes": {
+              "Symbol": "@@@Ticker_Symbol__c@@@"
+            }
+          },
+          "Ticker_StockExchange__c": {
+            "name": "Ticker",
+            "template": "nestedobject",
+            "attributes": {
+              "StockExchange": "@@@Ticker_StockExchange__c@@@"
+            }
+          },
+          "TaxID__c": "TaxID",
+          "Id": {
+            "name": "crosswalks",
+            "template": "crosswalk",
+            "attributes": {
+              "type": "configuration/sources/Salesforce",
+              "sourceTable": "Account",
+              "dataProvider": true,
+              "contributorProvider": false,
+              "url": "/@@@Id@@@",
+              "value": "@@@Id@@@"
+            }
+          },
+
+          "ParentDUNS_RDNB__c": {
+            "name": "DUNSHierarchy",
+            "template": "nestedarray",
+            "attributes": {
+              "ParentDUNS": "@@@ParentDUNS_RDNB__c@@@",
+              "GlobalUltimateDUNS": "@@@GlobalUltimateDUNS_RDNB__c@@@",
+              "ParentOrganization": "@@@ParentOrganization_RDNB__c@@@",
+              "HeadquartersOrganization": "@@@HeadquartersOrganization_RDNB__c@@@",
+              "HeadquartersDUNS": "@@@HeadquartersDUNS_RDNB__c@@@",
+              "GlobalUltimateOrganization": "@@@GlobalUltimateOrganization_RDNB__c@@@",
+              "DomesticUltimateOrganization": "@@@DomesticUltimateOrganization_RDNB__c@@@",
+              "DomesticUltimateDUNS": "@@@DomesticUltimateDUNS_RDNB__c@@@"
+
+            }
+          },
+          "SalesRevenueCurrencyCode_RDNB__c": {
+            "name": "KeyFinancialFiguresOverview",
+            "template": "nestedarray",
+            "attributes": {
+              "SalesRevenueCurrencyCode": "@@@SalesRevenueCurrencyCode_RDNB__c@@@",
+              "FinancialStatementToDate": "@@@FinancialStatementToDate_RDNB__c@@@",
+              "Sales3YryGrowthRate": "@@@Sales3YryGrowthRate_RDNB__c@@@",
+              "Sales5YryGrowthRate": "@@@Sales5YryGrowthRate_RDNB__c@@@",
+              "Employee3YryGrowthRate": "@@@Employee3YryGrowthRate_RDNB__c@@@",
+              "ProfitOrLossCurrency": "@@@ProfitOrLossCurrency_RDNB__c@@@",
+              "Employee5YryGrowthRate": "@@@Employee5YryGrowthRate_RDNB__c@@@",
+              "SalesRevenueReliabilityCode": "@@@SalesRevenueReliabilityCode_RDNB__c@@@",
+              "FinancialPeriodDuration": "@@@FinancialPeriodDuration_RDNB__c@@@",
+              "SalesRevenueAmount": "@@@SalesRevenueAmount_RDNB__c@@@",
+              "ProfitOrLossAmount": "@@@ProfitOrLossAmount_RDNB__c@@@",
+              "SalesTurnoverGrowthRate": "@@@SalesTurnoverGrowthRate_RDNB__c@@@",
+              "SalesRevenueCurrency": "@@@SalesRevenueCurrency_RDNB__c@@@",
+              "SalesRevenueUnitOfSize": "@@@SalesRevenueUnitOfSize_RDNB__c@@@",
+              "ProfitOrLossReliabilityText": "@@@ProfitOrLossReliabilityText_RDNB__c@@@",
+              "ProfitOrLossUnitOfSize": "@@@ProfitOrLossUnitOfSize_RDNB__c@@@"
+
+            }
+          },
+          "IndustryCodeSalesPercentage_RDNB__c": {
+            "name": "IndustryCode",
+            "template": "nestedarray",
+            "attributes": {
+              "SalesPercentage": "@@@IndustryCodeSalesPercentage_RDNB__c@@@",
+              "IndustryCodeLanguageCode": "@@@IndustryCodeLanguageCode_RDNB__c@@@",
+              "DisplaySequence": "@@@IndustryCodeDisplaySequence_RDNB__c@@@",
+              "DNBCode": "@@@IndustryCodeDNBCode_RDNB__c@@@",
+              "IndustryCode": "@@@IndustryCode_RDNB__c@@@",
+              "IndustryCodeDescription": "@@@IndustryCodeDescription_RDNB__c@@@",
+              "IndustryTypeCode": "@@@IndustryTypeCode_RDNB__c@@@",
+              "ImportExportAgent": "@@@IndustryCodeImportExportAgent_RDNB__c@@@",
+              "IndustryCodeWritingScript": "@@@IndustryCodeWritingScript_RDNB__c@@@",
+              "Type": "@@@IndustryCodeType_RDNB__c@@@"
+
+            }
+          },
+          "IdentifiersID_RDNB__c": {
+            "name": "Identifiers",
+            "template": "nestedarray",
+            "attributes": {
+              "ID": "@@@IdentifiersID_RDNB__c@@@",
+              "DeactivationReasonCode": "@@@IdentifiersDeactivationReasonCode_RDNB__c@@@",
+              "ReactivationDate": "@@@IdentifiersReactivationDate_RDNB__c@@@",
+              "Status": "@@@IdentifiersStatus_RDNB__c@@@",
+              "Type": "@@@IdentifiersType_RDNB__c@@@",
+              "ActivationDate": "@@@IdentifiersActivationDate_RDNB__c@@@",
+              "DeactivationDate": "@@@IdentifiersDeactivationDate_RDNB__c@@@"
+
+            }
+          },
+          "IndividualReliabilityText_RDNB__c": {
+            "name": "EmployeeDetails",
+            "template": "nestedarray",
+            "attributes": {
+              "IndividualReliabilityText": "@@@IndividualReliabilityText_RDNB__c@@@",
+              "IndividualTotalEmployeeQuantity": "@@@IndividualTotalEmployeeQuantity_RDNB__c@@@",
+              "TotalEmployeeReliability": "@@@TotalEmployeeReliability_RDNB__c@@@",
+              "PrincipalsIncluded": "@@@PrincipalsIncluded_RDNB__c@@@",
+              "IndividualEmployeeFiguresDate": "@@@IndividualEmployeeFiguresDate_RDNB__c@@@",
+              "TotalEmployeeQuantity": "@@@TotalEmployeeQuantity_RDNB__c@@@"
+
+            }
+          },
+          "OrgDetailBoneyardOrganization_RDNB__c": {
+            "name": "OrganizationDetail",
+            "template": "nestedarray",
+            "attributes": {
+              "BoneyardOrganization": "@@@OrgDetailBoneyardOrganization_RDNB__c@@@",
+              "MemberRole": "@@@OrgDetailMemberRole_RDNB__c@@@",
+              "OperatingStatus": "@@@OrgDetailOperatingStatus_RDNB__c@@@",
+              "StartYear": "@@@OrgDetailStartYear_RDNB__c@@@",
+              "FranchiseOperationType": "@@@OrgDetailFranchiseOperationType_RDNB__c@@@",
+              "OperatingStatusComment": "@@@OrgDetailOperatingStatusComment_RDNB__c@@@",
+              "ControlOwnershipDate": "@@@OrgDetailControlOwnershipDate_RDNB__c@@@",
+              "Standalone": "@@@OrgDetailStandalone_RDNB__c@@@"
+
+            }
+          },
+          "ActAndOpLineOfBusinessDescription_RDNB__c": {
+            "name": "ActivitiesAndOperations",
+            "template": "nestedarray",
+            "attributes": {
+              "LineOfBusinessDescription": "@@@ActAndOpLineOfBusinessDescription_RDNB__c@@@",
+              "ExportIndicator": "@@@ActAndOpExportIndicator_RDNB__c@@@",
+              "ImportIndicator": "@@@ActAndOpImportIndicator_RDNB__c@@@",
+              "LanguageCode": "@@@ActAndOpLanguageCode_RDNB__c@@@",
+              "AgentIndicator": "@@@ActAndOpAgentIndicator_RDNB__c@@@",
+              "WritingScriptCode": "@@@ActAndOpWritingScriptCode_RDNB__c@@@"
+
+            }
+          }
+        }
+      },
+      {
+        "type": "Contact",
+        "nested": false,
+        "table": "Contact",
+        "firstLevel": [
+          "attributes"
+        ],
+        "source": "configuration/sources/Salesforce",
+        "parentTable": "Contact",
+        "entityType": "configuration/entityTypes/Contact",
+        "delete": true,
+        "deleteExpression": "//*[@type='configuration/entityTypes/Contact']/./crosswalks/*[@type='configuration/sources/Salesforce' and @sourceTable='Contact' and not(@deleteDate)]/@uri",
+        "attributes": {
+          "additionalField": [
+            "OtherAddress",
+            "MailingAddress"
+          ],
+          "URI__c": "entityURI",
+          "Salutation": "Prefix",
+          "FirstName": "FirstName",
+          "LastName": "LastName",
+          "Phone": {
+            "name": "Phone",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Number"
+            ],
+            "attributes": {
+              "additionalField": [
+                "Type",
+                "PrimaryPhoneFlag"
+              ],
+              "Type": "Phone",
+              "Number": "@@@Phone@@@",
+              "PrimaryPhoneFlag": "true"
+            }
+          },
+          "MobilePhone": {
+            "name": "Phone",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Number"
+            ],
+            "attributes": {
+              "additionalField": [
+                "Type",
+                "PrimaryPhoneFlag"
+              ],
+              "Type": "Mobile",
+              "Number": "@@@MobilePhone@@@",
+              "PrimaryPhoneFlag": "true"
+            }
+          },
+          "Fax": {
+            "name": "Phone",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Number"
+            ],
+            "attributes": {
+              "additionalField": [
+                "Type",
+                "PrimaryPhoneFlag"
+              ],
+              "Type": "Fax",
+              "Number": "@@@Fax@@@",
+              "PrimaryPhoneFlag": "true"
+            }
+          },
+          "HomePhone": {
+            "name": "Phone",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Number"
+            ],
+            "attributes": {
+              "additionalField": [
+                "Type",
+                "PrimaryPhoneFlag"
+              ],
+              "Type": "Home",
+              "Number": "@@@HomePhone@@@",
+              "PrimaryPhoneFlag": "true"
+            }
+          },
+          "OtherPhone": {
+            "name": "Phone",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Number"
+            ],
+            "attributes": {
+              "additionalField": [
+                "Type",
+                "PrimaryPhoneFlag"
+              ],
+              "Type": "Other",
+              "Number": "@@@OtherPhone@@@",
+              "PrimaryPhoneFlag": "true"
+            }
+          },
+          "Email": {
+            "name": "Email",
+            "template": "nestedarray",
+            "ignoreIfEmpty": [
+              "Email"
+            ],
+            "attributes": {
+              "Type": "Work",
+              "Email": "@@@Email@@@"
+            }
+          },
+          "Description": "Description",
+          "Title": "Title",
+          "Gender__c": "Gender",
+          "Birthdate": "DoB",
+          "HasOptedOutOfEmail": {
+            "name": "PrivacyPreferences",
+            "template": "nestedarray",
+            "attributes": {
+              "EmailOptOut": "@@@HasOptedOutOfEmail@@@",
+              "FaxOptOut": "@@@HasOptedOutOfFax@@@"
+            }
+          },
+          "MailingAddress": {
+            "name": "Address",
+            "template": "reference",
+            "ignoreIfEmpty": [
+              "MailingState",
+              "MailingCity",
+              "MailingStreet",
+              "MailingPostalCode"
+            ],
+            "attributes": {
+              "additionalField": [
+                "AddressType",
+                "Primary"
+              ],
+              "AddressType": "Mailing",
+              "Primary": "true",
+              "MailingCity": "City",
+              "MailingStreet": "AddressLine1",
+              "MailingCountryCode": "ISO3166-2",
+              "MailingState": "StateProvince",
+              "MailingPostalCode": {
+                "name": "Zip",
+                "template": "nestedobject",
+                "attributes": {
+                  "PostalCode": "@@@MailingPostalCode@@@"
+                }
+              }
+            },
+            "refEntity": {
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Location",
+                "value": "Surrogate"
+              }
+            },
+            "refRelation": {
+              "type": "configuration/relationTypes/HasAddress",
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Address_Mailing",
+                "value": "@@@Id@@@"
+              }
+            }
+          },
+          "OtherAddress": {
+            "name": "Address",
+            "template": "reference",
+            "ignoreIfEmpty": [
+              "OtherState",
+              "OtherCity",
+              "OtherStreet",
+              "OtherPostalCode"
+            ],
+            "attributes": {
+              "additionalField": [
+                "AddressType",
+                "Primary"
+              ],
+              "AddressType": "Other",
+              "Primary": "true",
+              "OtherCity": "City",
+              "OtherStreet": "AddressLine1",
+              "OtherCountryCode": "ISO3166-2",
+              "OtherState": "StateProvince",
+              "OtherPostalCode": {
+                "name": "Zip",
+                "template": "nestedobject",
+                "attributes": {
+                  "PostalCode": "@@@OtherPostalCode@@@"
+                }
+              }
+            },
+            "refEntity": {
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Contact",
+                "value": "Surrogate"
+              }
+            },
+            "refRelation": {
+              "type": "configuration/relationTypes/HasAddress",
+              "name": "crosswalks",
+              "template": "crosswalk",
+              "attributes": {
+                "type": "configuration/sources/Salesforce",
+                "sourceTable": "Address_Other",
+                "value": "@@@Id@@@"
+              }
+            }
+          },
+          "Id": {
+            "name": "crosswalks",
+            "template": "crosswalk",
+            "attributes": {
+              "type": "configuration/sources/Salesforce",
+              "sourceTable": "Contact",
+              "dataProvider": true,
+              "contributorProvider": false,
+              "url": "/@@@Id@@@",
+              "value": "@@@Id@@@"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

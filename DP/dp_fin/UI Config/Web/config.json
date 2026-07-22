@@ -1,0 +1,2632 @@
+{
+   "layout": [
+      {
+         "items": [
+            {
+               "label": "Reltio Intelligent Assistant",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/RIA.svg",
+               "class": "RIA",
+               "defaultPrompts": [
+                  "How can RIA help me?",
+                  "Give me a bar chart of entity types by number of entities",
+                  "Find all Individuals on this tenant",
+                  "Find all Organizations on this tenant"
+               ]
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Profile stats",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Dashboard.svg",
+               "class": "Dashboard",
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "component": "ProfileStatsFacet",
+                     "title": "Profile Stats"
+                  },
+                  {
+                     "id": "com.reltio.plugins.notifications.Inbox",
+                     "component": "NotificationInboxFacet",
+                     "title": "Notifications"
+                  },
+                  {
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "component": "ActivitiesViewFacet",
+                     "title": "Activity log"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.FavoriteSavedSearches",
+                     "options": {
+                        "favoriteOnly": true,
+                        "countResults": true
+                     },
+                     "component": "FilteredSavedSearchesFacet",
+                     "title": "Saved Searches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.GlobalLocationWorldMapView",
+                     "component": "DashboardFacet",
+                     "title": "Global Organization View",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "chartType": "map",
+                     "projection": "geoMercator",
+                     "geoIdName": "name",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Address/attributes/Country"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.USALocationsByStateView",
+                     "chartType": "map",
+                     "component": "DashboardFacet",
+                     "title": "Organizations in the USA",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/usa_prefix_latlng.topo.json",
+                     "projection": "geoMercator",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Address/attributes/StateProvince",
+                     "geoIdName": "name",
+                     "filters": [
+                        {
+                           "fieldName": "attributes.Address.Country",
+                           "filter": "equals",
+                           "values": [
+                              "United States"
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "id": "c13c-7c43-6caa6b1b",
+                     "component": "DashboardFacet",
+                     "title": "Global Individual View",
+                     "chartType": "map",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Address/attributes/Country",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "projection": "geoMercator",
+                     "geoIdName": "name"
+                  },
+                  {
+                     "id": "8069-2a39-e545f4d2",
+                     "component": "DashboardFacet",
+                     "title": "Global Financial Professional View",
+                     "chartType": "map",
+                     "attributeUri": "configuration/entityTypes/FinancialProfessional/attributes/Address/attributes/Country",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "projection": "geoMercator",
+                     "geoIdName": "name"
+                  },
+                  {
+                     "id": "0623-666f-e9b461cf",
+                     "component": "DashboardFacet",
+                     "title": "Individuals in the USA",
+                     "chartType": "map",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Address/attributes/StateProvince",
+                     "filters": [
+                        {
+                           "fieldName": "attributes.Address.Country",
+                           "filter": "equals",
+                           "values": [
+                              "United States"
+                           ]
+                        }
+                     ],
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/usa_prefix_latlng.topo.json",
+                     "geoIdName": "name",
+                     "projection": "geoMercator"
+                  },
+                  {
+                     "id": "22e7-274a-1f5a6fbd",
+                     "component": "DashboardFacet",
+                     "title": "Financial Professionals in the USA",
+                     "chartType": "map",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/usa_prefix_latlng.topo.json",
+                     "projection": "geoMercator",
+                     "geoIdName": "name",
+                     "attributeUri": "configuration/entityTypes/FinancialProfessional/attributes/Address/attributes/StateProvince",
+                     "filters": [
+                        {
+                           "fieldName": "attributes.Address.Country",
+                           "filter": "equals",
+                           "values": [
+                              "United States"
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "id": "d670-2437-abd54d30",
+                     "component": "DashboardFacet",
+                     "title": "Organization Address Data Quality",
+                     "chartType": "donut",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Address/attributes/VerificationStatus"
+                  },
+                  {
+                     "id": "e017-cc01-8400c6ae",
+                     "component": "DashboardFacet",
+                     "title": "Individual Address Data Quality",
+                     "chartType": "donut",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Address/attributes/VerificationStatus"
+                  },
+                  {
+                     "id": "c0ac-f6fc-1282e622",
+                     "component": "DashboardFacet",
+                     "title": "Financial Professional Address Data Quality",
+                     "chartType": "donut",
+                     "attributeUri": "configuration/entityTypes/FinancialProfessional/attributes/Address/attributes/VerificationStatus"
+                  },
+                  {
+                     "id": "4080-a5aa-a80a0d76",
+                     "component": "DashboardFacet",
+                     "title": "Financial Professional Email Data Quality",
+                     "chartType": "pie",
+                     "attributeUri": "configuration/entityTypes/FinancialProfessional/attributes/Email/attributes/ValidationStatus",
+                     "filters": []
+                  },
+                  {
+                     "id": "c733-da3b-360b00cd",
+                     "component": "DashboardFacet",
+                     "title": "Individual Email Data Quality",
+                     "chartType": "pie",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                     "filters": []
+                  },
+                  {
+                     "id": "8e49-dc63-7e2912b2",
+                     "component": "DashboardFacet",
+                     "title": "Organization Email Data Quality",
+                     "chartType": "pie",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Email/attributes/ValidationStatus",
+                     "filters": []
+                  },
+                  {
+                     "id": "075c-77d4-12f22e31",
+                     "component": "DashboardFacet",
+                     "title": "Organization Phone Data Quality",
+                     "chartType": "bubble",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Phone/attributes/ValidationStatus",
+                     "filters": []
+                  },
+                  {
+                     "id": "d00c-a7b7-fa7ece9b",
+                     "component": "DashboardFacet",
+                     "title": "Individual Phone Data Quality",
+                     "chartType": "bubble",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                     "filters": []
+                  },
+                  {
+                     "id": "1f59-d2d4-c6ba3457",
+                     "component": "DashboardFacet",
+                     "title": "Financial Professional Phone Data Quality",
+                     "chartType": "bubble",
+                     "attributeUri": "configuration/entityTypes/FinancialProfessional/attributes/Phone/attributes/ValidationStatus",
+                     "filters": []
+                  },
+                  {
+                     "id": "c183-cc87-0bb14aef",
+                     "component": "DashboardFacet",
+                     "title": "Tags",
+                     "chartType": "cloud",
+                     "attributeUri": "tags"
+                  },
+                  {
+                     "id": "6d2e-8b59-e7e53e76",
+                     "component": "DashboardFacet",
+                     "title": "Organizations by Source",
+                     "chartType": "table",
+                     "attributeUri": "sourceSystems",
+                     "filters": [
+                        {
+                           "fieldName": "type",
+                           "filter": "equals",
+                           "values": [
+                              "Organization"
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "id": "94d4-813c-b68bafc1",
+                     "component": "DashboardFacet",
+                     "title": "Individuals by Source",
+                     "chartType": "table",
+                     "attributeUri": "sourceSystems",
+                     "filters": [
+                        {
+                           "fieldName": "type",
+                           "filter": "equals",
+                           "values": [
+                              "Individual"
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "id": "0d96-2699-3d661782",
+                     "component": "DashboardFacet",
+                     "title": "Financial Professionals by Source",
+                     "chartType": "table",
+                     "attributeUri": "sourceSystems",
+                     "filters": [
+                        {
+                           "fieldName": "type",
+                           "filter": "equals",
+                           "values": [
+                              "FinancialProfessional"
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "id": "6ad3-7472-e671db9c",
+                     "component": "DashboardFacet",
+                     "title": "Organizations by Type",
+                     "chartType": "bar",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/CompanyType"
+                  },
+                  {
+                     "id": "dd58-f841-7bd11b99",
+                     "component": "DashboardFacet",
+                     "title": "Individuals by Annual Household Income",
+                     "chartType": "bar",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/AnnualHHGrossIncome/attributes/AnnualHHGIAmt"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.GlobalLocationWorldMapView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.USALocationsByStateView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.notifications.Inbox",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 10,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "c13c-7c43-6caa6b1b",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 10,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "8069-2a39-e545f4d2",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "0623-666f-e9b461cf",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "22e7-274a-1f5a6fbd",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "d670-2437-abd54d30",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 40,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "e017-cc01-8400c6ae",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 50,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "c0ac-f6fc-1282e622",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 50,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "4080-a5aa-a80a0d76",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 40,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "c733-da3b-360b00cd",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "8e49-dc63-7e2912b2",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "075c-77d4-12f22e31",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 40,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "d00c-a7b7-fa7ece9b",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 50,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "1f59-d2d4-c6ba3457",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "c183-cc87-0bb14aef",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "6d2e-8b59-e7e53e76",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 40,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "94d4-813c-b68bafc1",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 50,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "0d96-2699-3d661782",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 60,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "6ad3-7472-e671db9c",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 1,
+                     "y": 60,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "dd58-f841-7bd11b99",
+                     "isStatic": false
+                  }
+               ]
+            },
+            {
+               "label": "Data quality",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/DqDashboard.svg",
+               "class": "DQDashboard"
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Segmentation",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Segmentation.svg",
+               "class": "Segmentation",
+               "isNewMode": true,
+               "isNewScreen": true,
+               "foldersEnabled": true
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Search",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Search.svg",
+               "class": "Search",
+               "canExport": true,
+               "bulkUpdate": true,
+               "potentialMatchesReview": {
+                  "processType": "potentialMatchReview"
+               },
+               "options": {
+                  "showSearchByOv": true,
+                  "scoreEnabled": true,
+                  "showRDM": true
+               },
+               "tabs": {
+                  "configuration/entityTypes/Organization": [
+                     "entityId",
+                     "attributes.Name",
+                     "attributes.Phone.FormattedNumber"
+                  ],
+                  "configuration/entityTypes/Location": [
+                     "entityId",
+                     "attributes.AddressLine1",
+                     "attributes.AddressLine2",
+                     "attributes.City",
+                     "attributes.StateProvince",
+                     "attributes.Country",
+                     "attributes.VerificationStatus"
+                  ],
+                  "configuration/entityTypes/Individual": [
+                     "entityId",
+                     "attributes.PreferredName",
+                     "attributes.FirstName",
+                     "attributes.LastName",
+                     "attributes.Name",
+                     "attributes.DOB",
+                     "attributes.Phone.FormattedNumber",
+                     "attributes.Email.Email"
+                  ],
+                  "configuration/entityTypes/FinancialAccount": [
+                     "entityId",
+                     "attributes.AccountName",
+                     "attributes.AccountNumber",
+                     "attributes.AccountType",
+                     "attributes.AccountStatus",
+                     "attributes.OpenDate",
+                     "attributes.CloseDate"
+                  ],
+                  "configuration/entityTypes/Household": [
+                     "entityId",
+                     "attributes.HHName",
+                     "attributes.HHID"
+                  ],
+                  "configuration/entityTypes/FinancialProfessional": [
+                     "entityId",
+                     "attributes.PreferredName",
+                     "attributes.FirstName",
+                     "attributes.LastName",
+                     "attributes.Name",
+                     "attributes.CurrentJobTitle",
+                     "attributes.Department",
+                     "attributes.Phone.FormattedNumber",
+                     "attributes.Email.Email"
+                  ],
+                  "*": [
+                     "scores"
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Data model",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/DataModel.svg",
+               "class": "DataModel",
+               "defaultEntityType": "configuration/entityTypes/Individual"
+            }
+         ]
+      }
+   ],
+   "pivoting": [],
+   "properties": {
+      "i18n": {
+         "en_US": "https://reltio-ui-localization.s3.amazonaws.com/en-us.json",
+         "en_GB": "https://reltio-ui-localization.s3.amazonaws.com/en-gb.json",
+         "en": "https://reltio-ui-localization.s3.amazonaws.com/en-us.json",
+         "cs": "https://reltio-ui-localization.s3.amazonaws.com/cs.json",
+         "de": "https://reltio-ui-localization.s3.amazonaws.com/de.json",
+         "el": "https://reltio-ui-localization.s3.amazonaws.com/el.json",
+         "es": "https://reltio-ui-localization.s3.amazonaws.com/es.json",
+         "fr": "https://reltio-ui-localization.s3.amazonaws.com/fr.json",
+         "hu": "https://reltio-ui-localization.s3.amazonaws.com/hu.json",
+         "it": "https://reltio-ui-localization.s3.amazonaws.com/it.json",
+         "ja": "https://reltio-ui-localization.s3.amazonaws.com/ja.json",
+         "ko": "https://reltio-ui-localization.s3.amazonaws.com/ko.json",
+         "pl": "https://reltio-ui-localization.s3.amazonaws.com/pl.json",
+         "pt": "https://reltio-ui-localization.s3.amazonaws.com/pt.json",
+         "ru": "https://reltio-ui-localization.s3.amazonaws.com/ru.json",
+         "tr": "https://reltio-ui-localization.s3.amazonaws.com/tr.json",
+         "vi": "https://reltio-ui-localization.s3.amazonaws.com/vi.json",
+         "zh": "https://reltio-ui-localization.s3.amazonaws.com/zh.json",
+         "zh_TW": "https://reltio-ui-localization.s3.amazonaws.com/zh-tw.json"
+      },
+      "entity": {},
+      "image": {
+         "attributeFieldsOrder": {}
+      },
+      "lookups": {
+         "autocomplete": {},
+         "showCode": true
+      },
+      "validation": {
+         "levels": [
+            "ERROR",
+            "WARNING"
+         ],
+         "validateRelations": true
+      },
+      "attributes": {
+         "presentation": {
+            "configuration/entityTypes/Individual/attributes/Education/attributes/YearOfGraduation": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/YoB": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/YoD": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/AnnualHHGrossIncome/attributes/AnnualHHGIYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FoundedYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/IPOYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/OrganizationDetails/attributes/IPOYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/OrganizationDetails/attributes/StartYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/EndYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/OrganizationDetails/attributes/EndYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FinancialStatement/attributes/FinancialStatementYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FinancialStatement/attributes/FinancialStatementFromDate": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FinancialStatement/attributes/FinancialStatementToDate": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/OrganizationDetails/attributes/OwnershipDate": {
+               "thousandSeparator": ""
+            }
+         }
+      },
+      "masks": {
+         "dateMask": "99-99-9999",
+         "dateTimeMask": "99-99-9999 99:99:99"
+      },
+      "requestProvider": {},
+      "workflow": {
+         "enabled": true
+      },
+      "defaultRoute": "dashboard",
+      "customScripts": [],
+      "showSearchByOv": true,
+      "logo": null,
+      "profileCheckUpdate": {},
+      "aiAssistant": {
+         "enabled": true,
+         "skills": [
+            "NLPSearch",
+            "Chart",
+            "Export"
+         ],
+         "docSearchEnabled": true
+      },
+      "newTreeEnabled": true,
+      "queryEstimator": {
+         "enabled": true
+      },
+      "sharedPreferences": {},
+      "cleanse": {},
+      "tables": {},
+      "showMasking": true,
+      "internal": {}
+   },
+   "profile": [
+      {
+         "label": "Profile",
+         "class": "Profile",
+         "entityTypes": {
+            "*": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesView",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "none": {
+               "views": [],
+               "layout": [],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "configuration/entityTypes/FinancialAccount": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Basic Info",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewFinancialAccount",
+                     "attributesCount": "20",
+                     "excludeUris": [
+                        "configuration/entityTypes/FinancialAccount/attributes/BaseCurrency",
+                        "configuration/entityTypes/FinancialAccount/attributes/SettlementCurrency",
+                        "configuration/entityTypes/FinancialAccount/attributes/AccountBalance",
+                        "configuration/entityTypes/FinancialAccount/attributes/InterestRate",
+                        "configuration/entityTypes/FinancialAccount/attributes/InterestRateType",
+                        "configuration/entityTypes/FinancialAccount/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/FinancialAccount/attributes/AccountNumber"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.5c3f-3537-f4c16abd",
+                     "caption": "Related Individual(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/IndividualBeneficiary",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/IndividualTrustedContact",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/HasTradeAuthorization",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b7f0-64b8-2ad1b561",
+                     "caption": "Related Organization(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationBeneficiary",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewFinancialAccount",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "e4a0-3299-87834e36",
+                     "caption": "Data Validation Warnings",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/FinancialAccount/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "2e69-8761-1cf20ffd",
+                     "caption": "Financial Information",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/FinancialAccount/attributes/BaseCurrency",
+                        "configuration/entityTypes/FinancialAccount/attributes/SettlementCurrency",
+                        "configuration/entityTypes/FinancialAccount/attributes/AccountBalance",
+                        "configuration/entityTypes/FinancialAccount/attributes/InterestRate",
+                        "configuration/entityTypes/FinancialAccount/attributes/InterestRateType"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "afee-e6f0-54279113",
+                     "caption": "Identifier(s)",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/FinancialAccount/attributes/AccountNumber"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "40b5-a3e3-1be5b2dc",
+                     "caption": "Related Financial Professional(s)",
+                     "sortOrder": "desc",
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "allowOnlyCreateNew": false,
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/FinancialProfessional"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/AccountRepresentative",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "62c1-f7da-35623720",
+                     "caption": "Account Holder(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization",
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/IndividualAccountHolder",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/OrgAccountHolder",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "3302-c955-dfb51f48",
+                     "caption": "Account Status History",
+                     "max": 5,
+                     "attributeUri": "configuration/entityTypes/FinancialAccount/attributes/AccountStatusChange",
+                     "component": "SingleAttribute"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewFinancialAccount",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.5c3f-3537-f4c16abd",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 20,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.b7f0-64b8-2ad1b561",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewFinancialAccount",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "e4a0-3299-87834e36",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 3,
+                     "height": 10,
+                     "minHeight": 5,
+                     "id": "2e69-8761-1cf20ffd",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "afee-e6f0-54279113",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 25,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "40b5-a3e3-1be5b2dc",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 20,
+                     "width": 3,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "62c1-f7da-35623720",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 25,
+                     "width": 3,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "3302-c955-dfb51f48",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/FinancialProfessional": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Basic Info",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewFinancialProfessional",
+                     "attributesCount": "20",
+                     "excludeUris": [
+                        "configuration/entityTypes/FinancialProfessional/attributes/SSN",
+                        "configuration/entityTypes/FinancialProfessional/attributes/EmployeeID",
+                        "configuration/entityTypes/FinancialProfessional/attributes/Address",
+                        "configuration/entityTypes/FinancialProfessional/attributes/Phone",
+                        "configuration/entityTypes/FinancialProfessional/attributes/Email",
+                        "configuration/entityTypes/FinancialProfessional/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/FinancialProfessional/attributes/LicensureAndCertifications",
+                        "configuration/entityTypes/FinancialProfessional/attributes/SRORegistration",
+                        "configuration/entityTypes/FinancialProfessional/attributes/EducationHistory",
+                        "configuration/entityTypes/FinancialProfessional/attributes/Identification"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewFinancialProfessional",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "20ec-aabf-e9892b22",
+                     "caption": "Data Validation Warnings",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/FinancialProfessional/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "e4d2-f8fb-1da01d31",
+                     "caption": "Identifier(s)",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/FinancialProfessional/attributes/SSN",
+                        "configuration/entityTypes/FinancialProfessional/attributes/EmployeeID",
+                        "configuration/entityTypes/FinancialProfessional/attributes/Identification"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "80a2-abb5-5b3a5c4b",
+                     "caption": "Contact Information",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/FinancialProfessional/attributes/Address",
+                        "configuration/entityTypes/FinancialProfessional/attributes/Phone",
+                        "configuration/entityTypes/FinancialProfessional/attributes/Email"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "caa7-51d5-449a8f59",
+                     "caption": "Education, Licensure & Certifications",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/FinancialProfessional/attributes/SRORegistration",
+                        "configuration/entityTypes/FinancialProfessional/attributes/LicensureAndCertifications",
+                        "configuration/entityTypes/FinancialProfessional/attributes/EducationHistory"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "867f-abcd-97492f08",
+                     "caption": "Assigned Client(s) List",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual",
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PersonalClientRepresentative",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/CommercialClientRepresentative",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "desc",
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "909c-0b35-eacaea52",
+                     "caption": "Employer",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/FPEmployer",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "da10-fdca-0eb91d8f",
+                     "caption": "Assigned Account(s) List",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/FinancialAccount"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/AccountRepresentative",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOrder": "desc",
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "component": "Relations"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewFinancialProfessional",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewFinancialProfessional",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "20ec-aabf-e9892b22",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "e4d2-f8fb-1da01d31",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 3,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "80a2-abb5-5b3a5c4b",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 15,
+                     "width": 3,
+                     "height": 6,
+                     "minHeight": 5,
+                     "id": "caa7-51d5-449a8f59",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 27,
+                     "width": 3,
+                     "height": 6,
+                     "minHeight": 5,
+                     "id": "867f-abcd-97492f08",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 33,
+                     "width": 3,
+                     "height": 6,
+                     "minHeight": 5,
+                     "id": "909c-0b35-eacaea52",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 21,
+                     "width": 3,
+                     "height": 6,
+                     "minHeight": 5,
+                     "id": "da10-fdca-0eb91d8f",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/Household": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Basic Info",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewHousehold",
+                     "attributesCount": "20",
+                     "excludeUris": [
+                        "configuration/entityTypes/Household/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/Household/attributes/HHID"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.fb34-7c25-2ff4c1f5",
+                     "caption": "Household Member(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/HouseholdMembership",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewHousehold",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "92eb-073e-9436d02e",
+                     "caption": "Data Validation Warnings",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Household/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "072e-2e42-88e54396",
+                     "caption": "Identifier(s)",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Household/attributes/HHID"
+                     ],
+                     "component": "Attributes"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewHousehold",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 3,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.fb34-7c25-2ff4c1f5",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewHousehold",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "92eb-073e-9436d02e",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "072e-2e42-88e54396",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/Individual": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Basic Info",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewIndividual",
+                     "excludeUris": [
+                        "configuration/entityTypes/Individual/attributes/SSN",
+                        "configuration/entityTypes/Individual/attributes/ITIN",
+                        "configuration/entityTypes/Individual/attributes/Address",
+                        "configuration/entityTypes/Individual/attributes/Phone",
+                        "configuration/entityTypes/Individual/attributes/Email",
+                        "configuration/entityTypes/Individual/attributes/WebsiteURL",
+                        "configuration/entityTypes/Individual/attributes/VIPIndicator",
+                        "configuration/entityTypes/Individual/attributes/CreditScore",
+                        "configuration/entityTypes/Individual/attributes/EstimatedNetWorth",
+                        "configuration/entityTypes/Individual/attributes/AnnualHHGrossIncome",
+                        "configuration/entityTypes/Individual/attributes/CLV",
+                        "configuration/entityTypes/Individual/attributes/AggregateBalance",
+                        "configuration/entityTypes/Individual/attributes/PrivacyPreferences",
+                        "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent",
+                        "configuration/entityTypes/Individual/attributes/PolicyConsent",
+                        "configuration/entityTypes/Individual/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/Individual/attributes/Identifiers",
+                        "configuration/entityTypes/Individual/attributes/ImageURL",
+                        "configuration/entityTypes/Individual/attributes/VideoURL",
+                        "configuration/entityTypes/Individual/attributes/DocumentURL",
+                        "configuration/entityTypes/Individual/attributes/LoyaltyProgram"
+                     ],
+                     "includeUris": [],
+                     "attributesCount": "20",
+                     "component": "Attributes"
+                  },
+                  {
+                     "caption": "Contact Information",
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.bc63-ce04-1552564e",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/Address",
+                        "configuration/entityTypes/Individual/attributes/Phone",
+                        "configuration/entityTypes/Individual/attributes/Email",
+                        "configuration/entityTypes/Individual/attributes/WebsiteURL",
+                        "configuration/entityTypes/Individual/attributes/ImageURL",
+                        "configuration/entityTypes/Individual/attributes/VideoURL",
+                        "configuration/entityTypes/Individual/attributes/DocumentURL"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "caption": "Privacy & Channel Consent",
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.c748-a84f-893e0413",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/PrivacyPreferences",
+                        "configuration/entityTypes/Individual/attributes/PolicyConsent",
+                        "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.9443-7216-ed19b099",
+                     "caption": "Relatives",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/Spouse",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Child",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Dependent",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/Spouse",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Child",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/Dependent",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "desc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.8ec8-16ca-cb7d3e91",
+                     "caption": "Related Organization(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/IndividualEmployer",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ProfessionalAffiliation",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewIndividual",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "caption": "Data Validation Warnings",
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.9e91-321d-d4f18807",
+                     "attributesCount": "16",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.0a02-ecf7-0dd80e78",
+                     "caption": "Financial Account(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/FinancialAccount"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/IndividualAccountHolder",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/IndividualBeneficiary",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/IndividualTrustedContact",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/HasTradeAuthorization",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "b82d-2ca1-6021863b",
+                     "caption": "History of Aggregate Account(s) Balance",
+                     "max": 30,
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/AggregateBalance",
+                     "component": "AttributeTable"
+                  },
+                  {
+                     "id": "c261-7260-b24e3541",
+                     "caption": "Financial Health",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/AnnualHHGrossIncome",
+                        "configuration/entityTypes/Individual/attributes/EstimatedNetWorth",
+                        "configuration/entityTypes/Individual/attributes/CLV",
+                        "configuration/entityTypes/Individual/attributes/CreditScore",
+                        "configuration/entityTypes/Individual/attributes/VIPIndicator",
+                        "configuration/entityTypes/Individual/attributes/LoyaltyProgram"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "f50f-a8c5-62691b61",
+                     "caption": "Identifier(s)",
+                     "attributesCount": "16",
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/SSN",
+                        "configuration/entityTypes/Individual/attributes/ITIN",
+                        "configuration/entityTypes/Individual/attributes/Identifiers",
+                        "configuration/entityTypes/Individual/attributes/SourceIP",
+                        "configuration/entityTypes/Individual/attributes/CookieID",
+                        "configuration/entityTypes/Individual/attributes/DeviceID"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "8896-bbef-88654b23",
+                     "caption": "Client Representative(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/FinancialProfessional"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/PersonalClientRepresentative",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "b911-561c-b43fa6da",
+                     "caption": "Household Membership(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Household"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/HouseholdMembership",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "component": "Relations"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 15,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewIndividual",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 15,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.bc63-ce04-1552564e",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.c748-a84f-893e0413",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 25,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.9443-7216-ed19b099",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 30,
+                     "width": 1,
+                     "height": 6,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.8ec8-16ca-cb7d3e91",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewIndividual",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.9e91-321d-d4f18807",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 36,
+                     "width": 3,
+                     "height": 6,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.0a02-ecf7-0dd80e78",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 42,
+                     "width": 4,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "b82d-2ca1-6021863b",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 25,
+                     "width": 3,
+                     "height": 11,
+                     "minHeight": 5,
+                     "id": "c261-7260-b24e3541",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "f50f-a8c5-62691b61",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 36,
+                     "width": 1,
+                     "height": 6,
+                     "minHeight": 5,
+                     "id": "8896-bbef-88654b23",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 20,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "b911-561c-b43fa6da",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/Location": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Location Attributes",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewLocation",
+                     "excludeUris": [
+                        "configuration/entityTypes/Location/attributes/TractCode",
+                        "configuration/entityTypes/Location/attributes/OldMSAName",
+                        "configuration/entityTypes/Location/attributes/OldMSACode",
+                        "configuration/entityTypes/Location/attributes/OldCensusCode",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionName",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionCode",
+                        "configuration/entityTypes/Location/attributes/NECTAName",
+                        "configuration/entityTypes/Location/attributes/NECTACode",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionName",
+                        "configuration/entityTypes/Location/attributes/CBSAName",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionCode",
+                        "configuration/entityTypes/Location/attributes/CBSACode",
+                        "configuration/entityTypes/Location/attributes/BlockGroupCode",
+                        "configuration/entityTypes/Location/attributes/BlockCode",
+                        "configuration/entityTypes/Location/attributes/GNISFeatureID",
+                        "configuration/entityTypes/Location/attributes/CensusClassCode",
+                        "configuration/entityTypes/Location/attributes/CensusCode",
+                        "configuration/entityTypes/Location/attributes/CensusIndicator",
+                        "configuration/entityTypes/Location/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/Location/attributes/AVC",
+                        "configuration/entityTypes/Location/attributes/VerificationStatus",
+                        "configuration/entityTypes/Location/attributes/VerificationStatusDetails",
+                        "configuration/entityTypes/Location/attributes/TimeZone_Name",
+                        "configuration/entityTypes/Location/attributes/TimeZone_DST",
+                        "configuration/entityTypes/Location/attributes/TimeZone_UTC",
+                        "configuration/entityTypes/Location/attributes/ParsedGarbage",
+                        "configuration/entityTypes/Location/attributes/ResultsString",
+                        "configuration/entityTypes/Location/attributes/VacantIndicator",
+                        "configuration/entityTypes/Location/attributes/SUITELinkFootnote",
+                        "configuration/entityTypes/Location/attributes/ReturnCode",
+                        "configuration/entityTypes/Location/attributes/SecondaryAddressLine",
+                        "configuration/entityTypes/Location/attributes/PrimaryAddressLine",
+                        "configuration/entityTypes/Location/attributes/RecordType",
+                        "configuration/entityTypes/Location/attributes/NoStatIndicator",
+                        "configuration/entityTypes/Location/attributes/PMBType",
+                        "configuration/entityTypes/Location/attributes/PMBNumber",
+                        "configuration/entityTypes/Location/attributes/LACSStatus",
+                        "configuration/entityTypes/Location/attributes/LACSLinkIndicator",
+                        "configuration/entityTypes/Location/attributes/LACSLinkCode",
+                        "configuration/entityTypes/Location/attributes/FIPSCountyCode",
+                        "configuration/entityTypes/Location/attributes/FalsePositiveIndicator",
+                        "configuration/entityTypes/Location/attributes/DPVConfirmedIndicator",
+                        "configuration/entityTypes/Location/attributes/DeliveryPointBarCode",
+                        "configuration/entityTypes/Location/attributes/DefaultFlag",
+                        "configuration/entityTypes/Location/attributes/DPVFootnotes",
+                        "configuration/entityTypes/Location/attributes/eLOTCode",
+                        "configuration/entityTypes/Location/attributes/eLOTNumber",
+                        "configuration/entityTypes/Location/attributes/EWSFlag",
+                        "configuration/entityTypes/Location/attributes/CongressionalDistrict",
+                        "configuration/entityTypes/Location/attributes/CMRAIndicator",
+                        "configuration/entityTypes/Location/attributes/CarrierRoute",
+                        "configuration/entityTypes/Location/attributes/AutoZoneIndicator",
+                        "configuration/entityTypes/Location/attributes/Unmatched"
+                     ],
+                     "attributesCount": 6,
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewLocation",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "31bf-870a-8ef2af00",
+                     "caption": "Census Attributes",
+                     "attributesCount": 1,
+                     "includeUris": [
+                        "configuration/entityTypes/Location/attributes/CensusIndicator",
+                        "configuration/entityTypes/Location/attributes/CensusCode",
+                        "configuration/entityTypes/Location/attributes/OldCensusCode",
+                        "configuration/entityTypes/Location/attributes/CensusClassCode",
+                        "configuration/entityTypes/Location/attributes/GNISFeatureID",
+                        "configuration/entityTypes/Location/attributes/CBSAMetropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/CBSAMicropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTAMetropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTAMicropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTADivision",
+                        "configuration/entityTypes/Location/attributes/NECTACode",
+                        "configuration/entityTypes/Location/attributes/NECTAName",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionCode",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionName",
+                        "configuration/entityTypes/Location/attributes/MetropolitanDivision",
+                        "configuration/entityTypes/Location/attributes/OldMSACode",
+                        "configuration/entityTypes/Location/attributes/OldMSAName",
+                        "configuration/entityTypes/Location/attributes/TractCode",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionName",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionCode",
+                        "configuration/entityTypes/Location/attributes/CBSAName",
+                        "configuration/entityTypes/Location/attributes/CBSACode",
+                        "configuration/entityTypes/Location/attributes/BlockGroupCode",
+                        "configuration/entityTypes/Location/attributes/BlockCode",
+                        "configuration/entityTypes/Location/attributes/TimeZone_DST",
+                        "configuration/entityTypes/Location/attributes/TimeZone_UTC",
+                        "configuration/entityTypes/Location/attributes/TimeZone_Name"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "e916-ef98-16218dda",
+                     "component": "Map"
+                  },
+                  {
+                     "id": "28ab-8552-c34faee0",
+                     "caption": "Organizations at this Location",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationHasAddress",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "dfe4-ec2d-0306d63b",
+                     "caption": "Individuals at this Location",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/IndividualHasAddress",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": []
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "fcd1-f4ea-efa56d29",
+                     "caption": "Financial Professionals at this Location",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/FinancialProfessional"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/FinancialProfessionalHasAddress",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "a42e-fa4a-bd8c0168",
+                     "caption": "Households at this Location",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Household"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/HouseholdHasAddress",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "asc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "24db-8f31-6bb3f7ff",
+                     "caption": "Verification Details",
+                     "attributesCount": 2,
+                     "includeUris": [
+                        "configuration/entityTypes/Location/attributes/AVC",
+                        "configuration/entityTypes/Location/attributes/VerificationStatus",
+                        "configuration/entityTypes/Location/attributes/VerificationStatusDetails"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "8cf4-9d6e-3e07a51d",
+                     "caption": "CASS Attributes",
+                     "attributesCount": 1,
+                     "includeUris": [
+                        "configuration/entityTypes/Location/attributes/Unmatched",
+                        "configuration/entityTypes/Location/attributes/AutoZoneIndicator",
+                        "configuration/entityTypes/Location/attributes/CarrierRoute",
+                        "configuration/entityTypes/Location/attributes/CMRAIndicator",
+                        "configuration/entityTypes/Location/attributes/CongressionalDistrict",
+                        "configuration/entityTypes/Location/attributes/DefaultFlag",
+                        "configuration/entityTypes/Location/attributes/DeliveryPointBarCode",
+                        "configuration/entityTypes/Location/attributes/DPVConfirmedIndicator",
+                        "configuration/entityTypes/Location/attributes/DPVFootnotes",
+                        "configuration/entityTypes/Location/attributes/eLOTCode",
+                        "configuration/entityTypes/Location/attributes/eLOTNumber",
+                        "configuration/entityTypes/Location/attributes/EWSFlag",
+                        "configuration/entityTypes/Location/attributes/FalsePositiveIndicator",
+                        "configuration/entityTypes/Location/attributes/FIPSCountyCode",
+                        "configuration/entityTypes/Location/attributes/LACSLinkCode",
+                        "configuration/entityTypes/Location/attributes/LACSLinkIndicator",
+                        "configuration/entityTypes/Location/attributes/LACSStatus",
+                        "configuration/entityTypes/Location/attributes/NoStatIndicator",
+                        "configuration/entityTypes/Location/attributes/PMBNumber",
+                        "configuration/entityTypes/Location/attributes/PMBType",
+                        "configuration/entityTypes/Location/attributes/PrimaryAddressLine",
+                        "configuration/entityTypes/Location/attributes/RecordType",
+                        "configuration/entityTypes/Location/attributes/ReturnCode",
+                        "configuration/entityTypes/Location/attributes/SecondaryAddressLine",
+                        "configuration/entityTypes/Location/attributes/SUITELinkFootnote",
+                        "configuration/entityTypes/Location/attributes/VacantIndicator",
+                        "configuration/entityTypes/Location/attributes/ResultsString",
+                        "configuration/entityTypes/Location/attributes/ParsedGarbage"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "f6da-aa8f-05189e5a",
+                     "caption": "Data Validation Warnings",
+                     "max": 1,
+                     "text-empty": "No Data Validations Violated",
+                     "attributeUri": "configuration/entityTypes/Location/analyticsAttributes/AttributeValidations",
+                     "component": "SingleAttribute"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 5,
+                     "width": 2,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewLocation",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewLocation",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "31bf-870a-8ef2af00",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "e916-ef98-16218dda",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "28ab-8552-c34faee0",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "dfe4-ec2d-0306d63b",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "fcd1-f4ea-efa56d29",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "a42e-fa4a-bd8c0168",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "24db-8f31-6bb3f7ff",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 1,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "8cf4-9d6e-3e07a51d",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "f6da-aa8f-05189e5a",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/Organization": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "https://360-rih-proxy.reltio.com/api/v1/proxy/workato/invoke_endpoints",
+                           "success": "Success! Please reload this profile and review the 'Verification' details to check whether a match was found. Resolve the Potential Match to enrich the profile.",
+                           "fail": "Failure:",
+                           "loading": "Processing...",
+                           "height": 34,
+                           "profileName": "{{tenantId}}_DnB_-_REST_API_Collections",
+                           "workatoEndpoint": "{{workatoEndpoint}}?doNotMerge=true&dataBlocks=companyinfo_L3_v1,diversityinsight_L1_v1&entityURI=",
+                           "proxyMethod": "POST",
+                           "action": {
+                              "permissions": [
+                                 "https://360-rih-proxy.reltio.com",
+                                 "https://apim.workato.com"
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_dnb_proxy.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Latest Company Info",
+                           "url": "https://360-rih-proxy.reltio.com/api/v1/proxy/workato/invoke_endpoints",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success! This profile should now be updated with the latest company information.",
+                           "fail": "Failure:",
+                           "loading": "Processing...",
+                           "height": 34,
+                           "profileName": "{{tenantId}}_DnB_-_REST_API_Collections",
+                           "workatoEndpoint": "{{workatoEndpoint}}?doNotMerge=false&dataBlocks=companyinfo_L3_v1,diversityinsight_L1_v1&entityURI=",
+                           "proxyMethod": "POST",
+                           "action": {
+                              "permissions": [
+                                 "https://360-rih-proxy.reltio.com",
+                                 "https://apim.workato.com"
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_dnb_proxy.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetAssociationButtonView",
+                           "label": "Get Company Hierarchy and Contacts",
+                           "url": "https://360-rih-proxy.reltio.com/api/v1/proxy/workato/invoke_endpoints",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success! If Contact and Hierarchy data was available, the profile should now be enriched with the corresponding Company Hierarchy and Principal Contacts' relationships. Please reload the profile.",
+                           "fail": "Failure:",
+                           "loading": "Processing...",
+                           "height": 34,
+                           "profileName": "{{tenantId}}_DnB_-_REST_API_Collections",
+                           "workatoEndpoint": "{{workatoEndpoint}}?doNotMerge=false&dataBlocks=hierarchyconnections_L1_v1,principalscontacts_L1_v2&entityURI=",
+                           "proxyMethod": "POST",
+                           "action": {
+                              "permissions": [
+                                 "https://360-rih-proxy.reltio.com",
+                                 "https://apim.workato.com"
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_dnb_proxy.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Organization Attributes",
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.9d8f-5dde-6dc53789",
+                     "attributesCount": 6,
+                     "excludeUris": [],
+                     "includeUris": [
+                        "configuration/entityTypes/Organization/attributes/StatusInformation",
+                        "configuration/entityTypes/Organization/attributes/Name",
+                        "configuration/entityTypes/Organization/attributes/DoingBusinessAsName",
+                        "configuration/entityTypes/Organization/attributes/CompanyType",
+                        "configuration/entityTypes/Organization/attributes/LegalStatus",
+                        "configuration/entityTypes/Organization/attributes/Phone",
+                        "configuration/entityTypes/Organization/attributes/WebsiteURL",
+                        "configuration/entityTypes/Organization/attributes/ImageURL",
+                        "configuration/entityTypes/Organization/attributes/VideoURL",
+                        "configuration/entityTypes/Organization/attributes/DocumentURL",
+                        "configuration/entityTypes/Organization/attributes/SFDC_sync_flag",
+                        "configuration/entityTypes/Organization/attributes/Address",
+                        "configuration/entityTypes/Organization/attributes/Email",
+                        "configuration/entityTypes/Organization/attributes/OrganizationType",
+                        "configuration/entityTypes/Organization/attributes/OrganizationSummaryText",
+                        "configuration/entityTypes/Organization/attributes/DomicileState",
+                        "configuration/entityTypes/Organization/attributes/StatusUpdateDate",
+                        "configuration/entityTypes/Organization/attributes/StatusReasonCode",
+                        "configuration/entityTypes/Organization/attributes/OwnershipStatus",
+                        "configuration/entityTypes/Organization/attributes/LegalStatusDescription",
+                        "configuration/entityTypes/Organization/attributes/Industry",
+                        "configuration/entityTypes/Organization/attributes/FoundedYear",
+                        "configuration/entityTypes/Organization/attributes/IPOYear",
+                        "configuration/entityTypes/Organization/attributes/EndYear",
+                        "configuration/entityTypes/Organization/attributes/SocioeconomicInfo",
+                        "configuration/entityTypes/Organization/attributes/LegalEntityType"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.3883-7c36-eeaa8ff8",
+                     "caption": "Employees",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual",
+                           "configuration/entityTypes/FinancialProfessional"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/IndividualEmployer",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/FPEmployer",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "desc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.75b3-ba42-14c69847",
+                     "caption": "Affiliated Organizations",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationAffiliation",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationAffiliation",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewOrganization",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.663a-f231-abb987b8",
+                     "caption": "Financial Accounts",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/FinancialAccount"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrgAccountHolder",
+                              "label": "{directionalLabel}"
+                           },
+                           {
+                              "uri": "configuration/relationTypes/OrganizationBeneficiary",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "sortOrder": "desc",
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "a10f-85ff-177f2ed8",
+                     "caption": "Identifiers",
+                     "attributesCount": "16",
+                     "includeUris": [
+                        "configuration/entityTypes/Organization/attributes/Identifiers",
+                        "configuration/entityTypes/Organization/attributes/TaxID",
+                        "configuration/entityTypes/Organization/attributes/Ticker",
+                        "configuration/entityTypes/Organization/attributes/CUSIP",
+                        "configuration/entityTypes/Organization/attributes/DataProviderOrgID",
+                        "configuration/entityTypes/Organization/attributes/DUNSNumber",
+                        "configuration/entityTypes/Organization/attributes/EnrichmentProviderID"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "ccc6-c651-cf380585",
+                     "caption": "Client Representatives",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/FinancialProfessional"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/CommercialClientRepresentative",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "sortOrder": "desc",
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "4110-f68a-997031f3",
+                     "caption": "Affiliated Individuals",
+                     "sortOrder": "desc",
+                     "sortOptions": {
+                        "consolidatedRating": "Consolidated Rating"
+                     },
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ProfessionalAffiliation",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "abc9-2b54-c8cba6f3",
+                     "caption": "Data Validation Warnings",
+                     "max": 1,
+                     "text-empty": "No Data Validations Violated",
+                     "attributeUri": "configuration/entityTypes/Organization/analyticsAttributes/AttributeValidations",
+                     "component": "SingleAttribute"
+                  },
+                  {
+                     "id": "77cb-955f-292e3505",
+                     "caption": "D&B Hierarchy",
+                     "graph": {
+                        "type": "configuration/graphTypes/Hierarchy"
+                     },
+                     "component": "HierarchyTree"
+                  },
+                  {
+                     "id": "5cf2-8778-6b2a42fe",
+                     "caption": "Organization Hierarchy",
+                     "graph": {
+                        "type": "configuration/graphTypes/OrganizationHierarchy"
+                     },
+                     "component": "HierarchyTree"
+                  },
+                  {
+                     "id": "253e-e58f-182ec9d0",
+                     "caption": "D&B Enrichment Attributes",
+                     "attributesCount": 16,
+                     "excludeUris": [
+                        "configuration/entityTypes/Organization/attributes/StatusInformation",
+                        "configuration/entityTypes/Organization/attributes/Name",
+                        "configuration/entityTypes/Organization/attributes/DoingBusinessAsName",
+                        "configuration/entityTypes/Organization/attributes/CompanyType",
+                        "configuration/entityTypes/Organization/attributes/LegalStatus",
+                        "configuration/entityTypes/Organization/attributes/Address",
+                        "configuration/entityTypes/Organization/attributes/Phone",
+                        "configuration/entityTypes/Organization/attributes/Email",
+                        "configuration/entityTypes/Organization/attributes/WebsiteURL",
+                        "configuration/entityTypes/Organization/attributes/ImageURL",
+                        "configuration/entityTypes/Organization/attributes/DocumentURL",
+                        "configuration/entityTypes/Organization/attributes/VideoURL",
+                        "configuration/entityTypes/Organization/attributes/DataProviderOrgID",
+                        "configuration/entityTypes/Organization/attributes/DUNSNumber",
+                        "configuration/entityTypes/Organization/attributes/TaxID",
+                        "configuration/entityTypes/Organization/attributes/Identifiers",
+                        "configuration/entityTypes/Organization/attributes/Ticker",
+                        "configuration/entityTypes/Organization/attributes/CUSIP",
+                        "configuration/entityTypes/Organization/attributes/Industry",
+                        "configuration/entityTypes/Organization/attributes/FoundedYear",
+                        "configuration/entityTypes/Organization/attributes/IPOYear",
+                        "configuration/entityTypes/Organization/attributes/EndYear",
+                        "configuration/entityTypes/Organization/attributes/SFDC_sync_flag",
+                        "configuration/entityTypes/Organization/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/Organization/attributes/OrganizationType",
+                        "configuration/entityTypes/Organization/attributes/OrganizationSummaryText",
+                        "configuration/entityTypes/Organization/attributes/DomicileState",
+                        "configuration/entityTypes/Organization/attributes/EnrichmentProviderID",
+                        "configuration/entityTypes/Organization/attributes/SocioeconomicInfo",
+                        "configuration/entityTypes/Organization/attributes/LegalEntityType",
+                        "configuration/entityTypes/Organization/attributes/LegalStatusDescription"
+                     ],
+                     "component": "Attributes"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.9d8f-5dde-6dc53789",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 1,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.3883-7c36-eeaa8ff8",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.75b3-ba42-14c69847",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewOrganization",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.663a-f231-abb987b8",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "a10f-85ff-177f2ed8",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "ccc6-c651-cf380585",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "4110-f68a-997031f3",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "abc9-2b54-c8cba6f3",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "77cb-955f-292e3505",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "5cf2-8778-6b2a42fe",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 2,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "253e-e58f-182ec9d0",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            }
+         }
+      },
+      {
+         "visible": [
+            "configuration/entityTypes/Organization",
+            "configuration/entityTypes/Location",
+            "configuration/entityTypes/Individual",
+            "configuration/entityTypes/FinancialAccount",
+            "configuration/entityTypes/Household",
+            "configuration/entityTypes/FinancialProfessional"
+         ],
+         "label": "Relationships",
+         "class": "Relationships"
+      },
+      {
+         "label": "Graph",
+         "class": "Graph"
+      },
+      {
+         "label": "Potential Matches",
+         "class": "PotentialMatches"
+      },
+      {
+         "label": "Interactions",
+         "class": "Interactions",
+         "caption": "Interactions",
+         "mode": "list"
+      },
+      {
+         "label": "Sources",
+         "class": "Sources"
+      },
+      {
+         "label": "Activity Log",
+         "class": "Activity",
+         "exportTypes": [
+            "json",
+            "csv"
+         ],
+         "caption": "Activity log"
+      }
+   ]
+}

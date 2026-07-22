@@ -1,0 +1,64 @@
+{
+  "apps": [
+    {
+      "name": "Hub",
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/MDM.svg",
+      "category": "Applications",
+      "uri": "{{env_uri}}/nui/${tenant}"
+    },
+    {
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/Console.svg",
+      "name": "Console",
+      "category": "Applications",
+      "uri": "{{consoleURI}}/?env=${environment}&tenant=${tenant}"
+    },
+    {
+      "name": "RDM",
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/RDM.svg",
+      "category": "Applications",
+      "uri": "{{rdmURI}}"
+    },
+    {
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/Inbox.svg",
+      "name": "Inbox",
+      "category": "Applications",
+      "uri": "{{workflowUiUri}}/${tenant}"
+    },
+    {
+      "name": "Reltio Documentation Portal",
+      "icon": "https://cdn.reltio.com/images/common/ReltioDocumentation.svg",
+      "category": "Resources",
+      "uri": "https://docs.reltio.com/"
+    },
+    {
+      "icon": "https://cdn.reltio.com/images/common/ReltioDevPortal.svg",
+      "name": "Reltio Developer Portal",
+      "category": "Resources",
+      "uri": "https://developer.reltio.com/"
+    },
+    {
+      "icon": "https://cdn.reltio.com/images/common/ReltioCommunity.svg",
+      "name": "Reltio Community",
+      "category": "Resources",
+      "uri": "https://community.reltio.com/"
+    },
+    {
+      "name": "Reltio Learn",
+      "icon": "https://cdn.reltio.com/images/common/ReltioLearn.svg",
+      "category": "Resources",
+      "uri": "https://learn.reltio.com/"
+    },
+    {
+      "name": "Integration Hub",
+      "icon": "https://cdn.reltio.com/images/common/Integrationhub.svg",
+      "category": "Applications",
+      "uri": "{{consoleURI}}/integration?env=${environment}&tenant=${tenant}"
+    },
+    {
+      "name": "Account Settings",
+      "icon": "https://cdn.reltio.com/images/common/AccountSettings_small.svg",
+      "category": "Applications",
+      "uri": "{{consoleURI}}/account-settings?env=${environment}&tenant=${tenant}"
+    }
+  ]
+}

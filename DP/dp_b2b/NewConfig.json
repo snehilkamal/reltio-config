@@ -1,0 +1,2516 @@
+{
+    "uri": "configuration",
+    "description": "B2C Velocity Pack",
+    "schemaVersion": "dp_b2c.1.2.0",
+    "sources": [
+        {
+            "uri": "configuration/sources/Shashidhar",
+            "label": "Shashidhar",
+            "icon": "images/source/source_s.png",
+            "abbreviation": "Shashidhar"
+        }
+    ],
+    "label": "Solution Packs - B2C",
+    "abstract": false,
+    "entityTypes": [
+
+          {
+            "uri": "configuration/entityTypes/IDN",
+            "label": "IDN",
+            "description": "An IDN (in the recent past also called integrated health network [IHN] or multihospital system [MHS]) is a network of healthcare providers and facilities within a specific geographic region that offers a full range of healthcare services.",
+            "dataTooltipPattern": "",
+            "typeColor": "#AB88B1",
+            "typeIcon": "images/base_type/house.png",
+            "typeImage": "images/defaultImage/no-loc.png",
+            "typeGraphIcon": "images/graphIcon/location-icon.png",
+            "cleanseConfig": {
+                "infos": [
+                    {
+                        "uri": "configuration/entityTypes/IDN/cleanse/infos/PhoneCleanserFn",
+                        "useInCleansing": true,
+                        "sequence": [
+                            {
+                                "chain": [
+                                    {
+                                        "cleanseFunction": "PhoneCleanserFn",
+                                        "resultingValuesSourceTypeUri": "configuration/sources/ReltioCleanser",
+                                        "proceedOnSuccess": true,
+                                        "proceedOnFailure": true,
+                                        "mapping": {
+                                            "inputMapping": [
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/Number",
+                                                    "mandatory": true,
+                                                    "allValues": true,
+                                                    "cleanseAttribute": "Number"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/CountryCode",
+                                                    "mandatory": false,
+                                                    "allValues": true,
+                                                    "cleanseAttribute": "CountryCode"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/Type",
+                                                    "mandatory": false,
+                                                    "allValues": true,
+                                                    "cleanseAttribute": "Type"
+                                                }
+                                            ],
+                                            "outputMapping": [
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/Type",
+                                                    "mandatory": false,
+                                                    "allValues": true,
+                                                    "cleanseAttribute": "Type"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/Number",
+                                                    "mandatory": true,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Number"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/CountryCode",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "CountryCode"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/Extension",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Extension"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormatMask",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "FormatMask"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/LineType",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "LineType"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/AreaCode",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "AreaCode"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/ValidationStatus",
+                                                    "mandatory": true,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "ValidationStatus"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/GeoCountry",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "GeoCountry"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/GeoArea",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "GeoArea"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/DigitCount",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "DigitCount"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/LocalNumber",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "LocalNumber"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "FormattedNumber"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "nestedAttributeToCleanse": "configuration/entityTypes/IDN/attributes/Phone"
+                    },
+                    {
+                        "uri": "configuration/entityTypes/IDN/cleanse/infos/EmailCleanser",
+                        "useInCleansing": true,
+                        "sequence": [
+                            {
+                                "chain": [
+                                    {
+                                        "cleanseFunction": "EmailCleanserFn",
+                                        "resultingValuesSourceTypeUri": "configuration/sources/ReltioCleanser",
+                                        "proceedOnSuccess": true,
+                                        "proceedOnFailure": true,
+                                        "mapping": {
+                                            "inputMapping": [
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/Email",
+                                                    "mandatory": true,
+                                                    "allValues": true,
+                                                    "cleanseAttribute": "Email"
+                                                }
+                                            ],
+                                            "outputMapping": [
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/Email",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Email"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/Type",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Type"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/Rank",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Rank"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/Active",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Active"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/Domain",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Domain"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/DomainType",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "DomainType"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/ValidationStatus",
+                                                    "mandatory": true,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "ValidationStatus"
+                                                },
+                                                {
+                                                    "attribute": "configuration/entityTypes/IDN/attributes/Email/attributes/Username",
+                                                    "mandatory": false,
+                                                    "allValues": false,
+                                                    "cleanseAttribute": "Username"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "nestedAttributeToCleanse": "configuration/entityTypes/IDN/attributes/Email"
+                    }
+                ]
+            },
+            "attributes": [
+                {
+                    "label": "Status Information",
+                    "name": "StatusInformation",
+                    "description": "Set of attributes containing the details of the organization's status over time",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/StatusInformation",
+                    "dataLabelPattern": "{Status}",
+                    "matchFieldURIs": [
+                        "configuration/entityTypes/IDN/attributes/StatusInformation/attributes/Status",
+                        "configuration/entityTypes/IDN/attributes/StatusInformation/attributes/UpdateDate"
+                    ],
+                    "attributes": [
+                        {
+                            "label": "Status",
+                            "name": "Status",
+                            "description": "Status of the organization",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/StatusInformation/attributes/Status",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Status Reason",
+                            "name": "StatusReason",
+                            "description": "Reason code for the selection of the status",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/StatusInformation/attributes/StatusReason",
+                            "lookupCode": "rdm/lookupTypes/StatusReasonCodes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Update Date",
+                            "name": "UpdateDate",
+                            "description": "Date on which the organization's status was updated",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/StatusInformation/attributes/UpdateDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Comments",
+                            "name": "Comments",
+                            "description": "Comments related to the organization's status",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/StatusInformation/attributes/Comments",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Name",
+                    "name": "Name",
+                    "description": "Name used for the organization",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Name",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Doing Business As Name",
+                    "name": "DoingBusinessAsName",
+                    "description": "Doing Business As Name",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/DoingBusinessAsName",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Tradestyle Names",
+                    "name": "TradestyleNames",
+                    "description": "List of other names of the organzation, example, Registered Name",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/TradestyleNames",
+                    "dataLabelPattern": "{Type} {OtherName}",
+                    "matchFieldURIsExactOrNull": [
+                        "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/Type",
+                        "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/Name"
+                    ],
+                    "matchOvOnly": true,
+                    "attributes": [
+                        {
+                            "label": "Type",
+                            "name": "Type",
+                            "description": "Describes the type of tradestyle name used by the organization",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/Type",
+                            "lookupCode": "rdm/lookupTypes/OtherNameTypes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Language",
+                            "name": "Language",
+                            "description": "Describes the type of tradestyle name used by the organization",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/Language",
+                            "lookupCode": "rdm/lookupTypes/Languages",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Name",
+                            "name": "Name",
+                            "description": "The value of the tradestyle name as used by the organization",
+                            "type": "String",
+                            "hidden": true,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/Name",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Display Sequence",
+                            "name": "DisplaySequence",
+                            "description": "Defines the order in which this name is to be displayed relative to others",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/DisplaySequence",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Start Date",
+                            "name": "StartDate",
+                            "description": "The date on which the tradestyle name went into active use",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/StartDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "End Date",
+                            "name": "EndDate",
+                            "description": "The date on which the tradestyle name ceased being used",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/TradestyleNames/attributes/EndDate",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Legal Entity Type",
+                    "name": "LegalEntityType",
+                    "description": "Type of legal entity the company uses to operate",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/LegalEntityType",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Legal Status Code",
+                    "name": "LegalStatusCode",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/LegalStatusCode",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Type",
+                    "name": "Type",
+                    "description": "Type of IDN",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Type",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "SubType",
+                    "name": "SubType",
+                    "description": "Sub Type of IDN",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/SubType",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "IDN Integration Level",
+                    "name": "IDNIntegrationLevel",
+                    "description": "Integration classification level that provides insight into how the Integrated Delivery Network approaches strategic decision making",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/IDNIntegrationLevel",
+                    "lookupCode": "rdm/lookupTypes/IDNIntegrationLevels",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Phone",
+                    "name": "Phone",
+                    "description": "Contact details for example, phone, fax number for the organization",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "fieldURI": "configuration/entityTypes/IDN/attributes/Phone/attributes/Rank",
+                        "orderType": "ASC",
+                        "orderingStrategy": "FieldBased"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Phone",
+                    "dataLabelPattern": "{FormattedNumber}, {Type} [ - {ValidationStatus}]",
+                    "matchFieldURIsExactOrNull": [
+                        "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber",
+                        "configuration/entityTypes/IDN/attributes/Phone/attributes/Type"
+                    ],
+                    "matchOvOnly": true,
+                    "attributes": [
+                        {
+                            "label": "Type",
+                            "name": "Type",
+                            "description": "Type of phone number e.g. Business, Fax, Mobile etc.",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/Type",
+                            "lookupCode": "rdm/lookupTypes/PhoneTypes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Number",
+                            "name": "Number",
+                            "description": "Phone number",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/Number",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Unreachable",
+                            "name": "Unreachable",
+                            "description": "Indicator whether the number is reachable or not",
+                            "type": "Boolean",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/Unreachable",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Country Code",
+                            "name": "CountryCode",
+                            "description": "Two character Country Code to identify the ISD code of the phone number",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/CountryCode",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Extension",
+                            "name": "Extension",
+                            "description": "Extension number to be used if any",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/Extension",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Formatted Number",
+                            "name": "FormattedNumber",
+                            "description": "Number as per the format",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Rank",
+                            "name": "Rank",
+                            "description": "Rank used to assign priority to a Phone number",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/Rank",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Area Code",
+                            "name": "AreaCode",
+                            "description": "Area Code of the phone number",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/AreaCode",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Local Number",
+                            "name": "LocalNumber",
+                            "description": "Local Number of the phone number without the area code",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/LocalNumber",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Validation Status",
+                            "name": "ValidationStatus",
+                            "description": "Validation Status denoting whether the number is valid or not",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/ValidationStatus",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Line Type",
+                            "name": "LineType",
+                            "description": "Line Type, e.g., FIXED_LINE_OR_MOBILE",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/LineType",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Format Mask",
+                            "name": "FormatMask",
+                            "description": "Format in which the number is saved, for example, (nnn) nnn-nnnn",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormatMask",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Digit Count",
+                            "name": "DigitCount",
+                            "description": "Number of Digits",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/DigitCount",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Geo Area",
+                            "name": "GeoArea",
+                            "description": "Geological area name",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/GeoArea",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Geo Country",
+                            "name": "GeoCountry",
+                            "description": "Geological country name",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/GeoCountry",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Active",
+                            "name": "Active",
+                            "description": "Indicator whether phone number is active or not",
+                            "type": "Boolean",
+                            "hidden": true,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/Active",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Primary Phone Flag",
+                            "name": "PrimaryPhoneFlag",
+                            "description": "Indicator of whether or not the phone number is the primary number at which to reach the organization",
+                            "type": "Boolean",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Phone/attributes/PrimaryPhoneFlag",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Email",
+                    "name": "Email",
+                    "description": "Contact details of the organization, like Email Address",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "fieldURI": "configuration/entityTypes/IDN/attributes/Email/attributes/Rank",
+                        "orderType": "ASC",
+                        "orderingStrategy": "FieldBased"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Email",
+                    "dataLabelPattern": "{Email} {Type}",
+                    "matchFieldURIsExactOrNull": [
+                        "configuration/entityTypes/IDN/attributes/Email/attributes/Email",
+                        "configuration/entityTypes/IDN/attributes/Email/attributes/Type"
+                    ],
+                    "matchOvOnly": true,
+                    "attributes": [
+                        {
+                            "label": "Type",
+                            "name": "Type",
+                            "description": "Type of Email, for example, Home, Work",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/Type",
+                            "lookupCode": "rdm/lookupTypes/EmailTypes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Email",
+                            "name": "Email",
+                            "description": "Email address",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/Email",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Domain",
+                            "name": "Domain",
+                            "description": "Domain of the email address",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/Domain",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Domain Type",
+                            "name": "DomainType",
+                            "description": "Domain Type, for example, PUBLIC",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/DomainType",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Username",
+                            "name": "Username",
+                            "description": "Username part of Email address",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/Username",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Rank",
+                            "name": "Rank",
+                            "description": "Rank used to assign priority to a Email",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/Rank",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Validation Status",
+                            "name": "ValidationStatus",
+                            "description": "Validation Status denoting whether the Email is valid or not",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/ValidationStatus",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Active",
+                            "name": "Active",
+                            "description": "Indicator whether the email address is active or not",
+                            "type": "Boolean",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Email/attributes/Active",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Website URL",
+                    "name": "WebsiteURL",
+                    "description": "Website URL of the organization",
+                    "type": "URL",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/WebsiteURL",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Tax ID",
+                    "name": "TaxID",
+                    "description": "Tax Identifier of the organization",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/TaxID",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Identifiers",
+                    "name": "Identifiers",
+                    "description": "A business identifier associated with this IDN",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "faceted": true,
+                    "attributeOrdering": {
+                        "fieldURI": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Type",
+                        "orderType": "ASC",
+                        "orderingStrategy": "FieldBased"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Identifiers",
+                    "dataLabelPattern": "[{Type}][ - {ID}][ - {Status}]",
+                    "matchFieldURIs": [
+                        "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Type",
+                        "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID"
+                    ],
+                    "matchOvOnly": true,
+                    "attributes": [
+                        {
+                            "label": "Type",
+                            "name": "Type",
+                            "description": "",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Type",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "ID",
+                            "name": "ID",
+                            "description": "",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Status",
+                            "name": "Status",
+                            "description": "",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Status",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Issued By",
+                            "name": "IssuedBy",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/IssuedBy",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Issued Region",
+                            "name": "IssuedRegion",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/IssuedRegion",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Created Date",
+                            "name": "CreatedDate",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/CreatedDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Issued Date",
+                            "name": "IssuedDate",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/IssuedDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Activation Date",
+                            "name": "ActivationDate",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ActivationDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Deactivation Reason",
+                            "name": "DeactivationReason",
+                            "description": "",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/DeactivationReason",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Deactivation Date",
+                            "name": "DeactivationDate",
+                            "description": "",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/DeactivationDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Reactivation Date",
+                            "name": "ReactivationDate",
+                            "description": "",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ReactivationDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Update Date",
+                            "name": "UpdateDate",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/UpdateDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Rank",
+                            "name": "Rank",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Rank",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Organization Detail",
+                    "name": "OrganizationDetail",
+                    "description": "Additional details about this organization",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail",
+                    "dataLabelPattern": "[{OperatingStatus} - ][{OwnershipStatus}]",
+                    "attributes": [
+                        {
+                            "label": "Organization Summary Text",
+                            "name": "OrganizationSummaryText",
+                            "description": "Text that records a brief statement or account of this organization",
+                            "type": "Blob",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/OrganizationSummaryText",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Operating Status",
+                            "name": "OperatingStatus",
+                            "description": "Organization's functional state / trading status, e.g. active, out of business, dormant.",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/OperatingStatus",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Operating Status Comment",
+                            "name": "OperatingStatusComment",
+                            "description": "Operating Status Comment",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/OperatingStatusComment",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Ownership Status",
+                            "name": "OwnershipStatus",
+                            "description": "Text that describes the type of controlling ownership, e.g., publicly owned, privately owned, state owned.",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/OwnershipStatus",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Ownership Type",
+                            "name": "OwnershipType",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "required": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/OwnershipType",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Ownership Date",
+                            "name": "ControlOwnershipDate",
+                            "description": "The date when the current owners took over this business",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/ControlOwnershipDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Email Domain",
+                            "name": "EmailDomain",
+                            "description": "Email domain used by this organization",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/EmailDomain",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Start Year",
+                            "name": "StartYear",
+                            "description": "Start Year",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/StartYear",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "End Year",
+                            "name": "EndYear",
+                            "description": "End Year",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/EndYear",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "IPO Year",
+                            "name": "IPOYear",
+                            "description": "IPO Year",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/IPOYear",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Member Role",
+                            "name": "MemberRole",
+                            "description": "Member Role",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/MemberRole",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Franchise Operation Type",
+                            "name": "FranchiseOperationType",
+                            "description": "Franchise Operation Type",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/FranchiseOperationType",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Standalone",
+                            "name": "Standalone",
+                            "description": "When 'true' indicates that this organization is not a member of a legal family tree. This means it cannot play the role of a subsidiary, parent, headquarters or branch; i.e., FamilyTreeMemberRoleText cannot be present. When 'false' indicates that this organization is a member of a legal family tree.",
+                            "type": "Boolean",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/Standalone",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Marketability Indicator",
+                            "name": "MarketabilityIndicator",
+                            "description": "Marketability Indicator",
+                            "type": "String",
+                            "hidden": true,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderType": "ASC",
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/OrganizationDetail/attributes/MarketabilityIndicator",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Is Subsidiary",
+                    "name": "IsSubsidiary",
+                    "description": "Is Subsidiary indicator",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/IsSubsidiary",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Vendor Verification Date",
+                    "name": "VendorVerificationDate",
+                    "description": "The date and time when this profile was last matched or enriched from an external vendor source",
+                    "type": "Timestamp",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "searchable": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/VendorVerificationDate",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Vendor Verification Status",
+                    "name": "VendorVerificationStatus",
+                    "description": "The status value indicates the results of the matching and enrichment from an external source. Matching statuses are Match, No Match, and Match Error. Data enrichment statuses are Enriched, and Enrichment Error",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/VendorVerificationStatus",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Legal Status Description",
+                    "name": "LegalStatusDescription",
+                    "description": "Legal Status Description",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/LegalStatusDescription",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Industry",
+                    "name": "Industry",
+                    "description": "Industry information of this organization",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Industry",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Specialty",
+                    "name": "Specialities",
+                    "description": "Specific medical specialty of the IDN",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Specialities",
+                    "dataLabelPattern": "[{SpecialtyType}][ - {Specialty}]",
+                    "matchFieldURIs": [
+                        "configuration/entityTypes/IDN/attributes/Specialities/attributes/SpecialtyType",
+                        "configuration/entityTypes/IDN/attributes/Specialities/attributes/Specialty"
+                    ],
+                    "matchOvOnly": true,
+                    "attributes": [
+                        {
+                            "label": "Specialty Type",
+                            "name": "SpecialtyType",
+                            "description": "Specific medical specialty of the GPO",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Specialities/attributes/SpecialtyType",
+                            "lookupCode": "rdm/lookupTypes/SpecialtyTypes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Specialty",
+                            "name": "Specialty",
+                            "description": "Specific medical specialty of the IDN",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Specialities/attributes/Specialty",
+                            "lookupCode": "rdm/lookupTypes/SpecialtyCodes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Group",
+                            "name": "Group",
+                            "description": "Specialty Group",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Specialities/attributes/Group",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Specialty Detail",
+                            "name": "SpecialtyDetail",
+                            "description": "Specialty Detail",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Specialities/attributes/SpecialtyDetail",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Taxonomy",
+                    "name": "Taxonomy",
+                    "description": "Taxonomy related to IDN",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/Taxonomy",
+                    "dataLabelPattern": "{Taxonomy}",
+                    "matchFieldURIsExactOrNull": [
+                        "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/Taxonomy",
+                        "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/Type"
+                    ],
+                    "matchOvOnly": true,
+                    "attributes": [
+                        {
+                            "label": "Taxonomy",
+                            "name": "Taxonomy",
+                            "description": "A unique 10-character code issued by CMS that designates organization's classification and specialization",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/Taxonomy",
+                            "lookupCode": "rdm/lookupTypes/TaxonomyCodes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Type",
+                            "name": "Type",
+                            "description": "Type of Taxonomy, for example, Primary",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/Type",
+                            "lookupCode": "rdm/lookupTypes/TaxonomyTypes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Provider Type",
+                            "name": "ProviderType",
+                            "description": "Taxonomy Provider Type",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/ProviderType",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Classification",
+                            "name": "Classification",
+                            "description": "Classification of the taxonomy as assigned my CMS",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/Classification",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Specialization",
+                            "name": "Specialization",
+                            "description": "Specialization of the taxonomy",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/Specialization",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Priority",
+                            "name": "Priority",
+                            "description": "Priority of this Taxonomy",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/Taxonomy/attributes/Priority",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "DEA Details",
+                    "name": "DEA",
+                    "description": "DEA Registration Details",
+                    "type": "Nested",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/DEA",
+                    "dataLabelPattern": "{Number}, {Status}, {ExpirationDate}",
+                    "matchFieldURIs": [
+                        "configuration/entityTypes/IDN/attributes/DEA/attributes/Number"
+                    ],
+                    "matchOvOnly": true,
+                    "singleValueByCrosswalk": true,
+                    "attributes": [
+                        {
+                            "label": "Number",
+                            "name": "Number",
+                            "description": "DEA Registration Number",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/Number",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Business Activity",
+                            "name": "BusinessActivity",
+                            "description": "Business Activity",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "faceted": true,
+                            "searchable": true,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/BusinessActivity",
+                            "lookupCode": "rdm/lookupTypes/BusinessActivityCodes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Business Activity SubCode",
+                            "name": "BusinessActivityPlusSubCode",
+                            "description": "Business Activity SubCode",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/BusinessActivityPlusSubCode",
+                            "lookupCode": "rdm/lookupTypes/BusinessActivitySubCodes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "DEA Business Activity Description",
+                            "name": "BusinessActivityDescription",
+                            "description": "Business Activity Description",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/BusinessActivityDescription",
+                            "lookupCode": "rdm/lookupTypes/BusinessActivityDescription",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Payment Indicator",
+                            "name": "PaymentIndicator",
+                            "description": "Payment Indicator",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/PaymentIndicator",
+                            "lookupCode": "rdm/lookupTypes/PaymentIndicatorCodes",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Status",
+                            "name": "Status",
+                            "description": "DEA Registration Status",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/Status",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Expiration Date",
+                            "name": "ExpirationDate",
+                            "description": "DEA Registration expiration date",
+                            "type": "Date",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/ExpirationDate",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Drug Schedule",
+                            "name": "DrugSchedule",
+                            "description": "Drug Schedule",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/DrugSchedule",
+                            "skipInDataAccess": false
+                        },
+                        {
+                            "label": "Drug Schedule Description",
+                            "name": "DrugScheduleDescription",
+                            "description": "Drug Schedule Description",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "attributeOrdering": {
+                                "orderingStrategy": "LUD"
+                            },
+                            "uri": "configuration/entityTypes/IDN/attributes/DEA/attributes/DrugScheduleDescription",
+                            "skipInDataAccess": false
+                        }
+                    ],
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Staffed Bed Size",
+                    "name": "StaffedBedSize",
+                    "description": "Staffed bed size",
+                    "type": "Int",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": false,
+                    "searchable": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/StaffedBedSize",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Total Number of Member Hospitals",
+                    "name": "MemberHospitals",
+                    "description": "Total Number of Member Hospitals",
+                    "type": "Int",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": false,
+                    "searchable": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/MemberHospitals",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Number of Discharges",
+                    "name": "NoOfDischarges",
+                    "description": "Number of Discharges",
+                    "type": "Int",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": false,
+                    "searchable": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/NoOfDischarges",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Net Patient Revenue",
+                    "name": "NPR",
+                    "description": "Net Patient Revenue",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": false,
+                    "searchable": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/NPR",
+                    "skipInDataAccess": false
+                },
+                {
+                    "label": "Annual Revenue",
+                    "name": "AnnualRevenue",
+                    "description": "Annual Revenue",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "required": false,
+                    "faceted": false,
+                    "searchable": false,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/IDN/attributes/AnnualRevenue",
+                    "skipInDataAccess": false
+                }
+            ],
+            "dataLabelPattern": "{Name}",
+            "secondaryLabelPattern": "{Address}",
+            "survivorshipGroups": [
+                {
+                    "uri": "configuration/entityTypes/IDN/survivorshipGroups/default",
+                    "label": "default",
+                    "description": "Default",
+                    "default": true,
+                    "mapping": [
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/StatusInformation",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/DoingBusinessAsName",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Type",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/SubType",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/TradestyleNames",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Identifiers",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Phone",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Email",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/OrganizationDetail",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Taxonomy",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Specialities",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/DEA",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/IDNIntegrationLevel",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/WebsiteURL",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/IsSubsidiary",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/VendorVerificationDate",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/VendorVerificationStatus",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/LegalStatusDescription",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/Industry",
+                            "survivorshipStrategy": "Aggregation"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/StaffedBedSize",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/MemberHospitals",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/NoOfDischarges",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/NPR",
+                            "survivorshipStrategy": "LUD"
+                        },
+                        {
+                            "attribute": "configuration/entityTypes/IDN/attributes/AnnualRevenue",
+                            "survivorshipStrategy": "LUD"
+                        }
+                    ]
+                }
+            ],
+            "defaultFacetedAttributes": [
+                "configuration/entityTypes/IDN/attributes/Identifiers"
+            ],
+            "abstract": false,
+            "matchGroups": [
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule02",
+                    "label": "BaseRule02: Fuzzy(Name); EOAN(Identifier); EON(Phone)",
+                    "type": "suspect",
+                    "scope": "INTERNAL",
+                    "useOvOnly": "true",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/TaxID",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.OrganizationNameMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/TaxID",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.OrganizationNamesComparator"
+                                }
+                            ]
+                        },
+                        "and": {
+                            "exact": [
+                                "configuration/entityTypes/IDN/attributes/TaxID"
+                            ],
+                            "exactOrNull": [
+                                "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber"
+                            ],
+                            "exactOrAllNull": [
+                                "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID"
+                            ],
+                            "fuzzy": [
+                                "configuration/entityTypes/IDN/attributes/Name"
+                            ]
+                        }
+                    },
+                    "scoreStandalone": 80,
+                    "scoreIncremental": 5
+                },
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule03",
+                    "label": "BaseRule03: Exact(Name, Identifier)",
+                    "type": "suspect",
+                    "scope": "ALL",
+                    "useOvOnly": "true",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Type",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Type",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                }
+                            ]
+                        },
+                        "and": {
+                            "exact": [
+                                "configuration/entityTypes/IDN/attributes/Name",
+                                "configuration/entityTypes/IDN/attributes/Identifiers/attributes/ID",
+                                "configuration/entityTypes/IDN/attributes/Identifiers/attributes/Type"
+                            ]
+                        }
+                    },
+                    "scoreStandalone": 50,
+                    "scoreIncremental": 5
+                },
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule04",
+                    "label": "BaseRule04: Fuzzy(Name); Exact(TaxID)",
+                    "type": "suspect",
+                    "scope": "ALL",
+                    "useOvOnly": "false",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/TaxID",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.OrganizationNameMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/TaxID",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.OrganizationNamesComparator"
+                                }
+                            ]
+                        },
+                        "and": {
+                            "exact": [
+                                "configuration/entityTypes/IDN/attributes/TaxID"
+                            ],
+                            "fuzzy": [
+                                "configuration/entityTypes/IDN/attributes/Name"
+                            ]
+                        }
+                    },
+                    "scoreStandalone": 70,
+                    "scoreIncremental": 10
+                },
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule05",
+                    "label": "BaseRule05: Fuzzy(Name); Exact(Address1, City or Zip5)",
+                    "type": "suspect",
+                    "scope": "ALL",
+                    "useOvOnly": "false",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.OrganizationNameMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.OrganizationNamesComparator"
+                                }
+                            ]
+                        },
+                        "and": [
+                            {
+                                "and": {
+                                    "fuzzy": [
+                                        "configuration/entityTypes/IDN/attributes/Name"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "scoreStandalone": 60,
+                    "scoreIncremental": 5
+                },
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule06",
+                    "label": "BaseRule06: Fuzzy(Name Metaphone); Exact(Address1, City or PostalCode)",
+                    "type": "suspect",
+                    "scope": "ALL",
+                    "useOvOnly": "false",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.OrganizationNameMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.DoubleMetaphoneComparator"
+                                }
+                            ]
+                        },
+                        "and": [
+                            {
+                                "and": {
+                                    "fuzzy": [
+                                        "configuration/entityTypes/IDN/attributes/Name"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "scoreStandalone": 60,
+                    "scoreIncremental": 5
+                },
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule07",
+                    "label": "BaseRule07: Exact(Name, Address, Phone)",
+                    "type": "automatic",
+                    "scope": "ALL",
+                    "useOvOnly": "true",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber",
+                                    "class": "com.reltio.match.token.ExactMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                },
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber",
+                                    "class": "com.reltio.match.comparator.BasicStringComparator"
+                                }
+                            ]
+                        },
+                        "and": {
+                            "exact": [
+                                "configuration/entityTypes/IDN/attributes/Name",
+                                "configuration/entityTypes/IDN/attributes/Phone/attributes/FormattedNumber"
+                            ],
+                            "exactOrAllNull": [
+                                "configuration/entityTypes/IDN/attributes/Name"
+                            ]
+                        }
+                    },
+                    "scoreStandalone": 85,
+                    "scoreIncremental": 5
+                },
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule08",
+                    "label": "BaseRule08: Fuzzy(Name); Exact(Address1, PostalCode)",
+                    "type": "suspect",
+                    "scope": "ALL",
+                    "useOvOnly": "true",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.OrganizationNameMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.OrganizationNamesComparator"
+                                }
+                            ]
+                        },
+                        "and": {
+                            "fuzzy": [
+                                "configuration/entityTypes/IDN/attributes/Name"
+                            ]
+                        }
+                    },
+                    "scoreStandalone": 60,
+                    "scoreIncremental": 10
+                },
+                {
+                    "uri": "configuration/entityTypes/IDN/matchGroups/BaseRule09",
+                    "label": "BaseRule09: Fuzzy(Name); Exact(Address1, State)",
+                    "type": "suspect",
+                    "scope": "ALL",
+                    "useOvOnly": "true",
+                    "rule": {
+                        "matchTokenClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.token.OrganizationNameMatchToken"
+                                }
+                            ]
+                        },
+                        "comparatorClasses": {
+                            "mapping": [
+                                {
+                                    "attribute": "configuration/entityTypes/IDN/attributes/Name",
+                                    "class": "com.reltio.match.comparator.OrganizationNamesComparator"
+                                }
+                            ]
+                        },
+                        "and": {
+                            "fuzzy": [
+                                "configuration/entityTypes/IDN/attributes/Name"
+                            ]
+                        }
+                    },
+                    "scoreStandalone": 60,
+                    "scoreIncremental": 10
+                }
+            ],
+            "analyticsAttributes": [
+                {
+                    "uri": "configuration/entityTypes/IDN/analyticsAttributes/AttributeValidations",
+                    "label": "Attribute Validations",
+                    "description": "Attribute Validations",
+                    "name": "AttributeValidations",
+                    "type": "Nested",
+                    "maxOccurs": 1000,
+                    "couldUpdateWithLCA": true,
+                    "dataLabelPattern": "{Message}",
+                    "analyticsAttributes": [
+                        {
+                            "uri": "configuration/entityTypes/IDN/analyticsAttributes/AttributeValidations/analyticsAttributes/FunctionURI",
+                            "label": "Function URI",
+                            "description": "Function URI  for which validation has failed.",
+                            "name": "FunctionURI",
+                            "type": "String",
+                            "maxOccurs": 1000,
+                            "faceted": true,
+                            "searchable": false
+                        },
+                        {
+                            "uri": "configuration/entityTypes/IDN/analyticsAttributes/AttributeValidations/analyticsAttributes/FunctionName",
+                            "label": "Function Name",
+                            "description": "Name of the Function for which validation has failed.",
+                            "name": "FunctionName",
+                            "type": "String",
+                            "maxOccurs": 1000,
+                            "faceted": true,
+                            "searchable": true
+                        },
+                        {
+                            "uri": "configuration/entityTypes/IDN/analyticsAttributes/AttributeValidations/analyticsAttributes/Expression",
+                            "label": "Expression",
+                            "description": "Expression of the Function for which validation has failed.",
+                            "name": "Expression",
+                            "type": "String",
+                            "maxOccurs": 1000,
+                            "faceted": true,
+                            "searchable": false
+                        },
+                        {
+                            "uri": "configuration/entityTypes/IDN/analyticsAttributes/AttributeValidations/analyticsAttributes/Attribute",
+                            "label": "Attribute Name",
+                            "description": "Name of the Attribute for which validation has failed.",
+                            "name": "Attribute",
+                            "type": "String",
+                            "maxOccurs": 1,
+                            "faceted": true,
+                            "searchable": true
+                        },
+                        {
+                            "uri": "configuration/entityTypes/IDN/analyticsAttributes/AttributeValidations/analyticsAttributes/Action",
+                            "label": "Action Type",
+                            "description": "Action type: Warning / Reject / Workflow",
+                            "name": "Action",
+                            "type": "String",
+                            "maxOccurs": 1,
+                            "faceted": true,
+                            "searchable": true
+                        },
+                        {
+                            "uri": "configuration/entityTypes/IDN/analyticsAttributes/AttributeValidations/analyticsAttributes/Message",
+                            "label": "Message",
+                            "description": "Attribute Validation Message",
+                            "name": "Message",
+                            "type": "String",
+                            "maxOccurs": 1000,
+                            "faceted": true,
+                            "searchable": true
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ],
+    "changeRequestTypes": [
+        {
+            "uri": "configuration/changeRequestTypes/default"
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/SexesAtBirth",
+    "code": "F",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "F",
+            "value": "Female",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Female",
+            "value": "Female",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "F",
+            "value": "Female",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Female",
+            "value": "Female",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "F",
+            "value": "Female",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Female",
+            "value": "Female",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/SexesAtBirth",
+    "code": "M",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "M",
+            "value": "Male",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Male",
+            "value": "Male",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "M",
+            "value": "Male",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Male",
+            "value": "Male",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "M",
+            "value": "Male",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Male",
+            "value": "Male",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/SexesAtBirth",
+    "code": "I",
+    "enabled": true,
+    "startDate": "0",
+    "endDate": "0",
+    "updatedBy": "PLATFORM_CONTROL_CENTER",
+    "version": "1",
+    "sourceMappings": [
+      {
+        "source": "ReltioCleanser",
+        "values": [
+          {
+            "code": "I",
+            "value": "Intersex",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Intersex",
+            "value": "Intersex",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "I",
+            "value": "Intersex",
+            "canonicalValue": true,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Intersex",
+            "value": "Intersex",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "source": "Salesforce",
+        "values": [
+          {
+            "code": "I",
+            "value": "Intersex",
+            "canonicalValue": false,
+            "downStreamDefaultValue": true,
+            "enabled": true
+          },
+          {
+            "code": "Intersex",
+            "value": "Intersex",
+            "canonicalValue": false,
+            "downStreamDefaultValue": false,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+]

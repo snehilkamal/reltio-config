@@ -1,0 +1,70 @@
+[
+  {
+    "dataTenantId": {
+      "id": "{{dataTenantId}}"
+    },
+    "customerTenantId": {
+      "id": "{{tenantId}}"
+    },
+    "bringGoldenRecord": false,
+    "bringInternalSources": [
+      "*"
+    ],
+    "tasksConfiguration": {
+      "onFinish": {
+        "consistencyReport": {
+          "emails": []
+        }
+      }
+    },
+    "mappings": [],
+    "security": {
+      "metadataAndDataSecurity": {
+        "permissionConfig": []
+      }
+    },
+    "eventsConfiguration": {
+      "entityDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "entityModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "entityUnmerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityMerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityCreated": {
+        "actionInCT": "ACTIVATE"
+      },
+      "entityMatch": {
+        "action": "ACTIVATE"
+      },
+      "entityCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE"
+      },
+      "relationCreated": {
+        "actionInCT": "IGNORE"
+      },
+      "relationModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "relationDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "relationCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE"
+      }
+    },
+    "synchronizationConfig": {
+      "dtSyncType": "REALTIME",
+      "ctSyncType": "REALTIME"
+    },
+    "searchMatchesCtMetadata": true,
+    "validation": {
+      "strictMappingCheck": false
+    }
+  }
+]

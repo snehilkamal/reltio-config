@@ -1,0 +1,670 @@
+[
+  {
+    "dataTenantId": {
+      "id": "{{dataTenantIdNpi}}"
+    },
+    "customerTenantId": {
+      "id": "{{tenantId}}"
+    },
+    "bringGoldenRecord": true,
+    "tasksConfiguration": {
+      "onFinish": {
+        "consistencyReport": {
+          "emails": []
+        }
+      }
+    },
+    "mappings": [
+      {
+        "copyFromDT": "configuration/entityTypes/HCP",
+        "copyToCT": "configuration/entityTypes/HCP",
+        "attributes": [
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Administrator",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Administrator"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/BirthCity",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/BirthCity"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/BirthCountry",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/BirthCountry"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/BirthState",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/BirthState"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/ClinicalTrials",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/ClinicalTrials"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Credentials",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Credentials"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/DoB",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/DoB"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/DoD",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/DoD"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/FirstName",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/FirstName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Gender",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Gender"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Group",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Group"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/LastName",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/LastName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/MajorProfessionalActivity",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/MajorProfessionalActivity"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/MiddleName",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/MiddleName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Name",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Name"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Prefix",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Prefix"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/PresentEmployment",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/PresentEmployment"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Research",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Research"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/SSN",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/SSN"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Solo",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Solo"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Title",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Title"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/TypeOfPractice",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/TypeOfPractice"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/WebsiteURL",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/WebsiteURL"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/YoB",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/YoB"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/YoD",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/YoD"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Phone"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/Active",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/Active"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/AreaCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/AreaCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/CountryCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/CountryCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/DigitCount",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/DigitCount"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/Extension",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/Extension"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/FormatMask",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/FormatMask"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoArea",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoArea"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoCountry",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoCountry"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/LineType",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/LineType"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/LocalNumber",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/LocalNumber"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/Number",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/Number"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/Rank",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/Rank"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/ValidationStatus",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/ValidationStatus"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/Type"
+                ],
+                "transformValue": [
+                  {
+                    "from": "Business Mailing Telephone Number",
+                    "to": "Business Phone"
+                  },
+                  {
+                    "from": "Business Practice Telephone Number",
+                    "to": "Business Phone"
+                  },
+                  {
+                    "from": "Business Practice Fax",
+                    "to": "Fax"
+                  },
+                  {
+                    "from": "Business Mailing Fax",
+                    "to": "Fax"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Identifiers"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/DeactivationDate",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/DeactivationDate"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/ID",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/ID"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/ReactivationDate",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/ReactivationDate"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Status",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Status"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Type"
+                ],
+                "transformValue": [
+                  {
+                    "from": "NPI",
+                    "to": "NPI Number"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "copyFromDT": "configuration/entityTypes/HCO",
+        "copyToCT": "configuration/entityTypes/HCO",
+        "attributes": [
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Academic",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Academic"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/AcceptMedicaid",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/AcceptMedicaid"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/AcceptMedicare",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/AcceptMedicare"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/CMSCoveredForTeaching",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/CMSCoveredForTeaching"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/CompanyType",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/CompanyType"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/DoingBusinessAsName",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/DoingBusinessAsName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Fiscal",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Fiscal"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/GPOMembership",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/GPOMembership"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/GenFirst",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/GenFirst"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/GroupPractice",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/GroupPractice"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/HealthSystemName",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/HealthSystemName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Industry",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Industry"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/MktSegmentCode",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/MktSegmentCode"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Name",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Name"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Sector",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Sector"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Site",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Site"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/SrepAccess",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/SrepAccess"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/TaxID",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/TaxID"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/WebsiteURL",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/WebsiteURL"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Phone"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/Active",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/Active"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/AreaCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/AreaCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/CountryCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/CountryCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/DigitCount",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/DigitCount"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/Extension",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/Extension"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/FormatMask",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/FormatMask"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoArea",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoArea"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoCountry",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoCountry"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/LineType",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/LineType"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/LocalNumber",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/LocalNumber"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/Number",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/Number"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/Rank",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/Rank"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/ValidationStatus",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/ValidationStatus"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/Type"
+                ],
+                "transformValue": [
+                  {
+                    "from": "Business Mailing Telephone Number",
+                    "to": "Business Phone"
+                  },
+                  {
+                    "from": "Business Practice Telephone Number",
+                    "to": "Business Phone"
+                  },
+                  {
+                    "from": "Business Practice Fax",
+                    "to": "Fax"
+                  },
+                  {
+                    "from": "Business Mailing Fax",
+                    "to": "Fax"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Identifiers"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/DeactivationDate",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/DeactivationDate"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/ID",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/ID"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/ReactivationDate",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/ReactivationDate"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Status",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Status"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Type"
+                ],
+                "transformValue": [
+                  {
+                    "from": "NPI",
+                    "to": "NPI Number"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "security": {
+      "metadataAndDataSecurity": {
+        "permissionConfig": []
+      }
+    },
+    "eventsConfiguration": {
+      "entityDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "entityModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "entityUnmerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityMerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityCreated": {
+        "actionInCT": "ACTIVATE"
+      },
+      "entityMatch": {
+        "action": "IGNORE"
+      },
+      "entityCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE"
+      },
+      "relationCreated": {
+        "actionInCT": "IGNORE"
+      },
+      "relationModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "relationDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "relationCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE"
+      }
+    },
+    "synchronizationConfig": {
+      "entities": [
+        {
+          "types": [
+            "configuration/entityTypes/HCP"
+          ],
+          "action": "AUTOSUBSCRIBE",
+          "matchRules": [
+            "configuration/entityTypes/HCP/matchGroups/PersonByNPI",
+            "configuration/entityTypes/HCP/matchGroups/PersonbyExactNameAddressLine1Zip5"
+          ]
+        },
+        {
+          "types": [
+            "configuration/entityTypes/HCO"
+          ],
+          "action": "AUTOSUBSCRIBE",
+          "matchRules": [
+            "configuration/entityTypes/HCO/matchGroups/ExactNPI",
+            "configuration/entityTypes/HCO/matchGroups/ExactNameAddressLine1Zip5"
+          ]
+        }
+      ],
+      "dtSyncType": "REALTIME",
+      "ctSyncType": "REALTIME"
+    }
+  }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Ret",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Ret",
+            "value": "Retired from Armed Forces",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+	  {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Ret",
+            "value": "Retired from Armed Forces",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "II",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "II",
+            "value": "The Second",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+	  {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "II",
+            "value": "The Second",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Esq",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Esq",
+            "value": "Esquire",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Esq",
+            "value": "Esquire",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "LLD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "LLD",
+            "value": "Doctor of Laws",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },
+	  {
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "LLD",
+            "value": "Doctor of Laws",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Jr",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Jr",
+            "value": "Junior",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Jr",
+            "value": "Junior",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "III",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "III",
+            "value": "The Third",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "III",
+            "value": "The Third",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "DO",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DO",
+            "value": "Doctor of Osteopathy",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DO",
+            "value": "Doctor of Osteopathy",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "PhD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "PhD",
+            "value": "Doctorate",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "PhD",
+            "value": "Doctorate",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "IV",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "IV",
+            "value": "The Fourth",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "IV",
+            "value": "The Fourth",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "DDS",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "DDS",
+            "value": "Doctor of Dental Medicine",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "DDS",
+            "value": "Doctor of Dental Medicine",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "CPA",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "CPA",
+            "value": "Certified Public Accountant",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "CPA",
+            "value": "Certified Public Accountant",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "MD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "MD",
+            "value": "Doctor of Medicine",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "MD",
+            "value": "Doctor of Medicine",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "JD",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "JD",
+            "value": "Jurist Doctor",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "JD",
+            "value": "Jurist Doctor",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "RN",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "RN",
+            "value": "Registered Nurse",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "RN",
+            "value": "Registered Nurse",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Suffix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Sr",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Sr",
+            "value": "Senior",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Sr",
+            "value": "Senior",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  }
+]

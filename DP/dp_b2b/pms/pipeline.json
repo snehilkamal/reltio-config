@@ -1,0 +1,96 @@
+{
+    "pipelineId": "{velocity-pack-name}",
+    "type": "GENERIC_PIPELINE",
+    "description": "Velocity Pack - B2B tenant provisioning pipeline",
+    "tasks": [
+        {
+            "name": "Auth task",
+            "customerConfig": {
+                "roleBody": null,
+                "customerId": null
+            },
+            "clientConfig": {
+                "clientsCount": null
+            },
+            "userConfig": {
+                "requesterSpecificRoleName": null,
+                "accessLevel": "ADMIN",
+                "roleMappingName": "enterpriseRolesMapping",
+                "owners": null
+            },
+            "type": "AUTH_TASK"
+        },
+        {
+            "name": "MDM Task",
+            "type": "MDM_TASK",
+            "addSampleData": true,
+            "matchingStrategy": "INCREMENTAL",
+            "ttlMappingName": "IndustryTTL",
+            "configOverrideElements": [
+                {
+                    "path": "$",
+                    "key": "tenantInternalId",
+                    "value": 1
+                },
+                {
+                    "path": "$.lcaConfig",
+                    "key": "nativeTimeOut",
+                    "value": 500
+                },
+                {
+                    "path": "$.lcaConfig",
+                    "key": "lambdaTimeOut",
+                    "value": 500
+                }
+            ],
+            "storagePriorityList": {
+                "history": [
+                    "gbt"
+                ],
+                "data": [
+                    "dynamodb","cassandra"
+                ],
+                "match": [
+                    "dynamodb","cassandra"
+                ]
+            }
+        },
+        {
+            "name": "rest for a bit",
+            "type": "SLEEP_TASK",
+            "sleepTime": 5000
+        },
+        {
+            "name": "Enable Streaming Task",
+            "gcpProjectName": "data-integration-hub-internal",
+            "createQueueIfExisting": false,
+            "type": "STREAMING_TASK"
+        },
+        {
+            "name": "RDM task",
+            "type": "RDM_TASK",
+            "reuseRdmTenant": false,
+            "cache": {
+                "enabled": true,
+                "type": "TranscodeInMemory"
+            },
+            "publishRDMErrors": false
+        },
+        {
+            "name": "Workflow task",
+            "type": "WORKFLOW_TASK"
+        },
+        {
+            "name": "Image Hosting Enablement",
+            "type": "IMAGE_HOSTING_ENABLEMENT_TASK"
+        },
+        {
+            "name": "SFDC Connector Task",
+            "type": "SFDC_CONNECTOR_ENABLEMENT_TASK"
+        },
+        {
+            "name": "Workato task",
+            "type": "WORKATO_ENABLEMENT_TASK"
+        }
+    ]
+}

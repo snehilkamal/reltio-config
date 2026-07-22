@@ -1,0 +1,95 @@
+[
+  {
+    "uri": "configuration/relationTypes",
+    "permissions": [
+      {
+        "role": "ROLE_FREEMIUM_USER",
+        "access": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "INITIATE_CHANGE_REQUEST",
+          "ACCEPT_CHANGE_REQUEST",
+          "MERGE",
+          "UNMERGE"
+        ]
+      },
+      {
+        "role": "ROLE_FREEMIUM_ADMIN",
+        "access": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "INITIATE_CHANGE_REQUEST",
+          "ACCEPT_CHANGE_REQUEST",
+          "MERGE",
+          "UNMERGE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Location",
+    "permissions": [
+      {
+        "role": "ROLE_FREEMIUM_USER",
+        "access": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "INITIATE_CHANGE_REQUEST",
+          "ACCEPT_CHANGE_REQUEST",
+          "MERGE",
+          "UNMERGE"
+        ]
+      },
+      {
+        "role": "ROLE_FREEMIUM_ADMIN",
+        "access": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "INITIATE_CHANGE_REQUEST",
+          "ACCEPT_CHANGE_REQUEST",
+          "MERGE",
+          "UNMERGE"
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "configuration/entityTypes/Individual",
+    "permissions": [
+      {
+        "role": "ROLE_FREEMIUM_USER",
+        "access": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "INITIATE_CHANGE_REQUEST",
+          "ACCEPT_CHANGE_REQUEST",
+          "MERGE",
+          "UNMERGE"
+        ]
+      },
+      {
+        "role": "ROLE_FREEMIUM_ADMIN",
+        "access": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "INITIATE_CHANGE_REQUEST",
+          "ACCEPT_CHANGE_REQUEST",
+          "MERGE",
+          "UNMERGE"
+        ]
+      }
+    ]
+  }
+]

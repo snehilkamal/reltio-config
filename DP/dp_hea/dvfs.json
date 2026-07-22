@@ -1,0 +1,190 @@
+{
+  "entityTypes": [
+    {
+      "type": "configuration/entityTypes/Person",
+      "functions": [
+        {
+          "name": "Validate Last Name",
+          "label": "",
+          "description": "Validate Last Name",
+          "expression": "not regexp(attributes.LastName.value, '^[ A-Za-z \u2019\u00c0-\u017e]+$') or missing(attributes.LastName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid Last Name",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672107569",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672107569",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/LastName"
+        },
+        {
+          "name": "Validate Phone Number",
+          "label": "",
+          "description": "Validate Phone Number",
+          "expression": "regexp(attributes.Phone.value.Number.value, '.*[a-zA-Z].*')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Phone number contains alphabets",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672107569",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672107569",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/Phone/attributes/Number"
+        },
+        {
+          "name": "IdentifierMissing",
+          "label": "",
+          "description": "Identifier Missing",
+          "expression": "missing(attributes.Identifiers.value.ID.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "There needs to be at least one identifiers",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672107569",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672107569",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/Identifiers"
+        },
+        {
+          "name": "Validate First Name",
+          "label": "",
+          "description": "Validate First Name",
+          "expression": "not regexp(attributes.FirstName.value, '^[ A-Za-z \u2019\u00c0-\u017e]+$') or missing(attributes.FirstName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid First Name",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672107569",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672107569",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/FirstName"
+        },
+        {
+          "name": "Validate SSN",
+          "label": "",
+          "description": "Validate SSN",
+          "expression": "not regexp(attributes.SSN.value, '^(?!666|000|9\\\\d{2})\\\\d{3}-(?!00)\\\\d{2}-(?!0{4})\\\\d{4}$')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid SSN",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938478019",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938478019",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Person/attributes/SSN"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/HCP",
+      "functions": [
+        {
+          "name": "MissingIdentifier",
+          "label": "",
+          "description": "Identifier Missing",
+          "expression": "missing(attributes.Identifiers.value, '')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "There needs to be at least one identifier",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938478039",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938478039",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/Identifiers"
+        },
+        {
+          "name": "ValidateFirstName",
+          "label": "",
+          "description": "Validate First Name",
+          "expression": "not regexp(attributes.FirstName.value, '^[ A-Za-z \u2019\u00c0-\u017e]+$') or missing(attributes.FirstName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter Valid First Name",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672107594",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672107594",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/FirstName"
+        },
+        {
+          "name": "Validate Last Name",
+          "label": "",
+          "description": "Validate Last Name",
+          "expression": "not regexp(attributes.LastName.value, '^[ A-Za-z \u2019\u00c0-\u017e]+$') or missing(attributes.LastName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid Last Name",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672107594",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672107594",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/LastName"
+        },
+        {
+          "name": "ValidateSSN",
+          "label": "",
+          "description": "Validate SSN",
+          "expression": "not regexp(attributes.SSN.value, '^(?!666|000|9\\\\\\\\d{2})\\\\\\\\d{3}-(?!00)\\\\\\\\d{2}-(?!0{4})\\\\\\\\d{4}$')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Enter valid SSN",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938478039",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938478039",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/HCP/attributes/SSN"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/HCO",
+      "functions": [
+        {
+          "name": "PhoneNumberCheck",
+          "label": "",
+          "description": "PhoneNumberCheck",
+          "expression": "regexp(attributes.Phone.value.Number.value, '.*[a-zA-Z].*')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Phone Number contains alphabets.",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938477803",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938477803",
+          "status": "INACTIVE",
+          "attribute": "configuration/entityTypes/HCO/attributes/Phone/attributes/Number"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Location",
+      "functions": [
+        {
+          "name": "AddressVerificationStatus",
+          "label": "",
+          "description": "Address Verification Status Check",
+          "expression": "not equals(attributes.VerificationStatus.value, 'Verified')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Address status is not valid",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938477728",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938477728",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Location/attributes/VerificationStatus"
+        }
+      ]
+    }
+  ],
+  "relationTypes": []
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "cleanseFunction": "EmailCleanserFn",
+    "options": {
+      "casing": "lower"
+    }
+  },
+  {
+    "cleanseFunction": "Loqate",
+    "options": {
+      "process": "e+v+g",
+      "opts": {
+        "PreferPrimaryValidAlias": "Yes"
+      },
+      "returnUnverifiedStatus": "true",
+      "loqateLicensedCountry": "American Samoa;AS;ASM;Guam;GU;GUM;Northern Mariana Islands;MNP;Puerto Rico;PR;PRI;United States;US;USA;United States Minor Outlying Islands;UMI;United States Virgin Islands;VIR",
+      "ovOnly": "true",
+      "loqateDefaultCountry": "United States;US;USA"
+    }
+  }
+]

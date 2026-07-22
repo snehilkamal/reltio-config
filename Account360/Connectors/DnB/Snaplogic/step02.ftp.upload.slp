@@ -1,0 +1,335 @@
+{
+  "class_fqid": "com-snaplogic-pipeline_8",
+  "snode_id": "5a16415f57bb7c001f0f75e5",
+  "instance_id": "c50f3aa4-b35e-4d95-a18b-505faa1f9b8b",
+  "instance_version": 9,
+  "link_map": {
+    "link100": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "6a02ae9a-dc8a-40f1-bcfb-99c65f4e811c",
+      "dst_id": "580871f7-1fb7-47d8-8083-54c33f7fc387",
+      "isGoto": false
+    }
+  },
+  "link_serial": 101,
+  "property_map": {
+    "info": {
+      "notes": {
+        "value": null
+      },
+      "label": {
+        "value": "step02.ftp.upload"
+      },
+      "purpose": {
+        "value": null
+      },
+      "pipeline_doc_uri": {
+        "value": null
+      },
+      "author": {
+        "value": "andrey.pavlov@reltio.com"
+      }
+    },
+    "input": {},
+    "settings": {
+      "imports": {
+        "value": []
+      },
+      "error_param_table": {
+        "value": []
+      },
+      "param_table": {
+        "value": [
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "customerTenantId"
+            },
+            "value": {
+              "value": "cust"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "environmentUrl"
+            },
+            "value": {
+              "value": "url"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "s3_bucket"
+            },
+            "value": {
+              "value": "bucket"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "key": {
+              "value": "customer"
+            },
+            "value": {
+              "value": "customer"
+            }
+          }
+        ]
+      },
+      "error_pipeline": {
+        "expression": false,
+        "value": null
+      }
+    },
+    "error": {
+      "error_behavior": {
+        "value": "none"
+      }
+    },
+    "output": {
+      "580871f7-1fb7-47d8-8083-54c33f7fc387_output0": {
+        "view_type": {
+          "value": "document"
+        },
+        "label": {
+          "value": "Pipeline Execute - output0"
+        }
+      }
+    }
+  },
+  "render_map": {
+    "pan_x_num": 0,
+    "default_snaplex": "577c936cfc6c8e7ddb07e3f3",
+    "scale_ratio": 1,
+    "detail_map": {
+      "6a02ae9a-dc8a-40f1-bcfb-99c65f4e811c": {
+        "grid_x_int": 1,
+        "rot_int": 0,
+        "grid_y_int": 1,
+        "rot_tail_int": 0
+      },
+      "580871f7-1fb7-47d8-8083-54c33f7fc387": {
+        "grid_x_int": 2,
+        "rot_int": 0,
+        "grid_y_int": 1,
+        "rot_tail_int": 0
+      }
+    },
+    "pan_y_num": 0
+  },
+  "snap_map": {
+    "6a02ae9a-dc8a-40f1-bcfb-99c65f4e811c": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "6a02ae9a-dc8a-40f1-bcfb-99c65f4e811c_2",
+      "instance_id": "6a02ae9a-dc8a-40f1-bcfb-99c65f4e811c",
+      "instance_version": 2,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Mapper"
+          }
+        },
+        "view_serial": 100,
+        "settings": {
+          "nullSafeAccess": {
+            "value": false
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "Date.now().toLocaleDateTimeString('{\"format\":\"yyyyMMddHHmmss\"}')"
+                    },
+                    "targetPath": {
+                      "value": "$fileTimestamp"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    },
+    "580871f7-1fb7-47d8-8083-54c33f7fc387": {
+      "class_fqid": "com-snaplogic-snaps-flow-pipeexec_1-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-flow-pipeexec",
+      "class_version": 1,
+      "instance_fqid": "580871f7-1fb7-47d8-8083-54c33f7fc387_4",
+      "instance_id": "580871f7-1fb7-47d8-8083-54c33f7fc387",
+      "instance_version": 4,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Pipeline Execute"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "pipeline": {
+            "expression": false,
+            "value": "__internal02.ftp.upload"
+          },
+          "reuse": {
+            "value": false
+          },
+          "poolSize": {
+            "expression": false,
+            "value": 1
+          },
+          "executable_during_suggest": {
+            "value": true
+          },
+          "loopDocument": {
+            "expression": true
+          },
+          "execLabel": {
+            "expression": true,
+            "value": null
+          },
+          "params": {
+            "value": [
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "_environmentUrl"
+                },
+                "paramName": {
+                  "value": "environmentUrl"
+                }
+              },
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "_customerTenantId"
+                },
+                "paramName": {
+                  "value": "customerTenantId"
+                }
+              },
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "$fileTimestamp"
+                },
+                "paramName": {
+                  "value": "fileTimestamp"
+                }
+              },
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "_s3_bucket"
+                },
+                "paramName": {
+                  "value": "s3_bucket"
+                }
+              },
+              {
+                "paramValue": {
+                  "expression": true,
+                  "value": "_customer"
+                },
+                "paramName": {
+                  "value": "customer"
+                }
+              }
+            ]
+          },
+          "snaplex": {
+            "expression": false,
+            "value": null
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    }
+  },
+  "path_id": "/ReltioDev/Reltio DDA/DnB_DI_Batch",
+  "path_snode": "5a04313766ef27587c5e3bf5"
+}

@@ -1,0 +1,5347 @@
+[
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Name": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Name",
+          "ov": true,
+          "value": "Phoebe Buffay"
+        }
+      ],
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Married Woman",
+          "lookupCode": "Mrs",
+          "lookupRawValue": "Mrs"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Phoebe"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Buffay"
+        }
+      ],
+      "SuffixName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/SuffixName",
+          "ov": true,
+          "value": "Retired from Armed Forces",
+          "lookupCode": "Ret",
+          "lookupRawValue": "Ret"
+        }
+      ],
+      "PreferredName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/PreferredName",
+          "ov": true,
+          "value": "Pheebs"
+        }
+      ]
+    },
+    "isFavorite": false,
+    "analyticsAttributes": {},
+    "label": "Buffay Phoebe",
+    "secondaryLabel": ""
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Name": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Name",
+          "ov": true,
+          "value": "John Connor"
+        }
+      ],
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Mister",
+          "lookupCode": "Mr",
+          "lookupRawValue": "Mr"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "John "
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Connor"
+        }
+      ],
+      "SuffixName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/SuffixName",
+          "ov": true,
+          "value": "Jurist Doctor",
+          "lookupCode": "JD",
+          "lookupRawValue": "JD"
+        }
+      ],
+      "Title": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Title",
+          "ov": true,
+          "value": "John Connor"
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Business :,,",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Business",
+                "lookupCode": "B",
+                "lookupRawValue": "B"
+              }
+            ],
+            "AddressInput": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressInput",
+                "ov": true,
+                "value": "444 Collett Bridge Rd Alvaton KY 42122"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1979-03-14"
+        }
+      ]
+    },
+    "isFavorite": false,
+    "analyticsAttributes": {},
+    "label": "Connor John",
+    "secondaryLabel": ""
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Wile"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Coyote"
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Male",
+          "lookupCode": "M",
+          "lookupRawValue": "M"
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Work - 908-546-2121",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "908-546-2121"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "(908) 546-2121"
+              }
+            ],
+            "AreaCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/AreaCode",
+                "ov": true,
+                "value": "908"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "5462121"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "FIXED_LINE_OR_MOBILE"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "(nnn) nnn-nnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "10"
+              }
+            ],
+            "GeoArea": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/GeoArea",
+                "ov": true,
+                "value": "New Jersey"
+              }
+            ],
+            "GeoCountry": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/GeoCountry",
+                "ov": true,
+                "value": "United States"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Business : 3314 SW US Veterans Hospital Rd, Portland, Oregon",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Business",
+                "lookupCode": "B",
+                "lookupRawValue": "B"
+              }
+            ],
+            "AddressInput": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressInput",
+                "ov": true,
+                "value": "aDAFafas"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "3314 SW US Veterans Hospital Rd"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Portland"
+              },
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Portla"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "Oregon",
+                "lookupCode": "OR",
+                "lookupRawValue": "OR"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "US"
+              }
+            ],
+            "PostalCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/PostalCode",
+                "ov": true,
+                "value": "97239"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "97239"
+              }
+            ],
+            "Zip4": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip4",
+                "ov": true,
+                "value": "2940"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is verified - a complete match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 4 - premise (premise or building).\nPre-Processed Verification Match Level is 4 - premise (premise or building).\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 4 - premise (premise or building).\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary verified, PostalCodeSecondary added or changed - postalcodeprimary verified, postalcodesecondary added or changed.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 95%."
+              },
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": false,
+                "value": "Address Verification Status is verified - a complete match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 4 - premise (premise or building).\nPre-Processed Verification Match Level is 4 - premise (premise or building).\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 4 - premise (premise or building).\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary verified, PostalCodeSecondary added or changed - postalcodeprimary verified, postalcodesecondary added or changed.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "V44-I44-P7-095"
+              },
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": false,
+                "value": "V44-I44-P7-100"
+              }
+            ],
+            "ISO3166-2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-2",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "ISO3166-3": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-3",
+                "ov": true,
+                "value": "USA"
+              }
+            ],
+            "ISO3166-N": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-N",
+                "ov": true,
+                "value": "840"
+              }
+            ],
+            "Street": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Street",
+                "ov": true,
+                "value": "SW US Veterans Hospital Rd"
+              }
+            ],
+            "SubAdministrativeArea": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/SubAdministrativeArea",
+                "ov": true,
+                "value": "Multnomah"
+              }
+            ],
+            "Latitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Latitude",
+                "ov": true,
+                "value": "45.499030"
+              }
+            ],
+            "Longitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Longitude",
+                "ov": true,
+                "value": "-122.688279"
+              }
+            ],
+            "GeoAccuracy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/GeoAccuracy",
+                "ov": true,
+                "value": "I4"
+              }
+            ],
+            "Premise": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Premise",
+                "ov": true,
+                "value": "3314"
+              }
+            ],
+            "PremiseNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/PremiseNumber",
+                "ov": true,
+                "value": "3314"
+              }
+            ],
+            "DeliveryAddress": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress",
+                "ov": true,
+                "value": "3314 SW US Veterans Hospital Rd"
+              }
+            ],
+            "DeliveryAddress1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress1",
+                "ov": true,
+                "value": "3314 SW US Veterans Hospital Rd"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Work Wile.E.Coyoot@SmithInc.com",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "Wile.E.Coyoot@SmithInc.com"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "SmithInc.com"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "Wile.E.Coyoot"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        },
+        {
+          "label": "Work Wile.E.Coyoot@roadrunner.com",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "Wile.E.Coyoot@roadrunner.com"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "roadrunner.com"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PUBLIC"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "Wile.E.Coyoot"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Smith, Inc - Director of Running",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Smith, Inc"
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "Director of Running"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "ACU 1232",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "ACU"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "1232"
+              }
+            ],
+            "Status": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Status",
+                "ov": true,
+                "value": "active"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "2001-03-28"
+        }
+      ],
+      "ImageLinks": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/ImageLinks",
+          "ov": true,
+          "value": "https://reltio-images.s3.amazonaws.com/wileEC153839064125047233.jpeg"
+        }
+      ]
+    },
+    "isFavorite": false,
+    "defaultProfilePic": "entities/eTr98TA/attributes/ImageLinks/19vrjYFQq",
+    "analyticsAttributes": {},
+    "label": "Coyote Wile",
+    "secondaryLabel": "Portland Oregon",
+    "defaultProfilePicValue": "https://reltio-images.s3.amazonaws.com/wileEC153839064125047233.jpeg"
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Mister",
+          "lookupCode": "Mr",
+          "lookupRawValue": "Mr"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Andrew"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Holiday"
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Male",
+          "lookupCode": "M",
+          "lookupRawValue": "M"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Customer"
+        }
+      ],
+      "Email": [
+        {
+          "label": "Home A.Holiday@bermuda.com",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Home"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "A.Holiday@bermuda.com"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "bermuda.com"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "A.Holiday"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Status": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Status",
+          "ov": true,
+          "value": "Active",
+          "lookupCode": "A",
+          "lookupRawValue": "A"
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Smith, Inc - President",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Smith, Inc"
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "President"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "ACU H424322",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "ACU"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "H424322"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1982-09-05"
+        }
+      ],
+      "BirthState": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthState",
+          "ov": true,
+          "value": "NM"
+        }
+      ],
+      "BirthCountry": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCountry",
+          "ov": true,
+          "value": "USA"
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Married",
+        "lookupCode": "M",
+        "lookupRawValue": "M"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "Median",
+        "lookupCode": "M",
+        "lookupRawValue": "M"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "35-44",
+        "lookupCode": "4",
+        "lookupRawValue": "4"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "true"
+      }
+    },
+    "isFavorite": false,
+    "analyticsAttributes": {},
+    "tags": [
+      "for Verification"
+    ],
+    "label": "Holiday Andrew",
+    "secondaryLabel": ""
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Doctor",
+          "lookupError": "1003: RDM canonical value mapping not found in tenant [rdmDDA]"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Russell"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Bellenger"
+        }
+      ],
+      "SuffixName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/SuffixName",
+          "ov": true,
+          "value": "The Third",
+          "lookupCode": "III",
+          "lookupRawValue": "The Third"
+        }
+      ],
+      "Title": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Title",
+          "ov": true,
+          "value": "Mr"
+        }
+      ],
+      "AlternateName": [
+        {
+          "label": "Russell Bellenger",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Type",
+                "ov": true,
+                "value": "66063"
+              }
+            ],
+            "Description": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Description",
+                "ov": true,
+                "value": "Unspecified failed trial of labor, antepartum condition or complication"
+              }
+            ],
+            "FirstName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/FirstName",
+                "ov": true,
+                "value": "Russell"
+              }
+            ],
+            "LastName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/LastName",
+                "ov": true,
+                "value": "Bellenger"
+              }
+            ],
+            "Prefix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Prefix",
+                "ov": true,
+                "value": "Doctor",
+                "lookupError": "1003: RDM canonical value mapping not found in tenant [rdmDDA]"
+              }
+            ],
+            "Suffix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Suffix",
+                "ov": true,
+                "value": "The Third",
+                "lookupCode": "III",
+                "lookupRawValue": "The Third"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Male",
+          "lookupCode": "M",
+          "lookupRawValue": "Male"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Prospect"
+        }
+      ],
+      "Ethnicity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Ethnicity",
+          "ov": true,
+          "value": "White",
+          "lookupCode": "1",
+          "lookupRawValue": "White"
+        }
+      ],
+      "SocialMedia": [
+        {
+          "label": "Sonair efavel32",
+          "value": {
+            "ChannelName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ChannelName",
+                "ov": true,
+                "value": "Sonair"
+              }
+            ],
+            "Identifier": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/Identifier",
+                "ov": true,
+                "value": "efavel32"
+              }
+            ],
+            "JoinDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/JoinDate",
+                "ov": true,
+                "value": "2013-07-22"
+              }
+            ],
+            "ActiveStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ActiveStatus",
+                "ov": true,
+                "value": "Active",
+                "lookupCode": "A",
+                "lookupRawValue": "Active"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Work - 3616757563",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "3616757563"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "GB"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "0361 675 7563"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "3616757563"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "INVALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "UNKNOWN"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "nnnn nnn nnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "11"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Business : 99 Manitowish Point, Corpus Christi, Texas",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Business",
+                "lookupCode": "B",
+                "lookupRawValue": "Business"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "99 Manitowish Point"
+              }
+            ],
+            "AddressLine2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                "ov": true,
+                "value": "Havey"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Corpus Christi"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "Texas",
+                "lookupCode": "TX",
+                "lookupRawValue": "Texas"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "United States"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "78475"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Partially Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is partially verified - a partial match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 2 - locality.\nPre-Processed Verification Match Level is 2 - locality.\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 2 - locality.\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary identified by lexicon - postalcodeprimary identified by lexicon.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "P22-I24-P2-100"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Work efavel32@wisc.edu",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "efavel32@wisc.edu"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "wisc.edu"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "efavel32"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Status": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Status",
+          "ov": true,
+          "value": "Active",
+          "lookupCode": "A",
+          "lookupRawValue": "Active"
+        }
+      ],
+      "StatusUpdateDate": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/StatusUpdateDate",
+          "ov": true,
+          "value": "1995-11-14"
+        }
+      ],
+      "Education": [
+        {
+          "label": "University Product Management",
+          "value": {
+            "SchoolName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/SchoolName",
+                "ov": true,
+                "value": "Barat College"
+              }
+            ],
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Type",
+                "ov": true,
+                "value": "University"
+              }
+            ],
+            "Degree": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Degree",
+                "ov": true,
+                "value": "Product Management"
+              }
+            ],
+            "GPA": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/GPA",
+                "ov": true,
+                "value": "1.9"
+              }
+            ],
+            "YearsInProgram": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram",
+                "ov": true,
+                "value": "6"
+              }
+            ],
+            "StartYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear",
+                "ov": true,
+                "value": "1994"
+              }
+            ],
+            "EndYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/EndYear",
+                "ov": true,
+                "value": "2001"
+              }
+            ],
+            "FieldofStudy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/FieldofStudy",
+                "ov": true,
+                "value": "Clothing"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Sato Pharmaceutical Co., Ltd. - Product Engineer",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Sato Pharmaceutical Co., Ltd."
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "Product Engineer"
+              }
+            ],
+            "Summary": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Summary",
+                "ov": true,
+                "value": "enhance seamless e-services"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "false"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "DUNS 61-957-5643",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "DUNS"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "61-957-5643"
+              }
+            ],
+            "Status": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Status",
+                "ov": true,
+                "value": "false"
+              }
+            ],
+            "ActivationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ActivationDate",
+                "ov": true,
+                "value": "1983-03-05"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1994-05-14"
+        }
+      ],
+      "YoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/YoB",
+          "ov": true,
+          "value": "1994"
+        }
+      ],
+      "BirthCity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCity",
+          "ov": true,
+          "value": "Hialeah"
+        }
+      ],
+      "BirthState": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthState",
+          "ov": true,
+          "value": "Texas"
+        }
+      ],
+      "BirthCountry": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCountry",
+          "ov": true,
+          "value": "United States"
+        }
+      ],
+      "DoD": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoD",
+          "ov": true,
+          "value": "2014-05-20"
+        }
+      ],
+      "ImageLinks": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/ImageLinks",
+          "ov": true,
+          "value": "https://dummyimage.com/197x358.jpg/dddddd/000000"
+        }
+      ],
+      "WebsiteURL": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/WebsiteURL",
+          "ov": true,
+          "value": "https://reltio.com"
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Single",
+        "lookupCode": "S",
+        "lookupRawValue": "Single"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "Low",
+        "lookupCode": "L",
+        "lookupRawValue": "Low"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "18-24",
+        "lookupCode": "2",
+        "lookupRawValue": "2"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "true"
+      }
+    },
+    "isFavorite": false,
+    "defaultProfilePic": "entities/13ma3byS/attributes/ImageLinks/1k5v7Vtbs",
+    "analyticsAttributes": {},
+    "tags": [
+      "for Verification"
+    ],
+    "label": "Bellenger Russell",
+    "secondaryLabel": "Corpus Christi Texas",
+    "defaultProfilePicValue": "https://dummyimage.com/197x358.jpg/dddddd/000000"
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Married Woman",
+          "lookupCode": "Mrs",
+          "lookupRawValue": "Married Woman"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Joellen"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Rylance"
+        }
+      ],
+      "SuffixName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/SuffixName",
+          "ov": true,
+          "value": "Certified Public Accountant",
+          "lookupCode": "CPA",
+          "lookupRawValue": "Certified Public Accountant"
+        }
+      ],
+      "PreferredName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/PreferredName",
+          "ov": true,
+          "value": "scalverd8s"
+        }
+      ],
+      "Title": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Title",
+          "ov": true,
+          "value": "Ms"
+        }
+      ],
+      "AlternateName": [
+        {
+          "label": "Joellen Rylance",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Type",
+                "ov": true,
+                "value": "V537"
+              }
+            ],
+            "Description": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Description",
+                "ov": true,
+                "value": "Fitting and adjustment of orthopedic devices"
+              }
+            ],
+            "FirstName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/FirstName",
+                "ov": true,
+                "value": "Joellen"
+              }
+            ],
+            "LastName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/LastName",
+                "ov": true,
+                "value": "Rylance"
+              }
+            ],
+            "Prefix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Prefix",
+                "ov": true,
+                "value": "Married Woman",
+                "lookupCode": "Mrs",
+                "lookupRawValue": "Married Woman"
+              }
+            ],
+            "Suffix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Suffix",
+                "ov": true,
+                "value": "Certified Public Accountant",
+                "lookupCode": "CPA",
+                "lookupRawValue": "Certified Public Accountant"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Female",
+          "lookupCode": "F",
+          "lookupRawValue": "Female"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Prospect"
+        }
+      ],
+      "Ethnicity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Ethnicity",
+          "ov": true,
+          "value": "Black or African American",
+          "lookupCode": "2",
+          "lookupRawValue": "Black or African American"
+        }
+      ],
+      "SocialMedia": [
+        {
+          "label": "Span scalverd8s",
+          "value": {
+            "ChannelName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ChannelName",
+                "ov": true,
+                "value": "Span"
+              }
+            ],
+            "Identifier": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/Identifier",
+                "ov": true,
+                "value": "scalverd8s"
+              }
+            ],
+            "JoinDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/JoinDate",
+                "ov": true,
+                "value": "2014-02-22"
+              }
+            ],
+            "ActiveStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ActiveStatus",
+                "ov": true,
+                "value": "Inactive",
+                "lookupCode": "I",
+                "lookupRawValue": "Inactive"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Other - 8044033270",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Other"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "8044033270"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "AU"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "8044033270"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "8044033270"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "INVALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "UNKNOWN"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "nnnnnnnnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "10"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Primary : 59805 Chive Court, Richmond, Virginia",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Primary",
+                "lookupCode": "P",
+                "lookupRawValue": "Primary"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "59805 Chive Court"
+              }
+            ],
+            "AddressLine2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                "ov": true,
+                "value": "Scoville"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Richmond"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "Virginia",
+                "lookupCode": "VA",
+                "lookupRawValue": "Virginia"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "United States"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "23220"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Partially Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is partially verified - a partial match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 2 - locality.\nPre-Processed Verification Match Level is 2 - locality.\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 2 - locality.\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary verified - postalcodeprimary verified.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "P22-I24-P6-100"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Other scalverd8s@webs.com",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Other"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "scalverd8s@webs.com"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "webs.com"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "scalverd8s"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Status": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Status",
+          "ov": true,
+          "value": "Inactive",
+          "lookupCode": "I",
+          "lookupRawValue": "Inactive"
+        }
+      ],
+      "StatusUpdateDate": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/StatusUpdateDate",
+          "ov": true,
+          "value": "1990-11-29"
+        }
+      ],
+      "Education": [
+        {
+          "label": "University Services",
+          "value": {
+            "SchoolName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/SchoolName",
+                "ov": true,
+                "value": "Waynesburg College"
+              }
+            ],
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Type",
+                "ov": true,
+                "value": "University"
+              }
+            ],
+            "Degree": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Degree",
+                "ov": true,
+                "value": "Services"
+              }
+            ],
+            "GPA": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/GPA",
+                "ov": true,
+                "value": "3.5"
+              }
+            ],
+            "YearsInProgram": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram",
+                "ov": true,
+                "value": "19"
+              }
+            ],
+            "StartYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear",
+                "ov": true,
+                "value": "2005"
+              }
+            ],
+            "EndYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/EndYear",
+                "ov": true,
+                "value": "2007"
+              }
+            ],
+            "FieldofStudy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/FieldofStudy",
+                "ov": true,
+                "value": "Movies"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Teva Pharmaceuticals USA Inc - Information Systems Manager",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Teva Pharmaceuticals USA Inc"
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "Information Systems Manager"
+              }
+            ],
+            "Summary": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Summary",
+                "ov": true,
+                "value": "transition 24/365 e-services"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "false"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "DUNS 48-614-6556",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "DUNS"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "48-614-6556"
+              }
+            ],
+            "Status": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Status",
+                "ov": true,
+                "value": "true"
+              }
+            ],
+            "ActivationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ActivationDate",
+                "ov": true,
+                "value": "2017-05-04"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1962-02-26"
+        }
+      ],
+      "YoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/YoB",
+          "ov": true,
+          "value": "1962"
+        }
+      ],
+      "BirthCity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCity",
+          "ov": true,
+          "value": "Fresno"
+        }
+      ],
+      "BirthState": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthState",
+          "ov": true,
+          "value": "Virginia"
+        }
+      ],
+      "BirthCountry": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCountry",
+          "ov": true,
+          "value": "United States"
+        }
+      ],
+      "DoD": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoD",
+          "ov": true,
+          "value": "2013-11-07"
+        }
+      ],
+      "ImageLinks": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/ImageLinks",
+          "ov": true,
+          "value": "https://dummyimage.com/230x221.jpg/ff4444/ffffff"
+        }
+      ],
+      "WebsiteURL": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/WebsiteURL",
+          "ov": true,
+          "value": "https://ibm.com/vel/sem/sed/sagittis/nam/congue/risus.jpg?luctus=magna&et=ac&ultrices=consequat&posuere=metus&cubilia=sapien&curae=ut&nulla=nunc&dapibus=vestibulum&dolor=ante&vel=ipsum&est=primis&donec=in&odio=faucibus&justo=orci&sollicitudin=luctus&ut=et&suscipit=ultrices&a=posuere&feugiat=cubilia&et=curae&eros=mauris&vestibulum=viverra&ac=diam&est=vitae&lacinia=quam&nisi=suspendisse&venenatis=potenti&tristique=nullam&fusce=porttitor&congue=lacus&diam=at&id=turpis&ornare=donec&imperdiet=posuere&sapien=metus&urna=vitae&pretium=ipsum&nisl=aliquam&ut=non&volutpat=mauris&sapien=morbi&arcu=non&sed=lectus&augue=aliquam&aliquam=sit&erat=amet&volutpat=diam&in=in&congue=magna&etiam=bibendum&justo=imperdiet&etiam=nullam&pretium=orci&iaculis=pede&justo=venenatis&in=non&hac=sodales&habitasse=sed&platea=tincidunt&dictumst=eu&etiam=felis&faucibus=fusce&cursus=posuere&urna=felis&ut=sed&tellus=lacus&nulla=morbi&ut=sem&erat=mauris&id=laoreet&mauris=ut&vulputate=rhoncus"
+        }
+      ],
+      "Description": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Description",
+          "ov": true,
+          "value": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Unknown",
+        "lookupCode": "U",
+        "lookupRawValue": "Unknown"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "High",
+        "lookupCode": "H",
+        "lookupRawValue": "High"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "55-64",
+        "lookupCode": "6",
+        "lookupRawValue": "6"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "true"
+      }
+    },
+    "isFavorite": false,
+    "defaultProfilePic": "entities/13ma3olE/attributes/ImageLinks/1k5v7mwds",
+    "analyticsAttributes": {},
+    "tags": [
+      "Picaso",
+      "Virginia",
+      "for Verification"
+    ],
+    "label": "Rylance Joellen",
+    "secondaryLabel": "Richmond Virginia",
+    "defaultProfilePicValue": "https://dummyimage.com/230x221.jpg/ff4444/ffffff"
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Mister",
+          "lookupCode": "Mr",
+          "lookupRawValue": "Mister"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "John"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Smith"
+        }
+      ],
+      "SuffixName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/SuffixName",
+          "ov": true,
+          "value": "Doctorate",
+          "lookupCode": "PhD",
+          "lookupRawValue": "Doctorate"
+        }
+      ],
+      "PreferredName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/PreferredName",
+          "ov": true,
+          "value": "John Smith"
+        }
+      ],
+      "Title": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Title",
+          "ov": true,
+          "value": "Mr."
+        }
+      ],
+      "Nickname": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Nickname",
+          "ov": true,
+          "value": "john"
+        }
+      ],
+      "AlternateName": [
+        {
+          "label": "John Smith",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Type",
+                "ov": true,
+                "value": "TTY001"
+              }
+            ],
+            "FirstName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/FirstName",
+                "ov": true,
+                "value": "John"
+              }
+            ],
+            "LastName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/LastName",
+                "ov": true,
+                "value": "Smith"
+              }
+            ],
+            "Prefix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Prefix",
+                "ov": true,
+                "value": "Mister",
+                "lookupCode": "Mr",
+                "lookupRawValue": "Mister"
+              }
+            ],
+            "Suffix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Suffix",
+                "ov": true,
+                "value": "Doctorate",
+                "lookupCode": "PhD",
+                "lookupRawValue": "Doctorate"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Male",
+          "lookupCode": "M",
+          "lookupRawValue": "Male"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Customer"
+        }
+      ],
+      "Ethnicity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Ethnicity",
+          "ov": true,
+          "value": "American Indian or Alaska Native",
+          "lookupCode": "4",
+          "lookupRawValue": "American Indian or Alaska Native"
+        }
+      ],
+      "SocialMedia": [
+        {
+          "label": "facebook john.smith",
+          "value": {
+            "ChannelName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ChannelName",
+                "ov": true,
+                "value": "facebook"
+              }
+            ],
+            "Identifier": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/Identifier",
+                "ov": true,
+                "value": "john.smith"
+              }
+            ],
+            "JoinDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/JoinDate",
+                "ov": true,
+                "value": "2013-01-01"
+              }
+            ],
+            "ActiveStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ActiveStatus",
+                "ov": true,
+                "value": "Active",
+                "lookupCode": "A",
+                "lookupRawValue": "Active"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Work - +1 855-360-3282",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "+1 855-360-3282"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "(855) 360-3282"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "8553603282"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "TOLL_FREE"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "(nnn) nnn-nnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "10"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Office : 100 Marine Pkwy Ste 275, Redwood City, California",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Office",
+                "lookupCode": "O",
+                "lookupRawValue": "Office"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "100 Marine Pkwy Ste 275"
+              }
+            ],
+            "AddressLine2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                "ov": true,
+                "value": "100 Marine Pkwy"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Redwood City"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "California",
+                "lookupCode": "CA",
+                "lookupRawValue": "CA"
+              },
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": false,
+                "value": "California",
+                "lookupCode": "CA",
+                "lookupRawValue": "California"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "US"
+              },
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": false,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "United States"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "94065"
+              }
+            ],
+            "Zip4": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip4",
+                "ov": true,
+                "value": "5234"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is verified - a complete match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 5 - delivery point (postbox or subbuilding).\nPre-Processed Verification Match Level is 5 - delivery point (postbox or subbuilding).\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 5 - delivery point (postbox or subbuilding).\nContext Identification Match Level is 5 - delivery point (postbox or subbuilding).\nPostcode Status is PostalCodePrimary verified, PostalCodeSecondary added or changed - postalcodeprimary verified, postalcodesecondary added or changed.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "V55-I55-P7-100"
+              }
+            ],
+            "ISO3166-2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-2",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "ISO3166-3": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-3",
+                "ov": true,
+                "value": "USA"
+              }
+            ],
+            "ISO3166-N": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-N",
+                "ov": true,
+                "value": "840"
+              }
+            ],
+            "Street": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Street",
+                "ov": true,
+                "value": "Marine Pkwy"
+              }
+            ],
+            "SubAdministrativeArea": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/SubAdministrativeArea",
+                "ov": true,
+                "value": "San Mateo"
+              }
+            ],
+            "SubBuilding": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/SubBuilding",
+                "ov": true,
+                "value": "Ste 275"
+              }
+            ],
+            "Latitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Latitude",
+                "ov": true,
+                "value": "37.527690"
+              }
+            ],
+            "Longitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Longitude",
+                "ov": true,
+                "value": "-122.262480"
+              }
+            ],
+            "GeoAccuracy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/GeoAccuracy",
+                "ov": true,
+                "value": "P4"
+              }
+            ],
+            "Premise": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Premise",
+                "ov": true,
+                "value": "100"
+              }
+            ],
+            "PremiseNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/PremiseNumber",
+                "ov": true,
+                "value": "100"
+              }
+            ],
+            "DeliveryAddress": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress",
+                "ov": true,
+                "value": "100 Marine Pkwy Ste 275"
+              }
+            ],
+            "DeliveryAddress1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress1",
+                "ov": true,
+                "value": "100 Marine Pkwy Ste 275"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Work john@reltio.com",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "john@reltio.com"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "reltio.com"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "john"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Status": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Status",
+          "ov": true,
+          "value": "Inactive",
+          "lookupCode": "I",
+          "lookupRawValue": "Inactive"
+        }
+      ],
+      "StatusReasonCode": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/StatusReasonCode",
+          "ov": true,
+          "value": "Data Privacy Law",
+          "lookupCode": "PRVCY_LW",
+          "lookupRawValue": "Data Privacy Law"
+        }
+      ],
+      "StatusUpdateDate": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/StatusUpdateDate",
+          "ov": true,
+          "value": "2016-12-08"
+        }
+      ],
+      "Education": [
+        {
+          "label": "Doctorate PhD",
+          "value": {
+            "SchoolName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/SchoolName",
+                "ov": true,
+                "value": "Johns Hopkins University"
+              }
+            ],
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Type",
+                "ov": true,
+                "value": "Doctorate"
+              }
+            ],
+            "Degree": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Degree",
+                "ov": true,
+                "value": "PhD"
+              }
+            ],
+            "GPA": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/GPA",
+                "ov": true,
+                "value": "3.5"
+              }
+            ],
+            "YearsInProgram": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram",
+                "ov": true,
+                "value": "5"
+              }
+            ],
+            "StartYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear",
+                "ov": true,
+                "value": "2001"
+              }
+            ],
+            "EndYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/EndYear",
+                "ov": true,
+                "value": "2006"
+              }
+            ],
+            "FieldofStudy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/FieldofStudy",
+                "ov": true,
+                "value": "Engineering"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Reltio - Director",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Reltio"
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "Director"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "MultiChannelCommunicationConsent": [
+        {
+          "label": "Phone (541) 754-3010 Yes",
+          "value": {
+            "ChannelType": [
+              {
+                "value": "Phone"
+              }
+            ],
+            "ChannelValue": [
+              {
+                "value": "(541) 754-3010"
+              }
+            ],
+            "ChannelConsent": [
+              {
+                "value": "Yes"
+              }
+            ],
+            "StartDate": [
+              {
+                "value": "2003-03-03"
+              }
+            ],
+            "ExpirationDate": [
+              {
+                "value": "2027-03-19"
+              }
+            ],
+            "CommunicationType": [
+              {
+                "value": "New products"
+              }
+            ],
+            "CommunicationFrequency": [
+              {
+                "value": "once in a month"
+              }
+            ],
+            "ChannelPreferenceFlag": [
+              {
+                "value": "true"
+              }
+            ]
+          }
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "Abilitec 003YUS02XKRLMYCQ",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "Abilitec"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "003YUS02XKRLMYCQ"
+              }
+            ],
+            "Status": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Status",
+                "ov": true,
+                "value": "Active"
+              }
+            ],
+            "ActivationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ActivationDate",
+                "ov": true,
+                "value": "2007-04-03"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1990-01-13"
+        }
+      ],
+      "YoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/YoB",
+          "ov": true,
+          "value": "1990"
+        }
+      ],
+      "BirthCity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCity",
+          "ov": true,
+          "value": "NewYork"
+        }
+      ],
+      "BirthState": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthState",
+          "ov": true,
+          "value": "New York"
+        }
+      ],
+      "BirthCountry": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCountry",
+          "ov": true,
+          "value": "US"
+        }
+      ],
+      "PresumedDead": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/PresumedDead",
+          "ov": true,
+          "value": "false"
+        }
+      ],
+      "ImageLinks": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/ImageLinks",
+          "ov": true,
+          "value": "https://www.biography.com/.image/t_share/MTIwNjA4NjMzOTc0MTk1NzI0/john-smith-9486928-1-402.jpg"
+        }
+      ],
+      "WebsiteURL": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/WebsiteURL",
+          "ov": true,
+          "value": "john.com"
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Married",
+        "lookupCode": "M",
+        "lookupRawValue": "Married"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "High",
+        "lookupCode": "H",
+        "lookupRawValue": "High"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "25-34",
+        "lookupCode": "3",
+        "lookupRawValue": "3"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "true"
+      }
+    },
+    "isFavorite": false,
+    "defaultProfilePic": "entities/eTrAZya/attributes/ImageLinks/1B3cZ78bA",
+    "analyticsAttributes": {},
+    "tags": [
+      "PhD",
+      "for Verification"
+    ],
+    "label": "Smith John",
+    "secondaryLabel": "Redwood City California",
+    "defaultProfilePicValue": "https://www.biography.com/.image/t_share/MTIwNjA4NjMzOTc0MTk1NzI0/john-smith-9486928-1-402.jpg"
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Mister",
+          "lookupCode": "Mr",
+          "lookupRawValue": "Mr"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Andrew"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Holiday"
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Male",
+          "lookupCode": "M",
+          "lookupRawValue": "M"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Customer"
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Main - 8044033270",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Main"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "8044033270"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "(804) 403-3270"
+              }
+            ],
+            "AreaCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/AreaCode",
+                "ov": true,
+                "value": "804"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "4033270"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "FIXED_LINE_OR_MOBILE"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "(nnn) nnn-nnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "10"
+              }
+            ],
+            "GeoArea": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/GeoArea",
+                "ov": true,
+                "value": "Virginia"
+              }
+            ],
+            "GeoCountry": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/GeoCountry",
+                "ov": true,
+                "value": "United States"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Physical Address : 3828, Albuquerque, New Mexico",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Physical Address",
+                "lookupCode": "PA",
+                "lookupRawValue": "PA"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "3828 "
+              },
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": false,
+                "value": "3828 Piermont Dr NE"
+              }
+            ],
+            "AddressLine2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                "ov": true,
+                "value": "Piermont Dr NE"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Albuquerque"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "New Mexico",
+                "lookupCode": "NM",
+                "lookupRawValue": "NM"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "US"
+              }
+            ],
+            "PostalCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/PostalCode",
+                "ov": true,
+                "value": "87111"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "87111"
+              }
+            ],
+            "Zip4": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip4",
+                "ov": true,
+                "value": "3416"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is verified - a complete match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 4 - premise (premise or building).\nPre-Processed Verification Match Level is 4 - premise (premise or building).\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 4 - premise (premise or building).\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary verified, PostalCodeSecondary added or changed - postalcodeprimary verified, postalcodesecondary added or changed.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "V44-I44-P7-100"
+              }
+            ],
+            "ISO3166-2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-2",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "ISO3166-3": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-3",
+                "ov": true,
+                "value": "USA"
+              }
+            ],
+            "ISO3166-N": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-N",
+                "ov": true,
+                "value": "840"
+              }
+            ],
+            "Street": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Street",
+                "ov": true,
+                "value": "Piermont Dr NE"
+              }
+            ],
+            "SubAdministrativeArea": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/SubAdministrativeArea",
+                "ov": true,
+                "value": "Bernalillo"
+              }
+            ],
+            "Latitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Latitude",
+                "ov": true,
+                "value": "35.126110"
+              }
+            ],
+            "Longitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Longitude",
+                "ov": true,
+                "value": "-106.536540"
+              }
+            ],
+            "GeoAccuracy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/GeoAccuracy",
+                "ov": true,
+                "value": "P4"
+              }
+            ],
+            "Premise": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Premise",
+                "ov": true,
+                "value": "3828"
+              }
+            ],
+            "PremiseNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/PremiseNumber",
+                "ov": true,
+                "value": "3828"
+              }
+            ],
+            "DeliveryAddress": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress",
+                "ov": true,
+                "value": "3828 Piermont Dr NE"
+              }
+            ],
+            "DeliveryAddress1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress1",
+                "ov": true,
+                "value": "3828 Piermont Dr NE"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Home A.Holiday@bermuda.com",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Home"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "A.Holiday@bermuda.com"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "bermuda.com"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "A.Holiday"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "MultiChannelCommunicationConsent": [
+        {
+          "label": "social media twitter Yes",
+          "value": {
+            "ChannelType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelType",
+                "ov": true,
+                "value": "Social Media"
+              }
+            ],
+            "ChannelValue": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelValue",
+                "ov": true,
+                "value": "twitter"
+              }
+            ],
+            "ChannelConsent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelConsent",
+                "ov": true,
+                "value": "Yes",
+                "lookupCode": "Yes",
+                "lookupRawValue": "Yes"
+              }
+            ],
+            "StartDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/StartDate",
+                "ov": true,
+                "value": "2017-03-16"
+              }
+            ],
+            "ExpirationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ExpirationDate",
+                "ov": true,
+                "value": "2019-03-29"
+              }
+            ],
+            "CommunicationType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/CommunicationType",
+                "ov": true,
+                "value": "New Products"
+              }
+            ],
+            "CommunicationFrequency": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/CommunicationFrequency",
+                "ov": true,
+                "value": "once in a month"
+              }
+            ],
+            "ChannelPreferenceFlag": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelPreferenceFlag",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Status": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Status",
+          "ov": true,
+          "value": "Active",
+          "lookupCode": "A",
+          "lookupRawValue": "A"
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Smith, Inc - President",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Smith, Inc"
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "President"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "ACU H424322",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "ACU"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "H424322"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1997-09-05"
+        }
+      ],
+      "BirthState": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthState",
+          "ov": true,
+          "value": "NM"
+        }
+      ],
+      "BirthCountry": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCountry",
+          "ov": true,
+          "value": "USA"
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Married",
+        "lookupCode": "M",
+        "lookupRawValue": "M"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "Median",
+        "lookupCode": "M",
+        "lookupRawValue": "M"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "18-24",
+        "lookupCode": "2",
+        "lookupRawValue": "2"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "true"
+      }
+    },
+    "isFavorite": false,
+    "analyticsAttributes": {},
+    "label": "Holiday Andrew",
+    "secondaryLabel": "Albuquerque New Mexico"
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Sister (religious)",
+          "lookupCode": "Sister",
+          "lookupRawValue": "Sister (religious)"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Aridatha"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Ebbings"
+        }
+      ],
+      "SuffixName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/SuffixName",
+          "ov": true,
+          "value": "The Fourth",
+          "lookupCode": "IV",
+          "lookupRawValue": "The Fourth"
+        }
+      ],
+      "Title": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Title",
+          "ov": true,
+          "value": "Ms"
+        }
+      ],
+      "AlternateName": [
+        {
+          "label": "Aridatha Ebbings",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Type",
+                "ov": true,
+                "value": "20196"
+              }
+            ],
+            "Description": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Description",
+                "ov": true,
+                "value": "Hodgkin's disease, unspecified type, intrapelvic lymph nodes"
+              }
+            ],
+            "FirstName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/FirstName",
+                "ov": true,
+                "value": "Aridatha"
+              }
+            ],
+            "LastName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/LastName",
+                "ov": true,
+                "value": "Ebbings"
+              }
+            ],
+            "Prefix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Prefix",
+                "ov": true,
+                "value": "Sister (religious)",
+                "lookupCode": "Sister",
+                "lookupRawValue": "Sister (religious)"
+              }
+            ],
+            "Suffix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Suffix",
+                "ov": true,
+                "value": "The Fourth",
+                "lookupCode": "IV",
+                "lookupRawValue": "The Fourth"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Female",
+          "lookupCode": "F",
+          "lookupRawValue": "Female"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Prospect"
+        }
+      ],
+      "Ethnicity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Ethnicity",
+          "ov": true,
+          "value": "Multiple Categories Reported",
+          "lookupCode": "6",
+          "lookupRawValue": "Multiple Categories Reported"
+        }
+      ],
+      "SocialMedia": [
+        {
+          "label": "Aerified sgallo36",
+          "value": {
+            "ChannelName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ChannelName",
+                "ov": true,
+                "value": "Aerified"
+              }
+            ],
+            "Identifier": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/Identifier",
+                "ov": true,
+                "value": "sgallo36"
+              }
+            ],
+            "JoinDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/JoinDate",
+                "ov": true,
+                "value": "1981-10-27"
+              }
+            ],
+            "ActiveStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ActiveStatus",
+                "ov": true,
+                "value": "Active",
+                "lookupCode": "A",
+                "lookupRawValue": "Active"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Other - 9134531723",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Other"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "9134531723"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "AU"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "9134531723"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "9134531723"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "INVALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "UNKNOWN"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "nnnnnnnnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "10"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Primary : 5 Crownhardt Road, Kansas City, Kansas",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Primary",
+                "lookupCode": "P",
+                "lookupRawValue": "Primary"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "5 Crownhardt Road"
+              }
+            ],
+            "AddressLine2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                "ov": true,
+                "value": "Novick"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Kansas City"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "Kansas",
+                "lookupCode": "KS",
+                "lookupRawValue": "Kansas"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "United States"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "66105"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Partially Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is partially verified - a partial match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 2 - locality.\nPre-Processed Verification Match Level is 2 - locality.\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 2 - locality.\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary verified - postalcodeprimary verified.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "P22-I24-P6-100"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Work sgallo36@sina.com.cn",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "sgallo36@sina.com.cn"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "sina.com.cn"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "sgallo36"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "MultiChannelCommunicationConsent": [
+        {
+          "label": "Social Media Instagram Yes",
+          "value": {
+            "ChannelType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelType",
+                "ov": true,
+                "value": "Social Media"
+              }
+            ],
+            "ChannelValue": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelValue",
+                "ov": true,
+                "value": "Instagram"
+              }
+            ],
+            "ChannelConsent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelConsent",
+                "ov": true,
+                "value": "Yes",
+                "lookupCode": "Yes",
+                "lookupRawValue": "Yes"
+              }
+            ],
+            "StartDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/StartDate",
+                "ov": true,
+                "value": "2015-03-17"
+              }
+            ],
+            "ExpirationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ExpirationDate",
+                "ov": true,
+                "value": "2018-03-23"
+              }
+            ],
+            "CommunicationType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/CommunicationType",
+                "ov": true,
+                "value": "New offers"
+              }
+            ],
+            "CommunicationFrequency": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/CommunicationFrequency",
+                "ov": true,
+                "value": "once in a week"
+              }
+            ],
+            "ChannelPreferenceFlag": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelPreferenceFlag",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Status": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Status",
+          "ov": true,
+          "value": "Inactive",
+          "lookupCode": "I",
+          "lookupRawValue": "Inactive"
+        }
+      ],
+      "StatusUpdateDate": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/StatusUpdateDate",
+          "ov": true,
+          "value": "2002-07-07"
+        }
+      ],
+      "Education": [
+        {
+          "label": "University Support",
+          "value": {
+            "SchoolName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/SchoolName",
+                "ov": true,
+                "value": "Mount Vernon College"
+              }
+            ],
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Type",
+                "ov": true,
+                "value": "University"
+              }
+            ],
+            "Degree": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Degree",
+                "ov": true,
+                "value": "Support"
+              }
+            ],
+            "GPA": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/GPA",
+                "ov": true,
+                "value": "1.3"
+              }
+            ],
+            "YearsInProgram": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram",
+                "ov": true,
+                "value": "15"
+              }
+            ],
+            "StartYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear",
+                "ov": true,
+                "value": "2010"
+              }
+            ],
+            "EndYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/EndYear",
+                "ov": true,
+                "value": "2001"
+              }
+            ],
+            "FieldofStudy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/FieldofStudy",
+                "ov": true,
+                "value": "Garden"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Altura Pharmaceuticals, Inc. - Administrative Officer",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Altura Pharmaceuticals, Inc."
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "Administrative Officer"
+              }
+            ],
+            "Summary": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Summary",
+                "ov": true,
+                "value": "orchestrate seamless synergies"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "false"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "DUNS 95-684-9373",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "DUNS"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "95-684-9373"
+              }
+            ],
+            "Status": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Status",
+                "ov": true,
+                "value": "false"
+              }
+            ],
+            "ActivationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ActivationDate",
+                "ov": true,
+                "value": "2016-03-03"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1971-11-27"
+        }
+      ],
+      "YoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/YoB",
+          "ov": true,
+          "value": "1971"
+        }
+      ],
+      "BirthCity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCity",
+          "ov": true,
+          "value": "New Orleans"
+        }
+      ],
+      "BirthState": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthState",
+          "ov": true,
+          "value": "Kansas"
+        }
+      ],
+      "BirthCountry": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCountry",
+          "ov": true,
+          "value": "United States"
+        }
+      ],
+      "DoD": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoD",
+          "ov": true,
+          "value": "2010-12-15"
+        }
+      ],
+      "ImageLinks": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/ImageLinks",
+          "ov": true,
+          "value": "https://dummyimage.com/164x230.jpg/ff4444/ffffff"
+        }
+      ],
+      "WebsiteURL": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/WebsiteURL",
+          "ov": true,
+          "value": "https://reltio.com"
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Married",
+        "lookupCode": "M",
+        "lookupRawValue": "Married"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "Low",
+        "lookupCode": "L",
+        "lookupRawValue": "Low"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "45-54",
+        "lookupCode": "5",
+        "lookupRawValue": "5"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "true"
+      }
+    },
+    "isFavorite": false,
+    "defaultProfilePic": "entities/13ma3gEi/attributes/ImageLinks/1k5v7bX72",
+    "analyticsAttributes": {},
+    "tags": [
+      "for Verification"
+    ],
+    "label": "Ebbings Aridatha",
+    "secondaryLabel": "Kansas City Kansas",
+    "defaultProfilePicValue": "https://dummyimage.com/164x230.jpg/ff4444/ffffff"
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "Prefix": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Prefix",
+          "ov": true,
+          "value": "Reverend (religious)",
+          "lookupCode": "Rev",
+          "lookupRawValue": "Reverend (religious)"
+        }
+      ],
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "Victor"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Varlow"
+        }
+      ],
+      "SuffixName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/SuffixName",
+          "ov": true,
+          "value": "Certified Public Accountant",
+          "lookupCode": "CPA",
+          "lookupRawValue": "Certified Public Accountant"
+        }
+      ],
+      "Title": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Title",
+          "ov": true,
+          "value": "Dr"
+        }
+      ],
+      "AlternateName": [
+        {
+          "label": "Victor Varlow",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Type",
+                "ov": true,
+                "value": "5088"
+              }
+            ],
+            "Description": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Description",
+                "ov": true,
+                "value": "Respiratory conditions due to other specified external agents"
+              }
+            ],
+            "FirstName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/FirstName",
+                "ov": true,
+                "value": "Victor"
+              }
+            ],
+            "LastName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/LastName",
+                "ov": true,
+                "value": "Varlow"
+              }
+            ],
+            "Prefix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Prefix",
+                "ov": true,
+                "value": "Reverend (religious)",
+                "lookupCode": "Rev",
+                "lookupRawValue": "Reverend (religious)"
+              }
+            ],
+            "Suffix": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/AlternateName/attributes/Suffix",
+                "ov": true,
+                "value": "Certified Public Accountant",
+                "lookupCode": "CPA",
+                "lookupRawValue": "Certified Public Accountant"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Male",
+          "lookupCode": "M",
+          "lookupRawValue": "Male"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Prospect"
+        }
+      ],
+      "Ethnicity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Ethnicity",
+          "ov": true,
+          "value": "Asian",
+          "lookupCode": "3",
+          "lookupRawValue": "Asian"
+        }
+      ],
+      "SocialMedia": [
+        {
+          "label": "Tempsoft zeassom3r",
+          "value": {
+            "ChannelName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ChannelName",
+                "ov": true,
+                "value": "Tempsoft"
+              }
+            ],
+            "Identifier": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/Identifier",
+                "ov": true,
+                "value": "zeassom3r"
+              }
+            ],
+            "JoinDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/JoinDate",
+                "ov": true,
+                "value": "2007-07-29"
+              }
+            ],
+            "ActiveStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/SocialMedia/attributes/ActiveStatus",
+                "ov": true,
+                "value": "Inactive",
+                "lookupCode": "I",
+                "lookupRawValue": "Inactive"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Home Fax - 6012975775",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Home Fax"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "6012975775"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "AU"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "6012975775"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "6012975775"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "INVALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "UNKNOWN"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "nnnnnnnnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "10"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Secondary : 1 Waxwing Way, Jackson, Mississippi",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Secondary",
+                "lookupCode": "S",
+                "lookupRawValue": "Secondary"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "1 Waxwing Way"
+              }
+            ],
+            "AddressLine2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                "ov": true,
+                "value": "Brickson Park"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Jackson"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "Mississippi",
+                "lookupCode": "MS",
+                "lookupRawValue": "Mississippi"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "United States"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "39204"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Partially Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is partially verified - a partial match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 2 - locality.\nPre-Processed Verification Match Level is 2 - locality.\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 4 - premise (premise or building).\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary verified - postalcodeprimary verified.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "P22-I44-P6-100"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Unknown zeassom3r@edublogs.org",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Unknown"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "zeassom3r@edublogs.org"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "edublogs.org"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PRIVATE"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "zeassom3r"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Status": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Status",
+          "ov": true,
+          "value": "Active",
+          "lookupCode": "A",
+          "lookupRawValue": "Active"
+        }
+      ],
+      "StatusUpdateDate": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/StatusUpdateDate",
+          "ov": true,
+          "value": "2011-03-11"
+        }
+      ],
+      "MultiChannelCommunicationConsent": [
+        {
+          "label": "Social Media facebook.com/zassom3r Yes",
+          "value": {
+            "ChannelType": [
+              {
+                "value": "Social Media"
+              }
+            ],
+            "ChannelValue": [
+              {
+                "value": "facebook.com/okjacks"
+              }
+            ],
+            "ChannelConsent": [
+              {
+                "value": "Yes"
+              }
+            ],
+            "StartDate": [
+              {
+                "value": "2009-03-03"
+              }
+            ],
+            "ExpirationDate": [
+              {
+                "value": "2020-03-19"
+              }
+            ],
+            "CommunicationType": [
+              {
+                "value": "Year end sales"
+              }
+            ],
+            "CommunicationFrequency": [
+              {
+                "value": "once in 6 months"
+              }
+            ],
+            "ChannelPreferenceFlag": [
+              {
+                "value": "false"
+              }
+            ]
+          }
+        }
+      ],
+      "Education": [
+        {
+          "label": "University Marketing",
+          "value": {
+            "SchoolName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/SchoolName",
+                "ov": true,
+                "value": "Purdue University"
+              }
+            ],
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Type",
+                "ov": true,
+                "value": "University"
+              }
+            ],
+            "Degree": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Degree",
+                "ov": true,
+                "value": "Marketing"
+              }
+            ],
+            "GPA": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/GPA",
+                "ov": true,
+                "value": "1.7"
+              }
+            ],
+            "YearsInProgram": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram",
+                "ov": true,
+                "value": "1"
+              }
+            ],
+            "StartYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear",
+                "ov": true,
+                "value": "1993"
+              }
+            ],
+            "EndYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/EndYear",
+                "ov": true,
+                "value": "2008"
+              }
+            ],
+            "FieldofStudy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/FieldofStudy",
+                "ov": true,
+                "value": "Health"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Employment": [
+        {
+          "label": "Eli Lilly and Company - Administrative Assistant II",
+          "value": {
+            "Organization": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Organization",
+                "ov": true,
+                "value": "Eli Lilly and Company"
+              }
+            ],
+            "Title": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Title",
+                "ov": true,
+                "value": "Administrative Assistant II"
+              }
+            ],
+            "Summary": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/Summary",
+                "ov": true,
+                "value": "streamline holistic initiatives"
+              }
+            ],
+            "IsCurrent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Employment/attributes/IsCurrent",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "DUNS 16-112-6572",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "DUNS"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "16-112-6572"
+              }
+            ],
+            "Status": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Status",
+                "ov": true,
+                "value": "false"
+              }
+            ],
+            "ActivationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ActivationDate",
+                "ov": true,
+                "value": "2001-12-12"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1980-06-15"
+        }
+      ],
+      "YoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/YoB",
+          "ov": true,
+          "value": "1980"
+        }
+      ],
+      "BirthCity": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCity",
+          "ov": true,
+          "value": "Houston"
+        }
+      ],
+      "BirthState": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthState",
+          "ov": true,
+          "value": "Mississippi"
+        }
+      ],
+      "BirthCountry": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/BirthCountry",
+          "ov": true,
+          "value": "United States"
+        }
+      ],
+      "DoD": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoD",
+          "ov": true,
+          "value": "2012-07-24"
+        }
+      ],
+      "ImageLinks": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/ImageLinks",
+          "ov": true,
+          "value": "https://dummyimage.com/231x231.png/dddddd/000000"
+        }
+      ],
+      "WebsiteURL": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/WebsiteURL",
+          "ov": true,
+          "value": "https://goo.gl/lacinia/eget/tincidunt/eget/tempus/vel.aspx?quis=maecenas&turpis=ut&eget=massa&elit=quis&sodales=augue&scelerisque=luctus&mauris=tincidunt&sit=nulla&amet=mollis&eros=molestie&suspendisse=lorem&accumsan=quisque&tortor=ut&quis=erat&turpis=curabitur&sed=gravida&ante=nisi&vivamus=at&tortor=nibh&duis=in&mattis=hac&egestas=habitasse&metus=platea&aenean=dictumst&fermentum=aliquam&donec=augue&ut=quam&mauris=sollicitudin&eget=vitae&massa=consectetuer&tempor=eget&convallis=rutrum&nulla=at&neque=lorem&libero=integer&convallis=tincidunt&eget=ante&eleifend=vel&luctus=ipsum&ultricies=praesent&eu=blandit&nibh=lacinia&quisque=erat&id=vestibulum&justo=sed&sit=magna&amet=at&sapien=nunc&dignissim=commodo&vestibulum=placerat&vestibulum=praesent&ante=blandit&ipsum=nam&primis=nulla&in=integer&faucibus=pede&orci=justo&luctus=lacinia&et=eget"
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Married",
+        "lookupCode": "M",
+        "lookupRawValue": "Married"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "Median",
+        "lookupCode": "M",
+        "lookupRawValue": "Median"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "35-44",
+        "lookupCode": "4",
+        "lookupRawValue": "4"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "true"
+      }
+    },
+    "isFavorite": false,
+    "defaultProfilePic": "entities/13ma3kUy/attributes/ImageLinks/1k5v7hAcC",
+    "analyticsAttributes": {},
+    "tags": [
+      "Gus's guard",
+      "Virginia",
+      "for Verification"
+    ],
+    "label": "Varlow Victor",
+    "secondaryLabel": "Jackson Mississippi",
+    "defaultProfilePicValue": "https://dummyimage.com/231x231.png/dddddd/000000"
+  },
+  {
+    "type": "configuration/entityTypes/Individual",
+    "attributes": {
+      "FirstName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/FirstName",
+          "ov": true,
+          "value": "John"
+        }
+      ],
+      "LastName": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/LastName",
+          "ov": true,
+          "value": "Smith"
+        }
+      ],
+      "Nickname": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Nickname",
+          "ov": true,
+          "value": "Jack"
+        }
+      ],
+      "Gender": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/Gender",
+          "ov": true,
+          "value": "Male",
+          "lookupCode": "M",
+          "lookupRawValue": "Male"
+        }
+      ],
+      "roleType": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/roleType",
+          "ov": true,
+          "value": "Customer"
+        }
+      ],
+      "Phone": [
+        {
+          "label": "Work - 908-546-2121",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Type",
+                "ov": true,
+                "value": "Work"
+              }
+            ],
+            "Number": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/Number",
+                "ov": true,
+                "value": "908-546-2121"
+              }
+            ],
+            "CountryCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/CountryCode",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "FormattedNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormattedNumber",
+                "ov": true,
+                "value": "(908) 546-2121"
+              }
+            ],
+            "AreaCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/AreaCode",
+                "ov": true,
+                "value": "908"
+              }
+            ],
+            "LocalNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LocalNumber",
+                "ov": true,
+                "value": "5462121"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ],
+            "LineType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/LineType",
+                "ov": true,
+                "value": "FIXED_LINE_OR_MOBILE"
+              }
+            ],
+            "FormatMask": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/FormatMask",
+                "ov": true,
+                "value": "(nnn) nnn-nnnn"
+              }
+            ],
+            "DigitCount": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/DigitCount",
+                "ov": true,
+                "value": "10"
+              }
+            ],
+            "GeoArea": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/GeoArea",
+                "ov": true,
+                "value": "New Jersey"
+              }
+            ],
+            "GeoCountry": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Phone/attributes/GeoCountry",
+                "ov": true,
+                "value": "United States"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Addresses": [
+        {
+          "label": "Both Home and Office : 1101 Walnut Street, Kansas City, Missouri",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "Both Home and Office",
+                "lookupCode": "BHO",
+                "lookupRawValue": "BHO"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "1101 Walnut Street "
+              },
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": false,
+                "value": "1101 Walnut St Unit 1106"
+              }
+            ],
+            "AddressLine2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine2",
+                "ov": true,
+                "value": "Unit 1106"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Kansas City"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "Missouri",
+                "lookupCode": "MO",
+                "lookupRawValue": "MO"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "US"
+              }
+            ],
+            "Zip5": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip5",
+                "ov": true,
+                "value": "64106"
+              }
+            ],
+            "Zip4": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Zip4",
+                "ov": true,
+                "value": "4205"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is verified - a complete match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 5 - delivery point (postbox or subbuilding).\nPre-Processed Verification Match Level is 5 - delivery point (postbox or subbuilding).\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 5 - delivery point (postbox or subbuilding).\nContext Identification Match Level is 5 - delivery point (postbox or subbuilding).\nPostcode Status is PostalCodePrimary verified, PostalCodeSecondary added or changed - postalcodeprimary verified, postalcodesecondary added or changed.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 100%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "V55-I55-P7-100"
+              }
+            ],
+            "ISO3166-2": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-2",
+                "ov": true,
+                "value": "US"
+              }
+            ],
+            "ISO3166-3": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-3",
+                "ov": true,
+                "value": "USA"
+              }
+            ],
+            "ISO3166-N": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/ISO3166-N",
+                "ov": true,
+                "value": "840"
+              }
+            ],
+            "Street": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Street",
+                "ov": true,
+                "value": "Walnut St"
+              }
+            ],
+            "SubAdministrativeArea": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/SubAdministrativeArea",
+                "ov": true,
+                "value": "Jackson"
+              }
+            ],
+            "SubBuilding": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/SubBuilding",
+                "ov": true,
+                "value": "Unit 1106"
+              }
+            ],
+            "Latitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Latitude",
+                "ov": true,
+                "value": "39.101030"
+              }
+            ],
+            "Longitude": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Longitude",
+                "ov": true,
+                "value": "-94.581920"
+              }
+            ],
+            "GeoAccuracy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/GeoAccuracy",
+                "ov": true,
+                "value": "P4"
+              }
+            ],
+            "Premise": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Premise",
+                "ov": true,
+                "value": "1101"
+              }
+            ],
+            "PremiseNumber": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/PremiseNumber",
+                "ov": true,
+                "value": "1101"
+              }
+            ],
+            "DeliveryAddress": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress",
+                "ov": true,
+                "value": "1101 Walnut St Unit 1106"
+              }
+            ],
+            "DeliveryAddress1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/DeliveryAddress1",
+                "ov": true,
+                "value": "1101 Walnut St Unit 1106"
+              }
+            ]
+          },
+          "ov": true
+        },
+        {
+          "label": "P.O. Box : 123 Main St, Weston, Virginia",
+          "value": {
+            "AddressType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressType",
+                "ov": true,
+                "value": "P.O. Box",
+                "lookupCode": "PO",
+                "lookupRawValue": "PO"
+              }
+            ],
+            "AddressLine1": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AddressLine1",
+                "ov": true,
+                "value": "123 Main St"
+              }
+            ],
+            "City": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/City",
+                "ov": true,
+                "value": "Weston"
+              }
+            ],
+            "StateProvince": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/StateProvince",
+                "ov": true,
+                "value": "Virginia",
+                "lookupCode": "VA",
+                "lookupRawValue": "VA"
+              }
+            ],
+            "Country": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/Country",
+                "ov": true,
+                "value": "United States",
+                "lookupCode": "US",
+                "lookupRawValue": "US"
+              }
+            ],
+            "PostalCode": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/PostalCode",
+                "ov": true,
+                "value": "32423"
+              }
+            ],
+            "VerificationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatus",
+                "ov": true,
+                "value": "Partially Verified"
+              }
+            ],
+            "VerificationStatusDetails": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/VerificationStatusDetails",
+                "ov": true,
+                "value": "Address Verification Status is partially verified - a partial match was made between the input data and a single record from the available reference data.\nPost-Processed Verification Match Level is 2 - locality.\nPre-Processed Verification Match Level is 2 - locality.\nParsing Status isidentified and parsed - All input data has been able to be identified and placed into components.\nLexicon Identification Match Level is 4 - premise (premise or building).\nContext Identification Match Level is 4 - premise (premise or building).\nPostcode Status is PostalCodePrimary verified - postalcodeprimary verified.\nThe accuracy matchscore, which gives the similarity between the input data and closest reference data match is 44%."
+              }
+            ],
+            "AVC": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Addresses/attributes/AVC",
+                "ov": true,
+                "value": "P22-I44-P6-044"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Email": [
+        {
+          "label": "Home john.smith@googlemail.com",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Type",
+                "ov": true,
+                "value": "Home"
+              }
+            ],
+            "Email": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Email",
+                "ov": true,
+                "value": "john.smith@googlemail.com"
+              }
+            ],
+            "Domain": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Domain",
+                "ov": true,
+                "value": "googlemail.com"
+              }
+            ],
+            "DomainType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/DomainType",
+                "ov": true,
+                "value": "PUBLIC"
+              }
+            ],
+            "Username": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/Username",
+                "ov": true,
+                "value": "john.smith"
+              }
+            ],
+            "ValidationStatus": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus",
+                "ov": true,
+                "value": "VALID"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "MultiChannelCommunicationConsent": [
+        {
+          "label": "Email john.smith@gmail.com No",
+          "value": {
+            "ChannelType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelType",
+                "ov": true,
+                "value": "Email"
+              }
+            ],
+            "ChannelValue": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelValue",
+                "ov": true,
+                "value": "john.smith@gmail.com"
+              }
+            ],
+            "ChannelConsent": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelConsent",
+                "ov": true,
+                "value": "No",
+                "lookupCode": "No",
+                "lookupRawValue": "No"
+              }
+            ],
+            "StartDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/StartDate",
+                "ov": true,
+                "value": "2018-03-01"
+              }
+            ],
+            "ExpirationDate": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ExpirationDate",
+                "ov": true,
+                "value": "2023-03-14"
+              }
+            ],
+            "CommunicationType": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/CommunicationType",
+                "ov": true,
+                "value": "Discounts"
+              }
+            ],
+            "CommunicationFrequency": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/CommunicationFrequency",
+                "ov": true,
+                "value": "once in a day"
+              }
+            ],
+            "ChannelPreferenceFlag": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent/attributes/ChannelPreferenceFlag",
+                "ov": true,
+                "value": "true"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Education": [
+        {
+          "label": "Uni BA",
+          "value": {
+            "SchoolName": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/SchoolName",
+                "ov": true,
+                "value": "University of Wisconsin"
+              }
+            ],
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Type",
+                "ov": true,
+                "value": "Uni"
+              }
+            ],
+            "Degree": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/Degree",
+                "ov": true,
+                "value": "BA"
+              }
+            ],
+            "GPA": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/GPA",
+                "ov": true,
+                "value": "7.89"
+              }
+            ],
+            "YearsInProgram": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram",
+                "ov": true,
+                "value": "2"
+              }
+            ],
+            "StartYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear",
+                "ov": true,
+                "value": "1985"
+              }
+            ],
+            "EndYear": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/EndYear",
+                "ov": true,
+                "value": "1989"
+              }
+            ],
+            "FieldofStudy": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Education/attributes/FieldofStudy",
+                "ov": true,
+                "value": "Arts"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "Identifiers": [
+        {
+          "label": "ACU H1232534",
+          "value": {
+            "Type": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Type",
+                "ov": true,
+                "value": "ACU"
+              }
+            ],
+            "ID": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/ID",
+                "ov": true,
+                "value": "H1232534"
+              }
+            ],
+            "Status": [
+              {
+                "type": "configuration/entityTypes/Individual/attributes/Identifiers/attributes/Status",
+                "ov": true,
+                "value": "Active"
+              }
+            ]
+          },
+          "ov": true
+        }
+      ],
+      "DoB": [
+        {
+          "type": "configuration/entityTypes/Individual/attributes/DoB",
+          "ov": true,
+          "value": "1975-03-19"
+        }
+      ],
+      "MaritalStatus": {
+        "ov": true,
+        "value": "Not Specified",
+        "lookupCode": "N",
+        "lookupRawValue": "N"
+      },
+      "IncomeBand": {
+        "ov": true,
+        "value": "High",
+        "lookupCode": "H",
+        "lookupRawValue": "H"
+      },
+      "AgeBand": {
+        "ov": true,
+        "value": "35-44",
+        "lookupCode": "4",
+        "lookupRawValue": "4"
+      },
+      "hasChildren": {
+        "ov": true,
+        "value": "false"
+      }
+    },
+    "isFavorite": false,
+    "analyticsAttributes": {},
+    "label": "Smith John",
+    "secondaryLabel": "Kansas City Missouri"
+  }
+]

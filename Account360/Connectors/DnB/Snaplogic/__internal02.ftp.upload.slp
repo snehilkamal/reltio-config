@@ -1,0 +1,2561 @@
+{
+  "class_fqid": "com-snaplogic-pipeline_8",
+  "snode_id": "5a0432c1a9206630824fd822",
+  "instance_id": "184029fd-b392-4ec1-970e-1652baf7b4b8",
+  "instance_version": 41,
+  "link_map": {
+    "link152": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "0ecfca7d-53e1-4962-836b-c55e0044d245",
+      "dst_id": "5f372860-6cfa-4a93-b492-109738863d0f",
+      "isGoto": false
+    },
+    "link191": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "ea14898d-477c-4bf2-b9c1-d2e45f147778",
+      "dst_id": "5fcfd508-be90-4a46-be3c-c5fa87c8cf16",
+      "isGoto": false
+    },
+    "link179": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "5fcfd508-be90-4a46-be3c-c5fa87c8cf16",
+      "dst_id": "88da3c52-dff2-4c4c-aec2-f1b1ccbb8240",
+      "isGoto": false
+    },
+    "link277": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "1e20fec7-a28e-4a90-918c-e62e77a26955",
+      "dst_id": "b985b102-2af1-4f3a-bb5a-97a47752ab2a",
+      "isGoto": false
+    },
+    "link272": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "9a4e2383-b339-450b-a1d1-2e174a5811f4",
+      "dst_id": "0cd9c70d-a62d-475b-92af-9a4f88864184",
+      "isGoto": false
+    },
+    "link231": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "2a9211b7-6f69-4915-864c-da04729e5778",
+      "dst_id": "0251d265-0c18-4337-854b-7602bcea2524",
+      "isGoto": false
+    },
+    "link254": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "0cd9c70d-a62d-475b-92af-9a4f88864184",
+      "dst_id": "2a9211b7-6f69-4915-864c-da04729e5778",
+      "isGoto": false
+    },
+    "link278": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "6d526b78-df8e-4d77-8c85-01685ffa2491",
+      "dst_id": "75beacd7-fae6-40bd-b6b4-ad49b781e807",
+      "isGoto": false
+    },
+    "link279": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "ab0a7948-2e9e-4c93-9461-63b188f1566f",
+      "dst_id": "1916d765-2424-42dd-b4ce-10346be29b09",
+      "isGoto": false
+    },
+    "link180": {
+      "src_view_id": "output0",
+      "dst_view_id": "input101",
+      "src_id": "88da3c52-dff2-4c4c-aec2-f1b1ccbb8240",
+      "dst_id": "60e83d21-77af-42ca-9145-5cb19f34ca83",
+      "isGoto": false
+    },
+    "link181": {
+      "src_view_id": "output102",
+      "dst_view_id": "input101",
+      "src_id": "60e83d21-77af-42ca-9145-5cb19f34ca83",
+      "dst_id": "0ecfca7d-53e1-4962-836b-c55e0044d245",
+      "isGoto": false
+    },
+    "link281": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "75beacd7-fae6-40bd-b6b4-ad49b781e807",
+      "dst_id": "1e20fec7-a28e-4a90-918c-e62e77a26955",
+      "isGoto": false
+    },
+    "link280": {
+      "src_view_id": "output1",
+      "dst_view_id": "input0",
+      "src_id": "75beacd7-fae6-40bd-b6b4-ad49b781e807",
+      "dst_id": "ab0a7948-2e9e-4c93-9461-63b188f1566f",
+      "isGoto": false
+    },
+    "link283": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "b985b102-2af1-4f3a-bb5a-97a47752ab2a",
+      "dst_id": "3fb52662-648f-44da-bba7-6ecab5476cdf",
+      "isGoto": false
+    },
+    "link282": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "1916d765-2424-42dd-b4ce-10346be29b09",
+      "dst_id": "be3ee7ac-0306-4a3d-a397-049e2ec10b57",
+      "isGoto": false
+    },
+    "link263": {
+      "src_view_id": "output1",
+      "dst_view_id": "input0",
+      "src_id": "40b308b9-f185-4bba-bc91-d5896d6a3d13",
+      "dst_id": "bc51b50e-30b4-4a13-aa5c-f0edcad21d59",
+      "isGoto": false
+    },
+    "link267": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "8ad60cc8-f516-4d69-86f2-42a723e0746e",
+      "dst_id": "6d526b78-df8e-4d77-8c85-01685ffa2491",
+      "isGoto": false
+    },
+    "link265": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "40b308b9-f185-4bba-bc91-d5896d6a3d13",
+      "dst_id": "1aac598b-a88c-4645-aa8f-4aaf973ceb6b",
+      "isGoto": false
+    },
+    "link264": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "1aac598b-a88c-4645-aa8f-4aaf973ceb6b",
+      "dst_id": "4fb9d75f-4509-4136-8383-5e393367dba1",
+      "isGoto": false
+    },
+    "link245": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "df0ba3f5-e5c0-474a-91b0-1e33d6f334f8",
+      "dst_id": "8ad60cc8-f516-4d69-86f2-42a723e0746e",
+      "isGoto": false
+    },
+    "link262": {
+      "src_view_id": "output0",
+      "dst_view_id": "input1",
+      "src_id": "bc51b50e-30b4-4a13-aa5c-f0edcad21d59",
+      "dst_id": "4fb9d75f-4509-4136-8383-5e393367dba1",
+      "isGoto": false
+    },
+    "link261": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "5f372860-6cfa-4a93-b492-109738863d0f",
+      "dst_id": "9a4e2383-b339-450b-a1d1-2e174a5811f4",
+      "isGoto": false
+    },
+    "link246": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "4fb9d75f-4509-4136-8383-5e393367dba1",
+      "dst_id": "df0ba3f5-e5c0-474a-91b0-1e33d6f334f8",
+      "isGoto": false
+    },
+    "link229": {
+      "src_view_id": "output0",
+      "dst_view_id": "input0",
+      "src_id": "0251d265-0c18-4337-854b-7602bcea2524",
+      "dst_id": "40b308b9-f185-4bba-bc91-d5896d6a3d13",
+      "isGoto": false
+    }
+  },
+  "link_serial": 284,
+  "property_map": {
+    "info": {
+      "notes": {
+        "value": null
+      },
+      "author": {
+        "value": "dmitry.gorkovets@reltio.com"
+      },
+      "purpose": {
+        "value": "This pipeline is used to upload exported organizations to DnB FTP site.\n\nSteps:\n1) checks mailbox for notification mail from Export Service\n2) extracts link from mail body\n3) decrypts link using Reltio API call\n4) reads file from S3 using decrypted link\n5) constructs fixed width format file according to DnB formatting rules\n6) sends file to DnB FTP"
+      },
+      "pipeline_doc_uri": {
+        "value": null
+      },
+      "label": {
+        "value": "__internal02.ftp.upload"
+      }
+    },
+    "input": {},
+    "settings": {
+      "imports": {
+        "value": []
+      },
+      "error_param_table": {
+        "value": []
+      },
+      "param_table": {
+        "value": [
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "https://dev.reltio.com"
+            },
+            "key": {
+              "value": "environmentUrl"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "o0wQnMResB8q1hs"
+            },
+            "key": {
+              "value": "customerTenantId"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "1234"
+            },
+            "key": {
+              "value": "fileTimestamp"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "bucket"
+            },
+            "key": {
+              "value": "s3_bucket"
+            }
+          },
+          {
+            "capture": {
+              "value": false
+            },
+            "value": {
+              "value": "cust"
+            },
+            "key": {
+              "value": "customer"
+            }
+          }
+        ]
+      },
+      "error_pipeline": {
+        "expression": false,
+        "value": null
+      }
+    },
+    "error": {
+      "error_behavior": {
+        "value": "none"
+      }
+    },
+    "output": {}
+  },
+  "render_map": {
+    "pan_x_num": 0,
+    "default_snaplex": "54edf99dba6d56447136f330",
+    "scale_ratio": 1,
+    "detail_map": {
+      "4fb9d75f-4509-4136-8383-5e393367dba1": {
+        "grid_x_int": 13,
+        "rot_int": 0,
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {
+          "input1": {
+            "dx_int": 0,
+            "rot_int": 0,
+            "dy_int": 1
+          }
+        }
+      },
+      "df0ba3f5-e5c0-474a-91b0-1e33d6f334f8": {
+        "grid_x_int": 14,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "0251d265-0c18-4337-854b-7602bcea2524": {
+        "grid_x_int": 10,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "ea14898d-477c-4bf2-b9c1-d2e45f147778": {
+        "grid_x_int": 1,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "75beacd7-fae6-40bd-b6b4-ad49b781e807": {
+        "grid_x_int": 17,
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "output": {
+          "output1": {
+            "dx_int": 0,
+            "rot_int": 0,
+            "dy_int": 1
+          }
+        },
+        "input": {},
+        "rot_int": 0
+      },
+      "2a9211b7-6f69-4915-864c-da04729e5778": {
+        "grid_x_int": 9,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "1e20fec7-a28e-4a90-918c-e62e77a26955": {
+        "grid_x_int": 18,
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {},
+        "rot_int": 0
+      },
+      "bc51b50e-30b4-4a13-aa5c-f0edcad21d59": {
+        "grid_x_int": 12,
+        "rot_int": 0,
+        "grid_y_int": 6,
+        "rot_tail_int": 0
+      },
+      "0ecfca7d-53e1-4962-836b-c55e0044d245": {
+        "grid_x_int": 5,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "8ad60cc8-f516-4d69-86f2-42a723e0746e": {
+        "grid_x_int": 15,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "0cd9c70d-a62d-475b-92af-9a4f88864184": {
+        "grid_x_int": 8,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "5fcfd508-be90-4a46-be3c-c5fa87c8cf16": {
+        "grid_x_int": 2,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "ab0a7948-2e9e-4c93-9461-63b188f1566f": {
+        "grid_x_int": 18,
+        "grid_y_int": 6,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {},
+        "rot_int": 0
+      },
+      "40b308b9-f185-4bba-bc91-d5896d6a3d13": {
+        "grid_x_int": 11,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {
+          "output1": {
+            "dx_int": 0,
+            "rot_int": 0,
+            "dy_int": 1
+          }
+        },
+        "rot_int": 0
+      },
+      "5f372860-6cfa-4a93-b492-109738863d0f": {
+        "grid_x_int": 6,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "b985b102-2af1-4f3a-bb5a-97a47752ab2a": {
+        "grid_x_int": 19,
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {},
+        "rot_int": 0
+      },
+      "9a4e2383-b339-450b-a1d1-2e174a5811f4": {
+        "grid_x_int": 7,
+        "rot_int": 0,
+        "grid_y_int": 5,
+        "rot_tail_int": 0
+      },
+      "be3ee7ac-0306-4a3d-a397-049e2ec10b57": {
+        "grid_x_int": 20,
+        "rot_int": 0,
+        "grid_y_int": 6,
+        "rot_tail_int": 0,
+        "input": {}
+      },
+      "3fb52662-648f-44da-bba7-6ecab5476cdf": {
+        "grid_x_int": 20,
+        "rot_int": 270,
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {}
+      },
+      "6d526b78-df8e-4d77-8c85-01685ffa2491": {
+        "grid_x_int": 16,
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {},
+        "rot_int": 0
+      },
+      "60e83d21-77af-42ca-9145-5cb19f34ca83": {
+        "grid_x_int": 4,
+        "rot_int": 0,
+        "grid_y_int": 5,
+        "rot_tail_int": 0
+      },
+      "1916d765-2424-42dd-b4ce-10346be29b09": {
+        "grid_x_int": 19,
+        "grid_y_int": 6,
+        "rot_tail_int": 0,
+        "output": {},
+        "input": {},
+        "rot_int": 0
+      },
+      "88da3c52-dff2-4c4c-aec2-f1b1ccbb8240": {
+        "grid_x_int": 3,
+        "error": {},
+        "grid_y_int": 5,
+        "rot_tail_int": 0,
+        "input": {},
+        "output": {},
+        "rot_int": 0
+      },
+      "1aac598b-a88c-4645-aa8f-4aaf973ceb6b": {
+        "grid_x_int": 12,
+        "rot_int": 0,
+        "grid_y_int": 5,
+        "rot_tail_int": 0
+      }
+    },
+    "pan_y_num": 0
+  },
+  "snap_map": {
+    "4fb9d75f-4509-4136-8383-5e393367dba1": {
+      "class_fqid": "com-snaplogic-snaps-flow-union_2-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-flow-union",
+      "class_version": 2,
+      "instance_fqid": "4fb9d75f-4509-4136-8383-5e393367dba1_2",
+      "instance_id": "4fb9d75f-4509-4136-8383-5e393367dba1",
+      "instance_version": 2,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Union"
+          }
+        },
+        "view_serial": 101,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          },
+          "input1": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input1"
+            }
+          }
+        },
+        "settings": {},
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "5fcfd508-be90-4a46-be3c-c5fa87c8cf16": {
+      "class_fqid": "com-snaplogic-snaps-flow-filter_2-snapsmrc362",
+      "class_id": "com-snaplogic-snaps-flow-filter",
+      "class_version": 2,
+      "instance_fqid": "5fcfd508-be90-4a46-be3c-c5fa87c8cf16_1",
+      "instance_id": "5fcfd508-be90-4a46-be3c-c5fa87c8cf16",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Filter by subject"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "filterExpression": {
+            "expression": true,
+            "value": "$subject.startsWith('[Reltio] Exported data is ready for download')"
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc362"
+    },
+    "0251d265-0c18-4337-854b-7602bcea2524": {
+      "class_fqid": "com-snaplogic-snaps-flow-filter_2-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-flow-filter",
+      "class_version": 2,
+      "instance_fqid": "0251d265-0c18-4337-854b-7602bcea2524_1",
+      "instance_id": "0251d265-0c18-4337-854b-7602bcea2524",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Filter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "filterExpression": {
+            "expression": true,
+            "value": "$ov==true&&$value.hasOwnProperty(\"AddressType\")&&$value.AddressType[0].hasOwnProperty(\"lookupCode\")&&$value.hasOwnProperty(\"Primary\")&&(jsonPath($, \"$value.Primary[*].value\")[0]==true||jsonPath($, \"$value.Primary[*].value\")[0]==\"true\")"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "ea14898d-477c-4bf2-b9c1-d2e45f147778": {
+      "class_fqid": "com-snaplogic-snaps-email-emailreader_1-snapsmrc362",
+      "class_id": "com-snaplogic-snaps-email-emailreader",
+      "class_version": 1,
+      "instance_fqid": "ea14898d-477c-4bf2-b9c1-d2e45f147778_1",
+      "instance_id": "ea14898d-477c-4bf2-b9c1-d2e45f147778",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Email Reader"
+          }
+        },
+        "view_serial": 100,
+        "account": {},
+        "settings": {
+          "numberOfMessages": {
+            "value": "20"
+          },
+          "attachmentFolder": {
+            "expression": false,
+            "value": null
+          },
+          "unreadOnly": {
+            "value": true
+          },
+          "olderMessageFirst": {
+            "value": false
+          },
+          "mailFolder": {
+            "value": "Inbox"
+          },
+          "fileAction": {
+            "value": "OVERWRITE"
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc362"
+    },
+    "75beacd7-fae6-40bd-b6b4-ad49b781e807": {
+      "class_fqid": "com-snaplogic-snaps-flow-copy_1-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-flow-copy",
+      "class_version": 1,
+      "instance_fqid": "75beacd7-fae6-40bd-b6b4-ad49b781e807_1",
+      "instance_id": "75beacd7-fae6-40bd-b6b4-ad49b781e807",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "Copy"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {},
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          },
+          "output1": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output1"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    },
+    "2a9211b7-6f69-4915-864c-da04729e5778": {
+      "class_fqid": "com-snaplogic-snaps-transform-jsonsplitter_1-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+      "class_version": 1,
+      "instance_fqid": "2a9211b7-6f69-4915-864c-da04729e5778_1",
+      "instance_id": "2a9211b7-6f69-4915-864c-da04729e5778",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "JSON Splitter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": false
+          },
+          "includeParents": {
+            "value": false
+          },
+          "includePaths": {
+            "value": []
+          },
+          "path": {
+            "value": "$Address[*]"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "1e20fec7-a28e-4a90-918c-e62e77a26955": {
+      "class_fqid": "com-snaplogic-snaps-script-script_2-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-script-script",
+      "class_version": 2,
+      "instance_fqid": "1e20fec7-a28e-4a90-918c-e62e77a26955_1",
+      "instance_id": "1e20fec7-a28e-4a90-918c-e62e77a26955",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Script"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "editable_content": {
+            "value": "# Import the interface required by the Script snap.\nfrom com.snaplogic.scripting.language import ScriptHook\nimport java.util\nimport sys\n\n\nwidths = [\n    ('uri', 30),\n    ('type', 30),\n    ('tenantId', 30),\n    ('env', 30),\n    ('', 30),\n    ('name', 60),\n    ('address', 55),\n    ('pobox', 55),\n    ('city', 30),\n    ('state', 30),\n    ('zip', 18),\n    ('country', 30),\n    ('phone', 20)\n]\n\ndef adjust_str(s, width):\n    encoded = s.encode('utf8')\n    try:\n      return encoded[:width].decode('utf8') + (width - len(encoded)) * ' '\n    except e:\n      return encoded[:width+1].decode('utf8') + (width-1 - len(encoded)) * ' '\n\n\ndef process_line(doc):\n    return ''.join([adjust_str(doc.get(header) or '', width) for (header, width) in widths])\n\n\n\nclass TransformScript(ScriptHook):\n    def __init__(self, input, output, error, log):\n        self.input = input\n        self.output = output\n        self.error = error\n        self.log = log\n\n    # The \"execute()\" method is called once when the pipeline is started\n    # and allowed to process its inputs or just send data to its outputs.\n    def execute(self):\n        self.log.info(\"Executing Transform script\")\n        while self.input.hasNext():\n            try:\n                # Read the next document, wrap it in a map and write out the wrapper\n                in_doc = self.input.next()\n                wrapper = java.util.HashMap()\n                wrapper['content'] = process_line(in_doc)\n\n                self.output.write(in_doc, wrapper)\n            except Exception as e:\n                errWrapper = {\n                    'errMsg' : str(e.args)\n                }\n                self.log.error(\"Error in python script\")\n                self.error.write(errWrapper)\n\n        self.log.info(\"Finished executing the Transform script\")\n\n# The Script Snap will look for a ScriptHook object in the \"hook\"\n# variable.  The snap will then call the hook's \"execute\" method.\nhook = TransformScript(input, output, error, log)"
+          },
+          "executable_during_suggest": {
+            "value": true
+          },
+          "language": {
+            "value": "Python"
+          },
+          "script": {
+            "expression": false,
+            "value": null
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    },
+    "bc51b50e-30b4-4a13-aa5c-f0edcad21d59": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "bc51b50e-30b4-4a13-aa5c-f0edcad21d59_3",
+      "instance_id": "bc51b50e-30b4-4a13-aa5c-f0edcad21d59",
+      "instance_version": 3,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Mapper"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": true
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "expression": {
+                      "expression": false,
+                      "value": "1"
+                    },
+                    "targetPath": {
+                      "value": "$index"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.City[?(value.ov==true)].value\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$city"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.Country[?(value.ov==true)].value\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$country"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.StateProvince[?(value.ov==true)].value\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$state"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.Zip[?(value.ov==true)].value.Zip5[?(value.ov==true)].value\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$zip5"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$Name[*]\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$name"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$Phone[*]\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$phone"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "$Uri.match(\"entities/(.*)\")[1]"
+                    },
+                    "targetPath": {
+                      "value": "$uri"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.AddressLine1[?(value.ov==true)].value\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$address"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.POBox[?(value.ov==true)].value\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$pobox"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.Zip[?(value.ov==true)].value.PostalCode[?(value.ov==true)].value\")[0]"
+                    },
+                    "targetPath": {
+                      "value": "$pcode"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "$EType.match(\"configuration/entityTypes/(.*)\")[1]"
+                    },
+                    "targetPath": {
+                      "value": "$type"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "0ecfca7d-53e1-4962-836b-c55e0044d245": {
+      "class_fqid": "com-snaplogic-snaps-binary-unzip_1-snapsmrc362",
+      "class_id": "com-snaplogic-snaps-binary-unzip",
+      "class_version": 1,
+      "instance_fqid": "0ecfca7d-53e1-4962-836b-c55e0044d245_1",
+      "instance_id": "0ecfca7d-53e1-4962-836b-c55e0044d245",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "ZipFile Read"
+          }
+        },
+        "view_serial": 101,
+        "account": {
+          "account_ref": {
+            "value": {}
+          }
+        },
+        "settings": {
+          "executeDuringPreview": {
+            "value": true
+          },
+          "preventURLEncoding": {
+            "value": true
+          },
+          "filePath": {
+            "expression": true,
+            "value": "$.Response"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "input": {
+          "input101": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc362"
+    },
+    "8ad60cc8-f516-4d69-86f2-42a723e0746e": {
+      "class_fqid": "com-snaplogic-snaps-transform-groupbyfields_1-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-transform-groupbyfields",
+      "class_version": 1,
+      "instance_fqid": "8ad60cc8-f516-4d69-86f2-42a723e0746e_1",
+      "instance_id": "8ad60cc8-f516-4d69-86f2-42a723e0746e",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Group By Fields"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "fields": {
+            "value": [
+              {
+                "field": {
+                  "value": "$uri"
+                }
+              }
+            ]
+          },
+          "targetField": {
+            "value": "$group"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "0cd9c70d-a62d-475b-92af-9a4f88864184": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "0cd9c70d-a62d-475b-92af-9a4f88864184_1",
+      "instance_id": "0cd9c70d-a62d-475b-92af-9a4f88864184",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Mapper3"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": true
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$attributes.Address[?(value.ov==true)]\")"
+                    },
+                    "targetPath": {
+                      "value": "$Address"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "$uri"
+                    },
+                    "targetPath": {
+                      "value": "$Address[*].Uri"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$attributes.Name[?(value.ov==true)].value\")"
+                    },
+                    "targetPath": {
+                      "value": "$Address[*].Name"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$attributes.Phone[?(value.ov==true)].value.Number[?(value.ov==true)].value\")"
+                    },
+                    "targetPath": {
+                      "value": "$Address[*].Phone"
+                    }
+                  },
+                  {
+                    "expression": {
+                      "expression": true,
+                      "value": "$type"
+                    },
+                    "targetPath": {
+                      "value": "$Address[*].EType"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "df0ba3f5-e5c0-474a-91b0-1e33d6f334f8": {
+      "class_fqid": "com-snaplogic-snaps-transform-sort_2-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-transform-sort",
+      "class_version": 2,
+      "instance_fqid": "df0ba3f5-e5c0-474a-91b0-1e33d6f334f8_1",
+      "instance_id": "df0ba3f5-e5c0-474a-91b0-1e33d6f334f8",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Sort"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": true
+          },
+          "maxMemoryPercentage": {
+            "value": 10
+          },
+          "nullGreater": {
+            "value": false
+          },
+          "sortOrder": {
+            "value": "ascending"
+          },
+          "sortPaths": {
+            "value": [
+              {
+                "sortPath": {
+                  "value": "$uri"
+                }
+              },
+              {
+                "sortPath": {
+                  "value": "$index"
+                }
+              }
+            ]
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "ab0a7948-2e9e-4c93-9461-63b188f1566f": {
+      "class_fqid": "com-snaplogic-snaps-script-script_2-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-script-script",
+      "class_version": 2,
+      "instance_fqid": "ab0a7948-2e9e-4c93-9461-63b188f1566f_1",
+      "instance_id": "ab0a7948-2e9e-4c93-9461-63b188f1566f",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Script"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "editable_content": {
+            "value": "# Import the interface required by the Script snap.\nfrom com.snaplogic.scripting.language import ScriptHook\nimport java.util\nimport sys\n\n\nwidths = [\n    ('uri', 30),\n    ('type', 30),\n    ('tenantId', 30),\n    ('env', 30),\n    ('', 30),\n    ('name', 60),\n    ('address', 55),\n    ('pobox', 55),\n    ('city', 30),\n    ('state', 30),\n    ('zip', 18),\n    ('country', 30),\n    ('phone', 20)\n]\n\ndef adjust_str(s, width):\n    encoded = s.encode('utf8')\n    try:\n      return encoded[:width].decode('utf8') + (width - len(encoded)) * ' '\n    except e:\n      return encoded[:width+1].decode('utf8') + (width-1 - len(encoded)) * ' '\n\n\ndef process_line(doc):\n    return ''.join([adjust_str(doc.get(header) or '', width) for (header, width) in widths])\n\n\n\nclass TransformScript(ScriptHook):\n    def __init__(self, input, output, error, log):\n        self.input = input\n        self.output = output\n        self.error = error\n        self.log = log\n\n    # The \"execute()\" method is called once when the pipeline is started\n    # and allowed to process its inputs or just send data to its outputs.\n    def execute(self):\n        self.log.info(\"Executing Transform script\")\n        while self.input.hasNext():\n            try:\n                # Read the next document, wrap it in a map and write out the wrapper\n                in_doc = self.input.next()\n                wrapper = java.util.HashMap()\n                wrapper['content'] = process_line(in_doc)\n\n                self.output.write(in_doc, wrapper)\n            except Exception as e:\n                errWrapper = {\n                    'errMsg' : str(e.args)\n                }\n                self.log.error(\"Error in python script\")\n                self.error.write(errWrapper)\n\n        self.log.info(\"Finished executing the Transform script\")\n\n# The Script Snap will look for a ScriptHook object in the \"hook\"\n# variable.  The snap will then call the hook's \"execute\" method.\nhook = TransformScript(input, output, error, log)"
+          },
+          "executable_during_suggest": {
+            "value": true
+          },
+          "language": {
+            "value": "Python"
+          },
+          "script": {
+            "expression": false,
+            "value": null
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    },
+    "40b308b9-f185-4bba-bc91-d5896d6a3d13": {
+      "class_fqid": "com-snaplogic-snaps-flow-router_2-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-flow-router",
+      "class_version": 2,
+      "instance_fqid": "40b308b9-f185-4bba-bc91-d5896d6a3d13_1",
+      "instance_id": "40b308b9-f185-4bba-bc91-d5896d6a3d13",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Router"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "routes": {
+            "value": [
+              {
+                "expression": {
+                  "expression": true,
+                  "value": "jsonPath($, \"$value.AddressType[*].lookupCode\")[0]=='Shipping'"
+                },
+                "outputViewName": {
+                  "value": "output0"
+                }
+              },
+              {
+                "expression": {
+                  "expression": true,
+                  "value": "jsonPath($, \"$value.AddressType[*].lookupCode\")[0]=='Billing'"
+                },
+                "outputViewName": {
+                  "value": "output1"
+                }
+              }
+            ]
+          },
+          "firstMatch": {
+            "value": true
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          },
+          "output1": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output1"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "5f372860-6cfa-4a93-b492-109738863d0f": {
+      "class_fqid": "com-snaplogic-snaps-transform-jsonparser_1-transform1901",
+      "class_id": "com-snaplogic-snaps-transform-jsonparser",
+      "class_version": 1,
+      "instance_fqid": "5f372860-6cfa-4a93-b492-109738863d0f_1",
+      "instance_id": "5f372860-6cfa-4a93-b492-109738863d0f",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "label": {
+            "value": "JSON Parser"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "binary"
+            }
+          }
+        },
+        "settings": {
+          "allowNonStandardJson": {
+            "value": true
+          },
+          "arrayElementsAsDocuments": {
+            "value": true
+          },
+          "jsonFilterPath": {
+            "value": ""
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform1901"
+    },
+    "b985b102-2af1-4f3a-bb5a-97a47752ab2a": {
+      "class_fqid": "com-snaplogic-snaps-transform-csvformatter_3-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-transform-csvformatter",
+      "class_version": 3,
+      "instance_fqid": "b985b102-2af1-4f3a-bb5a-97a47752ab2a_1",
+      "instance_id": "b985b102-2af1-4f3a-bb5a-97a47752ab2a",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "CSV Formatter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "quoteMode": {
+            "value": "ALL"
+          },
+          "quoteCharacter": {
+            "expression": false,
+            "value": null
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "userDefinedHeader": {
+            "value": []
+          },
+          "charset": {
+            "value": "UTF-8"
+          },
+          "ignoreEmptyStream": {
+            "value": false
+          },
+          "writeBOM": {
+            "value": false
+          },
+          "delimiter": {
+            "expression": false,
+            "value": "\\u0001"
+          },
+          "newlineCharacter": {
+            "value": "LF"
+          },
+          "useDefinedHeader": {
+            "value": false
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "binary"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    },
+    "9a4e2383-b339-450b-a1d1-2e174a5811f4": {
+      "class_fqid": "com-snaplogic-snaps-flow-filter_2-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-flow-filter",
+      "class_version": 2,
+      "instance_fqid": "9a4e2383-b339-450b-a1d1-2e174a5811f4_2",
+      "instance_id": "9a4e2383-b339-450b-a1d1-2e174a5811f4",
+      "instance_version": 2,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Filter2"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "filterExpression": {
+            "expression": true,
+            "value": "$attributes.hasOwnProperty(\"Name\")&&$attributes.hasOwnProperty(\"Address\")"
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "be3ee7ac-0306-4a3d-a397-049e2ec10b57": {
+      "class_fqid": "com-snaplogic-snaps-binary-zip_1-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-binary-zip",
+      "class_version": 1,
+      "instance_fqid": "be3ee7ac-0306-4a3d-a397-049e2ec10b57_1",
+      "instance_id": "be3ee7ac-0306-4a3d-a397-049e2ec10b57",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "ZipFile Write"
+          }
+        },
+        "view_serial": 100,
+        "account": {},
+        "settings": {
+          "executable_during_suggest": {
+            "value": false
+          },
+          "Filename": {
+            "expression": true,
+            "value": "\"s3:///\" + _s3_bucket + \"/\" + _customer + \"/GLB-\" + _fileTimestamp + \".zip\""
+          },
+          "BaseDirectory": {
+            "value": null
+          },
+          "FileAction": {
+            "value": "OVERWRITE"
+          },
+          "useInputViewLabel": {
+            "value": false
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "binary"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    },
+    "3fb52662-648f-44da-bba7-6ecab5476cdf": {
+      "class_fqid": "com-snaplogic-snaps-binary-write_3-snapsmrc362",
+      "class_id": "com-snaplogic-snaps-binary-write",
+      "class_version": 3,
+      "instance_fqid": "3fb52662-648f-44da-bba7-6ecab5476cdf_1",
+      "instance_id": "3fb52662-648f-44da-bba7-6ecab5476cdf",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Write to DnB FTP"
+          }
+        },
+        "view_serial": 101,
+        "account": {},
+        "settings": {
+          "createDir": {
+            "value": true
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "filename": {
+            "expression": true,
+            "value": "\"sftp://ftp.dnb.com/puts/GLB-\" + _fileTimestamp + \".glb\""
+          },
+          "writeEmptyFile": {
+            "value": false
+          },
+          "UserPermissionsKey": {
+            "value": []
+          },
+          "validate": {
+            "value": false
+          },
+          "fileAction": {
+            "value": "OVERWRITE"
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "binary"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc362"
+    },
+    "6d526b78-df8e-4d77-8c85-01685ffa2491": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "6d526b78-df8e-4d77-8c85-01685ffa2491_1",
+      "instance_id": "6d526b78-df8e-4d77-8c85-01685ffa2491",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Mapper2"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": true
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "targetPath": {
+                      "value": "$city"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].city\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$address"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].address\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$country"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].country\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$name"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].name\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$phone"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].phone\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$state"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].state\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$uri"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].uri\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$pobox"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].pobox\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$zip"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].pcode\")!=null?jsonPath($, \"$group[0].pcode\"):jsonPath($, \"$group[0].zip\")"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$env"
+                    },
+                    "expression": {
+                      "expression": false,
+                      "value": "dev"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$tenantId"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "_tenantId"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$type"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$group[0].type\")"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    },
+    "60e83d21-77af-42ca-9145-5cb19f34ca83": {
+      "class_fqid": "com-snaplogic-snaps-reltiosnapconnector-reltioexecute_1-b0026",
+      "class_id": "com-snaplogic-snaps-reltiosnapconnector-reltioexecute",
+      "class_version": 1,
+      "instance_fqid": "60e83d21-77af-42ca-9145-5cb19f34ca83_4",
+      "instance_id": "60e83d21-77af-42ca-9145-5cb19f34ca83",
+      "instance_version": 4,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Decrypt link"
+          }
+        },
+        "view_serial": 102,
+        "account": {
+          "account_ref": {
+            "expression": false,
+            "value": {}
+          }
+        },
+        "settings": {
+          "retryInterval": {
+            "value": 3
+          },
+          "retry": {
+            "value": 5
+          },
+          "executable_during_suggest": {
+            "value": false
+          },
+          "httpMethodType": {
+            "value": "POST"
+          },
+          "httpEntity": {
+            "expression": true,
+            "value": "$link"
+          },
+          "rawData": {
+            "value": true
+          },
+          "serviceUrl": {
+            "expression": true,
+            "value": "_environmentUrl + \"/jobs/export/\" + _customerTenantId + \"/decryptUrl\""
+          },
+          "queryParams": {
+            "value": []
+          }
+        },
+        "output": {
+          "output102": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "ignore"
+          }
+        },
+        "input": {
+          "input101": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "b0026"
+    },
+    "1916d765-2424-42dd-b4ce-10346be29b09": {
+      "class_fqid": "com-snaplogic-snaps-transform-csvformatter_3-snapsmrc465",
+      "class_id": "com-snaplogic-snaps-transform-csvformatter",
+      "class_version": 3,
+      "instance_fqid": "1916d765-2424-42dd-b4ce-10346be29b09_1",
+      "instance_id": "1916d765-2424-42dd-b4ce-10346be29b09",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "CSV Formatter"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "quoteMode": {
+            "value": "ALL"
+          },
+          "quoteCharacter": {
+            "expression": false,
+            "value": null
+          },
+          "writeHeader": {
+            "value": false
+          },
+          "userDefinedHeader": {
+            "value": []
+          },
+          "charset": {
+            "value": "UTF-8"
+          },
+          "ignoreEmptyStream": {
+            "value": false
+          },
+          "writeBOM": {
+            "value": false
+          },
+          "delimiter": {
+            "expression": false,
+            "value": "\\u0001"
+          },
+          "newlineCharacter": {
+            "value": "LF"
+          },
+          "useDefinedHeader": {
+            "value": false
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "binary"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc465"
+    },
+    "88da3c52-dff2-4c4c-aec2-f1b1ccbb8240": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-transform1901",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "88da3c52-dff2-4c4c-aec2-f1b1ccbb8240_1",
+      "instance_id": "88da3c52-dff2-4c4c-aec2-f1b1ccbb8240",
+      "instance_version": 1,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Extract link from body"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "input0"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": false
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "targetPath": {
+                      "value": "$link"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "$htmlBody.match('<a href=\".*&downloadExportUrl=(.*)\">Link<\\/a>')[1]"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "error0"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "view_type": {
+              "value": "document"
+            },
+            "label": {
+              "value": "output0"
+            }
+          }
+        }
+      },
+      "class_build_tag": "transform1901"
+    },
+    "1aac598b-a88c-4645-aa8f-4aaf973ceb6b": {
+      "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-snapsmrc398",
+      "class_id": "com-snaplogic-snaps-transform-datatransform",
+      "class_version": 4,
+      "instance_fqid": "1aac598b-a88c-4645-aa8f-4aaf973ceb6b_3",
+      "instance_id": "1aac598b-a88c-4645-aa8f-4aaf973ceb6b",
+      "instance_version": 3,
+      "property_map": {
+        "info": {
+          "notes": {
+            "value": null
+          },
+          "label": {
+            "value": "Mapper"
+          }
+        },
+        "view_serial": 100,
+        "input": {
+          "input0": {
+            "label": {
+              "value": "input0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        },
+        "settings": {
+          "nullSafeAccess": {
+            "value": true
+          },
+          "passThrough": {
+            "value": false
+          },
+          "transformations": {
+            "value": {
+              "mappingTable": {
+                "value": [
+                  {
+                    "targetPath": {
+                      "value": "$index"
+                    },
+                    "expression": {
+                      "expression": false,
+                      "value": "0"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$city"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.City[?(value.ov==true)].value\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$country"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.Country[?(value.ov==true)].value\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$state"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.StateProvince[?(value.ov==true)].value\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$zip5"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.Zip[?(value.ov==true)].value.Zip5[?(value.ov==true)].value\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$name"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$Name[*]\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$phone"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$Phone[*]\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$uri"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "$Uri.match(\"entities/(.*)\")[1]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$address"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.AddressLine1[?(value.ov==true)].value\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$pobox"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.POBox[?(value.ov==true)].value\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$pcode"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "jsonPath($, \"$value.Zip[?(value.ov==true)].value.PostalCode[?(value.ov==true)].value\")[0]"
+                    }
+                  },
+                  {
+                    "targetPath": {
+                      "value": "$type"
+                    },
+                    "expression": {
+                      "expression": true,
+                      "value": "$EType.match(\"configuration/entityTypes/(.*)\")[1]"
+                    }
+                  }
+                ]
+              },
+              "mappingRoot": {
+                "value": "$"
+              }
+            }
+          }
+        },
+        "error": {
+          "error0": {
+            "label": {
+              "value": "error0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          },
+          "error_behavior": {
+            "value": "fail"
+          }
+        },
+        "output": {
+          "output0": {
+            "label": {
+              "value": "output0"
+            },
+            "view_type": {
+              "value": "document"
+            }
+          }
+        }
+      },
+      "class_build_tag": "snapsmrc398"
+    }
+  },
+  "path_id": "/ReltioDev/Reltio DDA/DnB_DI_Batch",
+  "path_snode": "5a04313766ef27587c5e3bf5"
+}

@@ -1,0 +1,160 @@
+{
+  "entityTypes": [
+    {
+      "type": "configuration/entityTypes/Structure",
+      "functions": [
+        {
+          "name": "Inconsistent Composite Risk Level",
+          "label": "",
+          "description": "Inconsistency in composite risk level check",
+          "expression": "equals(attributes.FloodRiskProbability.value, 'High') and equals(attributes.EarthquakeRiskProbability.value, 'High') and not(equals(attributes.CompositeRiskLevel.value, 'High'))",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Inconsistent Composite Risk Level",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938654962",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938654962",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Structure/attributes/CompositeRiskLevel"
+        },
+        {
+          "name": "Missing CLIP Identifier",
+          "label": "",
+          "description": "",
+          "expression": "missing(attributes.Identifiers.value.Type.value) or not(equals(attributes.Identifiers.value.Type.value, 'Corelogic CLIP'))",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Missing CLIP Identifier",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672147819",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672147819",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Structure/attributes/Identifiers"
+        },
+        {
+          "name": "Lat Long Missing",
+          "label": "",
+          "description": "Structure is missing the latitude or longitude",
+          "expression": "missing(attributes.Latitude.value) or missing(attributes.Longitude.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Missing Latitude or Longitude",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938654962",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938654962",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Structure/attributes/Latitude"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Location",
+      "functions": [
+        {
+          "name": "AmbiguousAddress",
+          "label": "",
+          "description": "Address is ambiguous",
+          "expression": "equals(attributes.VerificationStatus.value, 'Ambiguous')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Address is ambiguous. ",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938654811",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938654811",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Location/attributes/VerificationStatus"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Organization",
+      "functions": [
+        {
+          "name": "InvalidDunsNumberFormat",
+          "label": "",
+          "description": "Invalid Duns Number Format",
+          "expression": "exists(attributes.DUNSNumber.value) and not(regexp(attributes.DUNSNumber.value, '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'))",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Duns Number Format",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938654702",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938654702",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/DUNSNumber"
+        },
+        {
+          "name": "SuspiciouslyShortName",
+          "label": "",
+          "description": "Short Name (1-3 characters)",
+          "expression": "regexp(attributes.Name.value, '^.{1,3}$')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Suspiciously Short Name",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672147738",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672147738",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Name"
+        },
+        {
+          "name": "PhoneNumberInvalid",
+          "label": "",
+          "description": "Invalid Phone Number",
+          "expression": "not equals(attributes.Phone.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone Number",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672147738",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672147738",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Phone/attributes/ValidationStatus"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/BrokerAgent",
+      "functions": [
+        {
+          "name": "InvalidEmail",
+          "label": "",
+          "description": "Invalid Email",
+          "expression": "equals(attributes.Email.value.ValidationStatus.value, 'INVALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Email",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728672147798",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728672147798",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/BrokerAgent/attributes/Email/attributes/ValidationStatus"
+        },
+        {
+          "name": "InvalidPhone",
+          "label": "",
+          "description": "Invalid Phone",
+          "expression": "equals(attributes.Phone.value.ValidationStatus.value, 'INVALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone Number",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938654939",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938654939",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/BrokerAgent/attributes/Phone/attributes/ValidationStatus"
+        }
+      ]
+    }
+  ],
+  "relationTypes": []
+}

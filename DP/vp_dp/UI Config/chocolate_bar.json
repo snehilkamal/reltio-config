@@ -1,0 +1,58 @@
+{
+  "apps": [
+    {
+      "name": "Hub",
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/MDM.svg",
+      "category": "Applications",
+      "uri": "{{env_uri}}/nui/${tenant}"
+    },
+    {
+      "name": "Console",
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/Console.svg",
+      "category": "Applications",
+      "uri": "{{consoleURI}}/?env=${environment}&tenant=${tenant}"
+    },
+    {
+      "name": "RDM",
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/RDM.svg",
+      "category": "Applications",
+      "uri": "{{rdmURI}}"
+    },
+    {
+      "name": "Inbox",
+      "icon": "https://s3.amazonaws.com/reltio-ui-files/common/Inbox.svg",
+      "category": "Applications",
+      "uri": "{{workflowUiUri}}/${tenant}"
+    },
+    {
+      "name": "Integration Hub",
+      "icon": "https://cdn.reltio.com/images/common/Integrationhub.svg",
+      "category": "Applications",
+      "uri": "{{consoleURI}}/integration?env=${environment}&tenant=${tenant}"
+    },
+    {
+      "name": "Documentation Portal",
+      "icon": "https://cdn.reltio.com/images/common/ReltioDocumentation.svg",
+      "category": "Resources",
+      "uri": "https://docs.reltio.com/"
+    },
+    {
+      "name": "Developer Portal",
+      "icon": "https://cdn.reltio.com/images/common/ReltioDevPortal.svg",
+      "category": "Resources",
+      "uri": "https://developer.reltio.com/"
+    },
+    {
+      "name": "Community",
+      "icon": "https://cdn.reltio.com/images/common/ReltioCommunity.svg",
+      "category": "Resources",
+      "uri": "https://community.reltio.com/"
+    },
+    {
+      "name": "Reltio Learn",
+      "icon": "https://cdn.reltio.com/images/common/ReltioLearn.svg",
+      "category": "Resources",
+      "uri": "https://learn.reltio.com/"
+    }
+  ]
+}

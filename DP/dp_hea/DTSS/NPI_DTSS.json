@@ -1,0 +1,660 @@
+[
+  {
+    "dataTenantId": {
+      "id": "{{dataTenantIdNpi}}"
+    },
+    "customerTenantId": {
+      "id": "{{tenantId}}"
+    },
+    "bringGoldenRecord": true,
+    "tasksConfiguration": {
+      "onFinish": {
+        "consistencyReport": {
+          "emails": []
+        }
+      }
+    },
+    "mappings": [
+      {
+        "copyFromDT": "configuration/entityTypes/Location",
+        "copyToCT": "configuration/entityTypes/Location",
+        "attributes": [
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/AddressLine1",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/AddressLine1"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/AddressLine2",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/AddressLine2"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/City",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/City"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/StateProvince",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/StateProvince"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/SubAdministrativeArea",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/SubAdministrativeArea"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Country",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Country"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/VerificationStatus",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/VerificationStatus"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/AddressInput",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/AddressInput"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/ISO3166-2",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/ISO3166-2"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/ISO3166-3",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/ISO3166-3"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/ISO3166-N",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/ISO3166-N"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/SuperAdministrativeArea",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/SuperAdministrativeArea"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/AdministrativeArea",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/AdministrativeArea"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Street",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Street"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Unit",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Unit"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/Location/attributes/Unit/attributes/UnitName",
+                "copyToCT": [
+                  "configuration/entityTypes/Location/attributes/Unit/attributes/UnitName"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/Location/attributes/Unit/attributes/UnitValue",
+                "copyToCT": [
+                  "configuration/entityTypes/Location/attributes/Unit/attributes/UnitValue"
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Floor",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Floor"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Building",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Building"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/POBox",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/POBox"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Neighborhood",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Neighborhood"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Locality",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Locality"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/GeoLocation",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/GeoLocation"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/Location/attributes/GeoLocation/attributes/Latitude",
+                "copyToCT": [
+                  "configuration/entityTypes/Location/attributes/GeoLocation/attributes/Latitude"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/Location/attributes/GeoLocation/attributes/Longitude",
+                "copyToCT": [
+                  "configuration/entityTypes/Location/attributes/GeoLocation/attributes/Longitude"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/Location/attributes/GeoLocation/attributes/GeoAccuracy",
+                "copyToCT": [
+                  "configuration/entityTypes/Location/attributes/GeoLocation/attributes/GeoAccuracy"
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/CBSACode",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/CBSACode"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/FIPSCountyCode",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/FIPSCountyCode"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/VerificationStatusDetails",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/VerificationStatusDetails"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/AVC",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/AVC"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/SubBuilding",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/SubBuilding"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/DoubleDependentLocality",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/DoubleDependentLocality"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/DependentThoroughfare",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/DependentThoroughfare"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Organization",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Organization"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Premise",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Premise"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/Location/attributes/Unmatched",
+            "copyToCT": [
+              "configuration/entityTypes/Location/attributes/Unmatched"
+            ]
+          }
+        ]
+      },
+      {
+        "copyFromDT": "configuration/entityTypes/HCO",
+        "copyToCT": "configuration/entityTypes/HCO",
+        "attributes": [
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Name",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Name"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Identifiers"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/ID",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/ID"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Type"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Status",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Identifiers/attributes/Status"
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Phone"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/AreaCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/AreaCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/CountryCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/CountryCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/DigitCount",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/DigitCount"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/FormatMask",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/FormatMask"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoArea",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoArea"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoCountry",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/GeoCountry"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/LineType",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/LineType"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/LocalNumber",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/LocalNumber"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/Number",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/Number"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/Type"
+                ],
+                "transformValue": [
+                  {
+                    "from": "Business",
+                    "to": "Work"
+                  }
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Phone/attributes/ValidationStatus",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Phone/attributes/ValidationStatus"
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCO/attributes/Taxonomy",
+            "copyToCT": [
+              "configuration/entityTypes/HCO/attributes/Taxonomy"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Taxonomy/attributes/Taxonomy",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Taxonomy/attributes/Taxonomy"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCO/attributes/Taxonomy/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCO/attributes/Taxonomy/attributes/Primary"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "copyFromDT": "configuration/entityTypes/HCP",
+        "copyToCT": "configuration/entityTypes/HCP",
+        "attributes": [
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/FirstName",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/FirstName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/LastName",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/LastName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/MiddleName",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/MiddleName"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Prefix",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Prefix"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Phone"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/AreaCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/AreaCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/CountryCode",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/CountryCode"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/DigitCount",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/DigitCount"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/FormatMask",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/FormatMask"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoArea",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoArea"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoCountry",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/GeoCountry"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/LineType",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/LineType"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/LocalNumber",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/LocalNumber"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/Number",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/Number"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/Type"
+                ],
+                "transformValue": [
+                  {
+                    "from": "Business",
+                    "to": "Work"
+                  }
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Phone/attributes/ValidationStatus",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Phone/attributes/ValidationStatus"
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/License",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/License"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/License/attributes/Number",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/License/attributes/Number"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/License/attributes/State",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/License/attributes/State"
+                ]
+              }
+            ],
+            "filter": [
+              {
+                "query": "exists(attributes.Number)"
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Identifiers"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/ID",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/ID"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Type"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Status",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Identifiers/attributes/Status"
+                ]
+              }
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Credentials",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Credentials"
+            ]
+          },
+          {
+            "copyFromDT": "configuration/entityTypes/HCP/attributes/Taxonomy",
+            "copyToCT": [
+              "configuration/entityTypes/HCP/attributes/Taxonomy"
+            ],
+            "attributes": [
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Taxonomy",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Taxonomy"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Type",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Primary"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Classification",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Classification"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Specialization",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/Specialization"
+                ]
+              },
+              {
+                "copyFromDT": "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/ProviderType",
+                "copyToCT": [
+                  "configuration/entityTypes/HCP/attributes/Taxonomy/attributes/ProviderType"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "security": {
+      "metadataAndDataSecurity": {
+        "permissionConfig": []
+      }
+    },
+    "eventsConfiguration": {
+      "entityDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "entityModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "entityUnmerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityMerged": {
+        "actionInCT": "IGNORE"
+      },
+      "entityCreated": {
+        "actionInCT": "ACTIVATE"
+      },
+      "entityMatch": {
+        "action": "ACTIVATE"
+      },
+      "entityCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE"
+      },
+      "relationCreated": {
+        "actionInCT": "IGNORE"
+      },
+      "relationModified": {
+        "actionInCT": "ACTIVATE"
+      },
+      "relationDeleted": {
+        "actionInCT": "IGNORE"
+      },
+      "relationCrosswalkDeleted": {
+        "defaultActionInCT": "IGNORE"
+      }
+    },
+    "synchronizationConfig": {
+      "entities": [
+        {
+          "types": [
+            "configuration/entityTypes/HCP"
+          ],
+          "action": "AUTOSUBSCRIBE",
+          "matchRules": [
+            "configuration/entityTypes/HCP/matchGroups/PersonByFuzzyNameAndNPI",
+            "configuration/entityTypes/HCP/matchGroups/PersonByNPI",
+            "configuration/entityTypes/HCP/matchGroups/PersonByStateLicense",
+            "configuration/entityTypes/HCP/matchGroups/PersonbyExactNameNestedAddressLine1Zip5",
+            "configuration/entityTypes/HCP/matchGroups/PersonByFuzzyNameNestedAddressAndExactZip",
+            "configuration/entityTypes/HCP/matchGroups/PersonbyExactNameAndExactPremiseStreetNestedZip5Credentials"
+          ]
+        },
+        {
+          "types": [
+            "configuration/entityTypes/HCO"
+          ],
+          "action": "AUTOSUBSCRIBE",
+          "matchRules": [
+            "configuration/entityTypes/HCO/matchGroups/ExactNPI"
+          ]
+        }
+      ],
+      "dtSyncType": "REALTIME",
+      "ctSyncType": "REALTIME"
+    },
+    "contracts": [],
+    "autoRematch": true
+  }
+]

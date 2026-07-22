@@ -1,0 +1,29 @@
+{
+  "name": "dp_lif",
+  "businessConfigPath": "DP/dp_lif/BusinessConfig.json",
+  "rdmLookUpsPath": "DP/dp_lif/rdm_lookups",
+  "uiConfigFolderPath": "DP/dp_lif/UI Config",
+  "uiConfig": {
+    "uiConfigFolderPath": "DP/dp_lif/UI Config",
+    "consoleAppsPath": "DP/dp_lif/UI Config/console_apps.json",
+    "chocolateBarPath": "DP/dp_lif/UI Config/chocolate_bar.json"
+  },
+  "dvfConfigPath": "DP/dp_lif/dvfs.json",
+  "sampleData": {},
+  "permissionsPath": "DP/dp_lif/Permissions.json",
+  "cleansersPath": "DP/dp_lif/tenant_cleanse_config.json",
+  "dtssConfigPath": {
+    "DEA": "DP/dp_lif/DTSS/DEA_DTSS.json",
+    "NPI": "DP/dp_lif/DTSS/NPI_DTSS.json",
+    "DEFAULT": "DP/dp_lif/DTSS/DEFAULT_DTSS.json"
+  },
+  "dnb": {
+    "mappings": {}
+  },
+  "rih": {
+    "manifests": [],
+    "connections": []
+  },
+  "repositoryBranch": "{current-branch}",
+  "reltioPackageType": "DATA_PRODUCTS"
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/Units",
+    "code": "KM",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "KM",
+                    "value": "Kilometer",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "KM",
+                    "value": "Kilometer",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": ["SI.Metric"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/Units",
+    "code": "G",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "G",
+                    "value": "gram",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "G",
+                    "value": "gram",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": ["SI.Metric"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/Units",
+    "code": "CM",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "CM",
+                    "value": "Centimeter",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "CM",
+                    "value": "Centimeter",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": ["SI.Metric"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/Units",
+    "code": "KG",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "KG",
+                    "value": "Kilogram",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "KG",
+                    "value": "Kilogram",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": ["SI.Metric"],
+    "startDate": 0,
+    "endDate": 0
+  },
+  {
+    "tenantId": "{{rdmTenant}}",
+    "type": "rdm/lookupTypes/Units",
+    "code": "M",
+    "enabled": true,
+    "sourceMappings": [
+        {
+            "source": "Reltio",
+            "values": [
+                {
+                    "code": "M",
+                    "value": "Meter",
+                    "enabled": true,
+                    "canonicalValue": true,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        },
+        {
+            "source": "ReltioRDM",
+            "values": [
+                {
+                    "code": "M",
+                    "value": "Meter",
+                    "enabled": true,
+                    "canonicalValue": false,
+                    "downStreamDefaultValue": true
+                }
+            ]
+        }
+    ],
+    "localizations": [],
+    "parents": ["SI.Metric"],
+    "startDate": 0,
+    "endDate": 0
+  }]

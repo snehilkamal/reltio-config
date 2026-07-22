@@ -1,0 +1,250 @@
+[
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Rev",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Rev",
+            "value": "Reverend (religious)",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Rev",
+            "value": "Reverend (religious)",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Mr",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Mr",
+            "value": "Mister",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Mr",
+            "value": "Mister",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Ms",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Ms",
+            "value": "Single or Married Woman",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Ms",
+            "value": "Single or Married Woman",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Brother",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Brother",
+            "value": "Brother (religious)",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Brother",
+            "value": "Brother (religious)",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Rabbi",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Rabbi",
+            "value": "Rabbi (religious)",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Rabbi",
+            "value": "Rabbi (religious)",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Sister",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Sister",
+            "value": "Sister (religious)",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Sister",
+            "value": "Sister (religious)",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Dr",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Dr",
+            "value": "Doctor (Medical or Educator)",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Dr",
+            "value": "Doctor (Medical or Educator)",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/Prefix",
+    "tenantId": "{{rdmTenant}}",
+    "code": "Mrs",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "Mrs",
+            "value": "Married Woman",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "Mrs",
+            "value": "Married Woman",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  }
+]

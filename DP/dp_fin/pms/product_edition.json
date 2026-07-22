@@ -1,0 +1,25 @@
+{
+  "name": "dp_fin",
+  "businessConfigPath": "DP/dp_fin/BusinessConfig.json",
+  "rdmLookUpsPath": "DP/dp_fin/rdm_lookups",
+  "uiConfigFolderPath": "DP/dp_fin/UI Config",
+  "uiConfig": {
+    "uiConfigFolderPath": "DP/dp_fin/UI Config",
+    "consoleAppsPath": "DP/dp_fin/UI Config/console_apps.json",
+    "chocolateBarPath": "DP/dp_fin/UI Config/chocolate_bar.json"
+  },
+  "dvfConfigPath": "DP/dp_fin/dvfs.json",
+  "sampleData": {},
+  "permissionsPath": "DP/dp_fin/Permissions.json",
+  "cleansersPath": "DP/dp_fin/tenant_cleanse_config.json",
+  "dtssConfigPath": {},
+  "dnb": {
+    "mappings": {}
+  },
+  "rih": {
+    "manifests": [],
+    "connections": []
+  },
+  "repositoryBranch": "{current-branch}",
+  "reltioPackageType": "DATA_PRODUCTS"
+}

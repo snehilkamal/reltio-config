@@ -1,0 +1,220 @@
+{
+  "entityTypes": [
+    {
+      "type": "configuration/entityTypes/FinancialAccount",
+      "functions": [
+        {
+          "name": "MissingAccountNumber",
+          "label": "",
+          "description": "Missing Account Number",
+          "expression": "missing(attributes.AccountNumber.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Account Number is missing",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797668",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797668",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/FinancialAccount/attributes/AccountNumber"
+        },
+        {
+          "name": "Missing AccountType",
+          "label": "",
+          "description": "",
+          "expression": "missing(attributes.AccountType.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Account type is missing",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797668",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797668",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/FinancialAccount/attributes/AccountType"
+        },
+        {
+          "name": "Missing AccountName",
+          "label": "",
+          "description": "",
+          "expression": "missing(attributes.AccountName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Account Name is missing",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797668",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797668",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/FinancialAccount/attributes/AccountName"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Individual",
+      "functions": [
+        {
+          "name": "MissingFirstOrLastName",
+          "label": "",
+          "description": "Missing First or Last Name",
+          "expression": "missing(attributes.FirstName.value) or missing(attributes.LastName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Missing First or Last Name",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938412900",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938412900",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/FirstName"
+        },
+        {
+          "name": "SuspiciousDateOfBirth",
+          "label": "",
+          "description": "Suspicious Date of Birth",
+          "expression": "lt(attributes.DoB.value, '1920-01-01')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Suspicious Date of Birth",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797687",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797687",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/DoB"
+        },
+        {
+          "name": "InvalidPhoneNumber",
+          "label": "",
+          "description": "Invalid Phone Number",
+          "expression": "not(equals(attributes.Phone.value.ValidationStatus.value, 'VALID'))",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone Number",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938412900",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938412900",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus"
+        },
+        {
+          "name": "InvalidEmailFormat",
+          "label": "",
+          "description": "Invalid Email Format",
+          "expression": "not(equals(attributes.Email.value.ValidationStatus.value, 'VALID'))",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Email Format",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797687",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797687",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus"
+        },
+        {
+          "name": "NameContainsNumbers",
+          "label": "",
+          "description": "Name Contains Numbers",
+          "expression": "regexp(attributes.FirstName.value, '[0-9]') or regexp(attributes.LastName.value, '[0-9]')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Name Contains Numbers",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797687",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797687",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/FirstName"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Organization",
+      "functions": [
+        {
+          "name": "SuspiciouslyShortName",
+          "label": "",
+          "description": "Short Name (1-3 characters)",
+          "expression": "regexp(attributes.Name.value, '^.{1,3}$')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Suspiciously Short Name",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797609",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797609",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Name"
+        },
+        {
+          "name": "InvalidDunsNumberFormat",
+          "label": "",
+          "description": "Invalid Duns Number Format",
+          "expression": "exists(attributes.DUNSNumber.value) and not regexp(attributes.DUNSNumber.value, '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Duns Number Format",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938412671",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938412671",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/DUNSNumber"
+        },
+        {
+          "name": "InvalidEmailFormat",
+          "label": "",
+          "description": "Invalid Email Format",
+          "expression": "not(equals(attributes.Email.value.ValidationStatus.value, 'VALID'))",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Email Format",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797609",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797609",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Email/attributes/ValidationStatus"
+        },
+        {
+          "name": "InvalidPhoneNumber",
+          "label": "",
+          "description": "Invalid Phone Number",
+          "expression": "not equals(attributes.Phone.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone Number",
+          "createdBy": "platform-management-service-user",
+          "createdTime": "1721938412671",
+          "updatedBy": "platform-management-service-user",
+          "updatedTime": "1721938412671",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Phone/attributes/ValidationStatus"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Location",
+      "functions": [
+        {
+          "name": "UnverifiedAddress",
+          "label": "",
+          "description": "Unverified Address",
+          "expression": "not(equals(attributes.VerificationStatus.value, 'VERIFIED'))",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Unverified Address",
+          "createdBy": "PLATFORM_CONTROL_CENTER",
+          "createdTime": "1728670797631",
+          "updatedBy": "PLATFORM_CONTROL_CENTER",
+          "updatedTime": "1728670797631",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Location/attributes/VerificationStatus"
+        }
+      ]
+    }
+  ],
+  "relationTypes": []
+}

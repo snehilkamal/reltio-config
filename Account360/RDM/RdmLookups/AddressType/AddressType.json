@@ -1,0 +1,157 @@
+[
+  {
+    "type": "rdm/lookupTypes/AddressType",
+    "tenantId": "{{rdmTenant}}",
+    "code": "B",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "B",
+            "value": "Business",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "B",
+            "value": "Business",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/AddressType",
+    "tenantId": "{{rdmTenant}}",
+    "code": "M",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "M",
+            "value": "Mailing",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "M",
+            "value": "Mailing",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/AddressType",
+    "tenantId": "{{rdmTenant}}",
+    "code": "D",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "D",
+            "value": "Delivery",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "D",
+            "value": "Delivery",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/AddressType",
+    "tenantId": "{{rdmTenant}}",
+    "code": "P",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "P",
+            "value": "Primary",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "P",
+            "value": "Primary",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "rdm/lookupTypes/AddressType",
+    "tenantId": "{{rdmTenant}}",
+    "code": "S",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "S",
+            "value": "Secondary",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "S",
+            "value": "Secondary",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  }
+]

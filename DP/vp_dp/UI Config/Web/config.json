@@ -1,0 +1,1301 @@
+{
+   "layout": [
+      {
+         "items": [
+            {
+               "label": "Reltio Intelligent Assistant",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/RIA.svg",
+               "class": "RIA",
+               "defaultPrompts": [
+                  "How can RIA help me?",
+                  "Give me a bar chart of entity types by number of entities",
+                  "Find all Individuals on this tenant",
+                  "Find all Organizations on this tenant"
+               ]
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Profile stats",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Dashboard.svg",
+               "class": "Dashboard",
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "component": "ProfileStatsFacet",
+                     "title": "Profile Stats"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingPhoneView",
+                     "title": "Organizations with Missing Phone Number",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/OrganizationType",
+                     "filters": [
+                        {
+                           "fieldName": "attributes.Phone.Number",
+                           "filter": "missing"
+                        }
+                     ],
+                     "component": "DashboardFacet",
+                     "chartType": "pie"
+                  },
+                  {
+                     "id": "b881-0590-4f24add8",
+                     "title": "Organization Phone Data Quality",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Phone/attributes/ValidationStatus",
+                     "component": "DashboardFacet",
+                     "chartType": "bar"
+                  },
+                  {
+                     "id": "07ac-c38d-0795a51e",
+                     "title": "Contact Phone Data Quality",
+                     "component": "DashboardFacet",
+                     "chartType": "bar",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus"
+                  },
+                  {
+                     "id": "09d1-5604-b41cbafb",
+                     "title": "Contact Email Data Quality ",
+                     "component": "DashboardFacet",
+                     "chartType": "bubble",
+                     "attributeUri": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus"
+                  },
+                  {
+                     "id": "f7c5-cb01-47fdb386",
+                     "title": "Organizations with Missing Email Address",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/OrganizationType",
+                     "filters": [
+                        {
+                           "fieldName": "attributes.Email.Email",
+                           "filter": "missing"
+                        }
+                     ],
+                     "component": "DashboardFacet",
+                     "chartType": "pie"
+                  },
+                  {
+                     "id": "817f-c749-22e87ad8",
+                     "component": "DashboardFacet",
+                     "title": "Organization by Industry",
+                     "chartType": "bubble",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Industry"
+                  },
+                  {
+                     "id": "da83-2419-a908d906",
+                     "component": "DashboardFacet",
+                     "title": "Organization Email Data Quality",
+                     "chartType": "bubble",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Email/attributes/ValidationStatus"
+                  },
+                  {
+                     "id": "8b19-e4f6-36df80a3",
+                     "title": "Address Data Quality",
+                     "attributeUri": "configuration/entityTypes/Location/attributes/VerificationStatus",
+                     "component": "DashboardFacet",
+                     "chartType": "donut"
+                  },
+                  {
+                     "id": "e4ba-afc8-3a9f1fa8",
+                     "component": "DashboardFacet",
+                     "title": "Data by Source System",
+                     "chartType": "table",
+                     "attributeUri": "sourceSystems"
+                  },
+                  {
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "component": "ActivitiesViewFacet",
+                     "title": "Activity log"
+                  },
+                  {
+                     "id": "com.reltio.plugins.dashboard.FavoriteSavedSearches",
+                     "options": {
+                        "favoriteOnly": true,
+                        "countResults": true
+                     },
+                     "component": "FilteredSavedSearchesFacet",
+                     "title": "Saved Searches"
+                  },
+                  {
+                     "id": "4e17-a883-1b5f615a",
+                     "component": "FilteredSavedSearchesFacet",
+                     "title": "Saved searches"
+                  },
+                  {
+                     "id": "3aba-b52a-dd1ff137",
+                     "component": "NotificationInboxFacet",
+                     "title": "Notifications"
+                  },
+                  {
+                     "id": "d44c-8130-0e91dfb4",
+                     "component": "DashboardFacet",
+                     "title": "Global Organization View",
+                     "chartType": "map",
+                     "attributeUri": "configuration/entityTypes/Organization/attributes/Address/attributes/Country",
+                     "geoUrl": "https://reltio-ui-files.s3.amazonaws.com/map_resources/new_dashboard/world.countries.json",
+                     "projection": "geoMercator",
+                     "geoIdName": "name",
+                     "filters": [],
+                     "showLegend": true
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.ProfileStatsView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.dashboard.OrgsWithMissingPhoneView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 40,
+                     "width": 1,
+                     "height": 11,
+                     "minHeight": 10,
+                     "id": "b881-0590-4f24add8",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 40,
+                     "width": 1,
+                     "height": 11,
+                     "minHeight": 10,
+                     "id": "07ac-c38d-0795a51e",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "09d1-5604-b41cbafb",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 10,
+                     "id": "com.reltio.plugins.activities.ActivitiesView",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 20,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "f7c5-cb01-47fdb386",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 20,
+                     "width": 2,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "817f-c749-22e87ad8",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 30,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "da83-2419-a908d906",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 30,
+                     "width": 2,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "8b19-e4f6-36df80a3",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 40,
+                     "width": 2,
+                     "height": 11,
+                     "minHeight": 10,
+                     "id": "e4ba-afc8-3a9f1fa8",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 10,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "4e17-a883-1b5f615a",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "3aba-b52a-dd1ff137",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 2,
+                     "height": 10,
+                     "minHeight": 10,
+                     "id": "d44c-8130-0e91dfb4",
+                     "isStatic": false
+                  }
+               ]
+            },
+            {
+               "label": "Data quality",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/DqDashboard.svg",
+               "class": "DQDashboard"
+            }
+         ]
+      },
+      {
+         "items": [
+            {
+               "label": "Search",
+               "icon": "https://reltio-ui-files.s3.amazonaws.com/new-ui/Search.svg",
+               "class": "Search",
+               "canExport": true,
+               "bulkUpdate": true,
+               "potentialMatchesReview": {
+                  "processType": "potentialMatchReview"
+               },
+               "options": {
+                  "showSearchByOv": true,
+                  "scoreEnabled": true,
+                  "showRDM": true
+               },
+               "tabs": {
+                  "configuration/entityTypes/Organization": [
+                     "entityId",
+                     "attributes.Name",
+                     "attributes.Phone.FormattedNumber"
+                  ],
+                  "configuration/entityTypes/Contact": [
+                     "entityId",
+                     "scores",
+                     "attributes.FirstName",
+                     "attributes.LastName",
+                     "attributes.Title",
+                     "attributes.Phone.FormattedNumber"
+                  ],
+                  "configuration/entityTypes/Location": [
+                     "entityId",
+                     "scores",
+                     "attributes.AddressLine1",
+                     "attributes.City",
+                     "attributes.StateProvince",
+                     "attributes.Country",
+                     "attributes.VerificationStatus"
+                  ],
+                  "*": [
+                     "scores"
+                  ]
+               }
+            }
+         ]
+      }
+   ],
+   "pivoting": [],
+   "properties": {
+      "i18n": {
+         "en_US": "https://reltio-ui-localization.s3.amazonaws.com/en-us.json",
+         "en_GB": "https://reltio-ui-localization.s3.amazonaws.com/en-gb.json",
+         "en": "https://reltio-ui-localization.s3.amazonaws.com/en-us.json",
+         "cs": "https://reltio-ui-localization.s3.amazonaws.com/cs.json",
+         "de": "https://reltio-ui-localization.s3.amazonaws.com/de.json",
+         "el": "https://reltio-ui-localization.s3.amazonaws.com/el.json",
+         "es": "https://reltio-ui-localization.s3.amazonaws.com/es.json",
+         "fr": "https://reltio-ui-localization.s3.amazonaws.com/fr.json",
+         "hu": "https://reltio-ui-localization.s3.amazonaws.com/hu.json",
+         "it": "https://reltio-ui-localization.s3.amazonaws.com/it.json",
+         "ja": "https://reltio-ui-localization.s3.amazonaws.com/ja.json",
+         "ko": "https://reltio-ui-localization.s3.amazonaws.com/ko.json",
+         "pl": "https://reltio-ui-localization.s3.amazonaws.com/pl.json",
+         "pt": "https://reltio-ui-localization.s3.amazonaws.com/pt.json",
+         "ru": "https://reltio-ui-localization.s3.amazonaws.com/ru.json",
+         "tr": "https://reltio-ui-localization.s3.amazonaws.com/tr.json",
+         "vi": "https://reltio-ui-localization.s3.amazonaws.com/vi.json",
+         "zh": "https://reltio-ui-localization.s3.amazonaws.com/zh.json",
+         "zh_TW": "https://reltio-ui-localization.s3.amazonaws.com/zh-tw.json"
+      },
+      "entity": {},
+      "image": {
+         "attributeFieldsOrder": {}
+      },
+      "lookups": {
+         "autocomplete": {},
+         "showCode": true
+      },
+      "validation": {
+         "levels": [
+            "ERROR",
+            "WARNING"
+         ],
+         "validateRelations": true
+      },
+      "attributes": {
+         "presentation": {
+            "configuration/entityTypes/Individual/attributes/Education/attributes/YearOfGraduation": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/Education/attributes/YearsInProgram": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/Education/attributes/StartYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/Education/attributes/EndYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/YoB": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Individual/attributes/YoD": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FoundedYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/IPOYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/OrganizationDetails/attributes/StartYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/EndYear": {
+               "thousandSeparator": ""
+            },
+            "configuration/entityTypes/Organization/attributes/FinancialStatement/attributes/StatementYear": {
+               "thousandSeparator": ""
+            }
+         }
+      },
+      "masks": {
+         "dateMask": "99-99-9999",
+         "dateTimeMask": "99-99-9999 99:99:99"
+      },
+      "requestProvider": {},
+      "workflow": {
+         "enabled": true
+      },
+      "defaultRoute": "ria",
+      "customScripts": [],
+      "showSearchByOv": true,
+      "logo": null,
+      "profileCheckUpdate": {},
+      "aiAssistant": {
+         "enabled": false,
+         "skills": [
+            "NLPSearch",
+            "Chart",
+            "Export"
+         ]
+      },
+      "newTreeEnabled": true,
+      "queryEstimator": {},
+      "sharedPreferences": {},
+      "cleanse": {},
+      "tables": {},
+      "showMasking": true,
+      "internal": {}
+   },
+   "profile": [
+      {
+         "label": "Profile",
+         "class": "Profile",
+         "entityTypes": {
+            "*": {
+               "views": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesView",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesView",
+                     "component": "PotentialMatches",
+                     "caption": "Potential Matches"
+                  }
+               ],
+               "layout": [
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesView",
+                     "autosizing": true,
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 1
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesView",
+                     "autosizing": true,
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 1
+                  }
+               ],
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "none": {
+               "views": [],
+               "layout": [],
+               "profileBand": {},
+               "workflow": {}
+            },
+            "configuration/entityTypes/Household": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  }
+               ],
+               "profileBand": {},
+               "workflow": {},
+               "views": [
+                  {
+                     "caption": "Attributes View",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewHousehold",
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewHousehold",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "02d5-3d56-7d5acc41",
+                     "caption": "Household Members",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/HouseholdMembership",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewHousehold",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewHousehold",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 5,
+                     "width": 2,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "02d5-3d56-7d5acc41",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/Location": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Attributes View",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewLocation",
+                     "excludeUris": [
+                        "configuration/entityTypes/Location/attributes/TractCode",
+                        "configuration/entityTypes/Location/attributes/OldMSAName",
+                        "configuration/entityTypes/Location/attributes/OldMSACode",
+                        "configuration/entityTypes/Location/attributes/OldCensusCode",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionName",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionCode",
+                        "configuration/entityTypes/Location/attributes/NECTAName",
+                        "configuration/entityTypes/Location/attributes/NECTACode",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionName",
+                        "configuration/entityTypes/Location/attributes/CBSAName",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionCode",
+                        "configuration/entityTypes/Location/attributes/CBSACode",
+                        "configuration/entityTypes/Location/attributes/BlockGroupCode",
+                        "configuration/entityTypes/Location/attributes/BlockCode",
+                        "configuration/entityTypes/Location/attributes/NECTADivision",
+                        "configuration/entityTypes/Location/attributes/MetropolitanDivision",
+                        "configuration/entityTypes/Location/attributes/GNISFeatureID",
+                        "configuration/entityTypes/Location/attributes/CBSAMetropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/CBSAMicropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTAMetropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTAMicropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/CensusClassCode",
+                        "configuration/entityTypes/Location/attributes/CensusCode",
+                        "configuration/entityTypes/Location/attributes/CensusIndicator",
+                        "configuration/entityTypes/Location/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewLocation",
+                     "caption": "Potential Matches",
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "31bf-870a-8ef2af00",
+                     "caption": "Census Information",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Location/attributes/CensusIndicator",
+                        "configuration/entityTypes/Location/attributes/CensusCode",
+                        "configuration/entityTypes/Location/attributes/OldCensusCode",
+                        "configuration/entityTypes/Location/attributes/CensusClassCode",
+                        "configuration/entityTypes/Location/attributes/GNISFeatureID",
+                        "configuration/entityTypes/Location/attributes/CBSAMetropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/CBSAMicropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTAMetropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTAMicropolitanStatisticalArea",
+                        "configuration/entityTypes/Location/attributes/NECTADivision",
+                        "configuration/entityTypes/Location/attributes/NECTACode",
+                        "configuration/entityTypes/Location/attributes/NECTAName",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionCode",
+                        "configuration/entityTypes/Location/attributes/NECTADivisionName",
+                        "configuration/entityTypes/Location/attributes/MetropolitanDivision",
+                        "configuration/entityTypes/Location/attributes/OldMSACode",
+                        "configuration/entityTypes/Location/attributes/OldMSAName",
+                        "configuration/entityTypes/Location/attributes/TractCode",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionName",
+                        "configuration/entityTypes/Location/attributes/MetroDivisionCode",
+                        "configuration/entityTypes/Location/attributes/CBSAName",
+                        "configuration/entityTypes/Location/attributes/CBSACode",
+                        "configuration/entityTypes/Location/attributes/BlockGroupCode",
+                        "configuration/entityTypes/Location/attributes/BlockCode"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "e916-ef98-16218dda",
+                     "component": "Map"
+                  },
+                  {
+                     "id": "e90f-d731-bfa09818",
+                     "caption": "Data Validation Warnings",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Location/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "3c32-e12c-c5b12ddc",
+                     "caption": "Contacts at this Location",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/IndividualHasAddress",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "b5de-4727-a1d5cb6c",
+                     "caption": "Organizations at this Location",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationHasAddress",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 5,
+                     "width": 1,
+                     "height": 15,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewLocation",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewLocation",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 1,
+                     "y": 5,
+                     "width": 1,
+                     "height": 15,
+                     "minHeight": 5,
+                     "id": "31bf-870a-8ef2af00",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "e916-ef98-16218dda",
+                     "isStatic": false
+                  },
+                  {
+                     "x": 2,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "e90f-d731-bfa09818",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "3c32-e12c-c5b12ddc",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "b5de-4727-a1d5cb6c",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/Organization": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  },
+                  {
+                     "id": "D&B",
+                     "views": [
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetMatchButtonView",
+                           "label": "Get Match",
+                           "url": "https://tst-01-hf-dnbconnector.reltio.com/b2bIntegration/dnb/getOrgMatch?plus=true&entityURI=",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 "https://tst-01-hf-dnbconnector.reltio.com"
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetCompanyDetailsButtonView",
+                           "label": "Get Company Details",
+                           "url": "https://tst-01-hf-dnbconnector.reltio.com/b2bIntegration/dnb/getDetailedProfile?plus=true&entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 "https://tst-01-hf-dnbconnector.reltio.com"
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        },
+                        {
+                           "id": "com.reltio.plugins.entity.org.GetFamilyTreeButtonView",
+                           "label": "Get Family Tree",
+                           "url": "https://tst-01-hf-dnbconnector.reltio.com/b2bIntegration/dnb/getFamilyTree?plus=true&entityURI=",
+                           "checkAttributeToEnable": "DUNSNumber",
+                           "success": "Success:",
+                           "fail": "Failure:",
+                           "loading": "Loading...",
+                           "height": 34,
+                           "action": {
+                              "permissions": [
+                                 "https://tst-01-hf-dnbconnector.reltio.com"
+                              ],
+                              "files": [
+                                 "https://reltio-ui-files.s3.amazonaws.com/custom-scripts/b2b_application_v3.js"
+                              ]
+                           },
+                           "canRead": [
+                              "ROLE_DNB_CONNECTOR",
+                              "ROLE_DNB_CONNECTOR_ADMIN"
+                           ],
+                           "component": "Custom"
+                        }
+                     ]
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Organization Attributes",
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewOrganization",
+                     "includeUris": [],
+                     "excludeUris": [
+                        "configuration/entityTypes/Organization/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/Organization/attributes/Identifiers",
+                        "configuration/entityTypes/Organization/attributes/DoingBusinessAsName",
+                        "configuration/entityTypes/Organization/attributes/ActivitiesAndOperations",
+                        "configuration/entityTypes/Organization/attributes/Verification",
+                        "configuration/entityTypes/Organization/attributes/KeyFinancialFiguresOverview",
+                        "configuration/entityTypes/Organization/attributes/EmployeeDetails",
+                        "configuration/entityTypes/Organization/attributes/LegalStatusDescription"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "caption": "D&B Enrichment Data",
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.14ba-29be-3a08a9a3",
+                     "includeUris": [
+                        "configuration/entityTypes/Organization/attributes/DoingBusinessAsName",
+                        "configuration/entityTypes/Organization/attributes/TradestyleNames",
+                        "configuration/entityTypes/Organization/attributes/LegalStatus",
+                        "configuration/entityTypes/Organization/attributes/DUNSNumber",
+                        "configuration/entityTypes/Organization/attributes/DataProviderEnrichmentType",
+                        "configuration/entityTypes/Organization/attributes/DataProviderLastUpdateDate",
+                        "configuration/entityTypes/Organization/attributes/IndustryClassification",
+                        "configuration/entityTypes/Organization/attributes/OrganizationDetails",
+                        "configuration/entityTypes/Organization/attributes/ActivitiesAndOperations",
+                        "configuration/entityTypes/Organization/attributes/KeyFinancialFiguresOverview",
+                        "configuration/entityTypes/Organization/attributes/EmployeeDetails",
+                        "configuration/entityTypes/Organization/attributes/NumberOfFamilyMembers"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.57f6-4dc9-b7a8a605",
+                     "caption": "Contact(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationIndividual",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.f2f8-cf98-3567eb09",
+                     "caption": "Organization Affiliation(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationAffiliation",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationAffiliation",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.attributes.SingleAttributeView.bc59-1414-66de80ca",
+                     "caption": "Data Validation Warnings",
+                     "max": 15,
+                     "attributeUri": "configuration/entityTypes/Organization/analyticsAttributes/AttributeValidations",
+                     "text-empty": "No Data Validations Violated",
+                     "component": "SingleAttribute"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewOrganization",
+                     "caption": "Potential Matches",
+                     "alwaysVisible": false,
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "com.reltio.plugins.react.ReactHierarchyTreeView.e4ca-e365-ad00230b",
+                     "caption": "D&B Hierarchy",
+                     "graph": {
+                        "layout": 25,
+                        "deep": 2,
+                        "limit": 300,
+                        "type": "configuration/graphTypes/Hierarchy"
+                     },
+                     "component": "HierarchyTree"
+                  },
+                  {
+                     "id": "com.reltio.plugins.react.ReactHierarchyTreeView.170c-8a3c-48b9e691",
+                     "caption": "Organization Hierarchy",
+                     "graph": {
+                        "layout": 25,
+                        "deep": 2,
+                        "limit": 300,
+                        "type": "configuration/graphTypes/OrganizationHierarchy"
+                     },
+                     "component": "HierarchyTree"
+                  },
+                  {
+                     "id": "f542-1f24-fbbff3b3",
+                     "caption": "Identifiers",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Organization/attributes/Identifiers",
+                        "configuration/entityTypes/Organization/attributes/TaxID"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "6dbc-7e5b-38865bd8",
+                     "caption": "Privacy/ Consent",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Organization/attributes/PolicyConsent",
+                        "configuration/entityTypes/Organization/attributes/MultiChannelCommunicationConsent",
+                        "configuration/entityTypes/Organization/attributes/PrivacyPreferences"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "d767-fc44-21e62664",
+                     "caption": "Data Validation",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Organization/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 2,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.attributes.MainAttributesViewOrganization",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 10,
+                     "width": 3,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.14ba-29be-3a08a9a3",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 5,
+                     "width": 2,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.57f6-4dc9-b7a8a605",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 15,
+                     "width": 3,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.f2f8-cf98-3567eb09",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 20,
+                     "width": 4,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.attributes.SingleAttributeView.bc59-1414-66de80ca",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.MainPotentialMatchesViewOrganization",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.react.ReactHierarchyTreeView.e4ca-e365-ad00230b",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.react.ReactHierarchyTreeView.170c-8a3c-48b9e691",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "f542-1f24-fbbff3b3",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "6dbc-7e5b-38865bd8",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "d767-fc44-21e62664",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            },
+            "configuration/entityTypes/Individual": {
+               "sidePanelViews": [
+                  {
+                     "id": "History"
+                  },
+                  {
+                     "id": "Discussion"
+                  },
+                  {
+                     "id": "Workflow"
+                  }
+               ],
+               "profileBand": {
+                  "showEntityId": true
+               },
+               "views": [
+                  {
+                     "caption": "Contact Attributes",
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.79e3-f56d-7cd65dfb",
+                     "attributesCount": 20,
+                     "excludeUris": [
+                        "configuration/entityTypes/Individual/analyticsAttributes/AttributeValidations",
+                        "configuration/entityTypes/Individual/attributes/Identifiers",
+                        "configuration/entityTypes/Individual/attributes/PolicyConsent",
+                        "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent",
+                        "configuration/entityTypes/Individual/attributes/PrivacyPreferences"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.384b-501c-9e711fee",
+                     "caption": "Related Organization(s)",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Organization"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/OrganizationIndividual",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "isComplex": false,
+                     "component": "Relations"
+                  },
+                  {
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView.4cf8-16b5-d938df0a",
+                     "caption": "Potential Matches",
+                     "alwaysVisible": true,
+                     "component": "PotentialMatches"
+                  },
+                  {
+                     "id": "59a8-ed01-5135bb74",
+                     "caption": "Privacy/Consent",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/PolicyConsent",
+                        "configuration/entityTypes/Individual/attributes/MultiChannelCommunicationConsent",
+                        "configuration/entityTypes/Individual/attributes/PrivacyPreferences"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "ae4b-cbc7-ea2cc890",
+                     "caption": "Data Validation",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/analyticsAttributes/AttributeValidations"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "ebec-649e-0a97074f",
+                     "caption": "Identifiers",
+                     "attributesCount": 16,
+                     "includeUris": [
+                        "configuration/entityTypes/Individual/attributes/Identifiers"
+                     ],
+                     "component": "Attributes"
+                  },
+                  {
+                     "id": "394a-d171-2555f7de",
+                     "caption": "Reports To",
+                     "content": {
+                        "entityTypes": [
+                           "configuration/entityTypes/Individual"
+                        ],
+                        "inRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ReportsTo",
+                              "label": "{directionalLabel}"
+                           }
+                        ],
+                        "outRelations": [
+                           {
+                              "uri": "configuration/relationTypes/ReportsTo",
+                              "label": "{directionalLabel}"
+                           }
+                        ]
+                     },
+                     "component": "Relations"
+                  }
+               ],
+               "layout": [
+                  {
+                     "x": 0,
+                     "y": 0,
+                     "width": 3,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.attributes.AttributesView.79e3-f56d-7cd65dfb",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 0,
+                     "y": 5,
+                     "width": 2,
+                     "height": 6,
+                     "id": "com.reltio.plugins.entity.relations.RelationsView.384b-501c-9e711fee",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 0,
+                     "width": 1,
+                     "height": 5,
+                     "id": "com.reltio.plugins.entity.PotentialMatchesView.4cf8-16b5-d938df0a",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 10,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "59a8-ed01-5135bb74",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 15,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "ae4b-cbc7-ea2cc890",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 3,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "ebec-649e-0a97074f",
+                     "isStatic": false,
+                     "autosizing": true
+                  },
+                  {
+                     "x": 2,
+                     "y": 5,
+                     "width": 1,
+                     "height": 5,
+                     "minHeight": 5,
+                     "id": "394a-d171-2555f7de",
+                     "isStatic": false,
+                     "autosizing": true
+                  }
+               ]
+            }
+         }
+      },
+      {
+         "visible": [
+            "configuration/entityTypes/HCP",
+            "configuration/entityTypes/HCO",
+            "configuration/entityTypes/ACO",
+            "configuration/entityTypes/Organization",
+            "configuration/entityTypes/Contact",
+            "configuration/entityTypes/Individual",
+            "configuration/entityTypes/Location"
+         ],
+         "label": "Relationships",
+         "class": "Relationships"
+      },
+      {
+         "label": "Graph",
+         "class": "Graph"
+      },
+      {
+         "label": "Potential Matches",
+         "class": "PotentialMatches"
+      },
+      {
+         "label": "Interactions",
+         "class": "Interactions",
+         "caption": "Interactions"
+      },
+      {
+         "label": "Sources",
+         "class": "Sources"
+      },
+      {
+         "label": "Activity Log",
+         "class": "Activity",
+         "exportTypes": [
+            "json",
+            "csv"
+         ],
+         "caption": "Activity log"
+      }
+   ]
+}

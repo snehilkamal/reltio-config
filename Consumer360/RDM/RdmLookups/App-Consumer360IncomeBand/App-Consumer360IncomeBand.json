@@ -1,0 +1,95 @@
+[
+  {
+    "type": "rdm/lookupTypes/App-Consumer360IncomeBand",
+    "tenantId": "{{rdmTenant}}",
+    "code": "H",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "H",
+            "value": "High",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "H",
+            "value": "High",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "type": "rdm/lookupTypes/App-Consumer360IncomeBand",
+    "tenantId": "{{rdmTenant}}",
+    "code": "L",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "L",
+            "value": "Low",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "L",
+            "value": "Low",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "type": "rdm/lookupTypes/App-Consumer360IncomeBand",
+    "tenantId": "{{rdmTenant}}",
+    "code": "M",
+    "enabled": true,
+    "sourceMappings": [
+      {
+        "source": "Reltio",
+        "values": [
+          {
+            "code": "M",
+            "value": "Median",
+            "enabled": true,
+            "canonicalValue": true,
+            "downStreamDefaultValue": true
+          }
+        ]
+      },{
+        "source": "ReltioRDM",
+        "values": [
+          {
+            "code": "M",
+            "value": "Median",
+            "enabled": true,
+            "canonicalValue": false,
+            "downStreamDefaultValue": true
+          }
+        ]
+      }
+    ]
+  }
+]

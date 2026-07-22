@@ -1,0 +1,220 @@
+{
+  "entityTypes": [
+    {
+      "type": "configuration/entityTypes/Contact",
+      "functions": [
+        {
+          "name": "InvalidEmailFormat",
+          "label": "",
+          "description": "Invalid Email Format",
+          "expression": "not equals(attributes.Email.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Email Format",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005307",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005307",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Contact/attributes/Email/attributes/ValidationStatus"
+        },
+        {
+          "name": "NameContainsNumbers",
+          "label": "",
+          "description": "Name Contains Numbers",
+          "expression": "not regexp(attributes.FirstName.value, '\\\\p{L}*') and regexp(attributes.LastName.value, '\\\\p{L}*')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Name Contains Numbers",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005307",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005307",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Contact/attributes/FirstName"
+        },
+        {
+          "name": "IdentifierWithoutType",
+          "label": "",
+          "description": "Identifier Exists Without A Type",
+          "expression": "exists(attributes.Identifiers.value.ID.value) and missing(attributes.Identifiers.value.Type.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Identifier Without a Type",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005307",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005307",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Contact/attributes/Identifiers/attributes/Type"
+        },
+        {
+          "name": "MissingFirstorLastName",
+          "label": "",
+          "description": "Missing First and Last Name",
+          "expression": "missing(attributes.FirstName.value) and missing(attributes.LastName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Missing First and Last Name",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005307",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005307",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Contact/attributes/FirstName"
+        },
+        {
+          "name": "InvalidPhoneNumber",
+          "label": "",
+          "description": "Invalid Phone Number",
+          "expression": "not equals(attributes.Phone.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone Number",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005307",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005307",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Contact/attributes/Phone/attributes/ValidationStatus"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Organization",
+      "functions": [
+        {
+          "name": "SuspiciouslyShortName",
+          "label": "",
+          "description": "Suspiciously Short Name",
+          "expression": "regexp(attributes.Name.value, '^.{1,3}$')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Suspiciously Short Name",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821004757",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821004757",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Name"
+        },
+        {
+          "name": "InvalidPhoneNumber",
+          "label": "",
+          "description": "Invalid Phone Number",
+          "expression": "not equals(attributes.Phone.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone Number",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821004757",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821004757",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Phone/attributes/ValidationStatus"
+        },
+        {
+          "name": "InvalidEmailAddress",
+          "label": "",
+          "description": "Invalid Email Address",
+          "expression": "not equals(attributes.Email.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Email Address",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821004757",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821004757",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Organization/attributes/Email/attributes/ValidationStatus"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Individual",
+      "functions": [
+        {
+          "name": "MissingFirstOrLastName",
+          "label": "",
+          "description": "Missing Name",
+          "expression": "missing(attributes.FirstName.value) or missing(attributes.LastName.value)",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Missing First or Last Name",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005527",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005527",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/FirstName"
+        },
+        {
+          "name": "NameContainsNumbers",
+          "label": "",
+          "description": "",
+          "expression": "regexp(attributes.FirstName.value, '[0-9]') and regexp(attributes.LastName.value, '[0-9]')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Name Contains Numbers",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005527",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005527",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/FirstName"
+        },
+        {
+          "name": "InvalidEmailFormat",
+          "label": "",
+          "description": "Invalid Email Format",
+          "expression": "not equals(attributes.Email.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Email Format",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005527",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005527",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/Email/attributes/ValidationStatus"
+        },
+        {
+          "name": "InvalidPhoneNumber",
+          "label": "",
+          "description": "Invalid Phone Number",
+          "expression": "not equals(attributes.Phone.value.ValidationStatus.value, 'VALID')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Invalid Phone Number",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005527",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005527",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Individual/attributes/Phone/attributes/ValidationStatus"
+        }
+      ]
+    },
+    {
+      "type": "configuration/entityTypes/Location",
+      "functions": [
+        {
+          "name": "AddressVerificationStatus",
+          "label": "",
+          "description": "Address Verification Status Check",
+          "expression": "not equals(attributes.VerificationStatus.value, 'Verified')",
+          "action": "WARNING",
+          "validationEvent": "ALL",
+          "message": "Address status is not valid",
+          "createdBy": "proactive_monitoring_service",
+          "createdTime": "1709821005104",
+          "updatedBy": "proactive_monitoring_service",
+          "updatedTime": "1709821005104",
+          "status": "ACTIVE",
+          "attribute": "configuration/entityTypes/Location/attributes/VerificationStatus"
+        }
+      ]
+    }
+  ],
+  "relationTypes": []
+}

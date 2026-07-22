@@ -1,0 +1,27 @@
+{
+  "name": "dp_hea",
+  "businessConfigPath": "DP/dp_hea/BusinessConfig.json",
+  "rdmLookUpsPath": "DP/dp_hea/rdm_lookups",
+  "uiConfigFolderPath": "DP/dp_hea/UI Config",
+  "uiConfig": {
+    "uiConfigFolderPath": "DP/dp_hea/UI Config",
+    "consoleAppsPath": "DP/dp_hea/UI Config/console_apps.json",
+    "chocolateBarPath": "DP/dp_hea/UI Config/chocolate_bar.json"
+  },
+  "dvfConfigPath": "DP/dp_hea/dvfs.json",
+  "sampleData": {},
+  "permissionsPath": "DP/dp_hea/Permissions.json",
+  "cleansersPath": "DP/dp_hea/tenant_cleanse_config.json",
+  "dtssConfigPath": {
+    "DEFAULT": "DP/dp_hea/DTSS/DEFAULT_DTSS.json"
+  },
+  "dnb": {
+    "mappings": {}
+  },
+  "rih": {
+    "manifests": [],
+    "connections": []
+  },
+  "repositoryBranch": "{current-branch}",
+  "reltioPackageType": "DATA_PRODUCTS"
+}

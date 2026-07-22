@@ -1,0 +1,24 @@
+{
+    "reltioSQS": {
+        "awsOwner": "930358522410",
+        "queue": "dev_o0wQnMResB8q1hs"
+    },
+
+    "salesforce": {
+        "loginUrl": "https://login.salesforce.com",
+        "user": "...",
+        "password": "..."
+    },
+
+    "reltio" : {
+        "tenantUrl": "https://dev.reltio.com/reltio/api/o0wQnMResB8q1hs/",
+        "authUrl": "https://auth.reltio.com/oauth/token",
+        "username": "...",
+        "password": "...",
+        "authToken": "cmVsdGlvX3VpOm1ha2l0YQ==",
+        "batchSize": 50,
+        "maxapicall": 300,
+        "apicallTime": "second"
+    },
+    "alias": "default"
+}
